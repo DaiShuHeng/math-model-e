@@ -23,7 +23,7 @@ TOKEN=<你的GitHub PAT> bash download_all.sh
 
 | Release | 资产 | 大小 | 放置位置 |
 |---|---|---|---|
-| data-v1 | E题数据.zip | 1.8G | 解压到 `E题/E题数据/` |
+| data-v1 | E-data-attachments.zip（即 E题数据.zip，GitHub 资产名不支持中文） | 1.8G | 解压到 `E题/E题数据/` |
 | data-v1 | bert-base-uncased.zip | 408M | 解压到 `models/bert-base-uncased/` |
 | data-v1 | bert-tiny.zip | 17M | 解压到 `models/bert-tiny/` |
 | data-v1 | cache_misc.zip | 39M | 解压回 `solution/cache/` 等原路径 |
