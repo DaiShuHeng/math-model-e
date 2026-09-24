@@ -1,0 +1,226 @@
++ M='-i https://pypi.tuna.tsinghua.edu.cn/simple'
++ /home/daishuheng/miniconda3/envs/mosei/bin/pip install -i https://pypi.tuna.tsinghua.edu.cn/simple torch torchvision torchaudio
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting torch
+  Downloading torch-2.14.0-cp311-cp311-manylinux_2_28_x86_64.whl (554.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 554.6/554.6 MB 4.3 MB/s  0:01:46
+Collecting torchvision
+  Downloading torchvision-0.29.0-cp311-cp311-manylinux_2_28_x86_64.whl (7.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.4/7.4 MB 5.2 MB/s  0:00:01
+Collecting torchaudio
+  Downloading torchaudio-2.11.0-cp311-cp311-manylinux_2_28_x86_64.whl (1.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 2.9 MB/s  0:00:00
+Collecting filelock (from torch)
+  Downloading filelock-4.0.3-py3-none-any.whl (108 kB)
+Collecting typing-extensions>=4.10.0 (from torch)
+  Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Requirement already satisfied: setuptools>=77.0.3 in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from torch) (83.0.0)
+Collecting sympy>=1.13.3 (from torch)
+  Downloading sympy-1.14.0-py3-none-any.whl (6.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 4.4 MB/s  0:00:01
+Collecting networkx>=2.5.1 (from torch)
+  Downloading networkx-3.6.1-py3-none-any.whl (2.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 4.9 MB/s  0:00:00
+Collecting jinja2 (from torch)
+  Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+Collecting fsspec>=0.8.5 (from torch)
+  Downloading fsspec-2026.9.0-py3-none-any.whl (221 kB)
+Collecting cuda-toolkit==13.0.3 (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch)
+  Downloading cuda_toolkit-13.0.3.0-py2.py3-none-any.whl (2.5 kB)
+Collecting cuda-bindings<14,>=13.0.3 (from torch)
+  Downloading cuda_bindings-13.4.3-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (7.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.2/7.2 MB 508.5 kB/s  0:00:14
+Collecting nvidia-cudnn-cu13==9.24.0.43 (from torch)
+  Downloading nvidia_cudnn_cu13-9.24.0.43-py3-none-manylinux_2_27_x86_64.whl (553.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 553.1/553.1 MB 856.8 kB/s  0:08:29
+Collecting nvidia-cusparselt-cu13==0.8.1 (from torch)
+  Downloading nvidia_cusparselt_cu13-0.8.1-py3-none-manylinux2014_x86_64.whl (170.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 170.1/170.1 MB 985.5 kB/s  0:02:30
+Collecting nvidia-nccl-cu13==2.30.7 (from torch)
+  Downloading nvidia_nccl_cu13-2.30.7-py3-none-manylinux_2_18_x86_64.whl (216.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 216.0/216.0 MB 647.5 kB/s  0:04:20
+Collecting nvidia-nvshmem-cu13==3.4.5 (from torch)
+  Downloading nvidia_nvshmem_cu13-3.4.5-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (60.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.4/60.4 MB 852.8 kB/s  0:01:20
+Collecting triton~=3.8.0 (from torch)
+  Downloading triton-3.8.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (247.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 247.9/247.9 MB 418.2 kB/s  0:07:45
+Collecting nvidia-cublas==13.1.1.3.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch)
+  Downloading nvidia_cublas-13.1.1.3-py3-none-manylinux_2_27_x86_64.whl (423.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 423.1/423.1 MB 339.1 kB/s  0:17:33
+Collecting nvidia-cuda-nvrtc==13.0.88.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch)
+  Downloading nvidia_cuda_nvrtc-13.0.88-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl (90.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 90.2/90.2 MB 363.9 kB/s  0:03:30
+Collecting nvidia-cuda-runtime==13.0.96.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch)
+  Downloading nvidia_cuda_runtime-13.0.96-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (2.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 563.2 kB/s  0:00:04
+Collecting nvidia-cufft==12.0.0.61.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch)
+  Downloading nvidia_cufft-12.0.0.61-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (214.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 214.1/214.1 MB 453.8 kB/s  0:07:23
+Collecting nvidia-nvjitlink<14,>=13.0.88 (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch)
+  Downloading nvidia_nvjitlink-13.4.92-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl (42.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.5/42.5 MB 698.5 kB/s  0:00:58
+Collecting nvidia-cufile==1.15.1.6.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch)
+  Downloading nvidia_cufile-1.15.1.6-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 596.6 kB/s  0:00:01
+Collecting nvidia-cuda-cupti==13.0.85.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch)
+  Downloading nvidia_cuda_cupti-13.0.85-py3-none-manylinux_2_25_x86_64.whl (10.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.7/10.7 MB 741.6 kB/s  0:00:14
+Collecting nvidia-curand==10.4.0.35.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch)
+  Downloading nvidia_curand-10.4.0.35-py3-none-manylinux_2_27_x86_64.whl (59.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.5/59.5 MB 490.6 kB/s  0:01:30
+Collecting nvidia-cusolver==12.0.4.66.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch)
+  Downloading nvidia_cusolver-12.0.4.66-py3-none-manylinux_2_27_x86_64.whl (200.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 200.9/200.9 MB 363.9 kB/s  0:07:15
+Collecting nvidia-cusparse==12.6.3.3.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch)
+  Downloading nvidia_cusparse-12.6.3.3-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (145.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 145.9/145.9 MB 988.3 kB/s  0:01:35
+Collecting nvidia-nvtx==13.0.85.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch)
+  Downloading nvidia_nvtx-13.0.85-py3-none-manylinux1_x86_64.manylinux_2_5_x86_64.whl (148 kB)
+Collecting cuda-pathfinder>=1.4.2 (from cuda-bindings<14,>=13.0.3->torch)
+  Downloading cuda_pathfinder-1.8.2-py3-none-any.whl (62 kB)
+Collecting numpy (from torchvision)
+  Downloading numpy-2.4.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.9/16.9 MB 865.0 kB/s  0:00:19
+Collecting pillow!=8.3.*,>=5.3.0 (from torchvision)
+  Downloading pillow-12.3.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.9/6.9 MB 701.1 kB/s  0:00:10
+Collecting mpmath<1.4,>=1.1.0 (from sympy>=1.13.3->torch)
+  Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 1.7 MB/s  0:00:00
+Collecting MarkupSafe>=2.0 (from jinja2->torch)
+  Downloading markupsafe-3.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (22 kB)
+Installing collected packages: torchaudio, nvidia-cusparselt-cu13, mpmath, cuda-toolkit, typing-extensions, triton, sympy, pillow, nvidia-nvtx, nvidia-nvshmem-cu13, nvidia-nvjitlink, nvidia-nccl-cu13, nvidia-curand, nvidia-cufile, nvidia-cuda-runtime, nvidia-cuda-nvrtc, nvidia-cuda-cupti, numpy, networkx, MarkupSafe, fsspec, filelock, cuda-pathfinder, nvidia-cusparse, nvidia-cufft, nvidia-cublas, jinja2, cuda-bindings, nvidia-cusolver, nvidia-cudnn-cu13, torch, torchvision
+
+Successfully installed MarkupSafe-3.0.3 cuda-bindings-13.4.3 cuda-pathfinder-1.8.2 cuda-toolkit-13.0.3.0 filelock-4.0.3 fsspec-2026.9.0 jinja2-3.1.6 mpmath-1.3.0 networkx-3.6.1 numpy-2.4.6 nvidia-cublas-13.1.1.3 nvidia-cuda-cupti-13.0.85 nvidia-cuda-nvrtc-13.0.88 nvidia-cuda-runtime-13.0.96 nvidia-cudnn-cu13-9.24.0.43 nvidia-cufft-12.0.0.61 nvidia-cufile-1.15.1.6 nvidia-curand-10.4.0.35 nvidia-cusolver-12.0.4.66 nvidia-cusparse-12.6.3.3 nvidia-cusparselt-cu13-0.8.1 nvidia-nccl-cu13-2.30.7 nvidia-nvjitlink-13.4.92 nvidia-nvshmem-cu13-3.4.5 nvidia-nvtx-13.0.85 pillow-12.3.0 sympy-1.14.0 torch-2.14.0 torchaudio-2.11.0 torchvision-0.29.0 triton-3.8.0 typing-extensions-4.16.0
++ /home/daishuheng/miniconda3/envs/mosei/bin/pip install -i https://pypi.tuna.tsinghua.edu.cn/simple transformers pandas scikit-learn matplotlib seaborn openpyxl tqdm accelerate safetensors huggingface_hub
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting transformers
+  Using cached transformers-5.17.0-py3-none-any.whl (12.3 MB)
+Collecting pandas
+  Downloading pandas-3.0.6-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (11.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.1/11.1 MB 4.1 MB/s  0:00:02
+Collecting scikit-learn
+  Downloading scikit_learn-1.9.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (9.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.3/9.3 MB 6.4 MB/s  0:00:01
+Collecting matplotlib
+  Downloading matplotlib-3.11.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (9.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.9/9.9 MB 3.5 MB/s  0:00:02
+Collecting seaborn
+  Downloading seaborn-0.13.2-py3-none-any.whl (294 kB)
+Collecting openpyxl
+  Downloading openpyxl-3.1.5-py2.py3-none-any.whl (250 kB)
+Collecting tqdm
+  Using cached tqdm-4.70.1-py3-none-any.whl (80 kB)
+Collecting accelerate
+  Downloading accelerate-1.15.0-py3-none-any.whl (394 kB)
+Collecting safetensors
+  Using cached safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (516 kB)
+Collecting huggingface_hub
+  Using cached huggingface_hub-1.32.0-py3-none-any.whl (842 kB)
+Requirement already satisfied: numpy>=1.17 in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from transformers) (2.4.6)
+Requirement already satisfied: packaging>=20.0 in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from transformers) (26.3)
+Collecting pyyaml>=5.1 (from transformers)
+  Downloading pyyaml-6.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (806 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 806.6/806.6 kB 1.1 MB/s  0:00:00
+Collecting regex>=2025.10.22 (from transformers)
+  Downloading regex-2026.9.10-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (802 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 803.0/803.0 kB 46.3 kB/s  0:00:22
+Collecting tokenizers<0.24.0,>=0.23.1 (from transformers)
+  Using cached tokenizers-0.23.2-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.4 MB)
+Collecting typer (from transformers)
+  Using cached typer-0.27.2-py3-none-any.whl (123 kB)
+Collecting click<9.0.0,>=8.4.2 (from huggingface_hub)
+  Using cached click-8.5.0-py3-none-any.whl (125 kB)
+Requirement already satisfied: filelock>=3.10.0 in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from huggingface_hub) (4.0.3)
+Requirement already satisfied: fsspec>=2023.5.0 in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from huggingface_hub) (2026.9.0)
+Collecting hf-xet<2.0.0,>=1.5.2 (from huggingface_hub)
+  Using cached hf_xet-1.6.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.5 MB)
+Collecting httpx<1,>=0.23.0 (from huggingface_hub)
+  Using cached httpx-0.28.1-py3-none-any.whl (73 kB)
+Requirement already satisfied: typing-extensions>=4.1.0 in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from huggingface_hub) (4.16.0)
+Collecting anyio (from httpx<1,>=0.23.0->huggingface_hub)
+  Using cached anyio-4.15.1-py3-none-any.whl (132 kB)
+Collecting certifi (from httpx<1,>=0.23.0->huggingface_hub)
+  Using cached certifi-2026.7.22-py3-none-any.whl (136 kB)
+Collecting httpcore==1.* (from httpx<1,>=0.23.0->huggingface_hub)
+  Using cached httpcore-1.0.9-py3-none-any.whl (78 kB)
+Collecting idna (from httpx<1,>=0.23.0->huggingface_hub)
+  Using cached idna-3.20-py3-none-any.whl (69 kB)
+Collecting h11>=0.16 (from httpcore==1.*->httpx<1,>=0.23.0->huggingface_hub)
+  Using cached h11-0.16.0-py3-none-any.whl (37 kB)
+Collecting python-dateutil>=2.8.2 (from pandas)
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Collecting scipy>=1.10.0 (from scikit-learn)
+  Downloading scipy-1.17.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (35.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.3/35.3 MB 478.7 kB/s  0:01:30
+Collecting joblib>=1.4.0 (from scikit-learn)
+  Downloading joblib-1.6.0-py3-none-any.whl (306 kB)
+Collecting narwhals>=2.0.1 (from scikit-learn)
+  Downloading narwhals-2.26.0-py3-none-any.whl (474 kB)
+Collecting threadpoolctl>=3.5.0 (from scikit-learn)
+  Downloading threadpoolctl-3.7.0-py3-none-any.whl (26 kB)
+Collecting contourpy>=1.0.1 (from matplotlib)
+  Downloading contourpy-1.3.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (355 kB)
+Collecting cycler>=0.10 (from matplotlib)
+  Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Collecting fonttools>=4.28.2 (from matplotlib)
+  Downloading fonttools-4.66.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (5.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.4/5.4 MB 321.4 kB/s  0:00:16
+Collecting kiwisolver>=1.3.1 (from matplotlib)
+  Downloading kiwisolver-1.5.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 364.4 kB/s  0:00:04
+Requirement already satisfied: pillow>=9 in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from matplotlib) (12.3.0)
+Collecting pyparsing>=3 (from matplotlib)
+  Downloading pyparsing-3.3.3-py3-none-any.whl (126 kB)
+Collecting et-xmlfile (from openpyxl)
+  Downloading et_xmlfile-2.0.0-py3-none-any.whl (18 kB)
+Collecting psutil (from accelerate)
+  Downloading psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl (155 kB)
+Requirement already satisfied: torch>=2.0.0 in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from accelerate) (2.14.0)
+Collecting cloudpickle>=3.0 (from joblib>=1.4.0->scikit-learn)
+  Downloading cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas)
+  Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Requirement already satisfied: setuptools>=77.0.3 in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from torch>=2.0.0->accelerate) (83.0.0)
+Requirement already satisfied: sympy>=1.13.3 in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from torch>=2.0.0->accelerate) (1.14.0)
+Requirement already satisfied: networkx>=2.5.1 in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from torch>=2.0.0->accelerate) (3.6.1)
+Requirement already satisfied: jinja2 in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from torch>=2.0.0->accelerate) (3.1.6)
+Requirement already satisfied: cuda-toolkit==13.0.3 in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch>=2.0.0->accelerate) (13.0.3.0)
+Requirement already satisfied: cuda-bindings<14,>=13.0.3 in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from torch>=2.0.0->accelerate) (13.4.3)
+Requirement already satisfied: nvidia-cudnn-cu13==9.24.0.43 in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from torch>=2.0.0->accelerate) (9.24.0.43)
+Requirement already satisfied: nvidia-cusparselt-cu13==0.8.1 in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from torch>=2.0.0->accelerate) (0.8.1)
+Requirement already satisfied: nvidia-nccl-cu13==2.30.7 in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from torch>=2.0.0->accelerate) (2.30.7)
+Requirement already satisfied: nvidia-nvshmem-cu13==3.4.5 in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from torch>=2.0.0->accelerate) (3.4.5)
+Requirement already satisfied: triton~=3.8.0 in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from torch>=2.0.0->accelerate) (3.8.0)
+Requirement already satisfied: nvidia-cublas==13.1.1.3.* in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch>=2.0.0->accelerate) (13.1.1.3)
+Requirement already satisfied: nvidia-cuda-nvrtc==13.0.88.* in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch>=2.0.0->accelerate) (13.0.88)
+Requirement already satisfied: nvidia-cuda-runtime==13.0.96.* in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch>=2.0.0->accelerate) (13.0.96)
+Requirement already satisfied: nvidia-cufft==12.0.0.61.* in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch>=2.0.0->accelerate) (12.0.0.61)
+Requirement already satisfied: nvidia-nvjitlink<14,>=13.0.88 in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch>=2.0.0->accelerate) (13.4.92)
+Requirement already satisfied: nvidia-cufile==1.15.1.6.* in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch>=2.0.0->accelerate) (1.15.1.6)
+Requirement already satisfied: nvidia-cuda-cupti==13.0.85.* in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch>=2.0.0->accelerate) (13.0.85)
+Requirement already satisfied: nvidia-curand==10.4.0.35.* in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch>=2.0.0->accelerate) (10.4.0.35)
+Requirement already satisfied: nvidia-cusolver==12.0.4.66.* in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch>=2.0.0->accelerate) (12.0.4.66)
+Requirement already satisfied: nvidia-cusparse==12.6.3.3.* in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch>=2.0.0->accelerate) (12.6.3.3)
+Requirement already satisfied: nvidia-nvtx==13.0.85.* in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch>=2.0.0->accelerate) (13.0.85)
+Requirement already satisfied: cuda-pathfinder>=1.4.2 in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from cuda-bindings<14,>=13.0.3->torch>=2.0.0->accelerate) (1.8.2)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from sympy>=1.13.3->torch>=2.0.0->accelerate) (1.3.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /home/daishuheng/miniconda3/envs/mosei/lib/python3.11/site-packages (from jinja2->torch>=2.0.0->accelerate) (3.0.3)
+Collecting shellingham>=1.3.0 (from typer->transformers)
+  Using cached shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Collecting rich>=13.8.0 (from typer->transformers)
+  Using cached rich-15.0.0-py3-none-any.whl (310 kB)
+Collecting annotated-doc>=0.0.2 (from typer->transformers)
+  Using cached annotated_doc-0.0.5-py3-none-any.whl (5.3 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=13.8.0->typer->transformers)
+  Using cached markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=13.8.0->typer->transformers)
+  Using cached pygments-2.21.0-py3-none-any.whl (1.3 MB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=13.8.0->typer->transformers)
+  Using cached mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Installing collected packages: tqdm, threadpoolctl, six, shellingham, scipy, safetensors, regex, pyyaml, pyparsing, pygments, psutil, narwhals, mdurl, kiwisolver, idna, hf-xet, h11, fonttools, et-xmlfile, cycler, contourpy, cloudpickle, click, certifi, annotated-doc, python-dateutil, openpyxl, markdown-it-py, joblib, httpcore, anyio, scikit-learn, rich, pandas, matplotlib, httpx, typer, seaborn, huggingface_hub, tokenizers, accelerate, transformers
+
+Successfully installed accelerate-1.15.0 annotated-doc-0.0.5 anyio-4.15.1 certifi-2026.7.22 click-8.5.0 cloudpickle-3.1.2 contourpy-1.3.3 cycler-0.12.1 et-xmlfile-2.0.0 fonttools-4.66.0 h11-0.16.0 hf-xet-1.6.0 httpcore-1.0.9 httpx-0.28.1 huggingface_hub-1.32.0 idna-3.20 joblib-1.6.0 kiwisolver-1.5.1 markdown-it-py-4.2.0 matplotlib-3.11.2 mdurl-0.1.2 narwhals-2.26.0 openpyxl-3.1.5 pandas-3.0.6 psutil-7.2.2 pygments-2.21.0 pyparsing-3.3.3 python-dateutil-2.9.0.post0 pyyaml-6.0.3 regex-2026.9.10 rich-15.0.0 safetensors-0.8.0 scikit-learn-1.9.1 scipy-1.17.1 seaborn-0.13.2 shellingham-1.5.4 six-1.17.0 threadpoolctl-3.7.0 tokenizers-0.23.2 tqdm-4.70.1 transformers-5.17.0 typer-0.27.2
++ echo ENV_SETUP_DONE
+ENV_SETUP_DONE

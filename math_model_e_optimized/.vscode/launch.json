@@ -1,0 +1,67 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "问题1：提取100条特征",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/code/p1_refine.py",
+      "args": ["--workers", "1"],
+      "python": "D:/app1/anaconda3/python.exe",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "envFile": "${workspaceFolder}/.vscode/.env",
+      "subProcess": true
+    },
+    {
+      "name": "问题1：分组交叉验证",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/code/p1_validation.py",
+      "python": "D:/app1/anaconda3/python.exe",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "envFile": "${workspaceFolder}/.vscode/.env"
+    },
+    {
+      "name": "问题2和3：基础指标与附件3预测",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/code/evaluate_final.py",
+      "python": "D:/app1/anaconda3/python.exe",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "envFile": "${workspaceFolder}/.vscode/.env"
+    },
+    {
+      "name": "问题2：缺失率与位置实验",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/code/robustness_evaluation.py",
+      "python": "D:/app1/anaconda3/python.exe",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "envFile": "${workspaceFolder}/.vscode/.env"
+    },
+    {
+      "name": "问题3：附件4预测与解释",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/code/explain_v2.py",
+      "python": "D:/app1/anaconda3/python.exe",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "envFile": "${workspaceFolder}/.vscode/.env"
+    },
+    {
+      "name": "问题3：解释有效性检验",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/code/explanation_validation.py",
+      "python": "D:/app1/anaconda3/python.exe",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "envFile": "${workspaceFolder}/.vscode/.env"
+    }
+  ]
+}

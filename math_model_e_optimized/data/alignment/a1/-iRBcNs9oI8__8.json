@@ -1,0 +1,202 @@
+{
+  "duration": 8.0260625,
+  "words": [
+    {
+      "word": "I've",
+      "char_start": 0,
+      "char_end": 4,
+      "spoken": "I'VE",
+      "start": 0.0,
+      "end": 0.2002,
+      "confidence": 0.5
+    },
+    {
+      "word": "drawn",
+      "char_start": 5,
+      "char_end": 10,
+      "spoken": "DRAWN",
+      "start": 0.3202,
+      "end": 0.7005,
+      "confidence": 0.2
+    },
+    {
+      "word": "this",
+      "char_start": 11,
+      "char_end": 15,
+      "spoken": "THIS",
+      "start": 0.9607,
+      "end": 1.281,
+      "confidence": 0.5819
+    },
+    {
+      "word": "man",
+      "char_start": 16,
+      "char_end": 19,
+      "spoken": "MAN",
+      "start": 1.9014,
+      "end": 2.0415,
+      "confidence": 0.3324
+    },
+    {
+      "word": "here",
+      "char_start": 20,
+      "char_end": 24,
+      "spoken": "HERE",
+      "start": 2.1816,
+      "end": 2.3818,
+      "confidence": 0.25
+    },
+    {
+      "word": "and",
+      "char_start": 26,
+      "char_end": 29,
+      "spoken": "AND",
+      "start": 2.5619,
+      "end": 2.642,
+      "confidence": 0.0
+    },
+    {
+      "word": "if",
+      "char_start": 30,
+      "char_end": 32,
+      "spoken": "IF",
+      "start": 2.7421,
+      "end": 2.8021,
+      "confidence": 0.0001
+    },
+    {
+      "word": "you",
+      "char_start": 33,
+      "char_end": 36,
+      "spoken": "YOU",
+      "start": 3.963,
+      "end": 4.0631,
+      "confidence": 0.3331
+    },
+    {
+      "word": "can",
+      "char_start": 37,
+      "char_end": 40,
+      "spoken": "CAN",
+      "start": 4.1031,
+      "end": 4.2032,
+      "confidence": 0.3333
+    },
+    {
+      "word": "tell",
+      "char_start": 41,
+      "char_end": 45,
+      "spoken": "TELL",
+      "start": 4.2232,
+      "end": 4.3433,
+      "confidence": 0.0
+    },
+    {
+      "word": "he",
+      "char_start": 47,
+      "char_end": 49,
+      "spoken": "HE",
+      "start": 4.4033,
+      "end": 4.4634,
+      "confidence": 0.9983
+    },
+    {
+      "word": "has",
+      "char_start": 50,
+      "char_end": 53,
+      "spoken": "HAS",
+      "start": 4.5234,
+      "end": 4.8036,
+      "confidence": 0.0
+    },
+    {
+      "word": "a",
+      "char_start": 54,
+      "char_end": 55,
+      "spoken": "A",
+      "start": 4.9437,
+      "end": 4.9637,
+      "confidence": 0.4721
+    },
+    {
+      "word": "lot",
+      "char_start": 56,
+      "char_end": 59,
+      "spoken": "LOT",
+      "start": 5.1039,
+      "end": 5.304,
+      "confidence": 0.25
+    },
+    {
+      "word": "of",
+      "char_start": 60,
+      "char_end": 62,
+      "spoken": "OF",
+      "start": 5.4441,
+      "end": 5.4841,
+      "confidence": 0.4999
+    },
+    {
+      "word": "big",
+      "char_start": 63,
+      "char_end": 66,
+      "spoken": "BIG",
+      "start": 5.6843,
+      "end": 5.8844,
+      "confidence": 0.3333
+    },
+    {
+      "word": "muscles",
+      "char_start": 67,
+      "char_end": 74,
+      "spoken": "MUSCLES",
+      "start": 5.9645,
+      "end": 6.7451,
+      "confidence": 0.1429
+    },
+    {
+      "word": "he",
+      "char_start": 76,
+      "char_end": 78,
+      "spoken": "HE",
+      "start": 7.2054,
+      "end": 7.2455,
+      "confidence": 0.0
+    },
+    {
+      "word": "looks",
+      "char_start": 79,
+      "char_end": 84,
+      "spoken": "LOOKS",
+      "start": 7.2855,
+      "end": 7.4056,
+      "confidence": 0.2
+    },
+    {
+      "word": "very",
+      "char_start": 85,
+      "char_end": 89,
+      "spoken": "VERY",
+      "start": 7.5457,
+      "end": 7.6658,
+      "confidence": 0.2495
+    },
+    {
+      "word": "strong",
+      "char_start": 90,
+      "char_end": 96,
+      "spoken": "STRONG",
+      "start": 7.7058,
+      "end": 8.006,
+      "confidence": 0.3332
+    }
+  ],
+  "normalized_transcript": "I'VE DRAWN THIS MAN HERE AND IF YOU CAN TELL HE HAS A LOT OF BIG MUSCLES HE LOOKS VERY STRONG",
+  "greedy_transcript": "EVER DECIDE TO ASK OUT THAT SPECIAL SOME ONE SO WHAT IS THE SECRET I'M TELLING YOU ABOUT WELL IT IS THE SECRE",
+  "transcript_similarity": 0.33663366336633666,
+  "mean_confidence": 0.28619047619047616,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-iRBcNs9oI8__8",
+  "transcript": "I've drawn this man here, and if you can tell, he has a lot of big muscles, he looks very strong",
+  "model": "facebook/wav2vec2-base-960h"
+}

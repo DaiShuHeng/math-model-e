@@ -1,0 +1,166 @@
+{
+  "duration": 5.3785625,
+  "words": [
+    {
+      "word": "Make",
+      "char_start": 0,
+      "char_end": 4,
+      "spoken": "MAKE",
+      "start": 0.5017,
+      "end": 0.6422,
+      "confidence": 0.719
+    },
+    {
+      "word": "sure",
+      "char_start": 5,
+      "char_end": 9,
+      "spoken": "SURE",
+      "start": 0.7024,
+      "end": 0.863,
+      "confidence": 0.9428
+    },
+    {
+      "word": "that",
+      "char_start": 10,
+      "char_end": 14,
+      "spoken": "THAT",
+      "start": 0.9031,
+      "end": 1.0035,
+      "confidence": 0.9993
+    },
+    {
+      "word": "your",
+      "char_start": 15,
+      "char_end": 19,
+      "spoken": "YOUR",
+      "start": 1.0436,
+      "end": 1.1841,
+      "confidence": 0.996
+    },
+    {
+      "word": "using",
+      "char_start": 20,
+      "char_end": 25,
+      "spoken": "USING",
+      "start": 1.3045,
+      "end": 1.5052,
+      "confidence": 0.9914
+    },
+    {
+      "word": "comps",
+      "char_start": 26,
+      "char_end": 31,
+      "spoken": "COMPS",
+      "start": 1.5654,
+      "end": 1.8865,
+      "confidence": 0.9576
+    },
+    {
+      "word": "that",
+      "char_start": 32,
+      "char_end": 36,
+      "spoken": "THAT",
+      "start": 1.9266,
+      "end": 2.027,
+      "confidence": 0.995
+    },
+    {
+      "word": "are",
+      "char_start": 37,
+      "char_end": 40,
+      "spoken": "ARE",
+      "start": 2.1073,
+      "end": 2.1875,
+      "confidence": 0.9722
+    },
+    {
+      "word": "not",
+      "char_start": 41,
+      "char_end": 44,
+      "spoken": "NOT",
+      "start": 2.2076,
+      "end": 2.328,
+      "confidence": 0.754
+    },
+    {
+      "word": "larger",
+      "char_start": 45,
+      "char_end": 51,
+      "spoken": "LARGER",
+      "start": 2.4083,
+      "end": 2.7896,
+      "confidence": 0.9717
+    },
+    {
+      "word": "no",
+      "char_start": 53,
+      "char_end": 55,
+      "spoken": "NO",
+      "start": 3.2312,
+      "end": 3.3315,
+      "confidence": 0.9417
+    },
+    {
+      "word": "larger",
+      "char_start": 56,
+      "char_end": 62,
+      "spoken": "LARGER",
+      "start": 3.3917,
+      "end": 3.6927,
+      "confidence": 0.9898
+    },
+    {
+      "word": "than",
+      "char_start": 63,
+      "char_end": 67,
+      "spoken": "THAN",
+      "start": 3.753,
+      "end": 3.8533,
+      "confidence": 0.999
+    },
+    {
+      "word": "twelve",
+      "char_start": 68,
+      "char_end": 74,
+      "spoken": "TWELVE",
+      "start": 3.9536,
+      "end": 4.1744,
+      "confidence": 0.904
+    },
+    {
+      "word": "hundred",
+      "char_start": 75,
+      "char_end": 82,
+      "spoken": "HUNDRED",
+      "start": 4.1945,
+      "end": 4.3952,
+      "confidence": 0.9905
+    },
+    {
+      "word": "square",
+      "char_start": 83,
+      "char_end": 89,
+      "spoken": "SQUARE",
+      "start": 4.4353,
+      "end": 4.636,
+      "confidence": 0.9724
+    },
+    {
+      "word": "feet",
+      "char_start": 90,
+      "char_end": 94,
+      "spoken": "FEET",
+      "start": 4.6761,
+      "end": 4.8367,
+      "confidence": 0.9841
+    }
+  ],
+  "normalized_transcript": "MAKE SURE THAT YOUR USING COMPS THAT ARE NOT LARGER NO LARGER THAN TWELVE HUNDRED SQUARE FEET",
+  "greedy_transcript": "OUGH MAY SURE THAT YOUR USING COMPS THAT ARE NO LARGER NO LARGER THAN TWELVE HUNDRED SQUARE FEET NO LESS",
+  "transcript_similarity": 0.9137055837563451,
+  "mean_confidence": 0.9459117647058823,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-tPCytz4rww__11",
+  "transcript": "Make sure that your using comps that are not larger, no larger than twelve hundred square feet.",
+  "model": "facebook/wav2vec2-base-960h"
+}

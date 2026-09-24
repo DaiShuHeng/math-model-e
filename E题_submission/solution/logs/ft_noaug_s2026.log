@@ -1,0 +1,70 @@
+
+Loading weights:   0%|          | 0/39 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 39/39 [00:00<00:00, 21654.47it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: $HOME/math_competition/models/bert-tiny
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.decoder.bias               | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+[ep 01] loss 1.4897 | clean F1 0.2182 Acc 0.4670 MAE 0.8098 r 0.4549 | corrupt F1 0.2114 MAE 0.7705 *
+[ep 02] loss 1.3099 | clean F1 0.4147 Acc 0.5604 MAE 0.6709 r 0.5252 | corrupt F1 0.4121 MAE 0.6773 *
+[ep 03] loss 1.1935 | clean F1 0.4348 Acc 0.5797 MAE 0.6708 r 0.5589 | corrupt F1 0.4188 MAE 0.6717 *
+[ep 04] loss 1.0896 | clean F1 0.4826 Acc 0.5783 MAE 0.6319 r 0.5899 | corrupt F1 0.4842 MAE 0.6419 *
+[ep 05] loss 1.0366 | clean F1 0.5341 Acc 0.5934 MAE 0.6419 r 0.5712 | corrupt F1 0.5359 MAE 0.6415 *
+[ep 06] loss 0.9992 | clean F1 0.5218 Acc 0.5907 MAE 0.6793 r 0.5948 | corrupt F1 0.5419 MAE 0.6541
+[ep 07] loss 0.9062 | clean F1 0.5594 Acc 0.6044 MAE 0.6485 r 0.5800 | corrupt F1 0.5513 MAE 0.6403 *
+[ep 08] loss 0.8511 | clean F1 0.5657 Acc 0.5975 MAE 0.6576 r 0.5855 | corrupt F1 0.5429 MAE 0.6454 *
+[ep 09] loss 0.8325 | clean F1 0.5196 Acc 0.5838 MAE 0.6352 r 0.5752 | corrupt F1 0.5304 MAE 0.6391
+[ep 10] loss 0.7445 | clean F1 0.5624 Acc 0.5975 MAE 0.6534 r 0.5808 | corrupt F1 0.5452 MAE 0.6552
+[ep 11] loss 0.7023 | clean F1 0.5117 Acc 0.5797 MAE 0.6789 r 0.5739 | corrupt F1 0.5435 MAE 0.6486
+[ep 12] loss 0.6473 | clean F1 0.5524 Acc 0.5838 MAE 0.6687 r 0.5716 | corrupt F1 0.5529 MAE 0.6562
+[ep 13] loss 0.6219 | clean F1 0.5667 Acc 0.6085 MAE 0.6662 r 0.5607 | corrupt F1 0.5336 MAE 0.6647 *
+[ep 14] loss 0.5808 | clean F1 0.5589 Acc 0.5907 MAE 0.6818 r 0.5596 | corrupt F1 0.5408 MAE 0.6744
+[ep 15] loss 0.5700 | clean F1 0.5678 Acc 0.5962 MAE 0.6868 r 0.5613 | corrupt F1 0.5317 MAE 0.6771 *
+[ep 16] loss 0.5409 | clean F1 0.5438 Acc 0.5824 MAE 0.6692 r 0.5618 | corrupt F1 0.5344 MAE 0.6536
+[ep 17] loss 0.5210 | clean F1 0.5431 Acc 0.5852 MAE 0.6796 r 0.5581 | corrupt F1 0.5399 MAE 0.6575
+[ep 18] loss 0.4967 | clean F1 0.5622 Acc 0.5934 MAE 0.6617 r 0.5548 | corrupt F1 0.5299 MAE 0.6566
+[ep 19] loss 0.4774 | clean F1 0.5601 Acc 0.5934 MAE 0.6769 r 0.5562 | corrupt F1 0.5257 MAE 0.6577
+[ep 20] loss 0.4485 | clean F1 0.5401 Acc 0.5783 MAE 0.6668 r 0.5550 | corrupt F1 0.5203 MAE 0.6590
+[ep 21] loss 0.4337 | clean F1 0.5625 Acc 0.5920 MAE 0.6852 r 0.5535 | corrupt F1 0.5269 MAE 0.6663
+[ep 22] loss 0.4294 | clean F1 0.5622 Acc 0.5962 MAE 0.6879 r 0.5565 | corrupt F1 0.5303 MAE 0.6658
+[ep 23] loss 0.4209 | clean F1 0.5630 Acc 0.5893 MAE 0.6705 r 0.5580 | corrupt F1 0.5260 MAE 0.6611
+early stop at ep 23 (best ep 15)
+{
+  "valid_clean": {
+    "Accuracy": 0.5961538461538461,
+    "MacroF1": 0.5678440600241323,
+    "WeightedF1": 0.5908062117491515,
+    "MAE": 0.6867609620094299,
+    "Pearson": 0.56127866821176,
+    "head_agreement": 0.7788461538461539,
+    "gate_mean": [
+      0.6866758465766907,
+      0.14455175399780273,
+      0.168772891163826
+    ]
+  },
+  "valid_corrupt20": {
+    "Accuracy": 0.5343406593406593,
+    "MacroF1": 0.5317427029637091,
+    "WeightedF1": 0.5407403056454938,
+    "MAE": 0.6771343350410461,
+    "Pearson": 0.5471289962745771,
+    "head_agreement": 0.646978021978022,
+    "gate_mean": [
+      0.735257089138031,
+      0.1450737714767456,
+      0.11966875195503235
+    ]
+  }
+}

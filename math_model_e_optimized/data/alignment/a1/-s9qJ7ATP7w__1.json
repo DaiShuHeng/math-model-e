@@ -1,0 +1,112 @@
+{
+  "duration": 4.6438125,
+  "words": [
+    {
+      "word": "But",
+      "char_start": 0,
+      "char_end": 3,
+      "spoken": "BUT",
+      "start": 0.5428,
+      "end": 0.8443,
+      "confidence": 0.3177
+    },
+    {
+      "word": "the",
+      "char_start": 4,
+      "char_end": 7,
+      "spoken": "THE",
+      "start": 1.367,
+      "end": 1.4273,
+      "confidence": 0.971
+    },
+    {
+      "word": "hardest",
+      "char_start": 8,
+      "char_end": 15,
+      "spoken": "HARDEST",
+      "start": 1.4876,
+      "end": 1.749,
+      "confidence": 0.9545
+    },
+    {
+      "word": "thing",
+      "char_start": 16,
+      "char_end": 21,
+      "spoken": "THING",
+      "start": 1.7691,
+      "end": 1.8897,
+      "confidence": 0.9994
+    },
+    {
+      "word": "in",
+      "char_start": 22,
+      "char_end": 24,
+      "spoken": "IN",
+      "start": 1.95,
+      "end": 1.9902,
+      "confidence": 0.991
+    },
+    {
+      "word": "life",
+      "char_start": 25,
+      "char_end": 29,
+      "spoken": "LIFE",
+      "start": 2.0304,
+      "end": 2.1711,
+      "confidence": 0.9796
+    },
+    {
+      "word": "to",
+      "char_start": 30,
+      "char_end": 32,
+      "spoken": "TO",
+      "start": 2.2113,
+      "end": 2.2716,
+      "confidence": 0.8514
+    },
+    {
+      "word": "learn",
+      "char_start": 33,
+      "char_end": 38,
+      "spoken": "LEARN",
+      "start": 2.332,
+      "end": 2.5531,
+      "confidence": 0.9406
+    },
+    {
+      "word": "is",
+      "char_start": 40,
+      "char_end": 42,
+      "spoken": "IS",
+      "start": 3.1562,
+      "end": 3.2165,
+      "confidence": 0.8338
+    },
+    {
+      "word": "to",
+      "char_start": 43,
+      "char_end": 45,
+      "spoken": "TO",
+      "start": 3.2768,
+      "end": 3.3572,
+      "confidence": 0.8623
+    },
+    {
+      "word": "lose",
+      "char_start": 46,
+      "char_end": 50,
+      "spoken": "LOSE",
+      "start": 3.4175,
+      "end": 4.282,
+      "confidence": 0.8337
+    }
+  ],
+  "normalized_transcript": "BUT THE HARDEST THING IN LIFE TO LEARN IS TO LOSE",
+  "greedy_transcript": "THAT THE THE HARDEST THING IN LIFE TO LEARN IS TO LOSE WINNING'S EASY",
+  "transcript_similarity": 0.7966101694915254,
+  "mean_confidence": 0.8668181818181818,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-s9qJ7ATP7w__1",
+  "transcript": "But the hardest thing in life to learn, is to lose",
+  "model": "facebook/wav2vec2-base-960h"
+}

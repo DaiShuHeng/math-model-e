@@ -1,0 +1,9 @@
+﻿model,metric,ci95_low,ci95_high,method
+p2,acc,0.640990371389271,0.7042640990371389,sample bootstrap; does not account for shared source-video correlation
+p2,f1_macro,0.6130005783518782,0.6791392368410637,sample bootstrap; does not account for shared source-video correlation
+p2,mae,0.5760599747300148,0.6563647747039795,sample bootstrap; does not account for shared source-video correlation
+p2,pearson,0.6379626175295471,0.7308477369473806,sample bootstrap; does not account for shared source-video correlation
+p3,acc,0.5969738651994498,0.6657496561210454,sample bootstrap; does not account for shared source-video correlation
+p3,f1_macro,0.5491468966449935,0.6205627421981644,sample bootstrap; does not account for shared source-video correlation
+p3,mae,0.5936295092105865,0.6706195056438446,sample bootstrap; does not account for shared source-video correlation
+p3,pearson,0.627528210205032,0.7190700394861473,sample bootstrap; does not account for shared source-video correlation

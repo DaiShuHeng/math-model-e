@@ -1,0 +1,58 @@
+{
+  "duration": 3.3740625,
+  "words": [
+    {
+      "word": "Power",
+      "char_start": 0,
+      "char_end": 5,
+      "spoken": "POWER",
+      "start": 0.0,
+      "end": 0.2812,
+      "confidence": 0.3084
+    },
+    {
+      "word": "is",
+      "char_start": 6,
+      "char_end": 8,
+      "spoken": "IS",
+      "start": 0.3013,
+      "end": 0.3414,
+      "confidence": 0.0001
+    },
+    {
+      "word": "similar",
+      "char_start": 9,
+      "char_end": 16,
+      "spoken": "SIMILAR",
+      "start": 1.3054,
+      "end": 1.6669,
+      "confidence": 0.2498
+    },
+    {
+      "word": "to",
+      "char_start": 17,
+      "char_end": 19,
+      "spoken": "TO",
+      "start": 2.0485,
+      "end": 2.2895,
+      "confidence": 0.5
+    },
+    {
+      "word": "strength",
+      "char_start": 20,
+      "char_end": 28,
+      "spoken": "STRENGTH",
+      "start": 2.4301,
+      "end": 2.6109,
+      "confidence": 0.2225
+    }
+  ],
+  "normalized_transcript": "POWER IS SIMILAR TO STRENGTH",
+  "greedy_transcript": "OF POWER EPOSE",
+  "transcript_similarity": 0.38095238095238093,
+  "mean_confidence": 0.25616,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-iRBcNs9oI8__9",
+  "transcript": "Power is similar to strength",
+  "model": "facebook/wav2vec2-base-960h"
+}

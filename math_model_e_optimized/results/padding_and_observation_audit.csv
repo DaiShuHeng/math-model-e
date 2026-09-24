@@ -1,0 +1,151 @@
+﻿dataset,id,modality,storage_positions,content_positions,observed_positions,padding_or_special_positions,zero_within_content,missing_rate_within_available_token_sequence,note
+a3,附件3_01,text,50,6,6,44,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_01,audio,50,6,6,44,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_01,vision,50,6,6,44,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_02,text,50,28,28,22,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_02,audio,50,28,23,22,5,0.1785714030265808,Original deleted text token count unknown for attachment3
+a3,附件3_02,vision,50,28,23,22,5,0.1785714030265808,Original deleted text token count unknown for attachment3
+a3,附件3_03,text,50,32,32,18,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_03,audio,50,32,27,18,5,0.15625,Original deleted text token count unknown for attachment3
+a3,附件3_03,vision,50,32,23,18,9,0.28125,Original deleted text token count unknown for attachment3
+a3,附件3_04,text,50,31,31,19,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_04,audio,50,31,29,19,2,0.06451612710952759,Original deleted text token count unknown for attachment3
+a3,附件3_04,vision,50,31,29,19,2,0.06451612710952759,Original deleted text token count unknown for attachment3
+a3,附件3_05,text,50,12,12,38,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_05,audio,50,12,12,38,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_05,vision,50,12,12,38,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_06,text,50,25,25,25,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_06,audio,50,25,22,25,3,0.12000000476837158,Original deleted text token count unknown for attachment3
+a3,附件3_06,vision,50,25,22,25,3,0.12000000476837158,Original deleted text token count unknown for attachment3
+a3,附件3_07,text,50,21,21,29,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_07,audio,50,21,18,29,3,0.1428571343421936,Original deleted text token count unknown for attachment3
+a3,附件3_07,vision,50,21,18,29,3,0.1428571343421936,Original deleted text token count unknown for attachment3
+a3,附件3_08,text,50,15,15,35,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_08,audio,50,15,13,35,2,0.13333332538604736,Original deleted text token count unknown for attachment3
+a3,附件3_08,vision,50,15,13,35,2,0.13333332538604736,Original deleted text token count unknown for attachment3
+a3,附件3_09,text,50,14,14,36,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_09,audio,50,14,12,36,2,0.1428571343421936,Original deleted text token count unknown for attachment3
+a3,附件3_09,vision,50,14,12,36,2,0.1428571343421936,Original deleted text token count unknown for attachment3
+a3,附件3_10,text,50,6,6,44,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_10,audio,50,6,6,44,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_10,vision,50,6,6,44,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_11,text,50,14,14,36,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_11,audio,50,14,10,36,4,0.2857142686843872,Original deleted text token count unknown for attachment3
+a3,附件3_11,vision,50,14,10,36,4,0.2857142686843872,Original deleted text token count unknown for attachment3
+a3,附件3_12,text,50,13,13,37,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_12,audio,50,13,11,37,2,0.1538461446762085,Original deleted text token count unknown for attachment3
+a3,附件3_12,vision,50,13,11,37,2,0.1538461446762085,Original deleted text token count unknown for attachment3
+a3,附件3_13,text,50,19,19,31,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_13,audio,50,19,17,31,2,0.10526317358016968,Original deleted text token count unknown for attachment3
+a3,附件3_13,vision,50,19,17,31,2,0.10526317358016968,Original deleted text token count unknown for attachment3
+a3,附件3_14,text,50,23,23,27,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_14,audio,50,23,21,27,2,0.08695650100708008,Original deleted text token count unknown for attachment3
+a3,附件3_14,vision,50,23,21,27,2,0.08695650100708008,Original deleted text token count unknown for attachment3
+a3,附件3_15,text,50,27,27,23,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_15,audio,50,27,24,23,3,0.1111111044883728,Original deleted text token count unknown for attachment3
+a3,附件3_15,vision,50,27,24,23,3,0.1111111044883728,Original deleted text token count unknown for attachment3
+a3,附件3_16,text,50,34,34,16,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_16,audio,50,34,30,16,4,0.11764705181121826,Original deleted text token count unknown for attachment3
+a3,附件3_16,vision,50,34,30,16,4,0.11764705181121826,Original deleted text token count unknown for attachment3
+a3,附件3_17,text,50,22,22,28,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_17,audio,50,22,14,28,8,0.3636363744735718,Original deleted text token count unknown for attachment3
+a3,附件3_17,vision,50,22,14,28,8,0.3636363744735718,Original deleted text token count unknown for attachment3
+a3,附件3_18,text,50,17,17,33,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_18,audio,50,17,14,33,3,0.1764705777168274,Original deleted text token count unknown for attachment3
+a3,附件3_18,vision,50,17,14,33,3,0.1764705777168274,Original deleted text token count unknown for attachment3
+a3,附件3_19,text,50,24,24,26,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_19,audio,50,24,17,26,7,0.2916666865348816,Original deleted text token count unknown for attachment3
+a3,附件3_19,vision,50,24,17,26,7,0.2916666865348816,Original deleted text token count unknown for attachment3
+a3,附件3_20,text,50,48,48,2,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_20,audio,50,48,34,2,14,0.2916666865348816,Original deleted text token count unknown for attachment3
+a3,附件3_20,vision,50,48,34,2,14,0.2916666865348816,Original deleted text token count unknown for attachment3
+a3,附件3_21,text,50,9,9,41,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_21,audio,50,9,6,41,3,0.3333333134651184,Original deleted text token count unknown for attachment3
+a3,附件3_21,vision,50,9,6,41,3,0.3333333134651184,Original deleted text token count unknown for attachment3
+a3,附件3_22,text,50,17,17,33,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_22,audio,50,17,13,33,4,0.23529410362243652,Original deleted text token count unknown for attachment3
+a3,附件3_22,vision,50,17,13,33,4,0.23529410362243652,Original deleted text token count unknown for attachment3
+a3,附件3_23,text,50,13,13,37,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_23,audio,50,13,9,37,4,0.307692289352417,Original deleted text token count unknown for attachment3
+a3,附件3_23,vision,50,13,9,37,4,0.307692289352417,Original deleted text token count unknown for attachment3
+a3,附件3_24,text,50,8,8,42,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_24,audio,50,8,6,42,2,0.25,Original deleted text token count unknown for attachment3
+a3,附件3_24,vision,50,8,6,42,2,0.25,Original deleted text token count unknown for attachment3
+a3,附件3_25,text,50,9,9,41,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_25,audio,50,9,7,41,2,0.2222222089767456,Original deleted text token count unknown for attachment3
+a3,附件3_25,vision,50,9,7,41,2,0.2222222089767456,Original deleted text token count unknown for attachment3
+a3,附件3_26,text,50,22,22,28,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_26,audio,50,22,16,28,6,0.27272725105285645,Original deleted text token count unknown for attachment3
+a3,附件3_26,vision,50,22,16,28,6,0.27272725105285645,Original deleted text token count unknown for attachment3
+a3,附件3_27,text,50,21,21,29,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_27,audio,50,21,13,29,8,0.3809523582458496,Original deleted text token count unknown for attachment3
+a3,附件3_27,vision,50,21,13,29,8,0.3809523582458496,Original deleted text token count unknown for attachment3
+a3,附件3_28,text,50,33,33,17,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_28,audio,50,33,22,17,11,0.3333333134651184,Original deleted text token count unknown for attachment3
+a3,附件3_28,vision,50,33,22,17,11,0.3333333134651184,Original deleted text token count unknown for attachment3
+a3,附件3_29,text,50,18,18,32,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_29,audio,50,18,10,32,8,0.4444444179534912,Original deleted text token count unknown for attachment3
+a3,附件3_29,vision,50,18,10,32,8,0.4444444179534912,Original deleted text token count unknown for attachment3
+a3,附件3_30,text,50,24,24,26,0,0.0,Original deleted text token count unknown for attachment3
+a3,附件3_30,audio,50,24,12,26,12,0.5,Original deleted text token count unknown for attachment3
+a3,附件3_30,vision,50,24,12,26,12,0.5,Original deleted text token count unknown for attachment3
+a4,01,text,50,22,22,28,0,0.0,Aligned BERT token support
+a4,01,audio,50,22,22,28,0,0.0,Aligned BERT token support
+a4,01,vision,50,22,22,28,0,0.0,Aligned BERT token support
+a4,02,text,50,19,19,31,0,0.0,Aligned BERT token support
+a4,02,audio,50,19,19,31,0,0.0,Aligned BERT token support
+a4,02,vision,50,19,19,31,0,0.0,Aligned BERT token support
+a4,03,text,50,33,33,17,0,0.0,Aligned BERT token support
+a4,03,audio,50,33,33,17,0,0.0,Aligned BERT token support
+a4,03,vision,50,33,33,17,0,0.0,Aligned BERT token support
+a4,04,text,50,26,26,24,0,0.0,Aligned BERT token support
+a4,04,audio,50,26,26,24,0,0.0,Aligned BERT token support
+a4,04,vision,50,26,26,24,0,0.0,Aligned BERT token support
+a4,05,text,50,15,15,35,0,0.0,Aligned BERT token support
+a4,05,audio,50,15,15,35,0,0.0,Aligned BERT token support
+a4,05,vision,50,15,15,35,0,0.0,Aligned BERT token support
+a4,06,text,50,35,35,15,0,0.0,Aligned BERT token support
+a4,06,audio,50,35,35,15,0,0.0,Aligned BERT token support
+a4,06,vision,50,35,35,15,0,0.0,Aligned BERT token support
+a4,07,text,50,48,48,2,0,0.0,Aligned BERT token support
+a4,07,audio,50,48,48,2,0,0.0,Aligned BERT token support
+a4,07,vision,50,48,48,2,0,0.0,Aligned BERT token support
+a4,08,text,50,11,11,39,0,0.0,Aligned BERT token support
+a4,08,audio,50,11,11,39,0,0.0,Aligned BERT token support
+a4,08,vision,50,11,11,39,0,0.0,Aligned BERT token support
+a4,09,text,50,18,18,32,0,0.0,Aligned BERT token support
+a4,09,audio,50,18,18,32,0,0.0,Aligned BERT token support
+a4,09,vision,50,18,18,32,0,0.0,Aligned BERT token support
+a4,10,text,50,30,30,20,0,0.0,Aligned BERT token support
+a4,10,audio,50,30,30,20,0,0.0,Aligned BERT token support
+a4,10,vision,50,30,30,20,0,0.0,Aligned BERT token support
+a4,11,text,50,14,14,36,0,0.0,Aligned BERT token support
+a4,11,audio,50,14,14,36,0,0.0,Aligned BERT token support
+a4,11,vision,50,14,14,36,0,0.0,Aligned BERT token support
+a4,12,text,50,42,42,8,0,0.0,Aligned BERT token support
+a4,12,audio,50,42,42,8,0,0.0,Aligned BERT token support
+a4,12,vision,50,42,42,8,0,0.0,Aligned BERT token support
+a4,13,text,50,30,30,20,0,0.0,Aligned BERT token support
+a4,13,audio,50,30,30,20,0,0.0,Aligned BERT token support
+a4,13,vision,50,30,0,20,30,1.0,Aligned BERT token support
+a4,14,text,50,35,35,15,0,0.0,Aligned BERT token support
+a4,14,audio,50,35,35,15,0,0.0,Aligned BERT token support
+a4,14,vision,50,35,35,15,0,0.0,Aligned BERT token support
+a4,15,text,50,21,21,29,0,0.0,Aligned BERT token support
+a4,15,audio,50,21,21,29,0,0.0,Aligned BERT token support
+a4,15,vision,50,21,21,29,0,0.0,Aligned BERT token support
+a4,16,text,50,11,11,39,0,0.0,Aligned BERT token support
+a4,16,audio,50,11,11,39,0,0.0,Aligned BERT token support
+a4,16,vision,50,11,11,39,0,0.0,Aligned BERT token support
+a4,17,text,50,24,24,26,0,0.0,Aligned BERT token support
+a4,17,audio,50,24,24,26,0,0.0,Aligned BERT token support
+a4,17,vision,50,24,24,26,0,0.0,Aligned BERT token support
+a4,18,text,50,48,48,2,0,0.0,Aligned BERT token support
+a4,18,audio,50,48,48,2,0,0.0,Aligned BERT token support
+a4,18,vision,50,48,48,2,0,0.0,Aligned BERT token support
+a4,19,text,50,39,39,11,0,0.0,Aligned BERT token support
+a4,19,audio,50,39,39,11,0,0.0,Aligned BERT token support
+a4,19,vision,50,39,39,11,0,0.0,Aligned BERT token support
+a4,20,text,50,43,43,7,0,0.0,Aligned BERT token support
+a4,20,audio,50,43,43,7,0,0.0,Aligned BERT token support
+a4,20,vision,50,43,43,7,0,0.0,Aligned BERT token support

@@ -1,0 +1,292 @@
+{
+  "duration": 8.1580625,
+  "words": [
+    {
+      "word": "If",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "IF",
+      "start": 0.5412,
+      "end": 0.6013,
+      "confidence": 0.9238
+    },
+    {
+      "word": "you're",
+      "char_start": 3,
+      "char_end": 9,
+      "spoken": "YOU'RE",
+      "start": 0.6214,
+      "end": 0.7617,
+      "confidence": 0.7416
+    },
+    {
+      "word": "a",
+      "char_start": 10,
+      "char_end": 11,
+      "spoken": "A",
+      "start": 0.7817,
+      "end": 0.8018,
+      "confidence": 0.003
+    },
+    {
+      "word": "fan",
+      "char_start": 12,
+      "char_end": 15,
+      "spoken": "FAN",
+      "start": 0.8218,
+      "end": 0.9421,
+      "confidence": 0.63
+    },
+    {
+      "word": "of",
+      "char_start": 16,
+      "char_end": 18,
+      "spoken": "OF",
+      "start": 1.0223,
+      "end": 1.0624,
+      "confidence": 0.8891
+    },
+    {
+      "word": "dancing",
+      "char_start": 19,
+      "char_end": 26,
+      "spoken": "DANCING",
+      "start": 1.1024,
+      "end": 1.4833,
+      "confidence": 0.9777
+    },
+    {
+      "word": "in",
+      "char_start": 27,
+      "char_end": 29,
+      "spoken": "IN",
+      "start": 1.5434,
+      "end": 1.5835,
+      "confidence": 0.9208
+    },
+    {
+      "word": "that",
+      "char_start": 30,
+      "char_end": 34,
+      "spoken": "THAT",
+      "start": 1.6436,
+      "end": 1.7839,
+      "confidence": 0.9803
+    },
+    {
+      "word": "sense",
+      "char_start": 35,
+      "char_end": 40,
+      "spoken": "SENSE",
+      "start": 1.8441,
+      "end": 2.0846,
+      "confidence": 0.9341
+    },
+    {
+      "word": "just",
+      "char_start": 42,
+      "char_end": 46,
+      "spoken": "JUST",
+      "start": 2.1447,
+      "end": 2.3051,
+      "confidence": 0.9847
+    },
+    {
+      "word": "like",
+      "char_start": 47,
+      "char_end": 51,
+      "spoken": "LIKE",
+      "start": 2.3452,
+      "end": 2.4655,
+      "confidence": 0.9982
+    },
+    {
+      "word": "to",
+      "char_start": 52,
+      "char_end": 54,
+      "spoken": "TO",
+      "start": 2.5256,
+      "end": 2.5857,
+      "confidence": 0.7286
+    },
+    {
+      "word": "watch",
+      "char_start": 55,
+      "char_end": 60,
+      "spoken": "WATCH",
+      "start": 2.6659,
+      "end": 2.8663,
+      "confidence": 0.9851
+    },
+    {
+      "word": "people",
+      "char_start": 61,
+      "char_end": 67,
+      "spoken": "PEOPLE",
+      "start": 2.9465,
+      "end": 3.167,
+      "confidence": 0.9312
+    },
+    {
+      "word": "dance",
+      "char_start": 68,
+      "char_end": 73,
+      "spoken": "DANCE",
+      "start": 3.2271,
+      "end": 3.5278,
+      "confidence": 0.9994
+    },
+    {
+      "word": "see",
+      "char_start": 75,
+      "char_end": 78,
+      "spoken": "SEE",
+      "start": 3.7283,
+      "end": 3.8686,
+      "confidence": 0.9911
+    },
+    {
+      "word": "impressive",
+      "char_start": 79,
+      "char_end": 89,
+      "spoken": "IMPRESSIVE",
+      "start": 3.9688,
+      "end": 4.4098,
+      "confidence": 0.9337
+    },
+    {
+      "word": "dance",
+      "char_start": 90,
+      "char_end": 95,
+      "spoken": "DANCE",
+      "start": 4.4699,
+      "end": 4.7104,
+      "confidence": 0.9177
+    },
+    {
+      "word": "moves",
+      "char_start": 96,
+      "char_end": 101,
+      "spoken": "MOVES",
+      "start": 4.8507,
+      "end": 5.1314,
+      "confidence": 0.9414
+    },
+    {
+      "word": "then",
+      "char_start": 102,
+      "char_end": 106,
+      "spoken": "THEN",
+      "start": 5.5924,
+      "end": 5.6926,
+      "confidence": 0.5046
+    },
+    {
+      "word": "you",
+      "char_start": 107,
+      "char_end": 110,
+      "spoken": "YOU",
+      "start": 5.7327,
+      "end": 5.7928,
+      "confidence": 0.9983
+    },
+    {
+      "word": "might",
+      "char_start": 111,
+      "char_end": 116,
+      "spoken": "MIGHT",
+      "start": 5.8329,
+      "end": 5.9732,
+      "confidence": 0.9914
+    },
+    {
+      "word": "want",
+      "char_start": 117,
+      "char_end": 121,
+      "spoken": "WANT",
+      "start": 5.9933,
+      "end": 6.0935,
+      "confidence": 0.6936
+    },
+    {
+      "word": "to",
+      "char_start": 122,
+      "char_end": 124,
+      "spoken": "TO",
+      "start": 6.1135,
+      "end": 6.1536,
+      "confidence": 0.4773
+    },
+    {
+      "word": "check",
+      "char_start": 125,
+      "char_end": 130,
+      "spoken": "CHECK",
+      "start": 6.1737,
+      "end": 6.2939,
+      "confidence": 0.1885
+    },
+    {
+      "word": "out",
+      "char_start": 131,
+      "char_end": 134,
+      "spoken": "OUT",
+      "start": 6.334,
+      "end": 6.3942,
+      "confidence": 0.032
+    },
+    {
+      "word": "this",
+      "char_start": 135,
+      "char_end": 139,
+      "spoken": "THIS",
+      "start": 6.4142,
+      "end": 6.4944,
+      "confidence": 0.0527
+    },
+    {
+      "word": "movie",
+      "char_start": 140,
+      "char_end": 145,
+      "spoken": "MOVIE",
+      "start": 6.5545,
+      "end": 6.7349,
+      "confidence": 0.2256
+    },
+    {
+      "word": "solely",
+      "char_start": 146,
+      "char_end": 152,
+      "spoken": "SOLELY",
+      "start": 6.8151,
+      "end": 7.1358,
+      "confidence": 0.9829
+    },
+    {
+      "word": "for",
+      "char_start": 153,
+      "char_end": 156,
+      "spoken": "FOR",
+      "start": 7.236,
+      "end": 7.3362,
+      "confidence": 0.9983
+    },
+    {
+      "word": "that",
+      "char_start": 157,
+      "char_end": 161,
+      "spoken": "THAT",
+      "start": 7.3964,
+      "end": 7.657,
+      "confidence": 0.5591
+    }
+  ],
+  "normalized_transcript": "IF YOU'RE A FAN OF DANCING IN THAT SENSE JUST LIKE TO WATCH PEOPLE DANCE SEE IMPRESSIVE DANCE MOVES THEN YOU MIGHT WANT TO CHECK OUT THIS MOVIE SOLELY FOR THAT",
+  "greedy_transcript": "IF YOU'RE FAN OF DANCING IN THAT SENSE JUST LIKE THE WATCH PEOPLE DANCE SEE IMPRESSIVE DANCE MOVES THAT YOU MIGHT WANT COHAVE Y SOLELY FOR THAT",
+  "transcript_similarity": 0.8807947019867549,
+  "mean_confidence": 0.7456709677419356,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "06",
+  "transcript": "If you're a fan of dancing in that sense, just like to watch people dance, see impressive dance moves then you might want to check out this movie solely for that",
+  "model": "facebook/wav2vec2-base-960h"
+}

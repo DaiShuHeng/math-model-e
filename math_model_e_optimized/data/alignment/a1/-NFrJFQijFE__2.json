@@ -1,0 +1,175 @@
+{
+  "duration": 6.6983125,
+  "words": [
+    {
+      "word": "So",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "SO",
+      "start": 0.6618,
+      "end": 1.8049,
+      "confidence": 0.0006
+    },
+    {
+      "word": "we",
+      "char_start": 3,
+      "char_end": 5,
+      "spoken": "WE",
+      "start": 1.9453,
+      "end": 2.0456,
+      "confidence": 0.0006
+    },
+    {
+      "word": "coordinate",
+      "char_start": 6,
+      "char_end": 16,
+      "spoken": "COORDINATE",
+      "start": 2.1459,
+      "end": 2.4066,
+      "confidence": 0.003
+    },
+    {
+      "word": "with",
+      "char_start": 17,
+      "char_end": 21,
+      "spoken": "WITH",
+      "start": 2.4266,
+      "end": 2.5069,
+      "confidence": 0.0051
+    },
+    {
+      "word": "all",
+      "char_start": 22,
+      "char_end": 25,
+      "spoken": "ALL",
+      "start": 2.5269,
+      "end": 2.6071,
+      "confidence": 0.0017
+    },
+    {
+      "word": "the",
+      "char_start": 26,
+      "char_end": 29,
+      "spoken": "THE",
+      "start": 2.6472,
+      "end": 2.7475,
+      "confidence": 0.0487
+    },
+    {
+      "word": "proper",
+      "char_start": 30,
+      "char_end": 36,
+      "spoken": "PROPER",
+      "start": 2.7676,
+      "end": 2.908,
+      "confidence": 0.0072
+    },
+    {
+      "word": "technical",
+      "char_start": 37,
+      "char_end": 46,
+      "spoken": "TECHNICAL",
+      "start": 3.0283,
+      "end": 3.7904,
+      "confidence": 0.1113
+    },
+    {
+      "word": "fields",
+      "char_start": 47,
+      "char_end": 53,
+      "spoken": "FIELDS",
+      "start": 4.1112,
+      "end": 4.2917,
+      "confidence": 0.0069
+    },
+    {
+      "word": "to",
+      "char_start": 54,
+      "char_end": 56,
+      "spoken": "TO",
+      "start": 4.3318,
+      "end": 4.372,
+      "confidence": 0.4978
+    },
+    {
+      "word": "get",
+      "char_start": 57,
+      "char_end": 60,
+      "spoken": "GET",
+      "start": 4.392,
+      "end": 4.4522,
+      "confidence": 0.0008
+    },
+    {
+      "word": "ready",
+      "char_start": 61,
+      "char_end": 66,
+      "spoken": "READY",
+      "start": 4.4923,
+      "end": 4.6728,
+      "confidence": 0.2408
+    },
+    {
+      "word": "for",
+      "char_start": 67,
+      "char_end": 70,
+      "spoken": "FOR",
+      "start": 4.6928,
+      "end": 4.753,
+      "confidence": 0.0084
+    },
+    {
+      "word": "the",
+      "char_start": 71,
+      "char_end": 74,
+      "spoken": "THE",
+      "start": 4.773,
+      "end": 4.8533,
+      "confidence": 0.0021
+    },
+    {
+      "word": "instrument",
+      "char_start": 75,
+      "char_end": 85,
+      "spoken": "INSTRUMENT",
+      "start": 4.8934,
+      "end": 5.5351,
+      "confidence": 0.5183
+    },
+    {
+      "word": "to",
+      "char_start": 86,
+      "char_end": 88,
+      "spoken": "TO",
+      "start": 6.1969,
+      "end": 6.2371,
+      "confidence": 0.4991
+    },
+    {
+      "word": "arrive",
+      "char_start": 89,
+      "char_end": 95,
+      "spoken": "ARRIVE",
+      "start": 6.2571,
+      "end": 6.5178,
+      "confidence": 0.3312
+    },
+    {
+      "word": "here",
+      "char_start": 96,
+      "char_end": 100,
+      "spoken": "HERE",
+      "start": 6.598,
+      "end": 6.6983,
+      "confidence": 0.0258
+    }
+  ],
+  "normalized_transcript": "SO WE COORDINATE WITH ALL THE PROPER TECHNICAL FIELDS TO GET READY FOR THE INSTRUMENT TO ARRIVE HERE",
+  "greedy_transcript": "HAWK'S SENSE OF HERING IS EXCELLENT AND THEIR EYES S",
+  "transcript_similarity": 0.2894736842105263,
+  "mean_confidence": 0.12829999999999997,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-NFrJFQijFE__2",
+  "transcript": "So we coordinate with all the proper technical fields to get ready for the instrument to arrive here",
+  "model": "facebook/wav2vec2-base-960h"
+}

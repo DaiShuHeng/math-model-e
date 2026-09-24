@@ -1,0 +1,85 @@
+{
+  "duration": 2.76325,
+  "words": [
+    {
+      "word": "going",
+      "char_start": 0,
+      "char_end": 5,
+      "spoken": "GOING",
+      "start": 0.0202,
+      "end": 0.1815,
+      "confidence": 0.0533
+    },
+    {
+      "word": "to",
+      "char_start": 6,
+      "char_end": 8,
+      "spoken": "TO",
+      "start": 0.2219,
+      "end": 0.3227,
+      "confidence": 0.1291
+    },
+    {
+      "word": "get",
+      "char_start": 9,
+      "char_end": 12,
+      "spoken": "GET",
+      "start": 0.4236,
+      "end": 0.5244,
+      "confidence": 0.024
+    },
+    {
+      "word": "married",
+      "char_start": 13,
+      "char_end": 20,
+      "spoken": "MARRIED",
+      "start": 1.6943,
+      "end": 2.017,
+      "confidence": 0.1377
+    },
+    {
+      "word": "or",
+      "char_start": 21,
+      "char_end": 23,
+      "spoken": "OR",
+      "start": 2.0371,
+      "end": 2.0775,
+      "confidence": 0.0097
+    },
+    {
+      "word": "are",
+      "char_start": 24,
+      "char_end": 27,
+      "spoken": "ARE",
+      "start": 2.2187,
+      "end": 2.2792,
+      "confidence": 0.003
+    },
+    {
+      "word": "already",
+      "char_start": 28,
+      "char_end": 35,
+      "spoken": "ALREADY",
+      "start": 2.2993,
+      "end": 2.4405,
+      "confidence": 0.0512
+    },
+    {
+      "word": "married",
+      "char_start": 36,
+      "char_end": 43,
+      "spoken": "MARRIED",
+      "start": 2.4607,
+      "end": 2.7633,
+      "confidence": 0.0187
+    }
+  ],
+  "normalized_transcript": "GOING TO GET MARRIED OR ARE ALREADY MARRIED",
+  "greedy_transcript": "AA",
+  "transcript_similarity": 0.08888888888888889,
+  "mean_confidence": 0.053337499999999996,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-ri04Z7vwnc__0",
+  "transcript": "going to get married or are already married",
+  "model": "facebook/wav2vec2-base-960h"
+}

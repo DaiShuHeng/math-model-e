@@ -1,0 +1,184 @@
+{
+  "duration": 8.397875,
+  "words": [
+    {
+      "word": "I",
+      "char_start": 0,
+      "char_end": 1,
+      "spoken": "I",
+      "start": 0.4009,
+      "end": 0.4209,
+      "confidence": 0.0003
+    },
+    {
+      "word": "have",
+      "char_start": 2,
+      "char_end": 6,
+      "spoken": "HAVE",
+      "start": 0.5211,
+      "end": 0.7416,
+      "confidence": 0.9964
+    },
+    {
+      "word": "been",
+      "char_start": 7,
+      "char_end": 11,
+      "spoken": "BEEN",
+      "start": 1.4631,
+      "end": 1.6235,
+      "confidence": 0.9407
+    },
+    {
+      "word": "beat",
+      "char_start": 12,
+      "char_end": 16,
+      "spoken": "BEAT",
+      "start": 1.7437,
+      "end": 2.0043,
+      "confidence": 0.9989
+    },
+    {
+      "word": "up",
+      "char_start": 17,
+      "char_end": 19,
+      "spoken": "UP",
+      "start": 2.3049,
+      "end": 2.3851,
+      "confidence": 0.9545
+    },
+    {
+      "word": "and",
+      "char_start": 20,
+      "char_end": 23,
+      "spoken": "AND",
+      "start": 2.5855,
+      "end": 2.6657,
+      "confidence": 0.9994
+    },
+    {
+      "word": "put",
+      "char_start": 24,
+      "char_end": 27,
+      "spoken": "PUT",
+      "start": 2.8461,
+      "end": 3.0264,
+      "confidence": 0.9973
+    },
+    {
+      "word": "down",
+      "char_start": 28,
+      "char_end": 32,
+      "spoken": "DOWN",
+      "start": 3.1066,
+      "end": 3.5476,
+      "confidence": 0.9452
+    },
+    {
+      "word": "and",
+      "char_start": 33,
+      "char_end": 36,
+      "spoken": "AND",
+      "start": 3.9083,
+      "end": 3.9885,
+      "confidence": 0.9994
+    },
+    {
+      "word": "everything",
+      "char_start": 37,
+      "char_end": 47,
+      "spoken": "EVERYTHING",
+      "start": 4.9105,
+      "end": 5.2311,
+      "confidence": 0.9643
+    },
+    {
+      "word": "that",
+      "char_start": 48,
+      "char_end": 52,
+      "spoken": "THAT",
+      "start": 5.2712,
+      "end": 5.3714,
+      "confidence": 0.9279
+    },
+    {
+      "word": "can",
+      "char_start": 53,
+      "char_end": 56,
+      "spoken": "CAN",
+      "start": 5.4316,
+      "end": 5.5318,
+      "confidence": 0.9991
+    },
+    {
+      "word": "go",
+      "char_start": 57,
+      "char_end": 59,
+      "spoken": "GO",
+      "start": 5.6119,
+      "end": 5.7122,
+      "confidence": 0.9997
+    },
+    {
+      "word": "wrong",
+      "char_start": 60,
+      "char_end": 65,
+      "spoken": "WRONG",
+      "start": 5.8725,
+      "end": 6.2333,
+      "confidence": 0.9273
+    },
+    {
+      "word": "has",
+      "char_start": 67,
+      "char_end": 70,
+      "spoken": "HAS",
+      "start": 6.7143,
+      "end": 6.8145,
+      "confidence": 0.9967
+    },
+    {
+      "word": "gone",
+      "char_start": 71,
+      "char_end": 75,
+      "spoken": "GONE",
+      "start": 6.8746,
+      "end": 7.0751,
+      "confidence": 0.9848
+    },
+    {
+      "word": "wrong",
+      "char_start": 76,
+      "char_end": 81,
+      "spoken": "WRONG",
+      "start": 7.1552,
+      "end": 7.3757,
+      "confidence": 0.9705
+    },
+    {
+      "word": "for",
+      "char_start": 82,
+      "char_end": 85,
+      "spoken": "FOR",
+      "start": 7.496,
+      "end": 7.6363,
+      "confidence": 0.9126
+    },
+    {
+      "word": "me",
+      "char_start": 86,
+      "char_end": 88,
+      "spoken": "ME",
+      "start": 7.7164,
+      "end": 7.8166,
+      "confidence": 0.9997
+    }
+  ],
+  "normalized_transcript": "I HAVE BEEN BEAT UP AND PUT DOWN AND EVERYTHING THAT CAN GO WRONG HAS GONE WRONG FOR ME",
+  "greedy_transcript": "THA WE HAVE I HAVE BEEN BEAT UP AND PUT DOWN AND EVERYTHING THAT CAN GO WRONG HAS GONE WRONG FOR ME BUT",
+  "transcript_similarity": 0.9157894736842105,
+  "mean_confidence": 0.9218263157894737,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-s9qJ7ATP7w__5",
+  "transcript": "I have been beat up and put down and everything that can go wrong, has gone wrong for me",
+  "model": "facebook/wav2vec2-base-960h"
+}

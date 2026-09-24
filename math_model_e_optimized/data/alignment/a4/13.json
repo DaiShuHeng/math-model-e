@@ -1,0 +1,256 @@
+{
+  "duration": 8.68425,
+  "words": [
+    {
+      "word": "For",
+      "char_start": 0,
+      "char_end": 3,
+      "spoken": "FOR",
+      "start": 0.0,
+      "end": 0.1003,
+      "confidence": 0.9899
+    },
+    {
+      "word": "example",
+      "char_start": 4,
+      "char_end": 11,
+      "spoken": "EXAMPLE",
+      "start": 0.1805,
+      "end": 0.5616,
+      "confidence": 0.983
+    },
+    {
+      "word": "I",
+      "char_start": 13,
+      "char_end": 14,
+      "spoken": "I",
+      "start": 0.8825,
+      "end": 0.9025,
+      "confidence": 0.9994
+    },
+    {
+      "word": "could",
+      "char_start": 15,
+      "char_end": 20,
+      "spoken": "COULD",
+      "start": 0.9627,
+      "end": 1.083,
+      "confidence": 0.4367
+    },
+    {
+      "word": "take",
+      "char_start": 21,
+      "char_end": 25,
+      "spoken": "TAKE",
+      "start": 1.1031,
+      "end": 1.2435,
+      "confidence": 0.9764
+    },
+    {
+      "word": "a",
+      "char_start": 26,
+      "char_end": 27,
+      "spoken": "A",
+      "start": 1.3237,
+      "end": 1.3438,
+      "confidence": 0.9033
+    },
+    {
+      "word": "set",
+      "char_start": 28,
+      "char_end": 31,
+      "spoken": "SET",
+      "start": 1.4039,
+      "end": 1.5644,
+      "confidence": 0.7225
+    },
+    {
+      "word": "of",
+      "char_start": 32,
+      "char_end": 34,
+      "spoken": "OF",
+      "start": 1.6245,
+      "end": 1.6646,
+      "confidence": 0.4164
+    },
+    {
+      "word": "data",
+      "char_start": 35,
+      "char_end": 39,
+      "spoken": "DATA",
+      "start": 1.7248,
+      "end": 2.0658,
+      "confidence": 0.6198
+    },
+    {
+      "word": "and",
+      "char_start": 40,
+      "char_end": 43,
+      "spoken": "AND",
+      "start": 2.8881,
+      "end": 3.0084,
+      "confidence": 0.8921
+    },
+    {
+      "word": "from",
+      "char_start": 44,
+      "char_end": 48,
+      "spoken": "FROM",
+      "start": 3.2892,
+      "end": 3.4496,
+      "confidence": 0.9088
+    },
+    {
+      "word": "that",
+      "char_start": 49,
+      "char_end": 53,
+      "spoken": "THAT",
+      "start": 3.9109,
+      "end": 4.0313,
+      "confidence": 0.8848
+    },
+    {
+      "word": "data",
+      "char_start": 54,
+      "char_end": 58,
+      "spoken": "DATA",
+      "start": 4.0714,
+      "end": 4.3722,
+      "confidence": 0.7624
+    },
+    {
+      "word": "I",
+      "char_start": 60,
+      "char_end": 61,
+      "spoken": "I",
+      "start": 4.6931,
+      "end": 4.7132,
+      "confidence": 0.0314
+    },
+    {
+      "word": "can",
+      "char_start": 62,
+      "char_end": 65,
+      "spoken": "CAN",
+      "start": 4.7533,
+      "end": 4.8335,
+      "confidence": 0.6434
+    },
+    {
+      "word": "find",
+      "char_start": 66,
+      "char_end": 70,
+      "spoken": "FIND",
+      "start": 4.8736,
+      "end": 5.014,
+      "confidence": 0.4418
+    },
+    {
+      "word": "a",
+      "char_start": 71,
+      "char_end": 72,
+      "spoken": "A",
+      "start": 5.0541,
+      "end": 5.0742,
+      "confidence": 0.0088
+    },
+    {
+      "word": "relationship",
+      "char_start": 73,
+      "char_end": 85,
+      "spoken": "RELATIONSHIP",
+      "start": 5.1143,
+      "end": 5.6758,
+      "confidence": 0.9503
+    },
+    {
+      "word": "between",
+      "char_start": 86,
+      "char_end": 93,
+      "spoken": "BETWEEN",
+      "start": 5.7761,
+      "end": 6.077,
+      "confidence": 0.9768
+    },
+    {
+      "word": "any",
+      "char_start": 94,
+      "char_end": 97,
+      "spoken": "ANY",
+      "start": 6.3377,
+      "end": 6.458,
+      "confidence": 0.9179
+    },
+    {
+      "word": "two",
+      "char_start": 98,
+      "char_end": 101,
+      "spoken": "TWO",
+      "start": 6.5583,
+      "end": 6.6786,
+      "confidence": 0.9985
+    },
+    {
+      "word": "of",
+      "char_start": 102,
+      "char_end": 104,
+      "spoken": "OF",
+      "start": 6.7789,
+      "end": 6.819,
+      "confidence": 0.898
+    },
+    {
+      "word": "the",
+      "char_start": 105,
+      "char_end": 108,
+      "spoken": "THE",
+      "start": 6.8792,
+      "end": 6.9394,
+      "confidence": 0.8787
+    },
+    {
+      "word": "given",
+      "char_start": 109,
+      "char_end": 114,
+      "spoken": "GIVEN",
+      "start": 6.9995,
+      "end": 7.2202,
+      "confidence": 0.8858
+    },
+    {
+      "word": "factors",
+      "char_start": 115,
+      "char_end": 122,
+      "spoken": "FACTORS",
+      "start": 7.3004,
+      "end": 7.6814,
+      "confidence": 0.1459
+    },
+    {
+      "word": "or",
+      "char_start": 123,
+      "char_end": 125,
+      "spoken": "OR",
+      "start": 8.2831,
+      "end": 8.3634,
+      "confidence": 0.5634
+    },
+    {
+      "word": "more",
+      "char_start": 126,
+      "char_end": 130,
+      "spoken": "MORE",
+      "start": 8.4636,
+      "end": 8.6241,
+      "confidence": 0.6308
+    }
+  ],
+  "normalized_transcript": "FOR EXAMPLE I COULD TAKE A SET OF DATA AND FROM THAT DATA I CAN FIND A RELATIONSHIP BETWEEN ANY TWO OF THE GIVEN FACTORS OR MORE",
+  "greedy_transcript": "FOR EXAMPLE I CAN TAKE A SETO TATA AND FROM FROM THAT DATA A CONFEDER RELATIONSHIP BETWEEN ANY TWO OF THE GIVEN BEARER RMOR",
+  "transcript_similarity": 0.8366533864541833,
+  "mean_confidence": 0.7210000000000001,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "13",
+  "transcript": "For example, I could take a set of data and from that data, I can find a relationship between any two of the given factors or more.",
+  "model": "facebook/wav2vec2-base-960h"
+}

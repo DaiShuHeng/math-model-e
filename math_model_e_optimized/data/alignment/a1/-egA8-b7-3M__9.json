@@ -1,0 +1,103 @@
+{
+  "duration": 4.936125,
+  "words": [
+    {
+      "word": "Secondly",
+      "char_start": 0,
+      "char_end": 8,
+      "spoken": "SECONDLY",
+      "start": 0.5618,
+      "end": 1.0434,
+      "confidence": 0.9719
+    },
+    {
+      "word": "another",
+      "char_start": 10,
+      "char_end": 17,
+      "spoken": "ANOTHER",
+      "start": 1.2641,
+      "end": 1.6253,
+      "confidence": 0.9666
+    },
+    {
+      "word": "goal",
+      "char_start": 18,
+      "char_end": 22,
+      "spoken": "GOAL",
+      "start": 1.6855,
+      "end": 1.8862,
+      "confidence": 0.9617
+    },
+    {
+      "word": "of",
+      "char_start": 23,
+      "char_end": 25,
+      "spoken": "OF",
+      "start": 1.9664,
+      "end": 2.0066,
+      "confidence": 0.9983
+    },
+    {
+      "word": "exhibiting",
+      "char_start": 26,
+      "char_end": 36,
+      "spoken": "EXHIBITING",
+      "start": 2.1069,
+      "end": 2.5885,
+      "confidence": 0.978
+    },
+    {
+      "word": "is",
+      "char_start": 38,
+      "char_end": 40,
+      "spoken": "IS",
+      "start": 2.749,
+      "end": 2.8092,
+      "confidence": 0.9974
+    },
+    {
+      "word": "building",
+      "char_start": 41,
+      "char_end": 49,
+      "spoken": "BUILDING",
+      "start": 2.9095,
+      "end": 3.2907,
+      "confidence": 0.9801
+    },
+    {
+      "word": "your",
+      "char_start": 50,
+      "char_end": 54,
+      "spoken": "YOUR",
+      "start": 3.3309,
+      "end": 3.4713,
+      "confidence": 0.9997
+    },
+    {
+      "word": "company",
+      "char_start": 55,
+      "char_end": 62,
+      "spoken": "COMPANY",
+      "start": 3.5315,
+      "end": 3.9128,
+      "confidence": 0.9998
+    },
+    {
+      "word": "image",
+      "char_start": 63,
+      "char_end": 68,
+      "spoken": "IMAGE",
+      "start": 4.0532,
+      "end": 4.3141,
+      "confidence": 0.9306
+    }
+  ],
+  "normalized_transcript": "SECONDLY ANOTHER GOAL OF EXHIBITING IS BUILDING YOUR COMPANY IMAGE",
+  "greedy_transcript": "SECONDLY ANOTHER GOAL OF EXHIBITING IS BUILDING YOUR COMPANY IMAGE",
+  "transcript_similarity": 1.0,
+  "mean_confidence": 0.97841,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-egA8-b7-3M__9",
+  "transcript": "Secondly, another goal of exhibiting  is building your company image.",
+  "model": "facebook/wav2vec2-base-960h"
+}

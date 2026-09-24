@@ -1,0 +1,346 @@
+{
+  "duration": 16.018125,
+  "words": [
+    {
+      "word": "For",
+      "char_start": 0,
+      "char_end": 3,
+      "spoken": "FOR",
+      "start": 0.5006,
+      "end": 0.6007,
+      "confidence": 0.9996
+    },
+    {
+      "word": "the",
+      "char_start": 4,
+      "char_end": 7,
+      "spoken": "THE",
+      "start": 0.6607,
+      "end": 0.7408,
+      "confidence": 0.9535
+    },
+    {
+      "word": "10",
+      "char_start": 8,
+      "char_end": 10,
+      "spoken": "ONE|ZERO",
+      "start": 0.7609,
+      "end": 0.9411,
+      "confidence": 0.1248
+    },
+    {
+      "word": "th",
+      "char_start": 10,
+      "char_end": 12,
+      "spoken": "TH",
+      "start": 0.9811,
+      "end": 1.0212,
+      "confidence": 0.9967
+    },
+    {
+      "word": "straight",
+      "char_start": 13,
+      "char_end": 21,
+      "spoken": "STRAIGHT",
+      "start": 1.1213,
+      "end": 1.4016,
+      "confidence": 0.9575
+    },
+    {
+      "word": "year",
+      "char_start": 22,
+      "char_end": 26,
+      "spoken": "YEAR",
+      "start": 1.4817,
+      "end": 1.7019,
+      "confidence": 0.9202
+    },
+    {
+      "word": "some",
+      "char_start": 28,
+      "char_end": 32,
+      "spoken": "SOME",
+      "start": 2.2626,
+      "end": 2.5429,
+      "confidence": 0.9793
+    },
+    {
+      "word": "of",
+      "char_start": 33,
+      "char_end": 35,
+      "spoken": "OF",
+      "start": 2.643,
+      "end": 2.683,
+      "confidence": 0.9998
+    },
+    {
+      "word": "Kentucky’s",
+      "char_start": 36,
+      "char_end": 46,
+      "spoken": "KENTUCKY'S",
+      "start": 2.7631,
+      "end": 3.2637,
+      "confidence": 0.9755
+    },
+    {
+      "word": "best",
+      "char_start": 47,
+      "char_end": 51,
+      "spoken": "BEST",
+      "start": 3.4239,
+      "end": 3.7242,
+      "confidence": 0.9888
+    },
+    {
+      "word": "and",
+      "char_start": 52,
+      "char_end": 55,
+      "spoken": "AND",
+      "start": 3.9244,
+      "end": 3.9845,
+      "confidence": 0.9996
+    },
+    {
+      "word": "most",
+      "char_start": 56,
+      "char_end": 60,
+      "spoken": "MOST",
+      "start": 4.0846,
+      "end": 4.2848,
+      "confidence": 0.9272
+    },
+    {
+      "word": "innovative",
+      "char_start": 61,
+      "char_end": 71,
+      "spoken": "INNOVATIVE",
+      "start": 4.445,
+      "end": 4.9056,
+      "confidence": 0.6527
+    },
+    {
+      "word": "biotech",
+      "char_start": 72,
+      "char_end": 79,
+      "spoken": "BIOTECH",
+      "start": 4.9656,
+      "end": 5.5062,
+      "confidence": 0.7086
+    },
+    {
+      "word": "companies",
+      "char_start": 80,
+      "char_end": 89,
+      "spoken": "COMPANIES",
+      "start": 5.5863,
+      "end": 6.0068,
+      "confidence": 0.949
+    },
+    {
+      "word": "and",
+      "char_start": 90,
+      "char_end": 93,
+      "spoken": "AND",
+      "start": 6.0869,
+      "end": 6.147,
+      "confidence": 0.9996
+    },
+    {
+      "word": "technologies",
+      "char_start": 94,
+      "char_end": 106,
+      "spoken": "TECHNOLOGIES",
+      "start": 6.227,
+      "end": 6.9479,
+      "confidence": 0.9614
+    },
+    {
+      "word": "were",
+      "char_start": 107,
+      "char_end": 111,
+      "spoken": "WERE",
+      "start": 7.3283,
+      "end": 7.5085,
+      "confidence": 0.9898
+    },
+    {
+      "word": "on",
+      "char_start": 112,
+      "char_end": 114,
+      "spoken": "ON",
+      "start": 7.6687,
+      "end": 7.7488,
+      "confidence": 0.9136
+    },
+    {
+      "word": "display",
+      "char_start": 115,
+      "char_end": 122,
+      "spoken": "DISPLAY",
+      "start": 7.8489,
+      "end": 8.4295,
+      "confidence": 0.984
+    },
+    {
+      "word": "at",
+      "char_start": 123,
+      "char_end": 125,
+      "spoken": "AT",
+      "start": 8.6698,
+      "end": 8.7299,
+      "confidence": 0.9598
+    },
+    {
+      "word": "the",
+      "char_start": 126,
+      "char_end": 129,
+      "spoken": "THE",
+      "start": 8.7899,
+      "end": 8.9101,
+      "confidence": 0.9858
+    },
+    {
+      "word": "annual",
+      "char_start": 130,
+      "char_end": 136,
+      "spoken": "ANNUAL",
+      "start": 9.0903,
+      "end": 9.4106,
+      "confidence": 0.9455
+    },
+    {
+      "word": "BIO",
+      "char_start": 137,
+      "char_end": 140,
+      "spoken": "BIO",
+      "start": 9.6709,
+      "end": 9.9312,
+      "confidence": 0.4581
+    },
+    {
+      "word": "International",
+      "char_start": 141,
+      "char_end": 154,
+      "spoken": "INTERNATIONAL",
+      "start": 10.2516,
+      "end": 10.7722,
+      "confidence": 0.9786
+    },
+    {
+      "word": "Convention",
+      "char_start": 155,
+      "char_end": 165,
+      "spoken": "CONVENTION",
+      "start": 10.8523,
+      "end": 11.3128,
+      "confidence": 0.9604
+    },
+    {
+      "word": "which",
+      "char_start": 167,
+      "char_end": 172,
+      "spoken": "WHICH",
+      "start": 11.8734,
+      "end": 12.0536,
+      "confidence": 0.9485
+    },
+    {
+      "word": "I",
+      "char_start": 173,
+      "char_end": 174,
+      "spoken": "I",
+      "start": 12.394,
+      "end": 12.414,
+      "confidence": 0.9965
+    },
+    {
+      "word": "and",
+      "char_start": 175,
+      "char_end": 178,
+      "spoken": "AND",
+      "start": 12.5943,
+      "end": 12.6944,
+      "confidence": 0.9698
+    },
+    {
+      "word": "other",
+      "char_start": 179,
+      "char_end": 184,
+      "spoken": "OTHER",
+      "start": 12.8145,
+      "end": 12.9747,
+      "confidence": 0.9995
+    },
+    {
+      "word": "state",
+      "char_start": 185,
+      "char_end": 190,
+      "spoken": "STATE",
+      "start": 13.0147,
+      "end": 13.215,
+      "confidence": 0.9974
+    },
+    {
+      "word": "officials",
+      "char_start": 191,
+      "char_end": 200,
+      "spoken": "OFFICIALS",
+      "start": 13.255,
+      "end": 13.6755,
+      "confidence": 0.9376
+    },
+    {
+      "word": "attended",
+      "char_start": 201,
+      "char_end": 209,
+      "spoken": "ATTENDED",
+      "start": 13.7956,
+      "end": 14.136,
+      "confidence": 0.9929
+    },
+    {
+      "word": "this",
+      "char_start": 210,
+      "char_end": 214,
+      "spoken": "THIS",
+      "start": 14.1961,
+      "end": 14.3362,
+      "confidence": 0.9904
+    },
+    {
+      "word": "week",
+      "char_start": 215,
+      "char_end": 219,
+      "spoken": "WEEK",
+      "start": 14.4363,
+      "end": 14.6366,
+      "confidence": 0.9724
+    },
+    {
+      "word": "in",
+      "char_start": 220,
+      "char_end": 222,
+      "spoken": "IN",
+      "start": 14.8768,
+      "end": 14.9169,
+      "confidence": 0.9998
+    },
+    {
+      "word": "Chicago",
+      "char_start": 223,
+      "char_end": 230,
+      "spoken": "CHICAGO",
+      "start": 14.9769,
+      "end": 15.4575,
+      "confidence": 0.979
+    }
+  ],
+  "normalized_transcript": "FOR THE ONE ZERO TH STRAIGHT YEAR SOME OF KENTUCKY'S BEST AND MOST INNOVATIVE BIOTECH COMPANIES AND TECHNOLOGIES WERE ON DISPLAY AT THE ANNUAL BIO INTERNATIONAL CONVENTION WHICH I AND OTHER STATE OFFICIALS ATTENDED THIS WEEK IN CHICAGO",
+  "greedy_transcript": "FOR THE TENTH STRAIGHT YEAR SOME OF KENTUCKY'S BEST AND MOST ENNOVATING BOTEC COMPANIES AND TECHNOLOGIES WERE ON DISPLAY AT THE ANNUAL BO INTERNATIONAL CONVENTION WHICH I AND OTHER STATE OFFICIALS ATTENDED THIS WEEK IN CHICAGO",
+  "transcript_similarity": 0.9370932754880694,
+  "mean_confidence": 0.9203567567567569,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-dxfTGcXJoc__1",
+  "transcript": "For the 10th straight year, some of Kentucky’s best and most innovative biotech companies and technologies were on display at the annual BIO International Convention, which I and other state officials attended this week in Chicago.",
+  "model": "facebook/wav2vec2-base-960h"
+}

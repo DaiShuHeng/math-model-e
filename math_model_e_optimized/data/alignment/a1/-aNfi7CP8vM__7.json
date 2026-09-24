@@ -1,0 +1,175 @@
+{
+  "duration": 8.5376875,
+  "words": [
+    {
+      "word": "Maybe",
+      "char_start": 0,
+      "char_end": 5,
+      "spoken": "MAYBE",
+      "start": 0.5411,
+      "end": 0.8618,
+      "confidence": 0.9106
+    },
+    {
+      "word": "they",
+      "char_start": 6,
+      "char_end": 10,
+      "spoken": "THEY",
+      "start": 1.5833,
+      "end": 1.7035,
+      "confidence": 0.9165
+    },
+    {
+      "word": "have",
+      "char_start": 11,
+      "char_end": 15,
+      "spoken": "HAVE",
+      "start": 1.7837,
+      "end": 1.9039,
+      "confidence": 0.9647
+    },
+    {
+      "word": "no",
+      "char_start": 16,
+      "char_end": 18,
+      "spoken": "NO",
+      "start": 1.9641,
+      "end": 2.0643,
+      "confidence": 0.9858
+    },
+    {
+      "word": "political",
+      "char_start": 19,
+      "char_end": 28,
+      "spoken": "POLITICAL",
+      "start": 2.1845,
+      "end": 2.6054,
+      "confidence": 0.9856
+    },
+    {
+      "word": "party",
+      "char_start": 29,
+      "char_end": 34,
+      "spoken": "PARTY",
+      "start": 2.7056,
+      "end": 2.9862,
+      "confidence": 0.9974
+    },
+    {
+      "word": "affiliation",
+      "char_start": 35,
+      "char_end": 46,
+      "spoken": "AFFILIATION",
+      "start": 3.0664,
+      "end": 3.8079,
+      "confidence": 0.9159
+    },
+    {
+      "word": "they're",
+      "char_start": 48,
+      "char_end": 55,
+      "spoken": "THEY'RE",
+      "start": 4.2688,
+      "end": 4.4893,
+      "confidence": 0.878
+    },
+    {
+      "word": "not",
+      "char_start": 56,
+      "char_end": 59,
+      "spoken": "NOT",
+      "start": 4.5093,
+      "end": 4.6296,
+      "confidence": 0.999
+    },
+    {
+      "word": "interested",
+      "char_start": 60,
+      "char_end": 70,
+      "spoken": "INTERESTED",
+      "start": 4.7899,
+      "end": 5.1707,
+      "confidence": 0.9248
+    },
+    {
+      "word": "in",
+      "char_start": 71,
+      "char_end": 73,
+      "spoken": "IN",
+      "start": 5.2509,
+      "end": 5.291,
+      "confidence": 0.9997
+    },
+    {
+      "word": "politics",
+      "char_start": 74,
+      "char_end": 82,
+      "spoken": "POLITICS",
+      "start": 5.3511,
+      "end": 5.9323,
+      "confidence": 0.9232
+    },
+    {
+      "word": "they",
+      "char_start": 84,
+      "char_end": 88,
+      "spoken": "THEY",
+      "start": 6.0125,
+      "end": 6.1327,
+      "confidence": 0.9851
+    },
+    {
+      "word": "could",
+      "char_start": 89,
+      "char_end": 94,
+      "spoken": "COULD",
+      "start": 6.1728,
+      "end": 6.3131,
+      "confidence": 0.9383
+    },
+    {
+      "word": "care",
+      "char_start": 95,
+      "char_end": 99,
+      "spoken": "CARE",
+      "start": 6.3532,
+      "end": 6.5335,
+      "confidence": 0.9968
+    },
+    {
+      "word": "less",
+      "char_start": 100,
+      "char_end": 104,
+      "spoken": "LESS",
+      "start": 6.6137,
+      "end": 6.8542,
+      "confidence": 0.914
+    },
+    {
+      "word": "about",
+      "char_start": 105,
+      "char_end": 110,
+      "spoken": "ABOUT",
+      "start": 6.9143,
+      "end": 7.1348,
+      "confidence": 0.9867
+    },
+    {
+      "word": "politics",
+      "char_start": 111,
+      "char_end": 119,
+      "spoken": "POLITICS",
+      "start": 7.2149,
+      "end": 7.8763,
+      "confidence": 0.9552
+    }
+  ],
+  "normalized_transcript": "MAYBE THEY HAVE NO POLITICAL PARTY AFFILIATION THEY'RE NOT INTERESTED IN POLITICS THEY COULD CARE LESS ABOUT POLITICS",
+  "greedy_transcript": "MAYBE THEY HAVE NOTIN THEY HAVE NO POLITICAL PARTY OFFILIATION THEY ARE NOT INTERESTED IN POLITICS THEY COULD CARE LESS ABOUT POLITICS OR",
+  "transcript_similarity": 0.905511811023622,
+  "mean_confidence": 0.9542944444444443,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-aNfi7CP8vM__7",
+  "transcript": "Maybe they have no political party affiliation, they're not interested in politics, they could care less about politics.",
+  "model": "facebook/wav2vec2-base-960h"
+}

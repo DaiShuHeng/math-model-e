@@ -1,0 +1,157 @@
+{
+  "duration": 7.09525,
+  "words": [
+    {
+      "word": "As",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "AS",
+      "start": 0.6213,
+      "end": 0.7015,
+      "confidence": 0.9889
+    },
+    {
+      "word": "you",
+      "char_start": 3,
+      "char_end": 6,
+      "spoken": "YOU",
+      "start": 0.7616,
+      "end": 0.8619,
+      "confidence": 0.9989
+    },
+    {
+      "word": "have",
+      "char_start": 7,
+      "char_end": 11,
+      "spoken": "HAVE",
+      "start": 0.9621,
+      "end": 1.1024,
+      "confidence": 0.9988
+    },
+    {
+      "word": "more",
+      "char_start": 12,
+      "char_end": 16,
+      "spoken": "MORE",
+      "start": 1.1825,
+      "end": 1.3629,
+      "confidence": 0.9376
+    },
+    {
+      "word": "experience",
+      "char_start": 17,
+      "char_end": 27,
+      "spoken": "EXPERIENCE",
+      "start": 1.4431,
+      "end": 2.0644,
+      "confidence": 0.9739
+    },
+    {
+      "word": "you",
+      "char_start": 29,
+      "char_end": 32,
+      "spoken": "YOU",
+      "start": 3.2269,
+      "end": 3.3071,
+      "confidence": 0.9979
+    },
+    {
+      "word": "have",
+      "char_start": 33,
+      "char_end": 37,
+      "spoken": "HAVE",
+      "start": 3.4073,
+      "end": 3.5276,
+      "confidence": 0.9131
+    },
+    {
+      "word": "more",
+      "char_start": 38,
+      "char_end": 42,
+      "spoken": "MORE",
+      "start": 3.5877,
+      "end": 3.7681,
+      "confidence": 0.9908
+    },
+    {
+      "word": "times",
+      "char_start": 43,
+      "char_end": 48,
+      "spoken": "TIMES",
+      "start": 3.8483,
+      "end": 4.189,
+      "confidence": 0.996
+    },
+    {
+      "word": "exhibiting",
+      "char_start": 49,
+      "char_end": 59,
+      "spoken": "EXHIBITING",
+      "start": 4.3093,
+      "end": 4.8504,
+      "confidence": 0.9526
+    },
+    {
+      "word": "you",
+      "char_start": 61,
+      "char_end": 64,
+      "spoken": "YOU",
+      "start": 5.2513,
+      "end": 5.3515,
+      "confidence": 0.8991
+    },
+    {
+      "word": "get",
+      "char_start": 65,
+      "char_end": 68,
+      "spoken": "GET",
+      "start": 5.4116,
+      "end": 5.5319,
+      "confidence": 0.9992
+    },
+    {
+      "word": "to",
+      "char_start": 69,
+      "char_end": 71,
+      "spoken": "TO",
+      "start": 5.592,
+      "end": 5.6521,
+      "confidence": 0.9055
+    },
+    {
+      "word": "know",
+      "char_start": 72,
+      "char_end": 76,
+      "spoken": "KNOW",
+      "start": 5.7123,
+      "end": 5.8726,
+      "confidence": 0.6941
+    },
+    {
+      "word": "more",
+      "char_start": 77,
+      "char_end": 81,
+      "spoken": "MORE",
+      "start": 5.9528,
+      "end": 6.1131,
+      "confidence": 1.0
+    },
+    {
+      "word": "people",
+      "char_start": 82,
+      "char_end": 88,
+      "spoken": "PEOPLE",
+      "start": 6.1933,
+      "end": 6.514,
+      "confidence": 0.9995
+    }
+  ],
+  "normalized_transcript": "AS YOU HAVE MORE EXPERIENCE YOU HAVE MORE TIMES EXHIBITING YOU GET TO KNOW MORE PEOPLE",
+  "greedy_transcript": "AS YOU HAVE MORE EXPERIENCE YOU HAVE MORE TIMES EXHIBITING YOU GET TO NO MORE PEOPLE",
+  "transcript_similarity": 0.9882352941176471,
+  "mean_confidence": 0.9528687499999999,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-egA8-b7-3M__17",
+  "transcript": "As you have more experience, you have more times exhibiting, you get to know more people.",
+  "model": "facebook/wav2vec2-base-960h"
+}

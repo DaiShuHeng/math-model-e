@@ -1,0 +1,454 @@
+{
+  "duration": 29.10975,
+  "words": [
+    {
+      "word": "it",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "IT",
+      "start": 1.0203,
+      "end": 1.1004,
+      "confidence": 0.4965
+    },
+    {
+      "word": "comes",
+      "char_start": 3,
+      "char_end": 8,
+      "spoken": "COMES",
+      "start": 2.2408,
+      "end": 2.941,
+      "confidence": 0.117
+    },
+    {
+      "word": "with",
+      "char_start": 9,
+      "char_end": 13,
+      "spoken": "WITH",
+      "start": 3.2411,
+      "end": 3.6612,
+      "confidence": 0.2261
+    },
+    {
+      "word": "the",
+      "char_start": 14,
+      "char_end": 17,
+      "spoken": "THE",
+      "start": 4.5215,
+      "end": 4.7616,
+      "confidence": 0.7563
+    },
+    {
+      "word": "assistance",
+      "char_start": 18,
+      "char_end": 28,
+      "spoken": "ASSISTANCE",
+      "start": 5.1617,
+      "end": 6.6222,
+      "confidence": 0.3438
+    },
+    {
+      "word": "and",
+      "char_start": 29,
+      "char_end": 32,
+      "spoken": "AND",
+      "start": 6.9623,
+      "end": 7.0824,
+      "confidence": 0.0047
+    },
+    {
+      "word": "agitation",
+      "char_start": 33,
+      "char_end": 42,
+      "spoken": "AGITATION",
+      "start": 7.6826,
+      "end": 8.0427,
+      "confidence": 0.2506
+    },
+    {
+      "word": "of",
+      "char_start": 43,
+      "char_end": 45,
+      "spoken": "OF",
+      "start": 8.0827,
+      "end": 8.1427,
+      "confidence": 0.4263
+    },
+    {
+      "word": "states",
+      "char_start": 46,
+      "char_end": 52,
+      "spoken": "STATES",
+      "start": 8.1627,
+      "end": 8.3828,
+      "confidence": 0.169
+    },
+    {
+      "word": "and",
+      "char_start": 53,
+      "char_end": 56,
+      "spoken": "AND",
+      "start": 8.4028,
+      "end": 8.5429,
+      "confidence": 0.0049
+    },
+    {
+      "word": "regimes",
+      "char_start": 57,
+      "char_end": 64,
+      "spoken": "REGIMES",
+      "start": 8.6229,
+      "end": 8.843,
+      "confidence": 0.4502
+    },
+    {
+      "word": "Yesterday",
+      "char_start": 66,
+      "char_end": 75,
+      "spoken": "YESTERDAY",
+      "start": 9.3031,
+      "end": 9.7433,
+      "confidence": 0.1383
+    },
+    {
+      "word": "Iran",
+      "char_start": 76,
+      "char_end": 80,
+      "spoken": "IRAN",
+      "start": 9.7833,
+      "end": 10.0034,
+      "confidence": 0.4284
+    },
+    {
+      "word": "announced",
+      "char_start": 81,
+      "char_end": 90,
+      "spoken": "ANNOUNCED",
+      "start": 10.0634,
+      "end": 11.3838,
+      "confidence": 0.109
+    },
+    {
+      "word": "that",
+      "char_start": 91,
+      "char_end": 95,
+      "spoken": "THAT",
+      "start": 11.4238,
+      "end": 11.7239,
+      "confidence": 0.2077
+    },
+    {
+      "word": "it",
+      "char_start": 96,
+      "char_end": 98,
+      "spoken": "IT",
+      "start": 11.844,
+      "end": 11.904,
+      "confidence": 0.4763
+    },
+    {
+      "word": "will",
+      "char_start": 99,
+      "char_end": 103,
+      "spoken": "WILL",
+      "start": 11.944,
+      "end": 12.084,
+      "confidence": 0.2846
+    },
+    {
+      "word": "finance",
+      "char_start": 104,
+      "char_end": 111,
+      "spoken": "FINANCE",
+      "start": 12.1841,
+      "end": 12.8643,
+      "confidence": 0.2697
+    },
+    {
+      "word": "the",
+      "char_start": 112,
+      "char_end": 115,
+      "spoken": "THE",
+      "start": 13.8446,
+      "end": 14.0247,
+      "confidence": 0.5871
+    },
+    {
+      "word": "families",
+      "char_start": 116,
+      "char_end": 124,
+      "spoken": "FAMILIES",
+      "start": 14.2448,
+      "end": 14.5649,
+      "confidence": 0.3665
+    },
+    {
+      "word": "of",
+      "char_start": 125,
+      "char_end": 127,
+      "spoken": "OF",
+      "start": 14.825,
+      "end": 14.885,
+      "confidence": 0.4721
+    },
+    {
+      "word": "the",
+      "char_start": 128,
+      "char_end": 131,
+      "spoken": "THE",
+      "start": 14.985,
+      "end": 15.1651,
+      "confidence": 0.5768
+    },
+    {
+      "word": "terrorists",
+      "char_start": 132,
+      "char_end": 142,
+      "spoken": "TERRORISTS",
+      "start": 15.2851,
+      "end": 16.0454,
+      "confidence": 0.3698
+    },
+    {
+      "word": "and",
+      "char_start": 143,
+      "char_end": 146,
+      "spoken": "AND",
+      "start": 16.1454,
+      "end": 16.2054,
+      "confidence": 0.391
+    },
+    {
+      "word": "murderers",
+      "char_start": 147,
+      "char_end": 156,
+      "spoken": "MURDERERS",
+      "start": 16.2254,
+      "end": 16.5255,
+      "confidence": 0.2831
+    },
+    {
+      "word": "this",
+      "char_start": 157,
+      "char_end": 161,
+      "spoken": "THIS",
+      "start": 16.5655,
+      "end": 16.7856,
+      "confidence": 0.346
+    },
+    {
+      "word": "shows",
+      "char_start": 162,
+      "char_end": 167,
+      "spoken": "SHOWS",
+      "start": 17.5859,
+      "end": 17.6859,
+      "confidence": 0.007
+    },
+    {
+      "word": "that",
+      "char_start": 168,
+      "char_end": 172,
+      "spoken": "THAT",
+      "start": 17.7059,
+      "end": 17.806,
+      "confidence": 0.1767
+    },
+    {
+      "word": "Iran",
+      "char_start": 173,
+      "char_end": 177,
+      "spoken": "IRAN",
+      "start": 17.866,
+      "end": 18.026,
+      "confidence": 0.237
+    },
+    {
+      "word": "even",
+      "char_start": 179,
+      "char_end": 183,
+      "spoken": "EVEN",
+      "start": 18.1861,
+      "end": 18.5262,
+      "confidence": 0.3182
+    },
+    {
+      "word": "after",
+      "char_start": 184,
+      "char_end": 189,
+      "spoken": "AFTER",
+      "start": 18.7863,
+      "end": 19.0464,
+      "confidence": 0.3622
+    },
+    {
+      "word": "the",
+      "char_start": 190,
+      "char_end": 193,
+      "spoken": "THE",
+      "start": 19.0864,
+      "end": 19.1464,
+      "confidence": 0.0023
+    },
+    {
+      "word": "nuclear",
+      "char_start": 194,
+      "char_end": 201,
+      "spoken": "NUCLEAR",
+      "start": 19.1864,
+      "end": 19.3265,
+      "confidence": 0.0769
+    },
+    {
+      "word": "agreement",
+      "char_start": 202,
+      "char_end": 211,
+      "spoken": "AGREEMENT",
+      "start": 19.4065,
+      "end": 19.8266,
+      "confidence": 0.3912
+    },
+    {
+      "word": "is",
+      "char_start": 213,
+      "char_end": 215,
+      "spoken": "IS",
+      "start": 20.2668,
+      "end": 20.4068,
+      "confidence": 0.101
+    },
+    {
+      "word": "continuing",
+      "char_start": 216,
+      "char_end": 226,
+      "spoken": "CONTINUING",
+      "start": 20.5669,
+      "end": 21.8273,
+      "confidence": 0.1578
+    },
+    {
+      "word": "to",
+      "char_start": 227,
+      "char_end": 229,
+      "spoken": "TO",
+      "start": 21.8473,
+      "end": 21.9073,
+      "confidence": 0.3942
+    },
+    {
+      "word": "aid",
+      "char_start": 230,
+      "char_end": 233,
+      "spoken": "AID",
+      "start": 22.0274,
+      "end": 22.0874,
+      "confidence": 0.1899
+    },
+    {
+      "word": "terrorism",
+      "char_start": 234,
+      "char_end": 243,
+      "spoken": "TERRORISM",
+      "start": 22.1274,
+      "end": 22.8477,
+      "confidence": 0.3395
+    },
+    {
+      "word": "including",
+      "char_start": 245,
+      "char_end": 254,
+      "spoken": "INCLUDING",
+      "start": 23.0677,
+      "end": 24.008,
+      "confidence": 0.0298
+    },
+    {
+      "word": "Palestinian",
+      "char_start": 255,
+      "char_end": 266,
+      "spoken": "PALESTINIAN",
+      "start": 24.1081,
+      "end": 24.8883,
+      "confidence": 0.6063
+    },
+    {
+      "word": "terrorism",
+      "char_start": 267,
+      "char_end": 276,
+      "spoken": "TERRORISM",
+      "start": 24.9884,
+      "end": 25.4685,
+      "confidence": 0.2878
+    },
+    {
+      "word": "Hezbollah",
+      "char_start": 278,
+      "char_end": 287,
+      "spoken": "HEZBOLLAH",
+      "start": 25.5286,
+      "end": 26.0687,
+      "confidence": 0.444
+    },
+    {
+      "word": "terrorism",
+      "char_start": 288,
+      "char_end": 297,
+      "spoken": "TERRORISM",
+      "start": 26.849,
+      "end": 27.3091,
+      "confidence": 0.1442
+    },
+    {
+      "word": "and",
+      "char_start": 298,
+      "char_end": 301,
+      "spoken": "AND",
+      "start": 27.3892,
+      "end": 27.4892,
+      "confidence": 0.3593
+    },
+    {
+      "word": "its",
+      "char_start": 302,
+      "char_end": 305,
+      "spoken": "ITS",
+      "start": 27.6092,
+      "end": 27.7093,
+      "confidence": 0.0385
+    },
+    {
+      "word": "assistance",
+      "char_start": 306,
+      "char_end": 316,
+      "spoken": "ASSISTANCE",
+      "start": 27.7893,
+      "end": 28.1494,
+      "confidence": 0.1098
+    },
+    {
+      "word": "to",
+      "char_start": 317,
+      "char_end": 319,
+      "spoken": "TO",
+      "start": 28.2094,
+      "end": 28.2895,
+      "confidence": 0.004
+    },
+    {
+      "word": "Hamas",
+      "char_start": 320,
+      "char_end": 325,
+      "spoken": "HAMAS",
+      "start": 28.3495,
+      "end": 28.6896,
+      "confidence": 0.9581
+    }
+  ],
+  "normalized_transcript": "IT COMES WITH THE ASSISTANCE AND AGITATION OF STATES AND REGIMES YESTERDAY IRAN ANNOUNCED THAT IT WILL FINANCE THE FAMILIES OF THE TERRORISTS AND MURDERERS THIS SHOWS THAT IRAN EVEN AFTER THE NUCLEAR AGREEMENT IS CONTINUING TO AID TERRORISM INCLUDING PALESTINIAN TERRORISM HEZBOLLAH TERRORISM AND ITS ASSISTANCE TO HAMAS",
+  "greedy_transcript": "BEHALALRIC UBAMIE SIA THE MAZZASA SHILE MEDINOTO MICHTARIM ET MOLIRANE A HODIACHI OLEFETLEMAMIN ITE HAMICHPAHOTE CHELATO WISTIMA MIRASCIM VEZAMARECHI RANA HAVIESCEMAGERIN NAMCHIRA BISIOLATEVO GAMCHAM GAMATEVOA FILOSTINI GAMATOOSHOFISBALA TE MUVANGAME BISIO LA HAMAS",
+  "transcript_similarity": 0.017094017094017096,
+  "mean_confidence": 0.2915816326530612,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-yRb-Jum7EQ__1",
+  "transcript": "it comes with the assistance and agitation of states and regimes, Yesterday Iran announced that it will finance the families of the terrorists and murderers this shows that Iran, even after the nuclear agreement, is continuing to aid terrorism, including Palestinian terrorism, Hezbollah terrorism and its assistance to Hamas.",
+  "model": "facebook/wav2vec2-base-960h"
+}

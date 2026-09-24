@@ -1,0 +1,16 @@
+test_aliases_and_rates (test_protocol.ProtocolTests.test_aliases_and_rates) ... ok
+test_all_absent_gradients (test_protocol.ProtocolTests.test_all_absent_gradients) ... <project>\code\models.py:38: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.enc = nn.TransformerEncoder(layer, num_layers=n_layers)
+ok
+test_ctc_repeated_character (test_protocol.ProtocolTests.test_ctc_repeated_character) ... ok
+test_exact_blocks (test_protocol.ProtocolTests.test_exact_blocks) ... ok
+test_padding_not_missing (test_protocol.ProtocolTests.test_padding_not_missing) ... <project>\code\models.py:38: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.enc = nn.TransformerEncoder(layer, num_layers=n_layers)
+ok
+test_reconstruction_dimensions (test_protocol.ProtocolTests.test_reconstruction_dimensions) ... ok
+test_source_unchanged (test_protocol.ProtocolTests.test_source_unchanged) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.572s
+
+OK

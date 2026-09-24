@@ -1,0 +1,148 @@
+{
+  "duration": 5.399125,
+  "words": [
+    {
+      "word": "They've",
+      "char_start": 0,
+      "char_end": 7,
+      "spoken": "THEY'VE",
+      "start": 1.4451,
+      "end": 1.6057,
+      "confidence": 0.9689
+    },
+    {
+      "word": "been",
+      "char_start": 8,
+      "char_end": 12,
+      "spoken": "BEEN",
+      "start": 1.6258,
+      "end": 1.7462,
+      "confidence": 0.9646
+    },
+    {
+      "word": "able",
+      "char_start": 13,
+      "char_end": 17,
+      "spoken": "ABLE",
+      "start": 1.7663,
+      "end": 1.9068,
+      "confidence": 0.9985
+    },
+    {
+      "word": "to",
+      "char_start": 18,
+      "char_end": 20,
+      "spoken": "TO",
+      "start": 1.967,
+      "end": 2.0272,
+      "confidence": 0.9271
+    },
+    {
+      "word": "find",
+      "char_start": 21,
+      "char_end": 25,
+      "spoken": "FIND",
+      "start": 2.1877,
+      "end": 2.3885,
+      "confidence": 0.9971
+    },
+    {
+      "word": "solutions",
+      "char_start": 26,
+      "char_end": 35,
+      "spoken": "SOLUTIONS",
+      "start": 2.4487,
+      "end": 2.9304,
+      "confidence": 0.9666
+    },
+    {
+      "word": "or",
+      "char_start": 36,
+      "char_end": 38,
+      "spoken": "OR",
+      "start": 3.0307,
+      "end": 3.0709,
+      "confidence": 0.8467
+    },
+    {
+      "word": "at",
+      "char_start": 39,
+      "char_end": 41,
+      "spoken": "AT",
+      "start": 3.1712,
+      "end": 3.2515,
+      "confidence": 0.6223
+    },
+    {
+      "word": "least",
+      "char_start": 42,
+      "char_end": 47,
+      "spoken": "LEAST",
+      "start": 3.2716,
+      "end": 3.4121,
+      "confidence": 0.2408
+    },
+    {
+      "word": "bring",
+      "char_start": 48,
+      "char_end": 53,
+      "spoken": "BRING",
+      "start": 3.4723,
+      "end": 3.7332,
+      "confidence": 0.8366
+    },
+    {
+      "word": "some",
+      "char_start": 54,
+      "char_end": 58,
+      "spoken": "SOME",
+      "start": 3.8135,
+      "end": 3.9741,
+      "confidence": 0.983
+    },
+    {
+      "word": "answers",
+      "char_start": 59,
+      "char_end": 66,
+      "spoken": "ANSWERS",
+      "start": 4.0744,
+      "end": 4.3554,
+      "confidence": 0.6729
+    },
+    {
+      "word": "to",
+      "char_start": 67,
+      "char_end": 69,
+      "spoken": "TO",
+      "start": 4.3956,
+      "end": 4.4357,
+      "confidence": 0.9915
+    },
+    {
+      "word": "the",
+      "char_start": 70,
+      "char_end": 73,
+      "spoken": "THE",
+      "start": 4.4759,
+      "end": 4.5762,
+      "confidence": 0.9301
+    },
+    {
+      "word": "table",
+      "char_start": 74,
+      "char_end": 79,
+      "spoken": "TABLE",
+      "start": 4.6164,
+      "end": 4.8773,
+      "confidence": 0.9951
+    }
+  ],
+  "normalized_transcript": "THEY'VE BEEN ABLE TO FIND SOLUTIONS OR AT LEAST BRING SOME ANSWERS TO THE TABLE",
+  "greedy_transcript": "THAT WE DO O THEY'VE BEEN ABLE TO FIND SOLUTIONS OR EARTLY SOPRING SOME MANCERS TO THE TABLE",
+  "transcript_similarity": 0.8187134502923976,
+  "mean_confidence": 0.8627866666666668,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-3g5yACwYnA__13",
+  "transcript": "They've been able to find solutions or at least bring some answers to the table.",
+  "model": "facebook/wav2vec2-base-960h"
+}

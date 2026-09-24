@@ -1,0 +1,24 @@
+# ===== 大文件 / 可再生目录：不进 Git（GitHub 单文件 100MB 硬限制）=====
+# 比赛原始数据（5.6G，含版权，各机器从官方渠道获取）
+E题/
+
+# 预训练权重（bert-base 421M / bert-tiny：ModelScope、HF 固定版本下载，见 提交说明.md）
+models/bert-base-uncased/
+models/bert-tiny/
+
+# 训练检查点（2.9G；冠军 3 种子经 GitHub Releases 分发，其余可重训）
+solution/weights/
+
+# 可再生缓存（附件2 数组缓存 ~1G 级、队友仓库 cache）
+solution/cache/
+math_model_e_optimized/data/cache/
+
+# ===== 通用 =====
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+*.egg-info/
+.venv/
+# zip 均可由脚本再生（build_submission.py / 手动打包），不入库
+*.zip

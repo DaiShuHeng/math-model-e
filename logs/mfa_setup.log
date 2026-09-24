@@ -1,0 +1,6756 @@
++ /home/daishuheng/miniconda3/bin/conda create -n mfa -c conda-forge montreal-forced-aligner python=3.10 -y
+2 channel Terms of Service accepted
+Channels:
+ - conda-forge
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+Solving environment: / - \ | / - done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 26.1.1
+    latest version: 26.7.2
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: /home/daishuheng/miniconda3/envs/mfa
+
+  added / updated specs:
+    - montreal-forced-aligner
+    - python=3.10
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _openmp_mutex-4.5          |           20_gnu          28 KB  conda-forge
+    _python_abi3_support-1.0   |       hd8ed1ab_3           8 KB  conda-forge
+    adwaita-icon-theme-51.0    |           unix_0         671 KB  conda-forge
+    alsa-lib-1.2.16.1          |       h7cc23a3_1         581 KB  conda-forge
+    anyio-4.14.2               |     pyhcf101f3_0         161 KB  conda-forge
+    aom-3.14.1                 | pl5321h57e6904_2         3.1 MB  conda-forge
+    at-spi2-atk-2.38.0         |       h0630a04_3         332 KB  conda-forge
+    at-spi2-core-2.40.3        |       h0630a04_0         643 KB  conda-forge
+    atk-1.0-2.38.0             |       h04ea711_2         348 KB  conda-forge
+    audioread-3.1.0            |     pyhcf101f3_0          25 KB  conda-forge
+    backports.zstd-1.7.0       |  py310hff74037_0         189 KB  conda-forge
+    baumwelch-0.3.11           |       hb700be7_1         402 KB  conda-forge
+    brotli-1.2.0               |       h505cf86_4          20 KB  conda-forge
+    brotli-bin-1.2.0           |       h9908984_4          21 KB  conda-forge
+    brotli-python-1.2.0        |  py310h3dd09e2_0         345 KB
+    bzip2-1.0.8                |      hda65f42_10         252 KB  conda-forge
+    ca-certificates-2026.7.22  |       hbd8a1cb_0         129 KB  conda-forge
+    cairo-1.18.6               |       h3c89d7e_0         984 KB  conda-forge
+    certifi-2026.7.22          |     pyhd8ed1ab_0         134 KB  conda-forge
+    cffi-2.1.1                 |  py310hd4ea0ea_2         244 KB  conda-forge
+    charset-normalizer-3.5.1   |     pyhd8ed1ab_0          63 KB  conda-forge
+    click-8.4.2                |     pyhc90fa1f_0         105 KB  conda-forge
+    cloudpickle-3.1.2          |     pyhcf101f3_1          27 KB  conda-forge
+    contourpy-1.3.2            |  py310h3788b33_0         255 KB  conda-forge
+    cpython-3.10.21            |  py310hd8ed1ab_0          49 KB  conda-forge
+    cuda-cudart-12.9.79        |       h5888daf_0          23 KB  conda-forge
+    cuda-cudart_linux-64-12.9.79|       h3f2d84a_0         193 KB  conda-forge
+    cuda-nvrtc-12.9.86         |       hecca717_1        64.1 MB  conda-forge
+    cuda-nvtx-12.9.79          |       hecca717_1          29 KB  conda-forge
+    cuda-version-12.9          |       h4f385c5_3          21 KB  conda-forge
+    cycler-0.12.1              |     pyhcf101f3_2          14 KB  conda-forge
+    cyrus-sasl-2.1.28          |       hac629b4_1         205 KB  conda-forge
+    dav1d-1.2.1                |       hd590300_0         742 KB  conda-forge
+    dbus-1.16.2                |       he8c428d_2         439 KB  conda-forge
+    decorator-5.3.1            |     pyhd8ed1ab_0          16 KB  conda-forge
+    epoxy-1.5.10               |       hb03c661_2         402 KB  conda-forge
+    exceptiongroup-1.3.1       |     pyhd8ed1ab_0          21 KB  conda-forge
+    ffmpeg-9.0.0               | gpl_h95e667c_900        12.9 MB  conda-forge
+    filelock-3.32.5            |     pyhd8ed1ab_0          77 KB  conda-forge
+    font-ttf-dejavu-sans-mono-2.37|       hab24e00_0         388 KB  conda-forge
+    font-ttf-inconsolata-3.000 |       h77eed37_0          94 KB  conda-forge
+    font-ttf-source-code-pro-2.038|       h77eed37_0         684 KB  conda-forge
+    font-ttf-ubuntu-0.83       |       h77eed37_3         1.5 MB  conda-forge
+    fontconfig-2.18.3          |       h4db4eae_1         289 KB  conda-forge
+    fonts-conda-ecosystem-1    |                0           4 KB  conda-forge
+    fonts-conda-forge-1        |       hc364b38_1           4 KB  conda-forge
+    fonttools-4.63.0           |  py310h3406613_0         2.3 MB  conda-forge
+    freetype-2.14.3            |       ha770c72_2         171 KB  conda-forge
+    fribidi-1.0.17             |       h7cc23a3_0          63 KB  conda-forge
+    fsspec-2026.7.0            |     pyhd8ed1ab_0         148 KB  conda-forge
+    gdk-pixbuf-2.44.8          |       h68053f1_2         568 KB  conda-forge
+    glib-tools-2.90.0          |       h3d503d9_0         232 KB  conda-forge
+    glslang-16.6.0             |       h980caa0_0         1.4 MB  conda-forge
+    gmp-6.3.0                  |       hfd2156b_3         482 KB  conda-forge
+    graphite2-1.3.15           |       h54a6638_1         100 KB  conda-forge
+    graphviz-14.1.2            |       h8b86629_0         2.3 MB  conda-forge
+    greenlet-3.5.5             |  py310h25320af_0         244 KB  conda-forge
+    gtk3-3.24.52               |       ha5ea40c_0         5.7 MB  conda-forge
+    gts-0.7.6                  |       h977cf35_4         311 KB  conda-forge
+    h11-0.16.0                 |     pyhcf101f3_1          38 KB  conda-forge
+    h2-4.4.1                   |     pyhcf101f3_0          98 KB  conda-forge
+    harfbuzz-14.5.0            |       ha770c72_0          11 KB  conda-forge
+    hdbscan-0.8.44             |  py310hf779ad0_0         906 KB  conda-forge
+    hf-xet-1.5.2               |  py310hb823017_2         3.4 MB  conda-forge
+    hicolor-icon-theme-0.17    |       ha770c72_3          17 KB  conda-forge
+    hpack-4.2.0                |     pyhd8ed1ab_0          32 KB  conda-forge
+    httpcore-1.0.9             |     pyh29332c3_0          48 KB  conda-forge
+    httpx-0.28.1               |     pyhd8ed1ab_0          62 KB  conda-forge
+    huggingface_hub-1.29.0     |     pyhcf101f3_0         531 KB  conda-forge
+    hyperframe-6.1.0           |     pyhd8ed1ab_0          17 KB  conda-forge
+    icu-78.3                   |  py310h44b86e0_2        13.8 MB  conda-forge
+    idna-3.19                  |     pyhcf101f3_0         173 KB  conda-forge
+    intel-gmmlib-22.10.2       |       h7148c6a_0         983 KB  conda-forge
+    intel-media-driver-26.1.6  |       hecca717_0         8.4 MB  conda-forge
+    jinja2-3.1.6               |     pyhcf101f3_1         118 KB  conda-forge
+    joblib-1.6.0               |     pyhcf101f3_0         223 KB  conda-forge
+    kaldi-5.5.1172             |cuda129h1c2ad95_5        23.7 MB  conda-forge
+    kalpy-0.10.5               |  py310h30172d9_0         3.6 MB  conda-forge
+    keyutils-1.6.3             |       h7cc23a3_1         132 KB  conda-forge
+    kiwisolver-1.5.1           |  py310he417ec5_0          75 KB  conda-forge
+    kneed-0.8.6                |     pyhd8ed1ab_0          17 KB  conda-forge
+    krb5-1.22.2                |       hbc21106_2         1.3 MB  conda-forge
+    lame-3.100                 |    h166bdaf_1003         496 KB  conda-forge
+    lazy-loader-0.5            |     pyhd8ed1ab_0          15 KB  conda-forge
+    lazy_loader-0.5            |     pyhd8ed1ab_0           7 KB  conda-forge
+    lcms2-2.19.1               |       h9073bf1_3         248 KB  conda-forge
+    ld_impl_linux-64-2.46.1    |default_hbd61a6d_102         728 KB  conda-forge
+    lerc-4.2.0                 |       hdb68285_0         265 KB  conda-forge
+    level-zero-1.33.1          |       h7148c6a_0         762 KB  conda-forge
+    libabseil-20260526.0       | cxx17_h0dc7533_2         1.4 MB  conda-forge
+    libass-0.17.5              |       h3b6f6bf_1         152 KB  conda-forge
+    libblas-3.11.0             |11_h4a7cf45_openblas          18 KB  conda-forge
+    libbrotlicommon-1.2.0      |       h39a168f_4          79 KB  conda-forge
+    libbrotlidec-1.2.0         |       ha411449_4          34 KB  conda-forge
+    libbrotlienc-1.2.0         |       h018ffa1_4         291 KB  conda-forge
+    libcap-2.78                |       h084b8d7_1         121 KB  conda-forge
+    libcblas-3.11.0            |11_h0358290_openblas          18 KB  conda-forge
+    libcublas-12.9.2.10        |       h676940d_0       446.0 MB  conda-forge
+    libcufft-11.4.1.4          |       hecca717_1       154.6 MB  conda-forge
+    libcups-2.3.3              |       h7a8fb5f_6         4.3 MB  conda-forge
+    libcurand-10.3.10.19       |       h676940d_1        44.1 MB  conda-forge
+    libcusolver-11.7.5.82      |       h676940d_2       195.6 MB  conda-forge
+    libcusparse-12.5.10.65     |       hecca717_2       199.2 MB  conda-forge
+    libdeflate-1.25            |       hd45a770_1          72 KB  conda-forge
+    libdovi-3.4.0              |       h39d0f39_1         396 KB  conda-forge
+    libdrm-2.4.129             |       h7cc23a3_0         306 KB  conda-forge
+    libedit-3.1.20250104       | pl5321h373387f_1         132 KB  conda-forge
+    libegl-1.7.0               |       ha4b6fd6_5          46 KB  conda-forge
+    libegl-devel-1.7.0         |       ha4b6fd6_5          31 KB  conda-forge
+    libexpat-2.8.4             |       hd2095e1_0          76 KB  conda-forge
+    libffi-3.7.0               |       h81df57d_1          66 KB  conda-forge
+    libflac-1.5.0              |       he200343_1         415 KB  conda-forge
+    libfreetype-2.14.3         |       ha770c72_2           8 KB  conda-forge
+    libfreetype6-2.14.3        |       h5e6c136_2         379 KB  conda-forge
+    libgcc-16.2.0              |       ha9f2e26_5         1.0 MB  conda-forge
+    libgcc-ng-16.2.0           |       h69a702a_5          28 KB  conda-forge
+    libgd-2.3.3                |      h5fbf134_12         173 KB  conda-forge
+    libgfortran-16.2.0         |       h69a702a_5          28 KB  conda-forge
+    libgfortran5-16.2.0        |       h6b99dfc_5         2.4 MB  conda-forge
+    libgl-1.7.0                |       ha4b6fd6_5         129 KB  conda-forge
+    libgl-devel-1.7.0          |       ha4b6fd6_5         113 KB  conda-forge
+    libglib-2.90.0             |       h569388d_0         4.6 MB  conda-forge
+    libglvnd-1.7.0             |       ha4b6fd6_5         131 KB  conda-forge
+    libglx-1.7.0               |       ha4b6fd6_5          78 KB  conda-forge
+    libglx-devel-1.7.0         |       ha4b6fd6_5          27 KB  conda-forge
+    libgomp-16.2.0             |       he0feb66_5         627 KB  conda-forge
+    libharfbuzz-14.5.0         |       h23af247_0         1.3 MB  conda-forge
+    libharfbuzz-devel-14.5.0   |       h23af247_0         2.2 MB  conda-forge
+    libhwloc-2.13.0            |default_he001693_1000         2.3 MB  conda-forge
+    libhwy-1.4.0               |       h57c4cff_1         1.4 MB  conda-forge
+    libiconv-1.18              |       h0cb94f2_3         771 KB  conda-forge
+    libjpeg-turbo-3.2.0        |       hb03c661_1         635 KB  conda-forge
+    libjxl-0.12.0              |       heb2dce7_2         1.8 MB  conda-forge
+    liblapack-3.11.0           |11_h47877c9_openblas          18 KB  conda-forge
+    liblapacke-3.11.0          |11_h6ae95b6_openblas          18 KB  conda-forge
+    liblzma-5.8.3              |       hb03c661_1         110 KB  conda-forge
+    liblzma-devel-5.8.3        |       hb03c661_1         480 KB  conda-forge
+    libmagma-2.10.0            |       ha7672b3_0       520.7 MB  conda-forge
+    libmagma_sparse-2.10.0     |       ha954185_0         5.5 MB  conda-forge
+    libnsl-2.0.1               |       hb9d3cd8_1          33 KB  conda-forge
+    libntlm-1.8                |       hb9d3cd8_0          33 KB  conda-forge
+    libnvjitlink-12.9.86       |       hecca717_2        29.1 MB  conda-forge
+    libogg-1.3.5               |       hd0c01bc_1         213 KB  conda-forge
+    libopenblas-0.3.34         |pthreads_hf13c14d_2         6.5 MB  conda-forge
+    libopenvino-2026.3.0       |       hb2f3c86_0         6.6 MB  conda-forge
+    libopenvino-auto-batch-plugin-2026.3.0|       h9f30d58_0         113 KB  conda-forge
+    libopenvino-auto-plugin-2026.3.0|       h9f30d58_0         245 KB  conda-forge
+    libopenvino-hetero-plugin-2026.3.0|       hfeb6f35_0         219 KB  conda-forge
+    libopenvino-intel-cpu-plugin-2026.3.0|       hb2f3c86_0        13.3 MB  conda-forge
+    libopenvino-intel-gpu-plugin-2026.3.0|       hb2f3c86_0        11.6 MB  conda-forge
+    libopenvino-intel-npu-plugin-2026.3.0|       hb2f3c86_0         2.7 MB  conda-forge
+    libopenvino-ir-frontend-2026.3.0|       hfeb6f35_0         200 KB  conda-forge
+    libopenvino-onnx-frontend-2026.3.0|       h6c33c14_0         2.0 MB  conda-forge
+    libopenvino-paddle-frontend-2026.3.0|       h6c33c14_0         675 KB  conda-forge
+    libopenvino-pytorch-frontend-2026.3.0|       h0542e35_0         1.2 MB  conda-forge
+    libopenvino-tensorflow-frontend-2026.3.0|       h565fa1b_0         1.2 MB  conda-forge
+    libopenvino-tensorflow-lite-frontend-2026.3.0|       h0542e35_0         499 KB  conda-forge
+    libopus-1.6.1              |       hebe6cf0_1         322 KB  conda-forge
+    libpciaccess-0.19          |       hb03c661_1          29 KB  conda-forge
+    libplacebo-7.360.1         |       hc50b9dd_1         538 KB  conda-forge
+    libpng-1.6.58              |       h922cc85_1         309 KB  conda-forge
+    libpq-18.6                 |       h9d76c99_1         2.6 MB  conda-forge
+    libprotobuf-7.35.1         |       h622638d_3         3.6 MB  conda-forge
+    librosa-0.11.0             |     pyhd8ed1ab_0         195 KB  conda-forge
+    librsvg-2.62.3             |       ha427ee3_2         4.5 MB  conda-forge
+    libsndfile-1.2.2           |       hc7d488a_2         347 KB  conda-forge
+    libsqlite-3.53.4           |       h13e7031_1         952 KB  conda-forge
+    libstdcxx-16.2.0           |       h934c35e_5         6.3 MB  conda-forge
+    libstdcxx-ng-16.2.0        |       hdf11a46_5          28 KB  conda-forge
+    libsystemd0-262            |       h26e0ef7_0         560 KB  conda-forge
+    libtiff-4.7.2              |       hcc2c06a_1         449 KB  conda-forge
+    libudev1-262               |       h26e0ef7_0         180 KB  conda-forge
+    libunwind-1.8.3            |       h65a8314_0          74 KB  conda-forge
+    liburing-2.14              |       hb700be7_0         151 KB  conda-forge
+    libusb-1.0.29              |       h73b1eb8_0          87 KB  conda-forge
+    libuuid-2.42.4             |       hcfc3c73_0          34 KB  conda-forge
+    libva-2.24.1               |       hb83e432_1         220 KB  conda-forge
+    libvorbis-1.3.7            |       h54a6638_2         279 KB  conda-forge
+    libvpl-2.16.0              |       h54a6638_0         281 KB  conda-forge
+    libvpx-1.15.2              |       hd2095e1_1         1.1 MB  conda-forge
+    libvulkan-loader-1.4.357.0 |       h0e34353_2         202 KB  conda-forge
+    libwebp-base-1.6.0         |       hd42ef1d_1         418 KB  conda-forge
+    libxcb-1.17.0              |       hb83e432_2         386 KB  conda-forge
+    libxcrypt-4.4.38           |       h280c20c_0         100 KB  conda-forge
+    libxkbcommon-1.13.2        |       h51789e4_1         920 KB  conda-forge
+    libxml2-2.15.4             |       h7df9aa5_0          46 KB  conda-forge
+    libxml2-16-2.15.4          |       hf3af7cc_0         556 KB  conda-forge
+    libxslt-1.1.45             |       h8e12856_1         244 KB  conda-forge
+    libzlib-1.3.2              |       h25fd6f3_3          62 KB  conda-forge
+    llvmlite-0.49.0            |  py310h043a6fa_2        38.9 MB  conda-forge
+    lz4-c-1.10.0               |       hee9eb32_2         178 KB  conda-forge
+    mad-0.15.1b                |       h9c3ff4c_1         113 KB  conda-forge
+    markdown-it-py-4.2.0       |     pyhd8ed1ab_0          67 KB  conda-forge
+    markupsafe-3.0.3           |  py310h3406613_1          23 KB  conda-forge
+    matplotlib-base-3.10.9     |  py310hfde16b3_0         7.0 MB  conda-forge
+    mdurl-0.1.2                |     pyhd8ed1ab_1          14 KB  conda-forge
+    montreal-forced-aligner-3.4.2|     pyhd8ed1ab_0        11.0 MB  conda-forge
+    mpg123-1.32.9              |       h8142553_0         476 KB  conda-forge
+    msgpack-python-1.2.2       |  py310he417ec5_1         104 KB  conda-forge
+    munkres-1.1.4              |     pyhd8ed1ab_1          15 KB  conda-forge
+    ncurses-6.6                |       hdb14827_1         890 KB  conda-forge
+    ngram-1.3.17               |       hb700be7_0         2.6 MB  conda-forge
+    numba-0.67.0               |  py310h2dc56eb_1         4.5 MB  conda-forge
+    numpy-2.2.6                |  py310hefbff90_0         7.5 MB  conda-forge
+    ocl-icd-2.3.4              |       hb03c661_1         107 KB  conda-forge
+    opencl-headers-2025.06.13  |       hecca717_0          54 KB  conda-forge
+    openfst-1.8.4              |       h84d6215_1         5.2 MB  conda-forge
+    openh264-2.6.0             |       h8c49934_2         720 KB  conda-forge
+    openjpeg-2.5.4             |       heb1ab33_2         382 KB  conda-forge
+    openldap-2.6.13            |       hbde042b_0         768 KB  conda-forge
+    openssl-3.6.4              |       h781a0a9_0         3.1 MB  conda-forge
+    packaging-26.3             |     pyhc364b38_0         114 KB  conda-forge
+    pango-1.58.2               |       h7bb47b9_1         461 KB  conda-forge
+    pcre2-10.47                |       h8b3dc9c_1         1.2 MB  conda-forge
+    pgvector-0.8.6             |       h1b92c21_0         124 KB  conda-forge
+    pgvector-python-0.5.0      |     pyhcf101f3_0          25 KB  conda-forge
+    pillow-12.3.0              |  py310h5a73078_0         894 KB  conda-forge
+    pip-26.2.1                 |     pyh8b19718_0         1.1 MB  conda-forge
+    pixman-0.46.4              |       h54a6638_3         368 KB  conda-forge
+    platformdirs-4.11.5        |     pyhcf101f3_0          27 KB  conda-forge
+    pooch-1.9.0                |     pyhd8ed1ab_0          56 KB  conda-forge
+    postgresql-18.6            |       h1afe862_1         5.5 MB  conda-forge
+    praatio-6.2.2              |     pyhd8ed1ab_0          63 KB  conda-forge
+    psycopg2-2.9.12            |  py310hf70e138_1         173 KB  conda-forge
+    pthread-stubs-0.4          |    h7cc23a3_1004           9 KB  conda-forge
+    pugixml-1.15               |       h3f63f65_0         116 KB  conda-forge
+    pulseaudio-client-17.0     |       h9a6aba3_3         733 KB  conda-forge
+    pycparser-3.0              |     pyhcf101f3_0          55 KB  conda-forge
+    pygments-2.21.0            |     pyhcf101f3_0         937 KB  conda-forge
+    pynini-2.1.7               |  py310h03d9f68_2         1.5 MB  conda-forge
+    pyparsing-3.3.2            |     pyhcf101f3_0         108 KB  conda-forge
+    pysocks-1.7.1              |     pyha55dd90_7          21 KB  conda-forge
+    pysoundfile-0.14.0         |     pyhcf101f3_0          34 KB  conda-forge
+    python-3.10.21             |h267e890_0_cpython        24.2 MB  conda-forge
+    python-dateutil-2.9.0.post0|     pyhe01879c_2         228 KB  conda-forge
+    python-gil-3.10.21         |       hd8ed1ab_0          49 KB  conda-forge
+    python_abi-3.10            |          9_cp310           7 KB  conda-forge
+    pyyaml-6.0.3               |  py310h3406613_1         172 KB  conda-forge
+    qhull-2020.2               |       h434a139_5         540 KB  conda-forge
+    readline-8.3               |       hd6e31c0_1         341 KB  conda-forge
+    requests-2.34.2            |     pyhcf101f3_0          67 KB  conda-forge
+    rich-15.0.0                |     pyhcf101f3_0         204 KB  conda-forge
+    rich-click-1.9.8           |     pyh8f84b5b_0          63 KB  conda-forge
+    scikit-learn-1.7.2         |  py310h228f341_0         8.0 MB  conda-forge
+    scipy-1.15.2               |  py310h1d65ade_0        15.7 MB  conda-forge
+    sdl2-2.32.56               |       h54a6638_0         575 KB  conda-forge
+    sdl3-3.4.16                |       h5330f5c_0         2.1 MB  conda-forge
+    setuptools-84.0.0          |     pyh332efcf_0         512 KB  conda-forge
+    shaderc-2026.3             |       hcebf71c_1         111 KB  conda-forge
+    six-1.17.0                 |     pyhe01879c_1          18 KB  conda-forge
+    snappy-1.2.2               |       h34e00bb_2          45 KB  conda-forge
+    sniffio-1.3.1              |     pyhd8ed1ab_2          15 KB  conda-forge
+    sox-14.4.2                 |    h8c9d6be_1021         503 KB  conda-forge
+    soxr-0.1.3                 |       h0b41bf4_3         128 KB  conda-forge
+    soxr-python-1.1.0          |  py310hea6c23e_0         103 KB  conda-forge
+    spirv-tools-2026.3         |       h7148c6a_1         2.3 MB  conda-forge
+    sqlalchemy-2.0.52          |  py310h139afa4_0         2.9 MB  conda-forge
+    sqlite-3.53.4              |       h9ffa6c4_1         201 KB  conda-forge
+    standard-aifc-3.13.0       |  py310hff52083_3          23 KB  conda-forge
+    standard-sunau-3.13.0      |  py310hff52083_3          18 KB  conda-forge
+    svt-av1-4.2.0              |       hd2095e1_1         2.6 MB  conda-forge
+    tbb-2023.1.0               |       hfd44327_0         183 KB  conda-forge
+    threadpoolctl-3.6.0        |     pyhecae5ae_0          23 KB  conda-forge
+    tk-8.6.13                  | noxft_h1df4ec4_4         3.4 MB  conda-forge
+    tqdm-4.70.0                |     pyh8f84b5b_0          96 KB  conda-forge
+    typing-extensions-4.16.0   |       h69aa097_0          92 KB  conda-forge
+    typing_extensions-4.16.0   |     pyhcf101f3_0          51 KB  conda-forge
+    tzcode-2026d               |       hebe6cf0_0          70 KB  conda-forge
+    tzdata-2026c               |       h151e31d_0         116 KB  conda-forge
+    unicodedata2-17.0.1        |  py310h7c4b9e2_0         401 KB  conda-forge
+    urllib3-2.7.0              |     pyhd8ed1ab_0         101 KB  conda-forge
+    wayland-1.26.0             |       hc1c935e_2         332 KB  conda-forge
+    wayland-protocols-1.49     |       hd8ed1ab_0         144 KB  conda-forge
+    wheel-0.48.0               |     pyhd8ed1ab_0          34 KB  conda-forge
+    x264-1!164.3095            |       h7cc23a3_3         691 KB  conda-forge
+    x265-3.5                   |       h73f68a7_4         2.1 MB  conda-forge
+    xkeyboard-config-2.48      |       h280c20c_0         431 KB  conda-forge
+    xorg-libice-1.1.2          |       h280c20c_0          61 KB  conda-forge
+    xorg-libsm-1.2.6           |       h0d788c3_1          30 KB  conda-forge
+    xorg-libx11-1.8.13         |       he1eb515_1         820 KB  conda-forge
+    xorg-libxau-1.0.12         |       h7cc23a3_2          18 KB  conda-forge
+    xorg-libxcomposite-0.4.7   |       hb03c661_0          14 KB  conda-forge
+    xorg-libxcursor-1.2.3      |       hb9d3cd8_0          32 KB  conda-forge
+    xorg-libxdamage-1.1.6      |       hb9d3cd8_0          13 KB  conda-forge
+    xorg-libxdmcp-1.1.5        |       h7cc23a3_2          22 KB  conda-forge
+    xorg-libxext-1.3.7         |       h7cc23a3_1          52 KB  conda-forge
+    xorg-libxfixes-6.0.2       |       h7cc23a3_1          21 KB  conda-forge
+    xorg-libxi-1.8.3           |       h7cc23a3_1          48 KB  conda-forge
+    xorg-libxinerama-1.1.6     |       hecca717_0          14 KB  conda-forge
+    xorg-libxrandr-1.5.5       |       h7cc23a3_1          30 KB  conda-forge
+    xorg-libxrender-0.9.12     |       hb03c661_1          34 KB  conda-forge
+    xorg-libxscrnsaver-1.2.4   |       hb9d3cd8_0          14 KB  conda-forge
+    xorg-libxtst-1.2.5         |       h7cc23a3_4          34 KB  conda-forge
+    xorg-libxxf86vm-1.1.7      |       hb03c661_0          18 KB  conda-forge
+    xorg-xorgproto-2025.1      |       hebe6cf0_3         582 KB  conda-forge
+    yaml-0.2.5                 |       hebe6cf0_3          83 KB  conda-forge
+    zlib-1.3.2                 |       h25fd6f3_3          94 KB  conda-forge
+    zlib-ng-2.3.3              |       hce19668_1         121 KB  conda-forge
+    zstd-1.5.7                 |       hb78ec9c_7         587 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        1.98 GB
+
+The following NEW packages will be INSTALLED:
+
+  _openmp_mutex      conda-forge/linux-64::_openmp_mutex-4.5-20_gnu 
+  _python_abi3_supp~ conda-forge/noarch::_python_abi3_support-1.0-hd8ed1ab_3 
+  adwaita-icon-theme conda-forge/noarch::adwaita-icon-theme-51.0-unix_0 
+  alsa-lib           conda-forge/linux-64::alsa-lib-1.2.16.1-h7cc23a3_1 
+  anyio              conda-forge/noarch::anyio-4.14.2-pyhcf101f3_0 
+  aom                conda-forge/linux-64::aom-3.14.1-pl5321h57e6904_2 
+  at-spi2-atk        conda-forge/linux-64::at-spi2-atk-2.38.0-h0630a04_3 
+  at-spi2-core       conda-forge/linux-64::at-spi2-core-2.40.3-h0630a04_0 
+  atk-1.0            conda-forge/linux-64::atk-1.0-2.38.0-h04ea711_2 
+  audioread          conda-forge/noarch::audioread-3.1.0-pyhcf101f3_0 
+  backports.zstd     conda-forge/linux-64::backports.zstd-1.7.0-py310hff74037_0 
+  baumwelch          conda-forge/linux-64::baumwelch-0.3.11-hb700be7_1 
+  brotli             conda-forge/linux-64::brotli-1.2.0-h505cf86_4 
+  brotli-bin         conda-forge/linux-64::brotli-bin-1.2.0-h9908984_4 
+  brotli-python      pkgs/main/linux-64::brotli-python-1.2.0-py310h3dd09e2_0 
+  bzip2              conda-forge/linux-64::bzip2-1.0.8-hda65f42_10 
+  ca-certificates    conda-forge/noarch::ca-certificates-2026.7.22-hbd8a1cb_0 
+  cairo              conda-forge/linux-64::cairo-1.18.6-h3c89d7e_0 
+  certifi            conda-forge/noarch::certifi-2026.7.22-pyhd8ed1ab_0 
+  cffi               conda-forge/linux-64::cffi-2.1.1-py310hd4ea0ea_2 
+  charset-normalizer conda-forge/noarch::charset-normalizer-3.5.1-pyhd8ed1ab_0 
+  click              conda-forge/noarch::click-8.4.2-pyhc90fa1f_0 
+  cloudpickle        conda-forge/noarch::cloudpickle-3.1.2-pyhcf101f3_1 
+  contourpy          conda-forge/linux-64::contourpy-1.3.2-py310h3788b33_0 
+  cpython            conda-forge/noarch::cpython-3.10.21-py310hd8ed1ab_0 
+  cuda-cudart        conda-forge/linux-64::cuda-cudart-12.9.79-h5888daf_0 
+  cuda-cudart_linux~ conda-forge/noarch::cuda-cudart_linux-64-12.9.79-h3f2d84a_0 
+  cuda-nvrtc         conda-forge/linux-64::cuda-nvrtc-12.9.86-hecca717_1 
+  cuda-nvtx          conda-forge/linux-64::cuda-nvtx-12.9.79-hecca717_1 
+  cuda-version       conda-forge/noarch::cuda-version-12.9-h4f385c5_3 
+  cycler             conda-forge/noarch::cycler-0.12.1-pyhcf101f3_2 
+  cyrus-sasl         conda-forge/linux-64::cyrus-sasl-2.1.28-hac629b4_1 
+  dav1d              conda-forge/linux-64::dav1d-1.2.1-hd590300_0 
+  dbus               conda-forge/linux-64::dbus-1.16.2-he8c428d_2 
+  decorator          conda-forge/noarch::decorator-5.3.1-pyhd8ed1ab_0 
+  epoxy              conda-forge/linux-64::epoxy-1.5.10-hb03c661_2 
+  exceptiongroup     conda-forge/noarch::exceptiongroup-1.3.1-pyhd8ed1ab_0 
+  ffmpeg             conda-forge/linux-64::ffmpeg-9.0.0-gpl_h95e667c_900 
+  filelock           conda-forge/noarch::filelock-3.32.5-pyhd8ed1ab_0 
+  font-ttf-dejavu-s~ conda-forge/noarch::font-ttf-dejavu-sans-mono-2.37-hab24e00_0 
+  font-ttf-inconsol~ conda-forge/noarch::font-ttf-inconsolata-3.000-h77eed37_0 
+  font-ttf-source-c~ conda-forge/noarch::font-ttf-source-code-pro-2.038-h77eed37_0 
+  font-ttf-ubuntu    conda-forge/noarch::font-ttf-ubuntu-0.83-h77eed37_3 
+  fontconfig         conda-forge/linux-64::fontconfig-2.18.3-h4db4eae_1 
+  fonts-conda-ecosy~ conda-forge/noarch::fonts-conda-ecosystem-1-0 
+  fonts-conda-forge  conda-forge/noarch::fonts-conda-forge-1-hc364b38_1 
+  fonttools          conda-forge/linux-64::fonttools-4.63.0-py310h3406613_0 
+  freetype           conda-forge/linux-64::freetype-2.14.3-ha770c72_2 
+  fribidi            conda-forge/linux-64::fribidi-1.0.17-h7cc23a3_0 
+  fsspec             conda-forge/noarch::fsspec-2026.7.0-pyhd8ed1ab_0 
+  gdk-pixbuf         conda-forge/linux-64::gdk-pixbuf-2.44.8-h68053f1_2 
+  glib-tools         conda-forge/linux-64::glib-tools-2.90.0-h3d503d9_0 
+  glslang            conda-forge/linux-64::glslang-16.6.0-h980caa0_0 
+  gmp                conda-forge/linux-64::gmp-6.3.0-hfd2156b_3 
+  graphite2          conda-forge/linux-64::graphite2-1.3.15-h54a6638_1 
+  graphviz           conda-forge/linux-64::graphviz-14.1.2-h8b86629_0 
+  greenlet           conda-forge/linux-64::greenlet-3.5.5-py310h25320af_0 
+  gtk3               conda-forge/linux-64::gtk3-3.24.52-ha5ea40c_0 
+  gts                conda-forge/linux-64::gts-0.7.6-h977cf35_4 
+  h11                conda-forge/noarch::h11-0.16.0-pyhcf101f3_1 
+  h2                 conda-forge/noarch::h2-4.4.1-pyhcf101f3_0 
+  harfbuzz           conda-forge/linux-64::harfbuzz-14.5.0-ha770c72_0 
+  hdbscan            conda-forge/linux-64::hdbscan-0.8.44-py310hf779ad0_0 
+  hf-xet             conda-forge/linux-64::hf-xet-1.5.2-py310hb823017_2 
+  hicolor-icon-theme conda-forge/linux-64::hicolor-icon-theme-0.17-ha770c72_3 
+  hpack              conda-forge/noarch::hpack-4.2.0-pyhd8ed1ab_0 
+  httpcore           conda-forge/noarch::httpcore-1.0.9-pyh29332c3_0 
+  httpx              conda-forge/noarch::httpx-0.28.1-pyhd8ed1ab_0 
+  huggingface_hub    conda-forge/noarch::huggingface_hub-1.29.0-pyhcf101f3_0 
+  hyperframe         conda-forge/noarch::hyperframe-6.1.0-pyhd8ed1ab_0 
+  icu                conda-forge/linux-64::icu-78.3-py310h44b86e0_2 
+  idna               conda-forge/noarch::idna-3.19-pyhcf101f3_0 
+  intel-gmmlib       conda-forge/linux-64::intel-gmmlib-22.10.2-h7148c6a_0 
+  intel-media-driver conda-forge/linux-64::intel-media-driver-26.1.6-hecca717_0 
+  jinja2             conda-forge/noarch::jinja2-3.1.6-pyhcf101f3_1 
+  joblib             conda-forge/noarch::joblib-1.6.0-pyhcf101f3_0 
+  kaldi              conda-forge/linux-64::kaldi-5.5.1172-cuda129h1c2ad95_5 
+  kalpy              conda-forge/linux-64::kalpy-0.10.5-py310h30172d9_0 
+  keyutils           conda-forge/linux-64::keyutils-1.6.3-h7cc23a3_1 
+  kiwisolver         conda-forge/linux-64::kiwisolver-1.5.1-py310he417ec5_0 
+  kneed              conda-forge/noarch::kneed-0.8.6-pyhd8ed1ab_0 
+  krb5               conda-forge/linux-64::krb5-1.22.2-hbc21106_2 
+  lame               conda-forge/linux-64::lame-3.100-h166bdaf_1003 
+  lazy-loader        conda-forge/noarch::lazy-loader-0.5-pyhd8ed1ab_0 
+  lazy_loader        conda-forge/noarch::lazy_loader-0.5-pyhd8ed1ab_0 
+  lcms2              conda-forge/linux-64::lcms2-2.19.1-h9073bf1_3 
+  ld_impl_linux-64   conda-forge/linux-64::ld_impl_linux-64-2.46.1-default_hbd61a6d_102 
+  lerc               conda-forge/linux-64::lerc-4.2.0-hdb68285_0 
+  level-zero         conda-forge/linux-64::level-zero-1.33.1-h7148c6a_0 
+  libabseil          conda-forge/linux-64::libabseil-20260526.0-cxx17_h0dc7533_2 
+  libass             conda-forge/linux-64::libass-0.17.5-h3b6f6bf_1 
+  libblas            conda-forge/linux-64::libblas-3.11.0-11_h4a7cf45_openblas 
+  libbrotlicommon    conda-forge/linux-64::libbrotlicommon-1.2.0-h39a168f_4 
+  libbrotlidec       conda-forge/linux-64::libbrotlidec-1.2.0-ha411449_4 
+  libbrotlienc       conda-forge/linux-64::libbrotlienc-1.2.0-h018ffa1_4 
+  libcap             conda-forge/linux-64::libcap-2.78-h084b8d7_1 
+  libcblas           conda-forge/linux-64::libcblas-3.11.0-11_h0358290_openblas 
+  libcublas          conda-forge/linux-64::libcublas-12.9.2.10-h676940d_0 
+  libcufft           conda-forge/linux-64::libcufft-11.4.1.4-hecca717_1 
+  libcups            conda-forge/linux-64::libcups-2.3.3-h7a8fb5f_6 
+  libcurand          conda-forge/linux-64::libcurand-10.3.10.19-h676940d_1 
+  libcusolver        conda-forge/linux-64::libcusolver-11.7.5.82-h676940d_2 
+  libcusparse        conda-forge/linux-64::libcusparse-12.5.10.65-hecca717_2 
+  libdeflate         conda-forge/linux-64::libdeflate-1.25-hd45a770_1 
+  libdovi            conda-forge/linux-64::libdovi-3.4.0-h39d0f39_1 
+  libdrm             conda-forge/linux-64::libdrm-2.4.129-h7cc23a3_0 
+  libedit            conda-forge/linux-64::libedit-3.1.20250104-pl5321h373387f_1 
+  libegl             conda-forge/linux-64::libegl-1.7.0-ha4b6fd6_5 
+  libegl-devel       conda-forge/linux-64::libegl-devel-1.7.0-ha4b6fd6_5 
+  libexpat           conda-forge/linux-64::libexpat-2.8.4-hd2095e1_0 
+  libffi             conda-forge/linux-64::libffi-3.7.0-h81df57d_1 
+  libflac            conda-forge/linux-64::libflac-1.5.0-he200343_1 
+  libfreetype        conda-forge/linux-64::libfreetype-2.14.3-ha770c72_2 
+  libfreetype6       conda-forge/linux-64::libfreetype6-2.14.3-h5e6c136_2 
+  libgcc             conda-forge/linux-64::libgcc-16.2.0-ha9f2e26_5 
+  libgcc-ng          conda-forge/linux-64::libgcc-ng-16.2.0-h69a702a_5 
+  libgd              conda-forge/linux-64::libgd-2.3.3-h5fbf134_12 
+  libgfortran        conda-forge/linux-64::libgfortran-16.2.0-h69a702a_5 
+  libgfortran5       conda-forge/linux-64::libgfortran5-16.2.0-h6b99dfc_5 
+  libgl              conda-forge/linux-64::libgl-1.7.0-ha4b6fd6_5 
+  libgl-devel        conda-forge/linux-64::libgl-devel-1.7.0-ha4b6fd6_5 
+  libglib            conda-forge/linux-64::libglib-2.90.0-h569388d_0 
+  libglvnd           conda-forge/linux-64::libglvnd-1.7.0-ha4b6fd6_5 
+  libglx             conda-forge/linux-64::libglx-1.7.0-ha4b6fd6_5 
+  libglx-devel       conda-forge/linux-64::libglx-devel-1.7.0-ha4b6fd6_5 
+  libgomp            conda-forge/linux-64::libgomp-16.2.0-he0feb66_5 
+  libharfbuzz        conda-forge/linux-64::libharfbuzz-14.5.0-h23af247_0 
+  libharfbuzz-devel  conda-forge/linux-64::libharfbuzz-devel-14.5.0-h23af247_0 
+  libhwloc           conda-forge/linux-64::libhwloc-2.13.0-default_he001693_1000 
+  libhwy             conda-forge/linux-64::libhwy-1.4.0-h57c4cff_1 
+  libiconv           conda-forge/linux-64::libiconv-1.18-h0cb94f2_3 
+  libjpeg-turbo      conda-forge/linux-64::libjpeg-turbo-3.2.0-hb03c661_1 
+  libjxl             conda-forge/linux-64::libjxl-0.12.0-heb2dce7_2 
+  liblapack          conda-forge/linux-64::liblapack-3.11.0-11_h47877c9_openblas 
+  liblapacke         conda-forge/linux-64::liblapacke-3.11.0-11_h6ae95b6_openblas 
+  liblzma            conda-forge/linux-64::liblzma-5.8.3-hb03c661_1 
+  liblzma-devel      conda-forge/linux-64::liblzma-devel-5.8.3-hb03c661_1 
+  libmagma           conda-forge/linux-64::libmagma-2.10.0-ha7672b3_0 
+  libmagma_sparse    conda-forge/linux-64::libmagma_sparse-2.10.0-ha954185_0 
+  libnsl             conda-forge/linux-64::libnsl-2.0.1-hb9d3cd8_1 
+  libntlm            conda-forge/linux-64::libntlm-1.8-hb9d3cd8_0 
+  libnvjitlink       conda-forge/linux-64::libnvjitlink-12.9.86-hecca717_2 
+  libogg             conda-forge/linux-64::libogg-1.3.5-hd0c01bc_1 
+  libopenblas        conda-forge/linux-64::libopenblas-0.3.34-pthreads_hf13c14d_2 
+  libopenvino        conda-forge/linux-64::libopenvino-2026.3.0-hb2f3c86_0 
+  libopenvino-auto-~ conda-forge/linux-64::libopenvino-auto-batch-plugin-2026.3.0-h9f30d58_0 
+  libopenvino-auto-~ conda-forge/linux-64::libopenvino-auto-plugin-2026.3.0-h9f30d58_0 
+  libopenvino-heter~ conda-forge/linux-64::libopenvino-hetero-plugin-2026.3.0-hfeb6f35_0 
+  libopenvino-intel~ conda-forge/linux-64::libopenvino-intel-cpu-plugin-2026.3.0-hb2f3c86_0 
+  libopenvino-intel~ conda-forge/linux-64::libopenvino-intel-gpu-plugin-2026.3.0-hb2f3c86_0 
+  libopenvino-intel~ conda-forge/linux-64::libopenvino-intel-npu-plugin-2026.3.0-hb2f3c86_0 
+  libopenvino-ir-fr~ conda-forge/linux-64::libopenvino-ir-frontend-2026.3.0-hfeb6f35_0 
+  libopenvino-onnx-~ conda-forge/linux-64::libopenvino-onnx-frontend-2026.3.0-h6c33c14_0 
+  libopenvino-paddl~ conda-forge/linux-64::libopenvino-paddle-frontend-2026.3.0-h6c33c14_0 
+  libopenvino-pytor~ conda-forge/linux-64::libopenvino-pytorch-frontend-2026.3.0-h0542e35_0 
+  libopenvino-tenso~ conda-forge/linux-64::libopenvino-tensorflow-frontend-2026.3.0-h565fa1b_0 
+  libopenvino-tenso~ conda-forge/linux-64::libopenvino-tensorflow-lite-frontend-2026.3.0-h0542e35_0 
+  libopus            conda-forge/linux-64::libopus-1.6.1-hebe6cf0_1 
+  libpciaccess       conda-forge/linux-64::libpciaccess-0.19-hb03c661_1 
+  libplacebo         conda-forge/linux-64::libplacebo-7.360.1-hc50b9dd_1 
+  libpng             conda-forge/linux-64::libpng-1.6.58-h922cc85_1 
+  libpq              conda-forge/linux-64::libpq-18.6-h9d76c99_1 
+  libprotobuf        conda-forge/linux-64::libprotobuf-7.35.1-h622638d_3 
+  librosa            conda-forge/noarch::librosa-0.11.0-pyhd8ed1ab_0 
+  librsvg            conda-forge/linux-64::librsvg-2.62.3-ha427ee3_2 
+  libsndfile         conda-forge/linux-64::libsndfile-1.2.2-hc7d488a_2 
+  libsqlite          conda-forge/linux-64::libsqlite-3.53.4-h13e7031_1 
+  libstdcxx          conda-forge/linux-64::libstdcxx-16.2.0-h934c35e_5 
+  libstdcxx-ng       conda-forge/linux-64::libstdcxx-ng-16.2.0-hdf11a46_5 
+  libsystemd0        conda-forge/linux-64::libsystemd0-262-h26e0ef7_0 
+  libtiff            conda-forge/linux-64::libtiff-4.7.2-hcc2c06a_1 
+  libudev1           conda-forge/linux-64::libudev1-262-h26e0ef7_0 
+  libunwind          conda-forge/linux-64::libunwind-1.8.3-h65a8314_0 
+  liburing           conda-forge/linux-64::liburing-2.14-hb700be7_0 
+  libusb             conda-forge/linux-64::libusb-1.0.29-h73b1eb8_0 
+  libuuid            conda-forge/linux-64::libuuid-2.42.4-hcfc3c73_0 
+  libva              conda-forge/linux-64::libva-2.24.1-hb83e432_1 
+  libvorbis          conda-forge/linux-64::libvorbis-1.3.7-h54a6638_2 
+  libvpl             conda-forge/linux-64::libvpl-2.16.0-h54a6638_0 
+  libvpx             conda-forge/linux-64::libvpx-1.15.2-hd2095e1_1 
+  libvulkan-loader   conda-forge/linux-64::libvulkan-loader-1.4.357.0-h0e34353_2 
+  libwebp-base       conda-forge/linux-64::libwebp-base-1.6.0-hd42ef1d_1 
+  libxcb             conda-forge/linux-64::libxcb-1.17.0-hb83e432_2 
+  libxcrypt          conda-forge/linux-64::libxcrypt-4.4.38-h280c20c_0 
+  libxkbcommon       conda-forge/linux-64::libxkbcommon-1.13.2-h51789e4_1 
+  libxml2            conda-forge/linux-64::libxml2-2.15.4-h7df9aa5_0 
+  libxml2-16         conda-forge/linux-64::libxml2-16-2.15.4-hf3af7cc_0 
+  libxslt            conda-forge/linux-64::libxslt-1.1.45-h8e12856_1 
+  libzlib            conda-forge/linux-64::libzlib-1.3.2-h25fd6f3_3 
+  llvmlite           conda-forge/linux-64::llvmlite-0.49.0-py310h043a6fa_2 
+  lz4-c              conda-forge/linux-64::lz4-c-1.10.0-hee9eb32_2 
+  mad                conda-forge/linux-64::mad-0.15.1b-h9c3ff4c_1 
+  markdown-it-py     conda-forge/noarch::markdown-it-py-4.2.0-pyhd8ed1ab_0 
+  markupsafe         conda-forge/linux-64::markupsafe-3.0.3-py310h3406613_1 
+  matplotlib-base    conda-forge/linux-64::matplotlib-base-3.10.9-py310hfde16b3_0 
+  mdurl              conda-forge/noarch::mdurl-0.1.2-pyhd8ed1ab_1 
+  montreal-forced-a~ conda-forge/noarch::montreal-forced-aligner-3.4.2-pyhd8ed1ab_0 
+  mpg123             conda-forge/linux-64::mpg123-1.32.9-h8142553_0 
+  msgpack-python     conda-forge/linux-64::msgpack-python-1.2.2-py310he417ec5_1 
+  munkres            conda-forge/noarch::munkres-1.1.4-pyhd8ed1ab_1 
+  ncurses            conda-forge/linux-64::ncurses-6.6-hdb14827_1 
+  ngram              conda-forge/linux-64::ngram-1.3.17-hb700be7_0 
+  numba              conda-forge/linux-64::numba-0.67.0-py310h2dc56eb_1 
+  numpy              conda-forge/linux-64::numpy-2.2.6-py310hefbff90_0 
+  ocl-icd            conda-forge/linux-64::ocl-icd-2.3.4-hb03c661_1 
+  opencl-headers     conda-forge/linux-64::opencl-headers-2025.06.13-hecca717_0 
+  openfst            conda-forge/linux-64::openfst-1.8.4-h84d6215_1 
+  openh264           conda-forge/linux-64::openh264-2.6.0-h8c49934_2 
+  openjpeg           conda-forge/linux-64::openjpeg-2.5.4-heb1ab33_2 
+  openldap           conda-forge/linux-64::openldap-2.6.13-hbde042b_0 
+  openssl            conda-forge/linux-64::openssl-3.6.4-h781a0a9_0 
+  packaging          conda-forge/noarch::packaging-26.3-pyhc364b38_0 
+  pango              conda-forge/linux-64::pango-1.58.2-h7bb47b9_1 
+  pcre2              conda-forge/linux-64::pcre2-10.47-h8b3dc9c_1 
+  pgvector           conda-forge/linux-64::pgvector-0.8.6-h1b92c21_0 
+  pgvector-python    conda-forge/noarch::pgvector-python-0.5.0-pyhcf101f3_0 
+  pillow             conda-forge/linux-64::pillow-12.3.0-py310h5a73078_0 
+  pip                conda-forge/noarch::pip-26.2.1-pyh8b19718_0 
+  pixman             conda-forge/linux-64::pixman-0.46.4-h54a6638_3 
+  platformdirs       conda-forge/noarch::platformdirs-4.11.5-pyhcf101f3_0 
+  pooch              conda-forge/noarch::pooch-1.9.0-pyhd8ed1ab_0 
+  postgresql         conda-forge/linux-64::postgresql-18.6-h1afe862_1 
+  praatio            conda-forge/noarch::praatio-6.2.2-pyhd8ed1ab_0 
+  psycopg2           conda-forge/linux-64::psycopg2-2.9.12-py310hf70e138_1 
+  pthread-stubs      conda-forge/linux-64::pthread-stubs-0.4-h7cc23a3_1004 
+  pugixml            conda-forge/linux-64::pugixml-1.15-h3f63f65_0 
+  pulseaudio-client  conda-forge/linux-64::pulseaudio-client-17.0-h9a6aba3_3 
+  pycparser          conda-forge/noarch::pycparser-3.0-pyhcf101f3_0 
+  pygments           conda-forge/noarch::pygments-2.21.0-pyhcf101f3_0 
+  pynini             conda-forge/linux-64::pynini-2.1.7-py310h03d9f68_2 
+  pyparsing          conda-forge/noarch::pyparsing-3.3.2-pyhcf101f3_0 
+  pysocks            conda-forge/noarch::pysocks-1.7.1-pyha55dd90_7 
+  pysoundfile        conda-forge/noarch::pysoundfile-0.14.0-pyhcf101f3_0 
+  python             conda-forge/linux-64::python-3.10.21-h267e890_0_cpython 
+  python-dateutil    conda-forge/noarch::python-dateutil-2.9.0.post0-pyhe01879c_2 
+  python-gil         conda-forge/noarch::python-gil-3.10.21-hd8ed1ab_0 
+  python_abi         conda-forge/noarch::python_abi-3.10-9_cp310 
+  pyyaml             conda-forge/linux-64::pyyaml-6.0.3-py310h3406613_1 
+  qhull              conda-forge/linux-64::qhull-2020.2-h434a139_5 
+  readline           conda-forge/linux-64::readline-8.3-hd6e31c0_1 
+  requests           conda-forge/noarch::requests-2.34.2-pyhcf101f3_0 
+  rich               conda-forge/noarch::rich-15.0.0-pyhcf101f3_0 
+  rich-click         conda-forge/noarch::rich-click-1.9.8-pyh8f84b5b_0 
+  scikit-learn       conda-forge/linux-64::scikit-learn-1.7.2-py310h228f341_0 
+  scipy              conda-forge/linux-64::scipy-1.15.2-py310h1d65ade_0 
+  sdl2               conda-forge/linux-64::sdl2-2.32.56-h54a6638_0 
+  sdl3               conda-forge/linux-64::sdl3-3.4.16-h5330f5c_0 
+  setuptools         conda-forge/noarch::setuptools-84.0.0-pyh332efcf_0 
+  shaderc            conda-forge/linux-64::shaderc-2026.3-hcebf71c_1 
+  six                conda-forge/noarch::six-1.17.0-pyhe01879c_1 
+  snappy             conda-forge/linux-64::snappy-1.2.2-h34e00bb_2 
+  sniffio            conda-forge/noarch::sniffio-1.3.1-pyhd8ed1ab_2 
+  sox                conda-forge/linux-64::sox-14.4.2-h8c9d6be_1021 
+  soxr               conda-forge/linux-64::soxr-0.1.3-h0b41bf4_3 
+  soxr-python        conda-forge/linux-64::soxr-python-1.1.0-py310hea6c23e_0 
+  spirv-tools        conda-forge/linux-64::spirv-tools-2026.3-h7148c6a_1 
+  sqlalchemy         conda-forge/linux-64::sqlalchemy-2.0.52-py310h139afa4_0 
+  sqlite             conda-forge/linux-64::sqlite-3.53.4-h9ffa6c4_1 
+  standard-aifc      conda-forge/linux-64::standard-aifc-3.13.0-py310hff52083_3 
+  standard-sunau     conda-forge/linux-64::standard-sunau-3.13.0-py310hff52083_3 
+  svt-av1            conda-forge/linux-64::svt-av1-4.2.0-hd2095e1_1 
+  tbb                conda-forge/linux-64::tbb-2023.1.0-hfd44327_0 
+  threadpoolctl      conda-forge/noarch::threadpoolctl-3.6.0-pyhecae5ae_0 
+  tk                 conda-forge/linux-64::tk-8.6.13-noxft_h1df4ec4_4 
+  tqdm               conda-forge/noarch::tqdm-4.70.0-pyh8f84b5b_0 
+  typing-extensions  conda-forge/noarch::typing-extensions-4.16.0-h69aa097_0 
+  typing_extensions  conda-forge/noarch::typing_extensions-4.16.0-pyhcf101f3_0 
+  tzcode             conda-forge/linux-64::tzcode-2026d-hebe6cf0_0 
+  tzdata             conda-forge/noarch::tzdata-2026c-h151e31d_0 
+  unicodedata2       conda-forge/linux-64::unicodedata2-17.0.1-py310h7c4b9e2_0 
+  urllib3            conda-forge/noarch::urllib3-2.7.0-pyhd8ed1ab_0 
+  wayland            conda-forge/linux-64::wayland-1.26.0-hc1c935e_2 
+  wayland-protocols  conda-forge/noarch::wayland-protocols-1.49-hd8ed1ab_0 
+  wheel              conda-forge/noarch::wheel-0.48.0-pyhd8ed1ab_0 
+  x264               conda-forge/linux-64::x264-1!164.3095-h7cc23a3_3 
+  x265               conda-forge/linux-64::x265-3.5-h73f68a7_4 
+  xkeyboard-config   conda-forge/linux-64::xkeyboard-config-2.48-h280c20c_0 
+  xorg-libice        conda-forge/linux-64::xorg-libice-1.1.2-h280c20c_0 
+  xorg-libsm         conda-forge/linux-64::xorg-libsm-1.2.6-h0d788c3_1 
+  xorg-libx11        conda-forge/linux-64::xorg-libx11-1.8.13-he1eb515_1 
+  xorg-libxau        conda-forge/linux-64::xorg-libxau-1.0.12-h7cc23a3_2 
+  xorg-libxcomposite conda-forge/linux-64::xorg-libxcomposite-0.4.7-hb03c661_0 
+  xorg-libxcursor    conda-forge/linux-64::xorg-libxcursor-1.2.3-hb9d3cd8_0 
+  xorg-libxdamage    conda-forge/linux-64::xorg-libxdamage-1.1.6-hb9d3cd8_0 
+  xorg-libxdmcp      conda-forge/linux-64::xorg-libxdmcp-1.1.5-h7cc23a3_2 
+  xorg-libxext       conda-forge/linux-64::xorg-libxext-1.3.7-h7cc23a3_1 
+  xorg-libxfixes     conda-forge/linux-64::xorg-libxfixes-6.0.2-h7cc23a3_1 
+  xorg-libxi         conda-forge/linux-64::xorg-libxi-1.8.3-h7cc23a3_1 
+  xorg-libxinerama   conda-forge/linux-64::xorg-libxinerama-1.1.6-hecca717_0 
+  xorg-libxrandr     conda-forge/linux-64::xorg-libxrandr-1.5.5-h7cc23a3_1 
+  xorg-libxrender    conda-forge/linux-64::xorg-libxrender-0.9.12-hb03c661_1 
+  xorg-libxscrnsaver conda-forge/linux-64::xorg-libxscrnsaver-1.2.4-hb9d3cd8_0 
+  xorg-libxtst       conda-forge/linux-64::xorg-libxtst-1.2.5-h7cc23a3_4 
+  xorg-libxxf86vm    conda-forge/linux-64::xorg-libxxf86vm-1.1.7-hb03c661_0 
+  xorg-xorgproto     conda-forge/linux-64::xorg-xorgproto-2025.1-hebe6cf0_3 
+  yaml               conda-forge/linux-64::yaml-0.2.5-hebe6cf0_3 
+  zlib               conda-forge/linux-64::zlib-1.3.2-h25fd6f3_3 
+  zlib-ng            conda-forge/linux-64::zlib-ng-2.3.3-hce19668_1 
+  zstd               conda-forge/linux-64::zstd-1.5.7-hb78ec9c_7 
+
+
+
+Downloading and Extracting Packages: ...working...libmagma-2.10.0      | 520.7 MB  |            |   0% 
+libcublas-12.9.2.10  | 446.0 MB  |            |   0% [A
+
+libcusparse-12.5.10. | 199.2 MB  |            |   0% [A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  |            |   0% [A[A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  |            |   0% [A[A[A[A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   |            |   0% [A[A[A[A[A
+
+
+
+
+
+libcurand-10.3.10.19 | 44.1 MB   |            |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+llvmlite-0.49.0      | 38.9 MB   |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libnvjitlink-12.9.86 | 29.1 MB   |            |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.10.21       | 24.2 MB   |            |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+kaldi-5.5.1172       | 23.7 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+scipy-1.15.2         | 15.7 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+icu-78.3             | 13.8 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libopenvino-intel-cp | 13.3 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+ffmpeg-9.0.0         | 12.9 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libopenvino-intel-gp | 11.6 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+montreal-forced-alig | 11.0 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+intel-media-driver-2 | 8.4 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+scikit-learn-1.7.2   | 8.0 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  |            |   0% [A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  |            |   0% [A[A
+libcublas-12.9.2.10  | 446.0 MB  |            |   0% [A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  |            |   0% [A[A[Alibmagma-2.10.0      | 520.7 MB  |            |   0% 
+
+libcusparse-12.5.10. | 199.2 MB  |            |   0% [A[A
+libcublas-12.9.2.10  | 446.0 MB  |            |   0% [A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  |            |   0% [A[A[Alibmagma-2.10.0      | 520.7 MB  |            |   0% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  |            |   0% [A[A[Alibmagma-2.10.0      | 520.7 MB  |            |   0% 
+libcublas-12.9.2.10  | 446.0 MB  |            |   0% [A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  |            |   0% [A[A[Alibmagma-2.10.0      | 520.7 MB  |            |   0% 
+libcublas-12.9.2.10  | 446.0 MB  |            |   0% [A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  |            |   0% [A[A[Alibmagma-2.10.0      | 520.7 MB  |            |   0% 
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  |            |   0% [A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  |            |   0% [A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  |            |   0% [A[A[A
+libcublas-12.9.2.10  | 446.0 MB  |            |   0% [Alibmagma-2.10.0      | 520.7 MB  |            |   0% 
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  |            |   0% [A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  |            |   0% [A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  |            |   1% [A[A[Alibmagma-2.10.0      | 520.7 MB  |            |   0% 
+libcublas-12.9.2.10  | 446.0 MB  |            |   0% [A
+
+libcusparse-12.5.10. | 199.2 MB  |            |   1% [A[A
+libcublas-12.9.2.10  | 446.0 MB  |            |   0% [Alibmagma-2.10.0      | 520.7 MB  |            |   1% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | 1          |   1% [A[A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  |            |   0% [A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  |            |   1% [A[A
+libcublas-12.9.2.10  | 446.0 MB  |            |   1% [Alibmagma-2.10.0      | 520.7 MB  |            |   1% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | 2          |   2% [A[A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  |            |   0% [A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | 1          |   1% [A[A
+
+libcusparse-12.5.10. | 199.2 MB  | 2          |   2% [A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | 3          |   3% [A[A[Alibmagma-2.10.0      | 520.7 MB  | 1          |   1% 
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  |            |   0% [A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | 1          |   1% [A
+
+libcusparse-12.5.10. | 199.2 MB  | 2          |   3% [A[Alibmagma-2.10.0      | 520.7 MB  | 1          |   1% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | 3          |   4% [A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | 1          |   1% [A
+
+libcusparse-12.5.10. | 199.2 MB  | 3          |   3% [A[Alibmagma-2.10.0      | 520.7 MB  | 1          |   2% 
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  |            |   1% [A[A[A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | 5          |   5% [A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | 3          |   4% [A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | 5          |   6% [A[A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | 1          |   1% [A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | 1          |   2% [A
+
+libcusparse-12.5.10. | 199.2 MB  | 4          |   4% [A[Alibmagma-2.10.0      | 520.7 MB  | 2          |   2% 
+libcublas-12.9.2.10  | 446.0 MB  | 2          |   3% [A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | 6          |   7% [A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | 4          |   5% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | 1          |   1% [A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | 5          |   5% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | 2          |   2% [A[A[A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | 7          |   8% [A[A[Alibmagma-2.10.0      | 520.7 MB  | 2          |   3% 
+libcublas-12.9.2.10  | 446.0 MB  | 3          |   3% [Alibmagma-2.10.0      | 520.7 MB  | 3          |   3% 
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | 3          |   3% [A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | 3          |   4% [A
+
+libcusparse-12.5.10. | 199.2 MB  | 5          |   6% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | 4          |   4% [A[A[A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | 9          |   9% [A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | 7          |   7% [A[Alibmagma-2.10.0      | 520.7 MB  | 3          |   3% 
+libcublas-12.9.2.10  | 446.0 MB  | 3          |   4% [A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | 9          |  10% [A[A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | 5          |   6% [A[A[A[Alibmagma-2.10.0      | 520.7 MB  | 4          |   4% 
+libcublas-12.9.2.10  | 446.0 MB  | 4          |   4% [A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #          |  11% [A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | 8          |   8% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | 6          |   6% [A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | 9          |   9% [A[Alibmagma-2.10.0      | 520.7 MB  | 4          |   4% 
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | 7          |   8% [A[A[A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #1         |  12% [A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | 4          |   5% [Alibmagma-2.10.0      | 520.7 MB  | 4          |   5% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #2         |  13% [A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | 5          |   5% [A
+
+libcusparse-12.5.10. | 199.2 MB  | 9          |  10% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | 8          |   9% [A[A[A[Alibmagma-2.10.0      | 520.7 MB  | 5          |   5% 
+
+libcusparse-12.5.10. | 199.2 MB  | #          |  11% [A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #3         |  14% [A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | 5          |   5% [Alibmagma-2.10.0      | 520.7 MB  | 5          |   6% 
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #          |  10% [A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | #1         |  11% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #1         |  11% [A[A[A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #4         |  15% [A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | 5          |   6% [Alibmagma-2.10.0      | 520.7 MB  | 5          |   6% 
+
+libcusparse-12.5.10. | 199.2 MB  | #2         |  12% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #2         |  12% [A[A[A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #6         |  17% [A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | 6          |   6% [Alibmagma-2.10.0      | 520.7 MB  | 6          |   6% 
+
+libcusparse-12.5.10. | 199.2 MB  | #3         |  13% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #2         |  13% [A[A[A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #7         |  18% [A[A[Alibmagma-2.10.0      | 520.7 MB  | 6          |   7% 
+libcublas-12.9.2.10  | 446.0 MB  | 6          |   7% [A
+
+libcusparse-12.5.10. | 199.2 MB  | #3         |  14% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #4         |  15% [A[A[A[Alibmagma-2.10.0      | 520.7 MB  | 7          |   7% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #8         |  19% [A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | 7          |   7% [A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #5         |  16% [A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | #4         |  14% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | 7          |   8% [A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #9         |  20% [A[A[Alibmagma-2.10.0      | 520.7 MB  | 7          |   7% 
+
+libcusparse-12.5.10. | 199.2 MB  | #5         |  15% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #6         |  16% [A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | 8          |   8% [Alibmagma-2.10.0      | 520.7 MB  | 7          |   8% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ##         |  21% [A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | #6         |  16% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #7         |  18% [A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | 8          |   8% [A
+
+libcusparse-12.5.10. | 199.2 MB  | #6         |  17% [A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ##1        |  22% [A[A[Alibmagma-2.10.0      | 520.7 MB  | 8          |   8% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ##2        |  23% [A[A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #8         |  19% [A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | 8          |   9% [A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ##         |  20% [A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | 8          |   9% [A
+
+libcusparse-12.5.10. | 199.2 MB  | #7         |  17% [A[Alibmagma-2.10.0      | 520.7 MB  | 8          |   8% 
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ##1        |  21% [A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | #8         |  18% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | 9          |   9% [Alibmagma-2.10.0      | 520.7 MB  | 8          |   9% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ##3        |  23% [A[A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ##5        |  25% [A[A[Alibmagma-2.10.0      | 520.7 MB  | 8          |   9% 
+
+libcusparse-12.5.10. | 199.2 MB  | #9         |  19% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ##2        |  22% [A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | 9          |  10% [Alibmagma-2.10.0      | 520.7 MB  | 9          |   9% 
+libcublas-12.9.2.10  | 446.0 MB  | #          |  10% [A
+
+libcusparse-12.5.10. | 199.2 MB  | #9         |  20% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ##3        |  23% [A[A[A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ##6        |  26% [A[A[Alibmagma-2.10.0      | 520.7 MB  | 9          |  10% 
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ##3        |  24% [A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ##         |  21% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | #          |  10% [Alibmagma-2.10.0      | 520.7 MB  | #          |  10% 
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ##4        |  25% [A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ##1        |  22% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | #          |  11% [A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ##5        |  26% [A[A[A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ##7        |  27% [A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ##2        |  22% [A[Alibmagma-2.10.0      | 520.7 MB  | #          |  10% 
+libcublas-12.9.2.10  | 446.0 MB  | #1         |  11% [A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ##9        |  29% [A[A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ##7        |  27% [A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #          |  11% 
+libcublas-12.9.2.10  | 446.0 MB  | #1         |  12% [A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ##8        |  28% [A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ##3        |  23% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | #1         |  12% [A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ###        |  30% [A[A[Alibmagma-2.10.0      | 520.7 MB  | #1         |  11% 
+
+libcusparse-12.5.10. | 199.2 MB  | ##4        |  24% [A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ###1       |  31% [A[A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ##9        |  29% [A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | #2         |  12% [Alibmagma-2.10.0      | 520.7 MB  | #1         |  12% 
+
+libcusparse-12.5.10. | 199.2 MB  | ##5        |  25% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | #2         |  13% [A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ###1       |  31% [A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #1         |  12% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ###2       |  32% [A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ##5        |  26% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ###1       |  32% [A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | #2         |  13% [A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ###3       |  33% [A[A[Alibmagma-2.10.0      | 520.7 MB  | #2         |  12% 
+
+libcusparse-12.5.10. | 199.2 MB  | ##6        |  27% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | #3         |  13% [A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ###3       |  34% [A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #2         |  13% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ###3       |  34% [A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ##7        |  27% [A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ###4       |  35% [A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ##8        |  28% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ###4       |  35% [A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | #3         |  14% [Alibmagma-2.10.0      | 520.7 MB  | #2         |  13% 
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ###6       |  36% [A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ##9        |  29% [A[Alibmagma-2.10.0      | 520.7 MB  | #3         |  13% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ###5       |  36% [A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | #4         |  14% [Alibmagma-2.10.0      | 520.7 MB  | #3         |  13% 
+
+libcusparse-12.5.10. | 199.2 MB  | ##9        |  30% [A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ###7       |  37% [A[A[Alibmagma-2.10.0      | 520.7 MB  | #3         |  14% 
+
+libcusparse-12.5.10. | 199.2 MB  | ###        |  31% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | #4         |  15% [A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ###7       |  37% [A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #3         |  14% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ###7       |  38% [A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ###1       |  32% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | #4         |  15% [A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ###9       |  39% [A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #4         |  14% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ###9       |  39% [A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | #5         |  15% [Alibmagma-2.10.0      | 520.7 MB  | #4         |  15% 
+
+libcusparse-12.5.10. | 199.2 MB  | ###2       |  32% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ####       |  41% [A[A[A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ###9       |  40% [A[A[Alibmagma-2.10.0      | 520.7 MB  | #4         |  15% 
+
+libcusparse-12.5.10. | 199.2 MB  | ###3       |  33% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | #5         |  16% [A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ####2      |  42% [A[A[A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ####1      |  41% [A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | #6         |  16% [Alibmagma-2.10.0      | 520.7 MB  | #5         |  15% 
+
+libcusparse-12.5.10. | 199.2 MB  | ###3       |  34% [A[Alibmagma-2.10.0      | 520.7 MB  | #5         |  16% 
+
+libcusparse-12.5.10. | 199.2 MB  | ###4       |  35% [A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ####1      |  42% [A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | #6         |  16% [A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ####3      |  43% [A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ###5       |  35% [A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ####3      |  43% [A[A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ####4      |  45% [A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #5         |  16% 
+libcublas-12.9.2.10  | 446.0 MB  | #6         |  17% [A
+
+libcusparse-12.5.10. | 199.2 MB  | ###6       |  36% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | #7         |  17% [A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ####4      |  44% [A[A[Alibmagma-2.10.0      | 520.7 MB  | #6         |  16% 
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ####5      |  46% [A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ###7       |  37% [A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ####5      |  45% [A[A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ####7      |  47% [A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ###7       |  38% [A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ###8       |  38% [A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ####6      |  46% [A[A[Alibmagma-2.10.0      | 520.7 MB  | #6         |  17% 
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ####8      |  48% [A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | #7         |  17% [A
+
+libcusparse-12.5.10. | 199.2 MB  | ###8       |  39% [A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ####7      |  47% [A[A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #####      |  50% [A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | #8         |  18% [Alibmagma-2.10.0      | 520.7 MB  | #7         |  17% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ####8      |  48% [A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ###9       |  40% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #####1     |  51% [A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #7         |  18% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ####9      |  49% [A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ####       |  41% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | #8         |  18% [A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #####2     |  53% [A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ####1      |  42% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | #9         |  19% [A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #####      |  50% [A[A[Alibmagma-2.10.0      | 520.7 MB  | #8         |  18% 
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #####3     |  54% [A[A[A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #####1     |  52% [A[A[Alibmagma-2.10.0      | 520.7 MB  | #8         |  18% 
+libcublas-12.9.2.10  | 446.0 MB  | #9         |  20% [A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #####5     |  55% [A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ####2      |  42% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | ##         |  20% [A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #####2     |  52% [A[A[Alibmagma-2.10.0      | 520.7 MB  | #8         |  19% 
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #####6     |  56% [A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ##         |  20% [A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #####3     |  53% [A[A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #####7     |  58% [A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #9         |  19% 
+
+libcusparse-12.5.10. | 199.2 MB  | ####3      |  44% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | ##1        |  21% [A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #####3     |  54% [A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ####4      |  44% [A[Alibmagma-2.10.0      | 520.7 MB  | #9         |  20% 
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #####8     |  59% [A[A[A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #####5     |  55% [A[A[Alibmagma-2.10.0      | 520.7 MB  | #9         |  20% 
+libcublas-12.9.2.10  | 446.0 MB  | ##1        |  22% [A
+
+libcusparse-12.5.10. | 199.2 MB  | ####5      |  45% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ######     |  60% [A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ####5      |  46% [A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #####6     |  56% [A[A[Alibmagma-2.10.0      | 520.7 MB  | ##         |  20% 
+libcublas-12.9.2.10  | 446.0 MB  | ##2        |  22% [A
+
+libcusparse-12.5.10. | 199.2 MB  | ####6      |  47% [A[Alibmagma-2.10.0      | 520.7 MB  | ##         |  21% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #####7     |  58% [A[A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ######1    |  62% [A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ##2        |  23% [A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ######2    |  63% [A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ####7      |  48% [A[Alibmagma-2.10.0      | 520.7 MB  | ##1        |  21% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #####8     |  59% [A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ##3        |  23% [A
+
+libcusparse-12.5.10. | 199.2 MB  | ####8      |  49% [A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #####9     |  60% [A[A[Alibmagma-2.10.0      | 520.7 MB  | ##1        |  22% 
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ######3    |  64% [A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ####9      |  49% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ######4    |  65% [A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ##3        |  24% [A
+
+libcusparse-12.5.10. | 199.2 MB  | #####      |  50% [A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ######     |  61% [A[A[Alibmagma-2.10.0      | 520.7 MB  | ##1        |  22% 
+libcublas-12.9.2.10  | 446.0 MB  | ##4        |  24% [A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ######5    |  66% [A[A[A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ######1    |  62% [A[A[Alibmagma-2.10.0      | 520.7 MB  | ##2        |  22% 
+
+libcusparse-12.5.10. | 199.2 MB  | #####      |  51% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ######6    |  67% [A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ##4        |  25% [A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ######2    |  63% [A[A[Alibmagma-2.10.0      | 520.7 MB  | ##2        |  23% 
+
+libcusparse-12.5.10. | 199.2 MB  | #####1     |  52% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | ##5        |  25% [A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ######4    |  64% [A[A[Alibmagma-2.10.0      | 520.7 MB  | ##2        |  23% 
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ######7    |  68% [A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | #####2     |  53% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ######9    |  70% [A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ##5        |  26% [Alibmagma-2.10.0      | 520.7 MB  | ##3        |  23% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ######5    |  65% [A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | #####3     |  53% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | ##6        |  26% [Alibmagma-2.10.0      | 520.7 MB  | ##3        |  24% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ######6    |  66% [A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | #####4     |  55% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #######    |  71% [A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ##6        |  27% [A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #######2   |  72% [A[A[A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ######7    |  67% [A[A[Alibmagma-2.10.0      | 520.7 MB  | ##3        |  24% 
+
+libcusparse-12.5.10. | 199.2 MB  | #####5     |  55% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | ##7        |  27% [Alibmagma-2.10.0      | 520.7 MB  | ##4        |  24% 
+
+libcusparse-12.5.10. | 199.2 MB  | #####6     |  56% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #######3   |  73% [A[A[A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ######7    |  68% [A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | #####6     |  57% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #######5   |  75% [A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ##7        |  28% [A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ######8    |  68% [A[A[Alibmagma-2.10.0      | 520.7 MB  | ##4        |  25% 
+
+libcusparse-12.5.10. | 199.2 MB  | #####7     |  57% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | ##8        |  28% [A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #######6   |  76% [A[A[A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ######8    |  69% [A[A[Alibmagma-2.10.0      | 520.7 MB  | ##5        |  25% 
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #######7   |  78% [A[A[A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ######9    |  70% [A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ##8        |  29% [Alibmagma-2.10.0      | 520.7 MB  | ##5        |  26% 
+
+libcusparse-12.5.10. | 199.2 MB  | #####8     |  58% [A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #######    |  70% [A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ##9        |  29% [A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #######8   |  79% [A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | #####9     |  59% [A[Alibmagma-2.10.0      | 520.7 MB  | ##5        |  26% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #######    |  71% [A[A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ########   |  80% [A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ##9        |  29% [A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #######1   |  71% [A[A[Alibmagma-2.10.0      | 520.7 MB  | ##6        |  26% 
+
+libcusparse-12.5.10. | 199.2 MB  | ######     |  60% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | ###        |  30% [A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ########1  |  81% [A[A[A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #######2   |  72% [A[A[Alibmagma-2.10.0      | 520.7 MB  | ##6        |  27% 
+
+libcusparse-12.5.10. | 199.2 MB  | ######1    |  61% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ########3  |  83% [A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ######2    |  62% [A[Alibmagma-2.10.0      | 520.7 MB  | ##6        |  27% 
+libcublas-12.9.2.10  | 446.0 MB  | ###        |  30% [A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #######3   |  73% [A[A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ########4  |  84% [A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ##7        |  27% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #######4   |  74% [A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ######2    |  63% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | ###        |  31% [A
+
+libcusparse-12.5.10. | 199.2 MB  | ######3    |  64% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ########5  |  86% [A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ##7        |  28% 
+libcublas-12.9.2.10  | 446.0 MB  | ###1       |  31% [A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #######5   |  75% [A[A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ########6  |  87% [A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ##8        |  28% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #######6   |  77% [A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ######4    |  65% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | ###1       |  32% [A
+
+libcusparse-12.5.10. | 199.2 MB  | ######5    |  66% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ########8  |  89% [A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ##8        |  28% 
+libcublas-12.9.2.10  | 446.0 MB  | ###2       |  32% [A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #######7   |  78% [A[A[Alibmagma-2.10.0      | 520.7 MB  | ##8        |  29% 
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ########9  |  90% [A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ######6    |  67% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | ###2       |  33% [A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #########1 |  91% [A[A[A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #######8   |  79% [A[A[Alibmagma-2.10.0      | 520.7 MB  | ##9        |  29% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #######9   |  80% [A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ######7    |  68% [A[Alibmagma-2.10.0      | 520.7 MB  | ##9        |  29% 
+libcublas-12.9.2.10  | 446.0 MB  | ###3       |  33% [A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #########2 |  92% [A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ######8    |  68% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | ###3       |  34% [A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #########3 |  93% [A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ##9        |  30% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ########   |  80% [A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ######9    |  69% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #########3 |  94% [A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ###        |  30% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ########1  |  82% [A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ###3       |  34% [A
+
+libcusparse-12.5.10. | 199.2 MB  | ######9    |  70% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #########4 |  95% [A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ###4       |  35% [Alibmagma-2.10.0      | 520.7 MB  | ###        |  31% 
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #########5 |  95% [A[A[A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ########2  |  82% [A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | #######    |  70% [A[Alibmagma-2.10.0      | 520.7 MB  | ###1       |  31% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ########4  |  84% [A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | #######1   |  71% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #########5 |  96% [A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ###4       |  35% [A
+
+libcusparse-12.5.10. | 199.2 MB  | #######2   |  72% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #########7 |  97% [A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ###1       |  31% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ########5  |  85% [A[A[Alibmagma-2.10.0      | 520.7 MB  | ###1       |  32% 
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #########7 |  98% [A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ###5       |  36% [A
+
+libcusparse-12.5.10. | 199.2 MB  | #######2   |  73% [A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | #########9 | 100% [A[A[A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ########6  |  87% [A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ###6       |  36% [A
+
+libcusparse-12.5.10. | 199.2 MB  | #######4   |  74% [A[Alibmagma-2.10.0      | 520.7 MB  | ###2       |  32% libmagma-2.10.0      | 520.7 MB  | ###2       |  33% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ########7  |  88% [A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ###6       |  36% [A
+
+libcusparse-12.5.10. | 199.2 MB  | #######5   |  75% [A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ########9  |  89% [A[A[Alibmagma-2.10.0      | 520.7 MB  | ###2       |  33% 
+
+libcusparse-12.5.10. | 199.2 MB  | #######6   |  77% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | ###6       |  37% [A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ########9  |  90% [A[A[Alibmagma-2.10.0      | 520.7 MB  | ###3       |  33% 
+libcublas-12.9.2.10  | 446.0 MB  | ###7       |  37% [A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ########## | 100% [A[A[A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #########1 |  91% [A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | #######7   |  77% [A[Alibmagma-2.10.0      | 520.7 MB  | ###3       |  34% 
+libcublas-12.9.2.10  | 446.0 MB  | ###7       |  38% [A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #########1 |  92% [A[A[Alibmagma-2.10.0      | 520.7 MB  | ###4       |  34% 
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   |            |   0% [A[A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | #######8   |  78% [A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #########3 |  93% [A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ###8       |  38% [A
+
+libcusparse-12.5.10. | 199.2 MB  | #######9   |  79% [A[A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   |            |   1% [A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ###4       |  35% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #########4 |  94% [A[A[A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | 5          |   6% [A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ###5       |  35% 
+libcublas-12.9.2.10  | 446.0 MB  | ###8       |  38% [A
+
+libcusparse-12.5.10. | 199.2 MB  | ########   |  80% [A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #########5 |  95% [A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ###8       |  39% [A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | 8          |   9% [A[A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ########1  |  81% [A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #########6 |  96% [A[A[A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | #3         |  14% [A[A[A[A[A
+
+
+
+libcufft-11.4.1.4    | 154.6 MB  | ########## | 100% [A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ###5       |  35% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #########7 |  97% [A[A[Alibmagma-2.10.0      | 520.7 MB  | ###6       |  36% 
+
+libcusparse-12.5.10. | 199.2 MB  | ########1  |  82% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | ###9       |  39% [A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | #6         |  16% [A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ###9       |  40% [A
+
+libcusparse-12.5.10. | 199.2 MB  | ########2  |  83% [A[A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | #9         |  20% [A[A[A[A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #########8 |  98% [A[A[Alibmagma-2.10.0      | 520.7 MB  | ###6       |  36% 
+libcublas-12.9.2.10  | 446.0 MB  | ####       |  40% [A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | #########9 | 100% [A[A[Alibmagma-2.10.0      | 520.7 MB  | ###6       |  37% 
+
+libcusparse-12.5.10. | 199.2 MB  | ########3  |  84% [A[A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | ##2        |  23% [A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ####       |  40% [A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | ##6        |  26% [A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ###6       |  37% 
+
+libcusparse-12.5.10. | 199.2 MB  | ########4  |  85% [A[Alibmagma-2.10.0      | 520.7 MB  | ###7       |  37% 
+libcublas-12.9.2.10  | 446.0 MB  | ####1      |  41% [A
+
+libcusparse-12.5.10. | 199.2 MB  | ########6  |  86% [A[A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | ##8        |  29% [A[A[A[A[A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | ###2       |  32% [A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ####1      |  41% [Alibmagma-2.10.0      | 520.7 MB  | ###7       |  38% 
+
+libcusparse-12.5.10. | 199.2 MB  | ########6  |  87% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | ####1      |  42% [Alibmagma-2.10.0      | 520.7 MB  | ###8       |  38% 
+
+libcusparse-12.5.10. | 199.2 MB  | ########7  |  88% [A[A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | ###4       |  35% [A[A[A[A[A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | ###8       |  38% [A[A[A[A[A
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ########## | 100% [A[A[Alibmagma-2.10.0      | 520.7 MB  | ###8       |  38% 
+libcublas-12.9.2.10  | 446.0 MB  | ####2      |  42% [A
+
+libcusparse-12.5.10. | 199.2 MB  | ########8  |  89% [A[A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | ####       |  41% [A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ###8       |  39% 
+libcublas-12.9.2.10  | 446.0 MB  | ####2      |  43% [A
+
+
+
+
+
+libcurand-10.3.10.19 | 44.1 MB   |            |   0% [A[A[A[A[A[A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | ####4      |  45% [A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ####2      |  43% [A
+
+libcusparse-12.5.10. | 199.2 MB  | ########9  |  89% [A[A
+
+
+
+
+
+libcurand-10.3.10.19 | 44.1 MB   |            |   0% [A[A[A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | #########  |  90% [A[Alibmagma-2.10.0      | 520.7 MB  | ###9       |  39% 
+
+
+
+
+
+libcurand-10.3.10.19 | 44.1 MB   | 7          |   7% [A[A[A[A[A[A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | ####7      |  47% [A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ###9       |  40% 
+libcublas-12.9.2.10  | 446.0 MB  | ####3      |  43% [A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | #####      |  51% [A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ####3      |  44% [A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | #####3     |  53% [A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ####       |  40% 
+
+libcusparse-12.5.10. | 199.2 MB  | #########  |  91% [A[A
+
+
+
+
+
+libcurand-10.3.10.19 | 44.1 MB   | #1         |  11% [A[A[A[A[A[A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | #####7     |  57% [A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ####4      |  44% [A
+
+libcusparse-12.5.10. | 199.2 MB  | #########2 |  92% [A[A
+
+
+
+
+
+libcurand-10.3.10.19 | 44.1 MB   | #9         |  19% [A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ####       |  41% 
+libcublas-12.9.2.10  | 446.0 MB  | ####4      |  45% [A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | #####9     |  60% [A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ####1      |  41% 
+
+libcusparse-12.5.10. | 199.2 MB  | #########2 |  93% [A[A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | ######3    |  64% [A[A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | #########3 |  94% [A[A
+
+
+
+
+
+libcurand-10.3.10.19 | 44.1 MB   | ##3        |  24% [A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ####1      |  42% 
+libcublas-12.9.2.10  | 446.0 MB  | ####4      |  45% [A
+
+
+
+
+
+libcurand-10.3.10.19 | 44.1 MB   | ##9        |  30% [A[A[A[A[A[A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | ######6    |  66% [A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ####5      |  45% [A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | ######9    |  70% [A[A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | #########4 |  95% [A[A
+
+
+
+
+
+libcurand-10.3.10.19 | 44.1 MB   | ###3       |  34% [A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ####1      |  42% 
+
+
+libcusolver-11.7.5.8 | 195.6 MB  | ########## | 100% [A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | #########5 |  96% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | ####5      |  46% [A
+libcublas-12.9.2.10  | 446.0 MB  | ####5      |  46% [A
+
+
+
+
+
+libcurand-10.3.10.19 | 44.1 MB   | ###8       |  39% [A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ####2      |  42% 
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | #######2   |  72% [A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ####6      |  46% [A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | #######4   |  74% [A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ####2      |  42% 
+
+
+
+
+
+libcurand-10.3.10.19 | 44.1 MB   | ####2      |  42% [A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ####6      |  47% [Alibmagma-2.10.0      | 520.7 MB  | ####3      |  43% 
+
+libcusparse-12.5.10. | 199.2 MB  | #########6 |  97% [A[A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | #######6   |  76% [A[A[A[A[A
+
+
+
+
+
+libcurand-10.3.10.19 | 44.1 MB   | ####4      |  44% [A[A[A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | #########8 |  98% [A[Alibmagma-2.10.0      | 520.7 MB  | ####3      |  43% 
+libcublas-12.9.2.10  | 446.0 MB  | ####6      |  47% [A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | #######8   |  79% [A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ####3      |  44% 
+libcublas-12.9.2.10  | 446.0 MB  | ####7      |  48% [A
+
+
+
+
+
+libcurand-10.3.10.19 | 44.1 MB   | #####2     |  52% [A[A[A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | #########9 |  99% [A[A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | ########2  |  82% [A[A[A[A[A
+
+
+
+
+
+libcurand-10.3.10.19 | 44.1 MB   | #####9     |  60% [A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ####4      |  44% 
+libcublas-12.9.2.10  | 446.0 MB  | ####7      |  48% [A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | ########6  |  86% [A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ####4      |  44% 
+
+libcusparse-12.5.10. | 199.2 MB  | #########9 | 100% [A[A
+
+
+
+
+
+libcurand-10.3.10.19 | 44.1 MB   | ######3    |  63% [A[A[A[A[A[A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | ########8  |  89% [A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ####8      |  48% [Alibmagma-2.10.0      | 520.7 MB  | ####4      |  45% 
+
+
+
+
+
+libcurand-10.3.10.19 | 44.1 MB   | ######6    |  66% [A[A[A[A[A[A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | #########  |  91% [A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ####5      |  45% 
+
+
+
+
+
+libcurand-10.3.10.19 | 44.1 MB   | ######9    |  70% [A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ####8      |  49% [A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | #########4 |  95% [A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ####9      |  49% [A
+
+
+
+
+
+libcurand-10.3.10.19 | 44.1 MB   | #######2   |  73% [A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ####5      |  46% 
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | #########6 |  97% [A[A[A[A[A
+
+
+
+
+
+libcurand-10.3.10.19 | 44.1 MB   | #######8   |  79% [A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ####6      |  46% 
+libcublas-12.9.2.10  | 446.0 MB  | ####9      |  50% [A
+
+
+
+
+
+libcurand-10.3.10.19 | 44.1 MB   | ########2  |  82% [A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | #####      |  50% [Alibmagma-2.10.0      | 520.7 MB  | ####6      |  46% 
+
+
+
+
+
+libcurand-10.3.10.19 | 44.1 MB   | ########7  |  88% [A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ####6      |  47% 
+libcublas-12.9.2.10  | 446.0 MB  | #####      |  51% [A
+
+
+
+
+
+libcurand-10.3.10.19 | 44.1 MB   | #########  |  91% [A[A[A[A[A[A
+
+libcusparse-12.5.10. | 199.2 MB  | ########## | 100% [A[A
+libcublas-12.9.2.10  | 446.0 MB  | #####1     |  51% [A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | ########## | 100% [A[A[A[A[A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | ########## | 100% [A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ####7      |  47% 
+
+
+
+
+
+libcurand-10.3.10.19 | 44.1 MB   | #########6 |  97% [A[A[A[A[A[A
+
+
+
+
+
+
+llvmlite-0.49.0      | 38.9 MB   |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libnvjitlink-12.9.86 | 29.1 MB   |            |   0% [A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ####7      |  48% 
+libcublas-12.9.2.10  | 446.0 MB  | #####1     |  51% [A
+
+
+
+
+
+
+llvmlite-0.49.0      | 38.9 MB   | 1          |   1% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libnvjitlink-12.9.86 | 29.1 MB   | 2          |   2% [A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | #####2     |  52% [Alibmagma-2.10.0      | 520.7 MB  | ####7      |  48% 
+
+
+
+
+
+
+llvmlite-0.49.0      | 38.9 MB   | 5          |   6% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libnvjitlink-12.9.86 | 29.1 MB   | #1         |  11% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+llvmlite-0.49.0      | 38.9 MB   | #1         |  11% [A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ####8      |  48% 
+
+
+
+
+
+libcurand-10.3.10.19 | 44.1 MB   | ########## | 100% [A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | #####2     |  52% [A
+libcublas-12.9.2.10  | 446.0 MB  | #####3     |  53% [A
+
+
+
+
+
+
+
+libnvjitlink-12.9.86 | 29.1 MB   | #7         |  17% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.10.21       | 24.2 MB   |            |   0% [A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ####8      |  49% 
+
+
+
+
+
+
+llvmlite-0.49.0      | 38.9 MB   | #4         |  15% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libnvjitlink-12.9.86 | 29.1 MB   | ##6        |  27% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.10.21       | 24.2 MB   |            |   0% [A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ####9      |  49% 
+libcublas-12.9.2.10  | 446.0 MB  | #####3     |  53% [A
+
+
+
+
+
+
+llvmlite-0.49.0      | 38.9 MB   | ##1        |  21% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.10.21       | 24.2 MB   | #3         |  14% [A[A[A[A[A[A[A[A[A
+
+
+
+
+cuda-nvrtc-12.9.86   | 64.1 MB   | ########## | 100% [A[A[A[A[A
+
+
+
+
+
+
+
+libnvjitlink-12.9.86 | 29.1 MB   | ###2       |  33% [A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ####9      |  49% 
+libcublas-12.9.2.10  | 446.0 MB  | #####4     |  54% [A
+
+
+
+
+
+libcurand-10.3.10.19 | 44.1 MB   | ########## | 100% [A[A[A[A[A[A
+
+
+
+
+
+
+llvmlite-0.49.0      | 38.9 MB   | ##4        |  25% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libnvjitlink-12.9.86 | 29.1 MB   | ####2      |  42% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.10.21       | 24.2 MB   | ##         |  21% [A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ####9      |  50% 
+libcublas-12.9.2.10  | 446.0 MB  | #####4     |  54% [A
+
+
+
+
+
+
+llvmlite-0.49.0      | 38.9 MB   | ##7        |  28% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.10.21       | 24.2 MB   | ###1       |  32% [A[A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | #####4     |  55% [A
+
+
+
+
+
+
+
+libnvjitlink-12.9.86 | 29.1 MB   | ####8      |  49% [A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #####      |  50% 
+
+
+
+
+
+
+llvmlite-0.49.0      | 38.9 MB   | ###1       |  32% [A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #####      |  51% 
+
+
+
+
+
+
+
+
+python-3.10.21       | 24.2 MB   | ###9       |  39% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libnvjitlink-12.9.86 | 29.1 MB   | #####7     |  57% [A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | #####5     |  55% [A
+
+
+
+
+
+
+llvmlite-0.49.0      | 38.9 MB   | ###4       |  35% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.10.21       | 24.2 MB   | ####8      |  49% [A[A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | #####5     |  56% [A
+
+
+
+
+
+
+llvmlite-0.49.0      | 38.9 MB   | ###9       |  40% [A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #####1     |  51% 
+
+
+
+
+
+
+
+libnvjitlink-12.9.86 | 29.1 MB   | ######3    |  63% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.10.21       | 24.2 MB   | #####5     |  56% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libnvjitlink-12.9.86 | 29.1 MB   | #######2   |  72% [A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | #####6     |  56% [A
+
+
+
+
+
+
+llvmlite-0.49.0      | 38.9 MB   | ####3      |  43% [A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #####1     |  51% 
+
+
+
+
+
+
+
+
+python-3.10.21       | 24.2 MB   | ######1    |  62% [A[A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | #####6     |  57% [A
+
+
+
+
+
+
+llvmlite-0.49.0      | 38.9 MB   | #####1     |  51% [A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #####1     |  52% 
+
+libcusparse-12.5.10. | 199.2 MB  | ########## | 100% [A[A
+
+
+
+
+
+
+
+libnvjitlink-12.9.86 | 29.1 MB   | #######7   |  78% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+llvmlite-0.49.0      | 38.9 MB   | #####5     |  55% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.10.21       | 24.2 MB   | ######6    |  67% [A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #####2     |  52% 
+libcublas-12.9.2.10  | 446.0 MB  | #####7     |  57% [A
+
+
+
+
+
+
+llvmlite-0.49.0      | 38.9 MB   | ######     |  60% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.10.21       | 24.2 MB   | ########1  |  82% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libnvjitlink-12.9.86 | 29.1 MB   | ########7  |  87% [A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #####2     |  52% 
+
+
+
+
+
+
+
+libnvjitlink-12.9.86 | 29.1 MB   | #########5 |  95% [A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | #####7     |  58% [Alibmagma-2.10.0      | 520.7 MB  | #####2     |  53% 
+
+
+
+
+
+
+llvmlite-0.49.0      | 38.9 MB   | ######4    |  64% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.10.21       | 24.2 MB   | ########7  |  88% [A[A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | #####8     |  58% [A
+
+
+
+
+
+
+
+libnvjitlink-12.9.86 | 29.1 MB   | ########## | 100% [A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #####3     |  53% 
+
+
+
+
+
+
+llvmlite-0.49.0      | 38.9 MB   | #######2   |  72% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.10.21       | 24.2 MB   | #########2 |  93% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+kaldi-5.5.1172       | 23.7 MB   |            |   0% [A[A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #####3     |  53% 
+libcublas-12.9.2.10  | 446.0 MB  | #####8     |  59% [A
+
+
+
+
+
+
+llvmlite-0.49.0      | 38.9 MB   | #######6   |  76% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+kaldi-5.5.1172       | 23.7 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | #####9     |  59% [Alibmagma-2.10.0      | 520.7 MB  | #####3     |  54% 
+
+
+
+
+
+
+llvmlite-0.49.0      | 38.9 MB   | ########2  |  82% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.10.21       | 24.2 MB   | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.10.21       | 24.2 MB   | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+kaldi-5.5.1172       | 23.7 MB   | #3         |  13% [A[A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #####3     |  54% 
+
+
+
+
+
+
+
+libnvjitlink-12.9.86 | 29.1 MB   | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+scipy-1.15.2         | 15.7 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | #####9     |  60% [A
+
+
+
+
+
+
+llvmlite-0.49.0      | 38.9 MB   | ########6  |  86% [A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #####4     |  54% 
+libcublas-12.9.2.10  | 446.0 MB  | ######     |  60% [A
+
+
+
+
+
+
+
+
+
+kaldi-5.5.1172       | 23.7 MB   | ##         |  21% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+scipy-1.15.2         | 15.7 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+llvmlite-0.49.0      | 38.9 MB   | #########2 |  92% [A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #####4     |  54% 
+
+
+
+
+
+
+
+
+
+kaldi-5.5.1172       | 23.7 MB   | ###2       |  32% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+scipy-1.15.2         | 15.7 MB   | 2          |   2% [A[A[A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #####4     |  55% 
+
+
+
+
+
+
+llvmlite-0.49.0      | 38.9 MB   | #########6 |  96% [A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ######     |  61% [A
+
+
+
+
+
+
+
+
+
+
+scipy-1.15.2         | 15.7 MB   | ##4        |  25% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+kaldi-5.5.1172       | 23.7 MB   | ###9       |  39% [A[A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #####5     |  55% 
+libcublas-12.9.2.10  | 446.0 MB  | ######1    |  61% [A
+
+
+
+
+
+
+
+
+
+
+scipy-1.15.2         | 15.7 MB   | ###5       |  35% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+kaldi-5.5.1172       | 23.7 MB   | #####      |  50% [A[A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #####5     |  55% 
+
+
+
+
+
+
+llvmlite-0.49.0      | 38.9 MB   | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+llvmlite-0.49.0      | 38.9 MB   | ########## | 100% [A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #####5     |  56% 
+libcublas-12.9.2.10  | 446.0 MB  | ######1    |  62% [A
+
+
+
+
+
+
+
+
+
+
+scipy-1.15.2         | 15.7 MB   | ####3      |  44% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+kaldi-5.5.1172       | 23.7 MB   | #####6     |  57% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+icu-78.3             | 13.8 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #####5     |  56% 
+
+
+
+
+
+
+
+
+
+kaldi-5.5.1172       | 23.7 MB   | ######6    |  66% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+scipy-1.15.2         | 15.7 MB   | #####3     |  54% [A[A[A[A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ######2    |  62% [A
+
+
+
+
+
+
+
+
+
+
+
+icu-78.3             | 13.8 MB   | 1          |   1% [A[A[A[A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #####6     |  56% 
+
+
+
+
+
+
+
+
+
+
+scipy-1.15.2         | 15.7 MB   | ######1    |  61% [A[A[A[A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ######2    |  63% [A
+
+
+
+
+
+
+
+
+
+
+
+icu-78.3             | 13.8 MB   | ##3        |  24% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+kaldi-5.5.1172       | 23.7 MB   | #######3   |  73% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+scipy-1.15.2         | 15.7 MB   | #######5   |  76% [A[A[A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #####6     |  56% 
+
+
+
+
+
+
+
+
+python-3.10.21       | 24.2 MB   | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+kaldi-5.5.1172       | 23.7 MB   | ########2  |  83% [A[A[A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ######3    |  63% [A
+
+
+
+
+
+
+
+
+
+
+
+icu-78.3             | 13.8 MB   | ###7       |  37% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+scipy-1.15.2         | 15.7 MB   | ########5  |  85% [A[A[A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #####6     |  57% 
+
+
+
+
+
+
+
+
+
+
+
+icu-78.3             | 13.8 MB   | #####7     |  57% [A[A[A[A[A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ######3    |  63% [A
+
+
+
+
+
+
+
+
+
+
+scipy-1.15.2         | 15.7 MB   | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+scipy-1.15.2         | 15.7 MB   | ########## | 100% [A[A[A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #####7     |  57% 
+
+
+
+
+
+
+
+
+
+kaldi-5.5.1172       | 23.7 MB   | ########9  |  89% [A[A[A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ######3    |  64% [A
+
+
+
+
+
+
+
+
+
+kaldi-5.5.1172       | 23.7 MB   | #########8 |  99% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libopenvino-intel-cp | 13.3 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+icu-78.3             | 13.8 MB   | ######9    |  69% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+llvmlite-0.49.0      | 38.9 MB   | ########## | 100% [A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #####7     |  57% 
+
+
+
+
+
+
+
+
+
+
+
+icu-78.3             | 13.8 MB   | ########6  |  86% [A[A[A[A[A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ######4    |  64% [A
+
+
+
+
+
+
+
+
+
+
+
+
+libopenvino-intel-cp | 13.3 MB   | 9          |   9% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+kaldi-5.5.1172       | 23.7 MB   | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libopenvino-intel-cp | 13.3 MB   | ###4       |  34% [A[A[A[A[A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #####7     |  58% 
+libcublas-12.9.2.10  | 446.0 MB  | ######4    |  64% [A
+
+
+
+
+
+
+
+
+
+
+
+icu-78.3             | 13.8 MB   | #########6 |  97% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+ffmpeg-9.0.0         | 12.9 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #####8     |  58% 
+libcublas-12.9.2.10  | 446.0 MB  | ######4    |  65% [A
+
+
+
+
+
+
+
+
+
+
+
+
+libopenvino-intel-cp | 13.3 MB   | ####9      |  50% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+icu-78.3             | 13.8 MB   | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+ffmpeg-9.0.0         | 12.9 MB   | 1          |   2% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ######5    |  65% [A
+
+
+
+
+
+
+
+
+
+
+
+
+libopenvino-intel-cp | 13.3 MB   | ######9    |  70% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+ffmpeg-9.0.0         | 12.9 MB   | ##8        |  29% [A[A[A[A[A[A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #####8     |  59% 
+libcublas-12.9.2.10  | 446.0 MB  | ######5    |  65% [Alibmagma-2.10.0      | 520.7 MB  | #####9     |  59% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libopenvino-intel-gp | 11.6 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+ffmpeg-9.0.0         | 12.9 MB   | ####4      |  44% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ######5    |  66% [A
+
+
+
+
+
+
+
+
+
+
+
+
+libopenvino-intel-cp | 13.3 MB   | ########2  |  83% [A[A[A[A[A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #####9     |  59% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libopenvino-intel-gp | 11.6 MB   | #8         |  19% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+ffmpeg-9.0.0         | 12.9 MB   | #####5     |  56% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ######6    |  66% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libopenvino-intel-gp | 11.6 MB   | ###6       |  36% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ######6    |  66% [A
+
+
+
+
+
+
+
+
+
+
+
+
+libopenvino-intel-cp | 13.3 MB   | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libopenvino-intel-cp | 13.3 MB   | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+ffmpeg-9.0.0         | 12.9 MB   | ######7    |  67% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libopenvino-intel-gp | 11.6 MB   | ####9      |  49% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #####9     |  60% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ffmpeg-9.0.0         | 12.9 MB   | #########1 |  92% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libopenvino-intel-gp | 11.6 MB   | #####9     |  60% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ######6    |  67% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+montreal-forced-alig | 11.0 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ######     |  60% 
+libcublas-12.9.2.10  | 446.0 MB  | ######7    |  67% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+montreal-forced-alig | 11.0 MB   |            |   1% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ######     |  61% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libopenvino-intel-gp | 11.6 MB   | #######    |  71% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+icu-78.3             | 13.8 MB   | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+montreal-forced-alig | 11.0 MB   | 8          |   8% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ######7    |  68% [Alibmagma-2.10.0      | 520.7 MB  | ######1    |  61% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libopenvino-intel-gp | 11.6 MB   | #########3 |  93% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+montreal-forced-alig | 11.0 MB   | ###3       |  33% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ######8    |  68% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+ffmpeg-9.0.0         | 12.9 MB   | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ######1    |  61% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+montreal-forced-alig | 11.0 MB   | ####6      |  47% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+intel-media-driver-2 | 8.4 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ######1    |  62% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+montreal-forced-alig | 11.0 MB   | ######9    |  69% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libopenvino-intel-gp | 11.6 MB   | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ######8    |  69% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+intel-media-driver-2 | 8.4 MB    | 5          |   6% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+montreal-forced-alig | 11.0 MB   | ########3  |  83% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | ######9    |  69% [Alibmagma-2.10.0      | 520.7 MB  | ######2    |  62% 
+
+
+
+
+
+
+
+
+
+
+scipy-1.15.2         | 15.7 MB   | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+scikit-learn-1.7.2   | 8.0 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+intel-media-driver-2 | 8.4 MB    | ####9      |  49% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ######2    |  63% 
+libcublas-12.9.2.10  | 446.0 MB  | ######9    |  70% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+scikit-learn-1.7.2   | 8.0 MB    | ###7       |  37% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+intel-media-driver-2 | 8.4 MB    | #######    |  70% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | #######    |  70% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+montreal-forced-alig | 11.0 MB   | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+montreal-forced-alig | 11.0 MB   | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ######2    |  63% libmagma-2.10.0      | 520.7 MB  | ######3    |  63% 
+libcublas-12.9.2.10  | 446.0 MB  | #######    |  70% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+scikit-learn-1.7.2   | 8.0 MB    | #######4   |  75% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+intel-media-driver-2 | 8.4 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+intel-media-driver-2 | 8.4 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ######3    |  64% 
+libcublas-12.9.2.10  | 446.0 MB  | #######    |  71% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+scikit-learn-1.7.2   | 8.0 MB    | #########7 |  98% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libopenvino-intel-cp | 13.3 MB   | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | #######1   |  71% [Alibmagma-2.10.0      | 520.7 MB  | ######4    |  64% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+scikit-learn-1.7.2   | 8.0 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | #######1   |  72% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ######4    |  64% 
+libcublas-12.9.2.10  | 446.0 MB  | #######1   |  72% [Alibmagma-2.10.0      | 520.7 MB  | ######4    |  65% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+ffmpeg-9.0.0         | 12.9 MB   | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+libcublas-12.9.2.10  | 446.0 MB  | #######2   |  72% [Alibmagma-2.10.0      | 520.7 MB  | ######5    |  65% 
+libcublas-12.9.2.10  | 446.0 MB  | #######2   |  73% [Alibmagma-2.10.0      | 520.7 MB  | ######5    |  65% 
+libcublas-12.9.2.10  | 446.0 MB  | #######3   |  73% [A
+
+
+
+
+
+
+
+
+
+kaldi-5.5.1172       | 23.7 MB   | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libopenvino-intel-gp | 11.6 MB   | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ######5    |  66% libmagma-2.10.0      | 520.7 MB  | ######6    |  66% 
+libcublas-12.9.2.10  | 446.0 MB  | #######3   |  73% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+montreal-forced-alig | 11.0 MB   | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ######6    |  67% 
+libcublas-12.9.2.10  | 446.0 MB  | #######3   |  74% [A
+libcublas-12.9.2.10  | 446.0 MB  | #######4   |  74% [Alibmagma-2.10.0      | 520.7 MB  | ######7    |  67% 
+libcublas-12.9.2.10  | 446.0 MB  | #######4   |  74% [Alibmagma-2.10.0      | 520.7 MB  | ######7    |  67% 
+libcublas-12.9.2.10  | 446.0 MB  | #######4   |  75% [Alibmagma-2.10.0      | 520.7 MB  | ######7    |  68% 
+libcublas-12.9.2.10  | 446.0 MB  | #######5   |  75% [Alibmagma-2.10.0      | 520.7 MB  | ######8    |  68% 
+libcublas-12.9.2.10  | 446.0 MB  | #######5   |  75% [A
+libcublas-12.9.2.10  | 446.0 MB  | #######5   |  76% [Alibmagma-2.10.0      | 520.7 MB  | ######8    |  68% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+intel-media-driver-2 | 8.4 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | ######8    |  69% 
+libcublas-12.9.2.10  | 446.0 MB  | #######6   |  76% [Alibmagma-2.10.0      | 520.7 MB  | ######9    |  69% 
+libcublas-12.9.2.10  | 446.0 MB  | #######6   |  77% [Alibmagma-2.10.0      | 520.7 MB  | ######9    |  70% 
+libcublas-12.9.2.10  | 446.0 MB  | #######6   |  77% [Alibmagma-2.10.0      | 520.7 MB  | #######    |  70% 
+libcublas-12.9.2.10  | 446.0 MB  | #######7   |  77% [A
+libcublas-12.9.2.10  | 446.0 MB  | #######7   |  77% [Alibmagma-2.10.0      | 520.7 MB  | #######    |  71% 
+libcublas-12.9.2.10  | 446.0 MB  | #######7   |  78% [Alibmagma-2.10.0      | 520.7 MB  | #######    |  71% 
+libcublas-12.9.2.10  | 446.0 MB  | #######8   |  78% [Alibmagma-2.10.0      | 520.7 MB  | #######1   |  71% 
+libcublas-12.9.2.10  | 446.0 MB  | #######8   |  79% [A
+libcublas-12.9.2.10  | 446.0 MB  | #######9   |  79% [Alibmagma-2.10.0      | 520.7 MB  | #######1   |  72% 
+libcublas-12.9.2.10  | 446.0 MB  | #######9   |  80% [Alibmagma-2.10.0      | 520.7 MB  | #######2   |  72% 
+libcublas-12.9.2.10  | 446.0 MB  | ########   |  80% [Alibmagma-2.10.0      | 520.7 MB  | #######2   |  72% 
+libcublas-12.9.2.10  | 446.0 MB  | ########   |  80% [Alibmagma-2.10.0      | 520.7 MB  | #######2   |  73% 
+libcublas-12.9.2.10  | 446.0 MB  | ########   |  81% [Alibmagma-2.10.0      | 520.7 MB  | #######3   |  73% libmagma-2.10.0      | 520.7 MB  | #######3   |  73% 
+libcublas-12.9.2.10  | 446.0 MB  | ########1  |  81% [Alibmagma-2.10.0      | 520.7 MB  | #######3   |  74% 
+libcublas-12.9.2.10  | 446.0 MB  | ########1  |  82% [Alibmagma-2.10.0      | 520.7 MB  | #######4   |  74% 
+libcublas-12.9.2.10  | 446.0 MB  | ########1  |  82% [Alibmagma-2.10.0      | 520.7 MB  | #######4   |  74% 
+libcublas-12.9.2.10  | 446.0 MB  | ########2  |  82% [Alibmagma-2.10.0      | 520.7 MB  | #######4   |  75% 
+libcublas-12.9.2.10  | 446.0 MB  | ########2  |  83% [A
+libcublas-12.9.2.10  | 446.0 MB  | ########3  |  83% [Alibmagma-2.10.0      | 520.7 MB  | #######5   |  75% 
+libcublas-12.9.2.10  | 446.0 MB  | ########3  |  84% [Alibmagma-2.10.0      | 520.7 MB  | #######5   |  75% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+scikit-learn-1.7.2   | 8.0 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Alibmagma-2.10.0      | 520.7 MB  | #######5   |  76% 
+libcublas-12.9.2.10  | 446.0 MB  | ########3  |  84% [Alibmagma-2.10.0      | 520.7 MB  | #######6   |  76% 
+libcublas-12.9.2.10  | 446.0 MB  | ########4  |  84% [A
+libcublas-12.9.2.10  | 446.0 MB  | ########4  |  85% [Alibmagma-2.10.0      | 520.7 MB  | #######6   |  77% libmagma-2.10.0      | 520.7 MB  | #######6   |  77% 
+libcublas-12.9.2.10  | 446.0 MB  | ########4  |  85% [A
+libcublas-12.9.2.10  | 446.0 MB  | ########5  |  85% [Alibmagma-2.10.0      | 520.7 MB  | #######7   |  77% 
+libcublas-12.9.2.10  | 446.0 MB  | ########5  |  85% [Alibmagma-2.10.0      | 520.7 MB  | #######7   |  77% 
+libcublas-12.9.2.10  | 446.0 MB  | ########6  |  86% [Alibmagma-2.10.0      | 520.7 MB  | #######7   |  78% 
+libcublas-12.9.2.10  | 446.0 MB  | ########6  |  86% [Alibmagma-2.10.0      | 520.7 MB  | #######8   |  78% 
+libcublas-12.9.2.10  | 446.0 MB  | ########7  |  87% [Alibmagma-2.10.0      | 520.7 MB  | #######8   |  78% libmagma-2.10.0      | 520.7 MB  | #######8   |  79% 
+libcublas-12.9.2.10  | 446.0 MB  | ########7  |  87% [Alibmagma-2.10.0      | 520.7 MB  | #######9   |  79% 
+libcublas-12.9.2.10  | 446.0 MB  | ########8  |  88% [Alibmagma-2.10.0      | 520.7 MB  | #######9   |  80% 
+libcublas-12.9.2.10  | 446.0 MB  | ########8  |  88% [Alibmagma-2.10.0      | 520.7 MB  | #######9   |  80% 
+libcublas-12.9.2.10  | 446.0 MB  | ########8  |  89% [A
+libcublas-12.9.2.10  | 446.0 MB  | ########9  |  89% [Alibmagma-2.10.0      | 520.7 MB  | ########   |  80% libmagma-2.10.0      | 520.7 MB  | ########   |  81% 
+libcublas-12.9.2.10  | 446.0 MB  | ########9  |  90% [A
+libcublas-12.9.2.10  | 446.0 MB  | #########  |  90% [Alibmagma-2.10.0      | 520.7 MB  | ########1  |  81% libmagma-2.10.0      | 520.7 MB  | ########1  |  81% 
+libcublas-12.9.2.10  | 446.0 MB  | #########  |  91% [Alibmagma-2.10.0      | 520.7 MB  | ########1  |  82% 
+libcublas-12.9.2.10  | 446.0 MB  | #########1 |  91% [Alibmagma-2.10.0      | 520.7 MB  | ########2  |  82% 
+libcublas-12.9.2.10  | 446.0 MB  | #########1 |  92% [Alibmagma-2.10.0      | 520.7 MB  | ########2  |  82% 
+libcublas-12.9.2.10  | 446.0 MB  | #########2 |  92% [Alibmagma-2.10.0      | 520.7 MB  | ########2  |  83% 
+libcublas-12.9.2.10  | 446.0 MB  | #########2 |  93% [Alibmagma-2.10.0      | 520.7 MB  | ########3  |  83% 
+libcublas-12.9.2.10  | 446.0 MB  | #########2 |  93% [Alibmagma-2.10.0      | 520.7 MB  | ########3  |  84% libmagma-2.10.0      | 520.7 MB  | ########3  |  84% 
+libcublas-12.9.2.10  | 446.0 MB  | #########3 |  93% [Alibmagma-2.10.0      | 520.7 MB  | ########4  |  84% 
+libcublas-12.9.2.10  | 446.0 MB  | #########3 |  94% [A
+libcublas-12.9.2.10  | 446.0 MB  | #########4 |  94% [Alibmagma-2.10.0      | 520.7 MB  | ########4  |  85% 
+libcublas-12.9.2.10  | 446.0 MB  | #########4 |  95% [Alibmagma-2.10.0      | 520.7 MB  | ########5  |  85% 
+libcublas-12.9.2.10  | 446.0 MB  | #########5 |  95% [Alibmagma-2.10.0      | 520.7 MB  | ########5  |  86% 
+libcublas-12.9.2.10  | 446.0 MB  | #########5 |  95% [Alibmagma-2.10.0      | 520.7 MB  | ########5  |  86% 
+libcublas-12.9.2.10  | 446.0 MB  | #########5 |  96% [Alibmagma-2.10.0      | 520.7 MB  | ########6  |  86% 
+libcublas-12.9.2.10  | 446.0 MB  | #########6 |  96% [Alibmagma-2.10.0      | 520.7 MB  | ########6  |  87% 
+libcublas-12.9.2.10  | 446.0 MB  | #########6 |  97% [A
+libcublas-12.9.2.10  | 446.0 MB  | #########7 |  97% [Alibmagma-2.10.0      | 520.7 MB  | ########6  |  87% 
+libcublas-12.9.2.10  | 446.0 MB  | #########7 |  98% [A
+libcublas-12.9.2.10  | 446.0 MB  | #########8 |  98% [Alibmagma-2.10.0      | 520.7 MB  | ########7  |  88% 
+libcublas-12.9.2.10  | 446.0 MB  | #########8 |  99% [Alibmagma-2.10.0      | 520.7 MB  | ########8  |  88% 
+libcublas-12.9.2.10  | 446.0 MB  | #########8 |  99% [Alibmagma-2.10.0      | 520.7 MB  | ########8  |  88% libmagma-2.10.0      | 520.7 MB  | ########8  |  89% 
+libcublas-12.9.2.10  | 446.0 MB  | #########9 |  99% [A
+libcublas-12.9.2.10  | 446.0 MB  | #########9 | 100% [Alibmagma-2.10.0      | 520.7 MB  | ########9  |  89% libmagma-2.10.0      | 520.7 MB  | ########9  |  90% libmagma-2.10.0      | 520.7 MB  | ########9  |  90% libmagma-2.10.0      | 520.7 MB  | #########  |  90% libmagma-2.10.0      | 520.7 MB  | #########  |  90% libmagma-2.10.0      | 520.7 MB  | #########  |  91% libmagma-2.10.0      | 520.7 MB  | #########1 |  91% libmagma-2.10.0      | 520.7 MB  | #########1 |  91% libmagma-2.10.0      | 520.7 MB  | #########1 |  92% libmagma-2.10.0      | 520.7 MB  | #########2 |  92% libmagma-2.10.0      | 520.7 MB  | #########2 |  92% libmagma-2.10.0      | 520.7 MB  | #########2 |  93% libmagma-2.10.0      | 520.7 MB  | #########3 |  93% libmagma-2.10.0      | 520.7 MB  | #########3 |  94% libmagma-2.10.0      | 520.7 MB  | #########3 |  94% libmagma-2.10.0      | 520.7 MB  | #########4 |  94% libmagma-2.10.0      | 520.7 MB  | #########4 |  95% libmagma-2.10.0      | 520.7 MB  | #########5 |  95% libmagma-2.10.0      | 520.7 MB  | #########5 |  95% libmagma-2.10.0      | 520.7 MB  | #########5 |  96% libmagma-2.10.0      | 520.7 MB  | #########6 |  96% libmagma-2.10.0      | 520.7 MB  | #########6 |  97% libmagma-2.10.0      | 520.7 MB  | #########7 |  97% libmagma-2.10.0      | 520.7 MB  | #########7 |  98% libmagma-2.10.0      | 520.7 MB  | #########7 |  98% libmagma-2.10.0      | 520.7 MB  | #########8 |  98% libmagma-2.10.0      | 520.7 MB  | #########8 |  99% libmagma-2.10.0      | 520.7 MB  | #########9 |  99% libmagma-2.10.0      | 520.7 MB  | #########9 |  99% libmagma-2.10.0      | 520.7 MB  | #########9 | 100% 
+libcublas-12.9.2.10  | 446.0 MB  | ########## | 100% [Alibmagma-2.10.0      | 520.7 MB  | ########## | 100% 
+libcublas-12.9.2.10  | 446.0 MB  | ########## | 100% [Alibmagma-2.10.0      | 520.7 MB  | ########## | 100% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A                                                     
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A
+
+
+
+                                                     [A[A[A[A
+
+
+
+
+                                                     [A[A[A[A[A
+
+
+
+
+
+                                                     [A[A[A[A[A[A
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A done
+Preparing transaction: | / - \ | / - done
+Verifying transaction: | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - done
+Executing transaction: | / - \ | / - \ | / - \ | / - \ | / 
+- \ | / - \ | / - \ | / 
+- \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - done
+#
+# To activate this environment, use
+#
+#     $ conda activate mfa
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
++ export PATH=/home/daishuheng/miniconda3/envs/mfa/bin:/opt/rabbitmq/sbin:/home/daishuheng/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli:/home/daishuheng/miniconda3/bin:/home/daishuheng/miniconda3/condabin:/opt/rabbitmq/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
++ PATH=/home/daishuheng/miniconda3/envs/mfa/bin:/opt/rabbitmq/sbin:/home/daishuheng/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli:/home/daishuheng/miniconda3/bin:/home/daishuheng/miniconda3/condabin:/opt/rabbitmq/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
++ mfa model download acoustic english_us_arpa
++ mfa model download dictionary english_us_arpa
++ echo MFA_SETUP_DONE
+MFA_SETUP_DONE

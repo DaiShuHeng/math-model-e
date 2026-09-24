@@ -1,0 +1,139 @@
+{
+  "duration": 6.3855,
+  "words": [
+    {
+      "word": "How",
+      "char_start": 0,
+      "char_end": 3,
+      "spoken": "HOW",
+      "start": 0.1601,
+      "end": 0.3403,
+      "confidence": 0.9955
+    },
+    {
+      "word": "at",
+      "char_start": 5,
+      "char_end": 7,
+      "spoken": "AT",
+      "start": 0.8808,
+      "end": 0.9208,
+      "confidence": 0.9993
+    },
+    {
+      "word": "a",
+      "char_start": 8,
+      "char_end": 9,
+      "spoken": "A",
+      "start": 0.9808,
+      "end": 1.0009,
+      "confidence": 0.9925
+    },
+    {
+      "word": "particular",
+      "char_start": 10,
+      "char_end": 20,
+      "spoken": "PARTICULAR",
+      "start": 1.0609,
+      "end": 1.5613,
+      "confidence": 0.9936
+    },
+    {
+      "word": "moment",
+      "char_start": 21,
+      "char_end": 27,
+      "spoken": "MOMENT",
+      "start": 1.6614,
+      "end": 2.0017,
+      "confidence": 0.9465
+    },
+    {
+      "word": "in",
+      "char_start": 28,
+      "char_end": 30,
+      "spoken": "IN",
+      "start": 2.0818,
+      "end": 2.1418,
+      "confidence": 0.8758
+    },
+    {
+      "word": "time",
+      "char_start": 31,
+      "char_end": 35,
+      "spoken": "TIME",
+      "start": 2.2419,
+      "end": 2.5222,
+      "confidence": 1.0
+    },
+    {
+      "word": "our",
+      "char_start": 36,
+      "char_end": 39,
+      "spoken": "OUR",
+      "start": 2.8024,
+      "end": 2.9425,
+      "confidence": 0.9975
+    },
+    {
+      "word": "moment",
+      "char_start": 40,
+      "char_end": 46,
+      "spoken": "MOMENT",
+      "start": 3.0626,
+      "end": 3.4029,
+      "confidence": 0.981
+    },
+    {
+      "word": "in",
+      "char_start": 47,
+      "char_end": 49,
+      "spoken": "IN",
+      "start": 3.523,
+      "end": 3.5631,
+      "confidence": 0.9996
+    },
+    {
+      "word": "time",
+      "char_start": 50,
+      "char_end": 54,
+      "spoken": "TIME",
+      "start": 3.6832,
+      "end": 3.9634,
+      "confidence": 1.0
+    },
+    {
+      "word": "are",
+      "char_start": 55,
+      "char_end": 58,
+      "spoken": "ARE",
+      "start": 4.5439,
+      "end": 4.624,
+      "confidence": 0.9996
+    },
+    {
+      "word": "they",
+      "char_start": 59,
+      "char_end": 63,
+      "spoken": "THEY",
+      "start": 4.7041,
+      "end": 4.8842,
+      "confidence": 0.9982
+    },
+    {
+      "word": "limited",
+      "char_start": 64,
+      "char_end": 71,
+      "spoken": "LIMITED",
+      "start": 5.4247,
+      "end": 5.845,
+      "confidence": 0.9249
+    }
+  ],
+  "normalized_transcript": "HOW AT A PARTICULAR MOMENT IN TIME OUR MOMENT IN TIME ARE THEY LIMITED",
+  "greedy_transcript": "HOW AT A PARTICULAR MOMENT IN TIME OUR MOMENT IN TIME ARE THEY LIMITED",
+  "transcript_similarity": 1.0,
+  "mean_confidence": 0.9788571428571432,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-mqbVkbCndg__0",
+  "transcript": "How, at a particular moment in time—our moment in time—are they limited",
+  "model": "facebook/wav2vec2-base-960h"
+}

@@ -1,0 +1,175 @@
+{
+  "duration": 7.7885625,
+  "words": [
+    {
+      "word": "Noncompliance",
+      "char_start": 0,
+      "char_end": 13,
+      "spoken": "NONCOMPLIANCE",
+      "start": 0.5606,
+      "end": 1.5417,
+      "confidence": 0.9896
+    },
+    {
+      "word": "can",
+      "char_start": 14,
+      "char_end": 17,
+      "spoken": "CAN",
+      "start": 1.6818,
+      "end": 1.862,
+      "confidence": 0.9999
+    },
+    {
+      "word": "result",
+      "char_start": 18,
+      "char_end": 24,
+      "spoken": "RESULT",
+      "start": 1.9822,
+      "end": 2.4627,
+      "confidence": 0.7137
+    },
+    {
+      "word": "in",
+      "char_start": 25,
+      "char_end": 27,
+      "spoken": "IN",
+      "start": 2.6829,
+      "end": 2.723,
+      "confidence": 0.9967
+    },
+    {
+      "word": "legal",
+      "char_start": 28,
+      "char_end": 33,
+      "spoken": "LEGAL",
+      "start": 2.8431,
+      "end": 3.0834,
+      "confidence": 0.9992
+    },
+    {
+      "word": "liability",
+      "char_start": 34,
+      "char_end": 43,
+      "spoken": "LIABILITY",
+      "start": 3.1435,
+      "end": 3.8042,
+      "confidence": 0.9901
+    },
+    {
+      "word": "to",
+      "char_start": 44,
+      "char_end": 46,
+      "spoken": "TO",
+      "start": 3.9844,
+      "end": 4.1446,
+      "confidence": 0.9984
+    },
+    {
+      "word": "you",
+      "char_start": 47,
+      "char_end": 50,
+      "spoken": "YOU",
+      "start": 4.2647,
+      "end": 4.4649,
+      "confidence": 0.9429
+    },
+    {
+      "word": "and",
+      "char_start": 51,
+      "char_end": 54,
+      "spoken": "AND",
+      "start": 5.0455,
+      "end": 5.1457,
+      "confidence": 0.9994
+    },
+    {
+      "word": "to",
+      "char_start": 55,
+      "char_end": 57,
+      "spoken": "TO",
+      "start": 5.2458,
+      "end": 5.3259,
+      "confidence": 0.9997
+    },
+    {
+      "word": "the",
+      "char_start": 58,
+      "char_end": 61,
+      "spoken": "THE",
+      "start": 5.4059,
+      "end": 5.486,
+      "confidence": 0.9982
+    },
+    {
+      "word": "school",
+      "char_start": 62,
+      "char_end": 68,
+      "spoken": "SCHOOL",
+      "start": 5.5461,
+      "end": 5.7663,
+      "confidence": 0.9993
+    },
+    {
+      "word": "district",
+      "char_start": 69,
+      "char_end": 77,
+      "spoken": "DISTRICT",
+      "start": 5.8264,
+      "end": 6.1468,
+      "confidence": 0.9779
+    },
+    {
+      "word": "in",
+      "char_start": 78,
+      "char_end": 80,
+      "spoken": "IN",
+      "start": 6.1868,
+      "end": 6.2268,
+      "confidence": 0.9943
+    },
+    {
+      "word": "which",
+      "char_start": 81,
+      "char_end": 86,
+      "spoken": "WHICH",
+      "start": 6.2869,
+      "end": 6.4271,
+      "confidence": 0.9999
+    },
+    {
+      "word": "you",
+      "char_start": 87,
+      "char_end": 90,
+      "spoken": "YOU",
+      "start": 6.4871,
+      "end": 6.5872,
+      "confidence": 0.9949
+    },
+    {
+      "word": "are",
+      "char_start": 91,
+      "char_end": 94,
+      "spoken": "ARE",
+      "start": 6.6473,
+      "end": 6.7474,
+      "confidence": 0.9981
+    },
+    {
+      "word": "employed",
+      "char_start": 95,
+      "char_end": 103,
+      "spoken": "EMPLOYED",
+      "start": 6.8275,
+      "end": 7.248,
+      "confidence": 0.9542
+    }
+  ],
+  "normalized_transcript": "NONCOMPLIANCE CAN RESULT IN LEGAL LIABILITY TO YOU AND TO THE SCHOOL DISTRICT IN WHICH YOU ARE EMPLOYED",
+  "greedy_transcript": "NON COMPLIANCE CAN RESOLVE IN LEGAL LIABILITY TO YOU AND TO THE SCHOOL DISTRICT IN WHICH YOU ARE EMPLOYED",
+  "transcript_similarity": 0.9711538461538461,
+  "mean_confidence": 0.9748000000000001,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-3nNcZdcdvU__5",
+  "transcript": "Noncompliance can result in legal liability to you and to the school district in which you are employed.",
+  "model": "facebook/wav2vec2-base-960h"
+}

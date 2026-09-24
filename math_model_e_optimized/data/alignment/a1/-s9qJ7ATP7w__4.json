@@ -1,0 +1,94 @@
+{
+  "duration": 4.246875,
+  "words": [
+    {
+      "word": "I",
+      "char_start": 0,
+      "char_end": 1,
+      "spoken": "I",
+      "start": 0.1002,
+      "end": 0.1202,
+      "confidence": 0.761
+    },
+    {
+      "word": "have",
+      "char_start": 2,
+      "char_end": 6,
+      "spoken": "HAVE",
+      "start": 0.7212,
+      "end": 0.8213,
+      "confidence": 0.9936
+    },
+    {
+      "word": "lost",
+      "char_start": 7,
+      "char_end": 11,
+      "spoken": "LOST",
+      "start": 0.9015,
+      "end": 1.1418,
+      "confidence": 0.969
+    },
+    {
+      "word": "at",
+      "char_start": 12,
+      "char_end": 14,
+      "spoken": "AT",
+      "start": 1.3221,
+      "end": 1.3622,
+      "confidence": 0.9779
+    },
+    {
+      "word": "everything",
+      "char_start": 15,
+      "char_end": 25,
+      "spoken": "EVERYTHING",
+      "start": 1.6827,
+      "end": 2.0834,
+      "confidence": 0.9766
+    },
+    {
+      "word": "you",
+      "char_start": 26,
+      "char_end": 29,
+      "spoken": "YOU",
+      "start": 2.1435,
+      "end": 2.2236,
+      "confidence": 0.9998
+    },
+    {
+      "word": "can",
+      "char_start": 30,
+      "char_end": 33,
+      "spoken": "CAN",
+      "start": 2.2837,
+      "end": 2.3839,
+      "confidence": 0.9994
+    },
+    {
+      "word": "imagine",
+      "char_start": 34,
+      "char_end": 41,
+      "spoken": "IMAGINE",
+      "start": 2.484,
+      "end": 2.8446,
+      "confidence": 0.9044
+    },
+    {
+      "word": "seriously",
+      "char_start": 43,
+      "char_end": 52,
+      "spoken": "SERIOUSLY",
+      "start": 3.0049,
+      "end": 3.4456,
+      "confidence": 0.3766
+    }
+  ],
+  "normalized_transcript": "I HAVE LOST AT EVERYTHING YOU CAN IMAGINE SERIOUSLY",
+  "greedy_transcript": "CIPCO I HAVE LOST THAT EVERYTHING YOU CAN IMAGINE CERCELY WE HAVE",
+  "transcript_similarity": 0.7931034482758621,
+  "mean_confidence": 0.8842555555555555,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-s9qJ7ATP7w__4",
+  "transcript": "I have lost at everything you can imagine, seriously",
+  "model": "facebook/wav2vec2-base-960h"
+}

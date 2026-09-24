@@ -1,0 +1,256 @@
+{
+  "duration": 10.2675,
+  "words": [
+    {
+      "word": "And",
+      "char_start": 1,
+      "char_end": 4,
+      "spoken": "AND",
+      "start": 0.4804,
+      "end": 0.5604,
+      "confidence": 0.997
+    },
+    {
+      "word": "all",
+      "char_start": 5,
+      "char_end": 8,
+      "spoken": "ALL",
+      "start": 0.6605,
+      "end": 0.7806,
+      "confidence": 0.9894
+    },
+    {
+      "word": "of",
+      "char_start": 9,
+      "char_end": 11,
+      "spoken": "OF",
+      "start": 0.8406,
+      "end": 0.8806,
+      "confidence": 0.9983
+    },
+    {
+      "word": "them",
+      "char_start": 12,
+      "char_end": 16,
+      "spoken": "THEM",
+      "start": 0.9407,
+      "end": 1.0608,
+      "confidence": 0.9959
+    },
+    {
+      "word": "are",
+      "char_start": 17,
+      "char_end": 20,
+      "spoken": "ARE",
+      "start": 1.2009,
+      "end": 1.2809,
+      "confidence": 0.8912
+    },
+    {
+      "word": "really",
+      "char_start": 21,
+      "char_end": 27,
+      "spoken": "REALLY",
+      "start": 1.381,
+      "end": 1.6212,
+      "confidence": 0.9937
+    },
+    {
+      "word": "being",
+      "char_start": 28,
+      "char_end": 33,
+      "spoken": "BEING",
+      "start": 1.6812,
+      "end": 1.8614,
+      "confidence": 0.9763
+    },
+    {
+      "word": "able",
+      "char_start": 34,
+      "char_end": 38,
+      "spoken": "ABLE",
+      "start": 2.5619,
+      "end": 2.722,
+      "confidence": 0.9903
+    },
+    {
+      "word": "to",
+      "char_start": 39,
+      "char_end": 41,
+      "spoken": "TO",
+      "start": 2.782,
+      "end": 2.8621,
+      "confidence": 0.9077
+    },
+    {
+      "word": "explore",
+      "char_start": 42,
+      "char_end": 49,
+      "spoken": "EXPLORE",
+      "start": 2.9421,
+      "end": 3.5426,
+      "confidence": 0.9666
+    },
+    {
+      "word": "these",
+      "char_start": 51,
+      "char_end": 56,
+      "spoken": "THESE",
+      "start": 4.063,
+      "end": 4.2031,
+      "confidence": 0.9859
+    },
+    {
+      "word": "different",
+      "char_start": 57,
+      "char_end": 66,
+      "spoken": "DIFFERENT",
+      "start": 4.5233,
+      "end": 4.8035,
+      "confidence": 0.9898
+    },
+    {
+      "word": "areas",
+      "char_start": 67,
+      "char_end": 72,
+      "spoken": "AREAS",
+      "start": 4.8836,
+      "end": 5.1838,
+      "confidence": 0.9301
+    },
+    {
+      "word": "in",
+      "char_start": 73,
+      "char_end": 75,
+      "spoken": "IN",
+      "start": 5.8443,
+      "end": 5.8843,
+      "confidence": 0.9954
+    },
+    {
+      "word": "depth",
+      "char_start": 76,
+      "char_end": 81,
+      "spoken": "DEPTH",
+      "start": 6.0444,
+      "end": 6.3446,
+      "confidence": 0.8593
+    },
+    {
+      "word": "in",
+      "char_start": 83,
+      "char_end": 85,
+      "spoken": "IN",
+      "start": 6.5648,
+      "end": 6.6048,
+      "confidence": 0.9995
+    },
+    {
+      "word": "a",
+      "char_start": 86,
+      "char_end": 87,
+      "spoken": "A",
+      "start": 6.6849,
+      "end": 6.7049,
+      "confidence": 0.9939
+    },
+    {
+      "word": "way",
+      "char_start": 88,
+      "char_end": 91,
+      "spoken": "WAY",
+      "start": 6.7649,
+      "end": 6.905,
+      "confidence": 0.9998
+    },
+    {
+      "word": "that",
+      "char_start": 92,
+      "char_end": 96,
+      "spoken": "THAT",
+      "start": 7.0251,
+      "end": 7.1652,
+      "confidence": 0.9838
+    },
+    {
+      "word": "really",
+      "char_start": 97,
+      "char_end": 103,
+      "spoken": "REALLY",
+      "start": 7.3254,
+      "end": 7.5255,
+      "confidence": 0.9701
+    },
+    {
+      "word": "wasn't",
+      "char_start": 104,
+      "char_end": 110,
+      "spoken": "WASN'T",
+      "start": 7.5655,
+      "end": 7.8057,
+      "confidence": 0.9884
+    },
+    {
+      "word": "available",
+      "char_start": 111,
+      "char_end": 120,
+      "spoken": "AVAILABLE",
+      "start": 7.8457,
+      "end": 8.2861,
+      "confidence": 0.9412
+    },
+    {
+      "word": "before",
+      "char_start": 122,
+      "char_end": 128,
+      "spoken": "BEFORE",
+      "start": 8.3661,
+      "end": 8.6663,
+      "confidence": 0.9995
+    },
+    {
+      "word": "the",
+      "char_start": 129,
+      "char_end": 132,
+      "spoken": "THE",
+      "start": 8.7464,
+      "end": 8.8064,
+      "confidence": 0.9955
+    },
+    {
+      "word": "center",
+      "char_start": 133,
+      "char_end": 139,
+      "spoken": "CENTER",
+      "start": 8.8665,
+      "end": 9.1467,
+      "confidence": 0.8764
+    },
+    {
+      "word": "was",
+      "char_start": 140,
+      "char_end": 143,
+      "spoken": "WAS",
+      "start": 9.2468,
+      "end": 9.3268,
+      "confidence": 0.9997
+    },
+    {
+      "word": "here",
+      "char_start": 144,
+      "char_end": 148,
+      "spoken": "HERE",
+      "start": 9.9273,
+      "end": 10.1474,
+      "confidence": 0.7458
+    }
+  ],
+  "normalized_transcript": "AND ALL OF THEM ARE REALLY BEING ABLE TO EXPLORE THESE DIFFERENT AREAS IN DEPTH IN A WAY THAT REALLY WASN'T AVAILABLE BEFORE THE CENTER WAS HERE",
+  "greedy_transcript": "AND ALL OF THEM ARE REALLY BEING ABLE TO EXPLORE THESE DIFFERENT AREAS IN IN DEPTH IN A WAY THAT REALLY WASN'T AVAILABLE BEFORE THE CENTRE WAS HERE THE WORKH OF",
+  "transcript_similarity": 0.9407894736842105,
+  "mean_confidence": 0.9615,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-UuX1xuaiiE__1",
+  "transcript": "^And all of them are really being able to explore ^these different areas in depth ^in a way that really wasn't available ^before the center was here",
+  "model": "facebook/wav2vec2-base-960h"
+}

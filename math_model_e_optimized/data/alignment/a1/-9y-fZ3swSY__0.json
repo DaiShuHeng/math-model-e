@@ -1,0 +1,211 @@
+{
+  "duration": 6.757,
+  "words": [
+    {
+      "word": "is",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "IS",
+      "start": 0.0401,
+      "end": 0.1404,
+      "confidence": 0.5584
+    },
+    {
+      "word": "you",
+      "char_start": 4,
+      "char_end": 7,
+      "spoken": "YOU",
+      "start": 0.1805,
+      "end": 0.2406,
+      "confidence": 0.0249
+    },
+    {
+      "word": "can",
+      "char_start": 8,
+      "char_end": 11,
+      "spoken": "CAN",
+      "start": 0.2607,
+      "end": 0.381,
+      "confidence": 0.5028
+    },
+    {
+      "word": "say",
+      "char_start": 12,
+      "char_end": 15,
+      "spoken": "SAY",
+      "start": 0.4411,
+      "end": 0.6416,
+      "confidence": 0.9944
+    },
+    {
+      "word": "hey",
+      "char_start": 17,
+      "char_end": 20,
+      "spoken": "HEY",
+      "start": 0.782,
+      "end": 1.0426,
+      "confidence": 0.9794
+    },
+    {
+      "word": "I",
+      "char_start": 21,
+      "char_end": 22,
+      "spoken": "I",
+      "start": 1.5038,
+      "end": 1.5238,
+      "confidence": 0.0061
+    },
+    {
+      "word": "really",
+      "char_start": 23,
+      "char_end": 29,
+      "spoken": "REALLY",
+      "start": 2.0451,
+      "end": 2.3058,
+      "confidence": 0.9368
+    },
+    {
+      "word": "like",
+      "char_start": 30,
+      "char_end": 34,
+      "spoken": "LIKE",
+      "start": 2.4061,
+      "end": 2.6868,
+      "confidence": 0.9849
+    },
+    {
+      "word": "baby",
+      "char_start": 35,
+      "char_end": 39,
+      "spoken": "BABY",
+      "start": 2.9875,
+      "end": 3.2682,
+      "confidence": 0.9172
+    },
+    {
+      "word": "skin",
+      "char_start": 40,
+      "char_end": 44,
+      "spoken": "SKIN",
+      "start": 3.3083,
+      "end": 3.6492,
+      "confidence": 0.798
+    },
+    {
+      "word": "they",
+      "char_start": 46,
+      "char_end": 50,
+      "spoken": "THEY",
+      "start": 3.6893,
+      "end": 3.7895,
+      "confidence": 0.3894
+    },
+    {
+      "word": "are",
+      "char_start": 51,
+      "char_end": 54,
+      "spoken": "ARE",
+      "start": 3.8096,
+      "end": 3.8697,
+      "confidence": 0.0049
+    },
+    {
+      "word": "so",
+      "char_start": 55,
+      "char_end": 57,
+      "spoken": "SO",
+      "start": 3.8898,
+      "end": 4.0101,
+      "confidence": 0.9997
+    },
+    {
+      "word": "soft",
+      "char_start": 58,
+      "char_end": 62,
+      "spoken": "SOFT",
+      "start": 4.2908,
+      "end": 4.6116,
+      "confidence": 0.9541
+    },
+    {
+      "word": "they",
+      "char_start": 64,
+      "char_end": 68,
+      "spoken": "THEY",
+      "start": 4.6517,
+      "end": 4.7319,
+      "confidence": 0.7766
+    },
+    {
+      "word": "don’t",
+      "char_start": 69,
+      "char_end": 74,
+      "spoken": "DON'T",
+      "start": 4.772,
+      "end": 4.9525,
+      "confidence": 0.927
+    },
+    {
+      "word": "have",
+      "char_start": 75,
+      "char_end": 79,
+      "spoken": "HAVE",
+      "start": 5.0327,
+      "end": 5.2532,
+      "confidence": 0.9912
+    },
+    {
+      "word": "any",
+      "char_start": 80,
+      "char_end": 83,
+      "spoken": "ANY",
+      "start": 5.3334,
+      "end": 5.4738,
+      "confidence": 0.8807
+    },
+    {
+      "word": "hair",
+      "char_start": 84,
+      "char_end": 88,
+      "spoken": "HAIR",
+      "start": 5.5339,
+      "end": 5.7144,
+      "confidence": 0.9949
+    },
+    {
+      "word": "on",
+      "char_start": 89,
+      "char_end": 91,
+      "spoken": "ON",
+      "start": 5.7745,
+      "end": 5.8146,
+      "confidence": 0.9908
+    },
+    {
+      "word": "their",
+      "char_start": 92,
+      "char_end": 97,
+      "spoken": "THEIR",
+      "start": 5.8748,
+      "end": 5.9951,
+      "confidence": 0.6209
+    },
+    {
+      "word": "face",
+      "char_start": 98,
+      "char_end": 102,
+      "spoken": "FACE",
+      "start": 6.0352,
+      "end": 6.2557,
+      "confidence": 0.9999
+    }
+  ],
+  "normalized_transcript": "IS YOU CAN SAY HEY I REALLY LIKE BABY SKIN THEY ARE SO SOFT THEY DON'T HAVE ANY HAIR ON THEIR FACE",
+  "greedy_transcript": "BERS EVEN SAY HEY YOU'L NOT I REALLY LIKE BABY'S KID THIT'S SO SOFT THEY DON'T HAVE ANY HAIR ON THE FACE IT'S SO",
+  "transcript_similarity": 0.7714285714285715,
+  "mean_confidence": 0.7378636363636364,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-9y-fZ3swSY__0",
+  "transcript": "is, you can say, hey I really like baby skin, they are so soft, they don’t have any hair on their face",
+  "model": "facebook/wav2vec2-base-960h"
+}

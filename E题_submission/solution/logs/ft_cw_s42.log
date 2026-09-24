@@ -1,0 +1,60 @@
+
+Loading weights:   0%|          | 0/39 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 39/39 [00:00<00:00, 21886.25it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: $HOME/math_competition/models/bert-tiny
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.decoder.bias               | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+class weights: [1.1699999570846558, 1.4930000305175781, 0.6779999732971191]
+[ep 01] loss 1.5537 | clean F1 0.4790 Acc 0.5234 MAE 0.7240 r 0.4348 | corrupt F1 0.4761 MAE 0.7287 *
+[ep 02] loss 1.3950 | clean F1 0.4636 Acc 0.5549 MAE 0.7067 r 0.5124 | corrupt F1 0.4683 MAE 0.7176
+[ep 03] loss 1.2647 | clean F1 0.5534 Acc 0.5879 MAE 0.6558 r 0.5546 | corrupt F1 0.5380 MAE 0.6566 *
+[ep 04] loss 1.2042 | clean F1 0.5672 Acc 0.6071 MAE 0.6823 r 0.5790 | corrupt F1 0.5440 MAE 0.6910 *
+[ep 05] loss 1.1418 | clean F1 0.5439 Acc 0.5797 MAE 0.6918 r 0.5651 | corrupt F1 0.5427 MAE 0.6909
+[ep 06] loss 1.0818 | clean F1 0.5514 Acc 0.5591 MAE 0.6453 r 0.5673 | corrupt F1 0.5420 MAE 0.6453
+[ep 07] loss 1.0424 | clean F1 0.5617 Acc 0.5948 MAE 0.6851 r 0.5621 | corrupt F1 0.5569 MAE 0.6906
+[ep 08] loss 1.0147 | clean F1 0.5623 Acc 0.5879 MAE 0.7066 r 0.5701 | corrupt F1 0.5468 MAE 0.7130
+[ep 09] loss 0.9659 | clean F1 0.5641 Acc 0.5962 MAE 0.6869 r 0.5706 | corrupt F1 0.5573 MAE 0.6929
+[ep 10] loss 0.9685 | clean F1 0.5562 Acc 0.5673 MAE 0.6625 r 0.5545 | corrupt F1 0.5342 MAE 0.6728
+[ep 11] loss 0.8960 | clean F1 0.5670 Acc 0.5852 MAE 0.6795 r 0.5484 | corrupt F1 0.5592 MAE 0.6886
+[ep 12] loss 0.8618 | clean F1 0.5580 Acc 0.5687 MAE 0.6785 r 0.5412 | corrupt F1 0.5543 MAE 0.6913
+early stop at ep 12 (best ep 4)
+{
+  "valid_clean": {
+    "Accuracy": 0.6071428571428571,
+    "MacroF1": 0.5672445625710112,
+    "WeightedF1": 0.596341830746757,
+    "MAE": 0.6823188662528992,
+    "Pearson": 0.5789699612239791,
+    "head_agreement": 0.7706043956043956,
+    "gate_mean": [
+      0.6675037145614624,
+      0.15537379682064056,
+      0.17712247371673584
+    ]
+  },
+  "valid_corrupt20": {
+    "Accuracy": 0.5851648351648352,
+    "MacroF1": 0.5440397554076545,
+    "WeightedF1": 0.5746388060022546,
+    "MAE": 0.6910208463668823,
+    "Pearson": 0.5718536250755384,
+    "head_agreement": 0.7692307692307693,
+    "gate_mean": [
+      0.6582410931587219,
+      0.15836389362812042,
+      0.1833946257829666
+    ]
+  }
+}

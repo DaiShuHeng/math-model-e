@@ -1,0 +1,139 @@
+{
+  "duration": 4.6819375,
+  "words": [
+    {
+      "word": "Just",
+      "char_start": 0,
+      "char_end": 4,
+      "spoken": "JUST",
+      "start": 0.5224,
+      "end": 0.7033,
+      "confidence": 0.9214
+    },
+    {
+      "word": "given",
+      "char_start": 5,
+      "char_end": 10,
+      "spoken": "GIVEN",
+      "start": 0.7636,
+      "end": 0.9645,
+      "confidence": 0.9991
+    },
+    {
+      "word": "to",
+      "char_start": 11,
+      "char_end": 13,
+      "spoken": "TO",
+      "start": 1.0248,
+      "end": 1.0851,
+      "confidence": 0.9627
+    },
+    {
+      "word": "their",
+      "char_start": 14,
+      "char_end": 19,
+      "spoken": "THEIR",
+      "start": 1.1454,
+      "end": 1.3061,
+      "confidence": 0.9847
+    },
+    {
+      "word": "own",
+      "char_start": 20,
+      "char_end": 23,
+      "spoken": "OWN",
+      "start": 1.3865,
+      "end": 1.487,
+      "confidence": 0.9999
+    },
+    {
+      "word": "devices",
+      "char_start": 24,
+      "char_end": 31,
+      "spoken": "DEVICES",
+      "start": 1.5472,
+      "end": 2.1099,
+      "confidence": 0.9724
+    },
+    {
+      "word": "they",
+      "char_start": 32,
+      "char_end": 36,
+      "spoken": "THEY",
+      "start": 2.1903,
+      "end": 2.3108,
+      "confidence": 0.9949
+    },
+    {
+      "word": "are",
+      "char_start": 37,
+      "char_end": 40,
+      "spoken": "ARE",
+      "start": 2.3711,
+      "end": 2.4515,
+      "confidence": 0.9914
+    },
+    {
+      "word": "not",
+      "char_start": 41,
+      "char_end": 44,
+      "spoken": "NOT",
+      "start": 2.5319,
+      "end": 2.6926,
+      "confidence": 0.9999
+    },
+    {
+      "word": "going",
+      "char_start": 45,
+      "char_end": 50,
+      "spoken": "GOING",
+      "start": 2.773,
+      "end": 3.0141,
+      "confidence": 0.9997
+    },
+    {
+      "word": "to",
+      "char_start": 51,
+      "char_end": 53,
+      "spoken": "TO",
+      "start": 3.0945,
+      "end": 3.1548,
+      "confidence": 0.9999
+    },
+    {
+      "word": "read",
+      "char_start": 54,
+      "char_end": 58,
+      "spoken": "READ",
+      "start": 3.2352,
+      "end": 3.3959,
+      "confidence": 0.9879
+    },
+    {
+      "word": "the",
+      "char_start": 59,
+      "char_end": 62,
+      "spoken": "THE",
+      "start": 3.4562,
+      "end": 3.5165,
+      "confidence": 0.9918
+    },
+    {
+      "word": "textbook",
+      "char_start": 63,
+      "char_end": 71,
+      "spoken": "TEXTBOOK",
+      "start": 3.5768,
+      "end": 4.0992,
+      "confidence": 0.9731
+    }
+  ],
+  "normalized_transcript": "JUST GIVEN TO THEIR OWN DEVICES THEY ARE NOT GOING TO READ THE TEXTBOOK",
+  "greedy_transcript": "JUST GIVEN TO THEIR OWN DEVICES THEY ARE NOT GOING TO READ THE TEXT BOOK ND",
+  "transcript_similarity": 0.9726027397260274,
+  "mean_confidence": 0.9842000000000001,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-UacrmKiTn4__4",
+  "transcript": "Just given to their own devices they are not going to read the textbook.",
+  "model": "facebook/wav2vec2-base-960h"
+}

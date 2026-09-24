@@ -1,0 +1,121 @@
+{
+  "duration": 3.18425,
+  "words": [
+    {
+      "word": "And",
+      "char_start": 2,
+      "char_end": 5,
+      "spoken": "AND",
+      "start": 0.524,
+      "end": 0.6046,
+      "confidence": 0.7923
+    },
+    {
+      "word": "I",
+      "char_start": 6,
+      "char_end": 7,
+      "spoken": "I",
+      "start": 0.6651,
+      "end": 0.6852,
+      "confidence": 0.9816
+    },
+    {
+      "word": "said",
+      "char_start": 8,
+      "char_end": 12,
+      "spoken": "SAID",
+      "start": 0.786,
+      "end": 0.9069,
+      "confidence": 0.3352
+    },
+    {
+      "word": "Oh",
+      "char_start": 15,
+      "char_end": 17,
+      "spoken": "OH",
+      "start": 0.9875,
+      "end": 1.0681,
+      "confidence": 0.5467
+    },
+    {
+      "word": "make",
+      "char_start": 19,
+      "char_end": 23,
+      "spoken": "MAKE",
+      "start": 1.1891,
+      "end": 1.2898,
+      "confidence": 0.996
+    },
+    {
+      "word": "a",
+      "char_start": 24,
+      "char_end": 25,
+      "spoken": "A",
+      "start": 1.3503,
+      "end": 1.3704,
+      "confidence": 0.9741
+    },
+    {
+      "word": "profit",
+      "char_start": 26,
+      "char_end": 32,
+      "spoken": "PROFIT",
+      "start": 1.4309,
+      "end": 1.8743,
+      "confidence": 0.9637
+    },
+    {
+      "word": "and",
+      "char_start": 34,
+      "char_end": 37,
+      "spoken": "AND",
+      "start": 1.9146,
+      "end": 1.975,
+      "confidence": 0.9782
+    },
+    {
+      "word": "all",
+      "char_start": 38,
+      "char_end": 41,
+      "spoken": "ALL",
+      "start": 1.9952,
+      "end": 2.0758,
+      "confidence": 0.8159
+    },
+    {
+      "word": "these",
+      "char_start": 42,
+      "char_end": 47,
+      "spoken": "THESE",
+      "start": 2.096,
+      "end": 2.1967,
+      "confidence": 0.9947
+    },
+    {
+      "word": "other",
+      "char_start": 48,
+      "char_end": 53,
+      "spoken": "OTHER",
+      "start": 2.2572,
+      "end": 2.4184,
+      "confidence": 0.9549
+    },
+    {
+      "word": "things",
+      "char_start": 54,
+      "char_end": 60,
+      "spoken": "THINGS",
+      "start": 2.4789,
+      "end": 2.6603,
+      "confidence": 0.948
+    }
+  ],
+  "normalized_transcript": "AND I SAID OH MAKE A PROFIT AND ALL THESE OTHER THINGS",
+  "greedy_transcript": "O BUSINESS AND I SET O MAKE A PROFIT AND AL THESE OTHER THINGS THINGS SITNO",
+  "transcript_similarity": 0.7596899224806202,
+  "mean_confidence": 0.8567750000000002,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-s9qJ7ATP7w__8",
+  "transcript": "\" And I said, \"Oh, make a profit, and all these other things",
+  "model": "facebook/wav2vec2-base-960h"
+}

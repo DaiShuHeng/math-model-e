@@ -1,0 +1,275 @@
+[
+  {
+    "group": "clean",
+    "variant": "clean",
+    "Accuracy": 0.6209,
+    "MacroF1": 0.6059,
+    "WeightedF1": 0.6245,
+    "MAE": 0.6337,
+    "Pearson": 0.6335,
+    "gate_mean": [
+      0.7777,
+      0.1095,
+      0.1128
+    ],
+    "std": {
+      "Accuracy": 0.0022,
+      "MacroF1": 0.0058,
+      "WeightedF1": 0.0038,
+      "MAE": 0.0242,
+      "Pearson": 0.0129
+    }
+  },
+  {
+    "group": "type",
+    "variant": "T_only",
+    "Accuracy": 0.5769,
+    "MacroF1": 0.5645,
+    "WeightedF1": 0.5807,
+    "MAE": 0.6456,
+    "Pearson": 0.6023,
+    "gate_mean": [
+      0.7423,
+      0.1283,
+      0.1294
+    ],
+    "std": {
+      "Accuracy": 0.003,
+      "MacroF1": 0.0062,
+      "WeightedF1": 0.0058,
+      "MAE": 0.0135,
+      "Pearson": 0.0107
+    }
+  },
+  {
+    "group": "type",
+    "variant": "A_only",
+    "Accuracy": 0.6186,
+    "MacroF1": 0.6033,
+    "WeightedF1": 0.6222,
+    "MAE": 0.6332,
+    "Pearson": 0.6342,
+    "gate_mean": [
+      0.7795,
+      0.108,
+      0.1125
+    ],
+    "std": {
+      "Accuracy": 0.0006,
+      "MacroF1": 0.0071,
+      "WeightedF1": 0.0041,
+      "MAE": 0.0242,
+      "Pearson": 0.013
+    }
+  },
+  {
+    "group": "type",
+    "variant": "V_only",
+    "Accuracy": 0.6218,
+    "MacroF1": 0.6064,
+    "WeightedF1": 0.6252,
+    "MAE": 0.6338,
+    "Pearson": 0.6335,
+    "gate_mean": [
+      0.7799,
+      0.1084,
+      0.1116
+    ],
+    "std": {
+      "Accuracy": 0.0028,
+      "MacroF1": 0.0077,
+      "WeightedF1": 0.0055,
+      "MAE": 0.0237,
+      "Pearson": 0.0127
+    }
+  },
+  {
+    "group": "type",
+    "variant": "AV_only",
+    "Accuracy": 0.619,
+    "MacroF1": 0.6032,
+    "WeightedF1": 0.6223,
+    "MAE": 0.6335,
+    "Pearson": 0.6341,
+    "gate_mean": [
+      0.7817,
+      0.107,
+      0.1113
+    ],
+    "std": {
+      "Accuracy": 0.0032,
+      "MacroF1": 0.0038,
+      "WeightedF1": 0.0026,
+      "MAE": 0.0237,
+      "Pearson": 0.0127
+    }
+  },
+  {
+    "group": "type",
+    "variant": "TAV (default)",
+    "Accuracy": 0.5801,
+    "MacroF1": 0.5677,
+    "WeightedF1": 0.5835,
+    "MAE": 0.6443,
+    "Pearson": 0.6031,
+    "gate_mean": [
+      0.7461,
+      0.1258,
+      0.1281
+    ],
+    "std": {
+      "Accuracy": 0.0072,
+      "MacroF1": 0.0074,
+      "WeightedF1": 0.0084,
+      "MAE": 0.0134,
+      "Pearson": 0.0111
+    }
+  },
+  {
+    "group": "position",
+    "variant": "head_third",
+    "Accuracy": 0.5911,
+    "MacroF1": 0.5767,
+    "WeightedF1": 0.5943,
+    "MAE": 0.651,
+    "Pearson": 0.6005,
+    "gate_mean": [
+      0.7574,
+      0.1204,
+      0.1223
+    ],
+    "std": {
+      "Accuracy": 0.0083,
+      "MacroF1": 0.0094,
+      "WeightedF1": 0.0094,
+      "MAE": 0.0172,
+      "Pearson": 0.0063
+    }
+  },
+  {
+    "group": "position",
+    "variant": "mid_third",
+    "Accuracy": 0.5952,
+    "MacroF1": 0.5832,
+    "WeightedF1": 0.6005,
+    "MAE": 0.6367,
+    "Pearson": 0.6111,
+    "gate_mean": [
+      0.751,
+      0.1229,
+      0.126
+    ],
+    "std": {
+      "Accuracy": 0.0083,
+      "MacroF1": 0.0104,
+      "WeightedF1": 0.0098,
+      "MAE": 0.0178,
+      "Pearson": 0.0101
+    }
+  },
+  {
+    "group": "position",
+    "variant": "tail_third",
+    "Accuracy": 0.5609,
+    "MacroF1": 0.5532,
+    "WeightedF1": 0.5662,
+    "MAE": 0.636,
+    "Pearson": 0.6044,
+    "gate_mean": [
+      0.75,
+      0.1262,
+      0.1237
+    ],
+    "std": {
+      "Accuracy": 0.0023,
+      "MacroF1": 0.0026,
+      "WeightedF1": 0.0007,
+      "MAE": 0.0143,
+      "Pearson": 0.01
+    }
+  },
+  {
+    "group": "duration",
+    "variant": "scattered_r20",
+    "Accuracy": 0.5801,
+    "MacroF1": 0.5677,
+    "WeightedF1": 0.5835,
+    "MAE": 0.6443,
+    "Pearson": 0.6031,
+    "gate_mean": [
+      0.7461,
+      0.1258,
+      0.1281
+    ],
+    "std": {
+      "Accuracy": 0.0072,
+      "MacroF1": 0.0074,
+      "WeightedF1": 0.0084,
+      "MAE": 0.0134,
+      "Pearson": 0.0111
+    }
+  },
+  {
+    "group": "duration",
+    "variant": "contiguous_r20",
+    "Accuracy": 0.5902,
+    "MacroF1": 0.5805,
+    "WeightedF1": 0.5948,
+    "MAE": 0.6446,
+    "Pearson": 0.6142,
+    "gate_mean": [
+      0.7565,
+      0.1203,
+      0.1231
+    ],
+    "std": {
+      "Accuracy": 0.0084,
+      "MacroF1": 0.0034,
+      "WeightedF1": 0.0058,
+      "MAE": 0.0161,
+      "Pearson": 0.0105
+    }
+  },
+  {
+    "group": "duration",
+    "variant": "scattered_r40",
+    "Accuracy": 0.5545,
+    "MacroF1": 0.5385,
+    "WeightedF1": 0.5565,
+    "MAE": 0.6597,
+    "Pearson": 0.5513,
+    "gate_mean": [
+      0.7264,
+      0.1372,
+      0.1364
+    ],
+    "std": {
+      "Accuracy": 0.014,
+      "MacroF1": 0.0109,
+      "WeightedF1": 0.0121,
+      "MAE": 0.0049,
+      "Pearson": 0.0096
+    }
+  },
+  {
+    "group": "duration",
+    "variant": "contiguous_r40",
+    "Accuracy": 0.56,
+    "MacroF1": 0.5479,
+    "WeightedF1": 0.5638,
+    "MAE": 0.6623,
+    "Pearson": 0.5721,
+    "gate_mean": [
+      0.7389,
+      0.1285,
+      0.1326
+    ],
+    "std": {
+      "Accuracy": 0.0131,
+      "MacroF1": 0.0105,
+      "WeightedF1": 0.0125,
+      "MAE": 0.0159,
+      "Pearson": 0.0115
+    }
+  }
+]

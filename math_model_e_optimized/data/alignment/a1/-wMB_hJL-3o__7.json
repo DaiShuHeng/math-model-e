@@ -1,0 +1,211 @@
+{
+  "duration": 5.9755625,
+  "words": [
+    {
+      "word": "So",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "SO",
+      "start": 0.6016,
+      "end": 0.8221,
+      "confidence": 1.0
+    },
+    {
+      "word": "if",
+      "char_start": 3,
+      "char_end": 5,
+      "spoken": "IF",
+      "start": 1.1029,
+      "end": 1.143,
+      "confidence": 0.9999
+    },
+    {
+      "word": "you",
+      "char_start": 6,
+      "char_end": 9,
+      "spoken": "YOU",
+      "start": 1.2031,
+      "end": 1.2833,
+      "confidence": 1.0
+    },
+    {
+      "word": "have",
+      "char_start": 10,
+      "char_end": 14,
+      "spoken": "HAVE",
+      "start": 1.3435,
+      "end": 1.4638,
+      "confidence": 0.9397
+    },
+    {
+      "word": "a",
+      "char_start": 15,
+      "char_end": 16,
+      "spoken": "A",
+      "start": 1.524,
+      "end": 1.544,
+      "confidence": 0.9662
+    },
+    {
+      "word": "loved",
+      "char_start": 17,
+      "char_end": 22,
+      "spoken": "LOVED",
+      "start": 1.6042,
+      "end": 1.7846,
+      "confidence": 0.9991
+    },
+    {
+      "word": "one",
+      "char_start": 23,
+      "char_end": 26,
+      "spoken": "ONE",
+      "start": 1.905,
+      "end": 1.9852,
+      "confidence": 0.9968
+    },
+    {
+      "word": "who",
+      "char_start": 27,
+      "char_end": 30,
+      "spoken": "WHO",
+      "start": 2.0253,
+      "end": 2.1055,
+      "confidence": 0.9852
+    },
+    {
+      "word": "is",
+      "char_start": 31,
+      "char_end": 33,
+      "spoken": "IS",
+      "start": 2.2057,
+      "end": 2.2659,
+      "confidence": 0.9825
+    },
+    {
+      "word": "depressed",
+      "char_start": 34,
+      "char_end": 43,
+      "spoken": "DEPRESSED",
+      "start": 2.3261,
+      "end": 2.9076,
+      "confidence": 0.9657
+    },
+    {
+      "word": "those",
+      "char_start": 44,
+      "char_end": 49,
+      "spoken": "THOSE",
+      "start": 3.2685,
+      "end": 3.449,
+      "confidence": 0.9955
+    },
+    {
+      "word": "are",
+      "char_start": 50,
+      "char_end": 53,
+      "spoken": "ARE",
+      "start": 3.4891,
+      "end": 3.5693,
+      "confidence": 0.9933
+    },
+    {
+      "word": "some",
+      "char_start": 54,
+      "char_end": 58,
+      "spoken": "SOME",
+      "start": 3.6094,
+      "end": 3.7297,
+      "confidence": 0.927
+    },
+    {
+      "word": "of",
+      "char_start": 59,
+      "char_end": 61,
+      "spoken": "OF",
+      "start": 3.7698,
+      "end": 3.8099,
+      "confidence": 0.9992
+    },
+    {
+      "word": "the",
+      "char_start": 62,
+      "char_end": 65,
+      "spoken": "THE",
+      "start": 3.8701,
+      "end": 3.9503,
+      "confidence": 0.9966
+    },
+    {
+      "word": "things",
+      "char_start": 66,
+      "char_end": 72,
+      "spoken": "THINGS",
+      "start": 4.0104,
+      "end": 4.211,
+      "confidence": 0.9999
+    },
+    {
+      "word": "that",
+      "char_start": 73,
+      "char_end": 77,
+      "spoken": "THAT",
+      "start": 4.2511,
+      "end": 4.3513,
+      "confidence": 0.9268
+    },
+    {
+      "word": "you",
+      "char_start": 78,
+      "char_end": 81,
+      "spoken": "YOU",
+      "start": 4.3914,
+      "end": 4.4716,
+      "confidence": 0.9999
+    },
+    {
+      "word": "should",
+      "char_start": 82,
+      "char_end": 88,
+      "spoken": "SHOULD",
+      "start": 4.5318,
+      "end": 4.7123,
+      "confidence": 0.9447
+    },
+    {
+      "word": "think",
+      "char_start": 89,
+      "char_end": 94,
+      "spoken": "THINK",
+      "start": 4.7323,
+      "end": 4.8526,
+      "confidence": 0.9999
+    },
+    {
+      "word": "about",
+      "char_start": 95,
+      "char_end": 100,
+      "spoken": "ABOUT",
+      "start": 4.9328,
+      "end": 5.1334,
+      "confidence": 0.9985
+    },
+    {
+      "word": "doing",
+      "char_start": 101,
+      "char_end": 106,
+      "spoken": "DOING",
+      "start": 5.1935,
+      "end": 5.5144,
+      "confidence": 0.675
+    }
+  ],
+  "normalized_transcript": "SO IF YOU HAVE A LOVED ONE WHO IS DEPRESSED THOSE ARE SOME OF THE THINGS THAT YOU SHOULD THINK ABOUT DOING",
+  "greedy_transcript": "SO IF YOU HAVE A LOVED ONE WHO IS DEPRESSED THOSE ARE SOME OF THE THINGS THAT YOU SHOULD THINK ABOUT DOING",
+  "transcript_similarity": 1.0,
+  "mean_confidence": 0.9677909090909093,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-wMB_hJL-3o__7",
+  "transcript": "So if you have a loved one who is depressed those are some of the things that you should think about doing.",
+  "model": "facebook/wav2vec2-base-960h"
+}

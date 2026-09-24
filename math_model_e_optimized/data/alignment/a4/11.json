@@ -1,0 +1,139 @@
+{
+  "duration": 5.759,
+  "words": [
+    {
+      "word": "I",
+      "char_start": 0,
+      "char_end": 1,
+      "spoken": "I",
+      "start": 0.5619,
+      "end": 0.5819,
+      "confidence": 0.4788
+    },
+    {
+      "word": "would",
+      "char_start": 2,
+      "char_end": 7,
+      "spoken": "WOULD",
+      "start": 0.6221,
+      "end": 0.7424,
+      "confidence": 0.2549
+    },
+    {
+      "word": "be",
+      "char_start": 8,
+      "char_end": 10,
+      "spoken": "BE",
+      "start": 0.7826,
+      "end": 0.8628,
+      "confidence": 0.9991
+    },
+    {
+      "word": "ashamed",
+      "char_start": 11,
+      "char_end": 18,
+      "spoken": "ASHAMED",
+      "start": 0.923,
+      "end": 1.3444,
+      "confidence": 0.969
+    },
+    {
+      "word": "to",
+      "char_start": 19,
+      "char_end": 21,
+      "spoken": "TO",
+      "start": 3.2307,
+      "end": 3.2909,
+      "confidence": 0.9579
+    },
+    {
+      "word": "have",
+      "char_start": 22,
+      "char_end": 26,
+      "spoken": "HAVE",
+      "start": 3.3511,
+      "end": 3.4715,
+      "confidence": 0.9819
+    },
+    {
+      "word": "made",
+      "char_start": 27,
+      "char_end": 31,
+      "spoken": "MADE",
+      "start": 3.5317,
+      "end": 3.6922,
+      "confidence": 0.9996
+    },
+    {
+      "word": "this",
+      "char_start": 32,
+      "char_end": 36,
+      "spoken": "THIS",
+      "start": 3.7323,
+      "end": 3.8728,
+      "confidence": 0.8919
+    },
+    {
+      "word": "film",
+      "char_start": 37,
+      "char_end": 41,
+      "spoken": "FILM",
+      "start": 3.933,
+      "end": 4.1537,
+      "confidence": 0.9659
+    },
+    {
+      "word": "if",
+      "char_start": 42,
+      "char_end": 44,
+      "spoken": "IF",
+      "start": 4.4346,
+      "end": 4.4748,
+      "confidence": 0.9952
+    },
+    {
+      "word": "I",
+      "char_start": 45,
+      "char_end": 46,
+      "spoken": "I",
+      "start": 4.555,
+      "end": 4.5751,
+      "confidence": 0.6603
+    },
+    {
+      "word": "was",
+      "char_start": 47,
+      "char_end": 50,
+      "spoken": "WAS",
+      "start": 4.6353,
+      "end": 4.7156,
+      "confidence": 0.2701
+    },
+    {
+      "word": "a",
+      "char_start": 51,
+      "char_end": 52,
+      "spoken": "A",
+      "start": 4.7758,
+      "end": 4.7958,
+      "confidence": 0.4638
+    },
+    {
+      "word": "director",
+      "char_start": 53,
+      "char_end": 61,
+      "spoken": "DIRECTOR",
+      "start": 4.836,
+      "end": 5.2774,
+      "confidence": 0.6962
+    }
+  ],
+  "normalized_transcript": "I WOULD BE ASHAMED TO HAVE MADE THIS FILM IF I WAS A DIRECTOR",
+  "greedy_transcript": "I'D BE ASHAMED TO HAVE MADE THIS FILM IF IL'S A DIRECTOR S",
+  "transcript_similarity": 0.8907563025210085,
+  "mean_confidence": 0.7560428571428571,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "11",
+  "transcript": "I would be ashamed to have made this film if I was a director",
+  "model": "facebook/wav2vec2-base-960h"
+}

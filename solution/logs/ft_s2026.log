@@ -1,0 +1,67 @@
+Loading weights:   0%|          | 0/39 [00:00<?, ?it/s]Loading weights: 100%|██████████| 39/39 [00:00<00:00, 21743.70it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: /home/daishuheng/math_competition/models/bert-tiny
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.decoder.bias               | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+[ep 01] loss 1.5018 | clean F1 0.2114 Acc 0.4643 MAE 0.7889 r 0.4422 | corrupt F1 0.2114 MAE 0.8230 *
+[ep 02] loss 1.3488 | clean F1 0.3974 Acc 0.5440 MAE 0.6846 r 0.5037 | corrupt F1 0.4038 MAE 0.6912 *
+[ep 03] loss 1.2507 | clean F1 0.4280 Acc 0.5742 MAE 0.6802 r 0.5404 | corrupt F1 0.4151 MAE 0.6893 *
+[ep 04] loss 1.1567 | clean F1 0.4721 Acc 0.5755 MAE 0.6472 r 0.5736 | corrupt F1 0.4638 MAE 0.6522 *
+[ep 05] loss 1.1268 | clean F1 0.5207 Acc 0.5989 MAE 0.6581 r 0.5528 | corrupt F1 0.4996 MAE 0.6569 *
+[ep 06] loss 1.0907 | clean F1 0.5145 Acc 0.5989 MAE 0.6821 r 0.5830 | corrupt F1 0.4946 MAE 0.6785
+[ep 07] loss 1.0220 | clean F1 0.5437 Acc 0.5975 MAE 0.6462 r 0.5721 | corrupt F1 0.5216 MAE 0.6523 *
+[ep 08] loss 0.9853 | clean F1 0.5459 Acc 0.5934 MAE 0.6533 r 0.5882 | corrupt F1 0.5303 MAE 0.6544 *
+[ep 09] loss 0.9607 | clean F1 0.5032 Acc 0.5769 MAE 0.6423 r 0.5762 | corrupt F1 0.5093 MAE 0.6503
+[ep 10] loss 0.8869 | clean F1 0.5404 Acc 0.5893 MAE 0.6675 r 0.5782 | corrupt F1 0.5350 MAE 0.6689
+[ep 11] loss 0.8840 | clean F1 0.5239 Acc 0.5893 MAE 0.6842 r 0.5710 | corrupt F1 0.5155 MAE 0.6885
+[ep 12] loss 0.8291 | clean F1 0.5506 Acc 0.5879 MAE 0.6739 r 0.5640 | corrupt F1 0.5380 MAE 0.6778 *
+[ep 13] loss 0.8168 | clean F1 0.5529 Acc 0.5934 MAE 0.6720 r 0.5583 | corrupt F1 0.5247 MAE 0.6828 *
+[ep 14] loss 0.7822 | clean F1 0.5570 Acc 0.5934 MAE 0.6889 r 0.5572 | corrupt F1 0.5285 MAE 0.7022 *
+[ep 15] loss 0.7656 | clean F1 0.5315 Acc 0.5865 MAE 0.7012 r 0.5636 | corrupt F1 0.5069 MAE 0.7137
+[ep 16] loss 0.7354 | clean F1 0.5283 Acc 0.5824 MAE 0.6728 r 0.5592 | corrupt F1 0.5240 MAE 0.6846
+[ep 17] loss 0.7279 | clean F1 0.5294 Acc 0.5797 MAE 0.6766 r 0.5640 | corrupt F1 0.5404 MAE 0.6884
+[ep 18] loss 0.7069 | clean F1 0.5388 Acc 0.5810 MAE 0.6594 r 0.5609 | corrupt F1 0.5296 MAE 0.6734
+[ep 19] loss 0.6912 | clean F1 0.5529 Acc 0.5879 MAE 0.6678 r 0.5558 | corrupt F1 0.5234 MAE 0.6818
+[ep 20] loss 0.6687 | clean F1 0.5351 Acc 0.5810 MAE 0.6750 r 0.5562 | corrupt F1 0.5300 MAE 0.6866
+[ep 21] loss 0.6617 | clean F1 0.5519 Acc 0.5824 MAE 0.6890 r 0.5553 | corrupt F1 0.5321 MAE 0.6986
+[ep 22] loss 0.6804 | clean F1 0.5542 Acc 0.5879 MAE 0.6791 r 0.5582 | corrupt F1 0.5274 MAE 0.6916
+early stop at ep 22 (best ep 14)
+{
+  "valid_clean": {
+    "Accuracy": 0.5934065934065934,
+    "MacroF1": 0.5570489419344936,
+    "WeightedF1": 0.5841607579723225,
+    "MAE": 0.6889263987541199,
+    "Pearson": 0.5571815773949206,
+    "head_agreement": 0.8008241758241759,
+    "gate_mean": [
+      0.6790153384208679,
+      0.17245642840862274,
+      0.1485283374786377
+    ]
+  },
+  "valid_corrupt20": {
+    "Accuracy": 0.5714285714285714,
+    "MacroF1": 0.528467661664383,
+    "WeightedF1": 0.5583010055008343,
+    "MAE": 0.7021939158439636,
+    "Pearson": 0.5383178909591253,
+    "head_agreement": 0.8241758241758241,
+    "gate_mean": [
+      0.6605378985404968,
+      0.18264362215995789,
+      0.156818225979805
+    ]
+  }
+}

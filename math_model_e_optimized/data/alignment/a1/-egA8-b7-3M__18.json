@@ -1,0 +1,211 @@
+{
+  "duration": 8.2656875,
+  "words": [
+    {
+      "word": "It",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "IT",
+      "start": 0.5804,
+      "end": 0.6204,
+      "confidence": 0.9999
+    },
+    {
+      "word": "becomes",
+      "char_start": 3,
+      "char_end": 10,
+      "spoken": "BECOMES",
+      "start": 0.7005,
+      "end": 1.1208,
+      "confidence": 0.9962
+    },
+    {
+      "word": "easier",
+      "char_start": 11,
+      "char_end": 17,
+      "spoken": "EASIER",
+      "start": 1.381,
+      "end": 1.7812,
+      "confidence": 0.9407
+    },
+    {
+      "word": "at",
+      "char_start": 18,
+      "char_end": 20,
+      "spoken": "AT",
+      "start": 1.9613,
+      "end": 2.0014,
+      "confidence": 0.9941
+    },
+    {
+      "word": "each",
+      "char_start": 21,
+      "char_end": 25,
+      "spoken": "EACH",
+      "start": 2.1815,
+      "end": 2.3416,
+      "confidence": 0.9394
+    },
+    {
+      "word": "one",
+      "char_start": 26,
+      "char_end": 29,
+      "spoken": "ONE",
+      "start": 2.4817,
+      "end": 2.5618,
+      "confidence": 0.9999
+    },
+    {
+      "word": "of",
+      "char_start": 30,
+      "char_end": 32,
+      "spoken": "OF",
+      "start": 2.6218,
+      "end": 2.6618,
+      "confidence": 0.9997
+    },
+    {
+      "word": "these",
+      "char_start": 33,
+      "char_end": 38,
+      "spoken": "THESE",
+      "start": 2.7019,
+      "end": 2.862,
+      "confidence": 0.995
+    },
+    {
+      "word": "conferences",
+      "char_start": 39,
+      "char_end": 50,
+      "spoken": "CONFERENCES",
+      "start": 2.942,
+      "end": 3.5625,
+      "confidence": 0.9534
+    },
+    {
+      "word": "to",
+      "char_start": 51,
+      "char_end": 53,
+      "spoken": "TO",
+      "start": 4.1028,
+      "end": 4.2029,
+      "confidence": 0.9999
+    },
+    {
+      "word": "connect",
+      "char_start": 54,
+      "char_end": 61,
+      "spoken": "CONNECT",
+      "start": 4.2629,
+      "end": 4.5832,
+      "confidence": 1.0
+    },
+    {
+      "word": "with",
+      "char_start": 62,
+      "char_end": 66,
+      "spoken": "WITH",
+      "start": 4.6632,
+      "end": 4.8033,
+      "confidence": 0.9045
+    },
+    {
+      "word": "people",
+      "char_start": 67,
+      "char_end": 73,
+      "spoken": "PEOPLE",
+      "start": 4.8633,
+      "end": 5.1636,
+      "confidence": 0.915
+    },
+    {
+      "word": "that",
+      "char_start": 74,
+      "char_end": 78,
+      "spoken": "THAT",
+      "start": 5.2436,
+      "end": 5.3437,
+      "confidence": 0.8985
+    },
+    {
+      "word": "you've",
+      "char_start": 79,
+      "char_end": 85,
+      "spoken": "YOU'VE",
+      "start": 5.3837,
+      "end": 5.6039,
+      "confidence": 0.9945
+    },
+    {
+      "word": "met",
+      "char_start": 86,
+      "char_end": 89,
+      "spoken": "MET",
+      "start": 5.6839,
+      "end": 5.884,
+      "confidence": 0.9999
+    },
+    {
+      "word": "or",
+      "char_start": 90,
+      "char_end": 92,
+      "spoken": "OR",
+      "start": 6.4244,
+      "end": 6.4845,
+      "confidence": 0.9947
+    },
+    {
+      "word": "that",
+      "char_start": 93,
+      "char_end": 97,
+      "spoken": "THAT",
+      "start": 6.5645,
+      "end": 6.6646,
+      "confidence": 0.9088
+    },
+    {
+      "word": "you're",
+      "char_start": 98,
+      "char_end": 104,
+      "spoken": "YOU'RE",
+      "start": 6.7046,
+      "end": 6.8647,
+      "confidence": 0.9741
+    },
+    {
+      "word": "doing",
+      "char_start": 105,
+      "char_end": 110,
+      "spoken": "DOING",
+      "start": 6.9048,
+      "end": 7.1049,
+      "confidence": 0.9998
+    },
+    {
+      "word": "business",
+      "char_start": 111,
+      "char_end": 119,
+      "spoken": "BUSINESS",
+      "start": 7.1849,
+      "end": 7.5652,
+      "confidence": 0.9832
+    },
+    {
+      "word": "with",
+      "char_start": 120,
+      "char_end": 124,
+      "spoken": "WITH",
+      "start": 7.6252,
+      "end": 7.8454,
+      "confidence": 0.5532
+    }
+  ],
+  "normalized_transcript": "IT BECOMES EASIER AT EACH ONE OF THESE CONFERENCES TO CONNECT WITH PEOPLE THAT YOU'VE MET OR THAT YOU'RE DOING BUSINESS WITH",
+  "greedy_transcript": "IT BECOMES EASIER AT EACH ONE OF THESE CONFERENCES TO CONNECT WITH PEOPLE THAT YOU'VE MET OR THAT YOU'RE DOING BUSINESS WIP",
+  "transcript_similarity": 0.9878542510121457,
+  "mean_confidence": 0.9520181818181819,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-egA8-b7-3M__18",
+  "transcript": "It becomes easier at each one of these conferences to connect with people that you've met or that you're doing business with.",
+  "model": "facebook/wav2vec2-base-960h"
+}

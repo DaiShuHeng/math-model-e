@@ -1,0 +1,72 @@
+
+Loading weights:   0%|          | 0/39 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 39/39 [00:00<00:00, 22048.50it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: $HOME/math_competition/models/bert-tiny
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.decoder.bias               | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+[ep 01] loss 1.5000 | clean F1 0.2348 Acc 0.4739 MAE 0.7287 r 0.4560 | corrupt F1 0.2174 MAE 0.7089 *
+[ep 02] loss 1.3025 | clean F1 0.4170 Acc 0.5673 MAE 0.6894 r 0.5267 | corrupt F1 0.4183 MAE 0.6802 *
+[ep 03] loss 1.1897 | clean F1 0.4287 Acc 0.5687 MAE 0.6531 r 0.5637 | corrupt F1 0.4263 MAE 0.6600 *
+[ep 04] loss 1.0697 | clean F1 0.4516 Acc 0.5769 MAE 0.6844 r 0.5744 | corrupt F1 0.4306 MAE 0.6786 *
+[ep 05] loss 1.0195 | clean F1 0.4975 Acc 0.5907 MAE 0.6675 r 0.5774 | corrupt F1 0.4916 MAE 0.6543 *
+[ep 06] loss 0.9402 | clean F1 0.5306 Acc 0.5893 MAE 0.6570 r 0.5809 | corrupt F1 0.5520 MAE 0.6457 *
+[ep 07] loss 0.8931 | clean F1 0.5350 Acc 0.5797 MAE 0.6601 r 0.5780 | corrupt F1 0.5400 MAE 0.6488 *
+[ep 08] loss 0.8252 | clean F1 0.5347 Acc 0.5893 MAE 0.6739 r 0.5843 | corrupt F1 0.5408 MAE 0.6540
+[ep 09] loss 0.7798 | clean F1 0.5378 Acc 0.5865 MAE 0.6429 r 0.5799 | corrupt F1 0.5469 MAE 0.6448 *
+[ep 10] loss 0.7384 | clean F1 0.5434 Acc 0.5907 MAE 0.6535 r 0.5717 | corrupt F1 0.5474 MAE 0.6520 *
+[ep 11] loss 0.7059 | clean F1 0.5391 Acc 0.5907 MAE 0.7185 r 0.5730 | corrupt F1 0.5421 MAE 0.6796
+[ep 12] loss 0.6641 | clean F1 0.5308 Acc 0.5714 MAE 0.6893 r 0.5624 | corrupt F1 0.5351 MAE 0.6638
+[ep 13] loss 0.6205 | clean F1 0.5382 Acc 0.5687 MAE 0.6547 r 0.5700 | corrupt F1 0.5433 MAE 0.6568
+[ep 14] loss 0.5735 | clean F1 0.5363 Acc 0.5797 MAE 0.7074 r 0.5640 | corrupt F1 0.5381 MAE 0.6754
+[ep 15] loss 0.5485 | clean F1 0.5396 Acc 0.5797 MAE 0.7030 r 0.5538 | corrupt F1 0.5318 MAE 0.6724
+[ep 16] loss 0.5153 | clean F1 0.5443 Acc 0.5838 MAE 0.6931 r 0.5596 | corrupt F1 0.5415 MAE 0.6691 *
+[ep 17] loss 0.4882 | clean F1 0.5580 Acc 0.5920 MAE 0.6651 r 0.5617 | corrupt F1 0.5370 MAE 0.6562 *
+[ep 18] loss 0.4907 | clean F1 0.5549 Acc 0.5838 MAE 0.6854 r 0.5588 | corrupt F1 0.5116 MAE 0.6657
+[ep 19] loss 0.4656 | clean F1 0.5497 Acc 0.5810 MAE 0.6711 r 0.5553 | corrupt F1 0.5282 MAE 0.6611
+[ep 20] loss 0.4400 | clean F1 0.5571 Acc 0.5893 MAE 0.6925 r 0.5604 | corrupt F1 0.5321 MAE 0.6760
+[ep 21] loss 0.4282 | clean F1 0.5461 Acc 0.5769 MAE 0.6828 r 0.5559 | corrupt F1 0.5367 MAE 0.6694
+[ep 22] loss 0.4052 | clean F1 0.5457 Acc 0.5783 MAE 0.6812 r 0.5544 | corrupt F1 0.5180 MAE 0.6674
+[ep 23] loss 0.4086 | clean F1 0.5442 Acc 0.5797 MAE 0.6740 r 0.5504 | corrupt F1 0.5189 MAE 0.6660
+[ep 24] loss 0.4082 | clean F1 0.5414 Acc 0.5797 MAE 0.6889 r 0.5543 | corrupt F1 0.5221 MAE 0.6690
+[ep 25] loss 0.3789 | clean F1 0.5532 Acc 0.5838 MAE 0.6831 r 0.5538 | corrupt F1 0.5257 MAE 0.6679
+early stop at ep 25 (best ep 17)
+{
+  "valid_clean": {
+    "Accuracy": 0.592032967032967,
+    "MacroF1": 0.5579643923819867,
+    "WeightedF1": 0.5864612196306079,
+    "MAE": 0.6651409864425659,
+    "Pearson": 0.5617233737641942,
+    "head_agreement": 0.7664835164835165,
+    "gate_mean": [
+      0.7340935468673706,
+      0.1403798907995224,
+      0.1255265176296234
+    ]
+  },
+  "valid_corrupt20": {
+    "Accuracy": 0.5439560439560439,
+    "MacroF1": 0.5370266358098706,
+    "WeightedF1": 0.554054550697839,
+    "MAE": 0.6562480926513672,
+    "Pearson": 0.5412362319557813,
+    "head_agreement": 0.6153846153846154,
+    "gate_mean": [
+      0.77176433801651,
+      0.12870100140571594,
+      0.09953467547893524
+    ]
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "duration": 6.5226875,
+  "words": [
+    {
+      "word": "And",
+      "char_start": 0,
+      "char_end": 3,
+      "spoken": "AND",
+      "start": 0.5419,
+      "end": 0.6222,
+      "confidence": 0.9743
+    },
+    {
+      "word": "because",
+      "char_start": 4,
+      "char_end": 11,
+      "spoken": "BECAUSE",
+      "start": 0.6623,
+      "end": 0.9433,
+      "confidence": 0.9769
+    },
+    {
+      "word": "they",
+      "char_start": 12,
+      "char_end": 16,
+      "spoken": "THEY",
+      "start": 1.0035,
+      "end": 1.1038,
+      "confidence": 0.975
+    },
+    {
+      "word": "couldn’t",
+      "char_start": 17,
+      "char_end": 25,
+      "spoken": "COULDN'T",
+      "start": 1.1239,
+      "end": 1.3447,
+      "confidence": 0.9945
+    },
+    {
+      "word": "get",
+      "char_start": 26,
+      "char_end": 29,
+      "spoken": "GET",
+      "start": 1.3647,
+      "end": 1.445,
+      "confidence": 0.9998
+    },
+    {
+      "word": "these",
+      "char_start": 30,
+      "char_end": 35,
+      "spoken": "THESE",
+      "start": 1.4852,
+      "end": 1.6257,
+      "confidence": 0.9962
+    },
+    {
+      "word": "jobs",
+      "char_start": 36,
+      "char_end": 40,
+      "spoken": "JOBS",
+      "start": 1.6859,
+      "end": 2.0271,
+      "confidence": 0.9027
+    },
+    {
+      "word": "Black",
+      "char_start": 42,
+      "char_end": 47,
+      "spoken": "BLACK",
+      "start": 2.2277,
+      "end": 2.3883,
+      "confidence": 0.9807
+    },
+    {
+      "word": "communities",
+      "char_start": 48,
+      "char_end": 59,
+      "spoken": "COMMUNITIES",
+      "start": 2.4284,
+      "end": 2.8098,
+      "confidence": 0.952
+    },
+    {
+      "word": "had",
+      "char_start": 60,
+      "char_end": 63,
+      "spoken": "HAD",
+      "start": 2.8298,
+      "end": 2.9101,
+      "confidence": 0.9989
+    },
+    {
+      "word": "more",
+      "char_start": 64,
+      "char_end": 68,
+      "spoken": "MORE",
+      "start": 2.9904,
+      "end": 3.1309,
+      "confidence": 0.9906
+    },
+    {
+      "word": "men",
+      "char_start": 69,
+      "char_end": 72,
+      "spoken": "MEN",
+      "start": 3.171,
+      "end": 3.2714,
+      "confidence": 0.9998
+    },
+    {
+      "word": "out",
+      "char_start": 73,
+      "char_end": 76,
+      "spoken": "OUT",
+      "start": 3.3115,
+      "end": 3.3918,
+      "confidence": 0.9975
+    },
+    {
+      "word": "of",
+      "char_start": 77,
+      "char_end": 79,
+      "spoken": "OF",
+      "start": 3.4119,
+      "end": 3.4721,
+      "confidence": 0.9955
+    },
+    {
+      "word": "work",
+      "char_start": 80,
+      "char_end": 84,
+      "spoken": "WORK",
+      "start": 3.5323,
+      "end": 3.6728,
+      "confidence": 0.9977
+    },
+    {
+      "word": "higher",
+      "char_start": 86,
+      "char_end": 92,
+      "spoken": "HIGHER",
+      "start": 3.9939,
+      "end": 4.2147,
+      "confidence": 0.6966
+    },
+    {
+      "word": "rates",
+      "char_start": 93,
+      "char_end": 98,
+      "spoken": "RATES",
+      "start": 4.2347,
+      "end": 4.3953,
+      "confidence": 0.9023
+    },
+    {
+      "word": "of",
+      "char_start": 99,
+      "char_end": 101,
+      "spoken": "OF",
+      "start": 4.4154,
+      "end": 4.4756,
+      "confidence": 0.9954
+    },
+    {
+      "word": "poverty",
+      "char_start": 102,
+      "char_end": 109,
+      "spoken": "POVERTY",
+      "start": 4.5157,
+      "end": 4.8569,
+      "confidence": 0.957
+    },
+    {
+      "word": "and",
+      "char_start": 111,
+      "char_end": 114,
+      "spoken": "AND",
+      "start": 4.9773,
+      "end": 5.0576,
+      "confidence": 0.9777
+    },
+    {
+      "word": "more",
+      "char_start": 115,
+      "char_end": 119,
+      "spoken": "MORE",
+      "start": 5.0977,
+      "end": 5.2382,
+      "confidence": 0.9206
+    },
+    {
+      "word": "criminal",
+      "char_start": 120,
+      "char_end": 128,
+      "spoken": "CRIMINAL",
+      "start": 5.2984,
+      "end": 5.5593,
+      "confidence": 0.9925
+    },
+    {
+      "word": "behavior",
+      "char_start": 129,
+      "char_end": 137,
+      "spoken": "BEHAVIOR",
+      "start": 5.6195,
+      "end": 6.0209,
+      "confidence": 0.9699
+    }
+  ],
+  "normalized_transcript": "AND BECAUSE THEY COULDN'T GET THESE JOBS BLACK COMMUNITIES HAD MORE MEN OUT OF WORK HIGHER RATES OF POVERTY AND MORE CRIMINAL BEHAVIOR",
+  "greedy_transcript": "SERVICE WERE AND BECAUSE THEY COULDN'T GET THESE JOBS BLACK COMMUNITIES HAD MORE MEN OUT OF WORK HIGHERRATES OF POVERTY AND MORE CRIMINAL BEHAVIOR WHICH THAT A",
+  "transcript_similarity": 0.9078498293515358,
+  "mean_confidence": 0.9627869565217391,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-wny0OAz3g8__2",
+  "transcript": "And because they couldn’t get these jobs, Black communities had more men out of work, higher rates of poverty, and more criminal behavior",
+  "model": "facebook/wav2vec2-base-960h"
+}
