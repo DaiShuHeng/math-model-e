@@ -13,17 +13,26 @@ CMU-MOSEI 多模态情感（附件 1–4）。本仓库为**私有**队内工作
 | `E题_队友评审包/` | 给队友的轻量评审包（论文+数字+导读） |
 | `models/` | YuNet onnx / blaze_face tflite（bert 等大权重不入库，见下） |
 
-## clone 后还需要自行准备的（`.gitignore` 已排除）
+## clone 后还需要自行准备的（`.gitignore` 已排除，一键下载）
 
-1. **比赛原始数据**（版权原因不入库）：`E题/E题数据/` —— 从官方渠道解压到本路径；
-2. **预训练权重** → 放 `models/`：
-   - `bert-base-uncased/`（422MB）：ModelScope `AI-ModelScope/bert-base-uncased` 或 HF `google-bert/bert-base-uncased`
-   - `bert-tiny/`：HF `google/bert_uncased_L-2_H-128_A-2`
-   - wav2vec2-base-960h（CTC 对齐用）：torchaudio bundle 或 HF
-   - YuNet onnx 已在库内（sha256 见 `solution/提交说明.md`）
-3. **冠军权重**（3×420MB）：本仓库 GitHub **Release `weights-v1`** 下载，
-   放回 `solution/weights/q2_base_cw/s{2026,7,42}/best.pt`，即可直接推理，无需重训；
-   其余消融配置权重可按 `solution/提交说明.md` 命令重训。
+```bash
+TOKEN=<你的GitHub PAT> bash download_all.sh
+```
+
+脚本从本仓库两个 Release（私有资产，必须走 API 端点）下载并自动放置：
+
+| Release | 资产 | 大小 | 放置位置 |
+|---|---|---|---|
+| data-v1 | E题数据.zip | 1.8G | 解压到 `E题/E题数据/` |
+| data-v1 | bert-base-uncased.zip | 408M | 解压到 `models/bert-base-uncased/` |
+| data-v1 | bert-tiny.zip | 17M | 解压到 `models/bert-tiny/` |
+| data-v1 | cache_misc.zip | 39M | 解压回 `solution/cache/` 等原路径 |
+| weights-v1 | q2_base_cw 3 种子 best.pt | 3×420M | `solution/weights/q2_base_cw/<seed>/` |
+| weights-v1 | q2_ablation_weights.zip | 1.6G | 解压到 `solution/weights/`（9 组消融配置） |
+
+全部带 SHA256 校验。仅冠军推理可只跑 `download_weights.sh`（体积小得多）。
+wav2vec2-base-960h（CTC 对齐用）不入 Release：torchaudio bundle 会自动下载。
+YuNet onnx 已在 git 库内（sha256 见 `solution/提交说明.md`）。
 
 ## 快速上手（新机器）
 
