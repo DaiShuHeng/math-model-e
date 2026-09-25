@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "baseline": 0.0,
+    "kd03": 0.3,
+    "kd10": 1.0
+  },
+  "seeds": [
+    2026,
+    7,
+    42
+  ],
+  "epochs": 30,
+  "teacher_sha256": "6ae9e3c6a5a4d403c20ecf3bd2b6513e4791e5a9c9956aad27a0fae561f70a12",
+  "source_sha256": "cd7c00e8b56a07e09b30a5447e6f41c5278c7750b94971568f7d564ecf9d09f9",
+  "data_fingerprints": {
+    "train": "3a25c10a910edf647109771add7dcf105ea23c41acd20b6f4a41ecfc4d66215b",
+    "valid": "4a8cb5cbc0214a30dabe6af3dc7a91e2cdef762acf00beb7974508ce21b949e6"
+  },
+  "encoder_sha256": "dd152f8450c0579bd271ac0ccb4a88fa4f6a67d8035b7799dbf3a0fb7156d9d0",
+  "selection": "mean(clean MacroF1, continuous TAV r20 MacroF1)",
+  "distillation": "clean unchanged views with correct teacher class only; temperature 2",
+  "scope": "TRAIN/VALID only; diagnostic grids do not change early stopping"
+}

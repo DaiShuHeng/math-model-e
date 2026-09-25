@@ -1,0 +1,39 @@
+{
+  "teacher": "p2 probability ensemble, uncalibrated",
+  "checkpoints": [
+    {
+      "path": "math_model_e_optimized/models/p2_2026/model.pt",
+      "sha256": "ea66c942012f13a4fc9a18c6135b126bb2de4db6dff402fb03dd4e8588171e29"
+    },
+    {
+      "path": "math_model_e_optimized/models/p2_2027/model.pt",
+      "sha256": "2f26900db2c66647cb9c8d1f32467bd1005fe042f1cd5f2e18b2c58c337f025d"
+    },
+    {
+      "path": "math_model_e_optimized/models/p2_2028/model.pt",
+      "sha256": "769bff2ff7ad4e7547f191500bd5876cab407796567a69f457ea2a32d3847a60"
+    }
+  ],
+  "normalizer_fit": "train only, freshly recomputed",
+  "metrics": {
+    "train": {
+      "acc": 0.8108983799705449,
+      "f1_macro": 0.8025691484014102,
+      "f1_weighted": 0.8141759928318765,
+      "mae": 0.43957629799842834,
+      "pearson": 0.8401785813217996,
+      "acc2": 0.9169366715758468,
+      "f1_2": 0.9411273486430063
+    },
+    "valid": {
+      "acc": 0.6414835164835165,
+      "f1_macro": 0.6347761639791254,
+      "f1_weighted": 0.6467050831943981,
+      "mae": 0.578599750995636,
+      "pearson": 0.6700042127067015,
+      "acc2": 0.820054945054945,
+      "f1_2": 0.8739172281039461
+    }
+  },
+  "scope": "TRAIN soft targets; VALID reproduction only; no TEST/A3/A4 evaluation"
+}

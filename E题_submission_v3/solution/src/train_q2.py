@@ -12,6 +12,7 @@ Run:
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import random
 import time
@@ -23,11 +24,12 @@ from torch.utils.data import DataLoader
 
 from . import config
 from .augment import WordLevelTAV, MixedBlockAugment
-from .data_adapter import Standardizer, load_splits
+from .data_adapter import Standardizer, load_training_splits
 from .datasets import Q2Dataset
 from .metrics import cls_metrics, head_agreement, reg_metrics
 from .models import Q2Model, q2_loss
 from .consistency import confident_consistency
+from .distillation import TeacherDataset, teacher_loss
 
 
 def set_seed(seed: int):
@@ -92,12 +94,23 @@ def main():
     ap.add_argument('--consistency-warmup', type=int, default=5)
     ap.add_argument('--cls-weight-power', type=float, default=1.0,
                     help='0.5 is square-root inverse frequency; 1 preserves prior baseline')
+    ap.add_argument('--teacher-cache', type=str)
+    ap.add_argument('--distill-weight', type=float, default=0.0)
+    ap.add_argument('--distill-temperature', type=float, default=2.0)
+    ap.add_argument('--threads', type=int, default=4)
     args = ap.parse_args()
+    if args.distill_weight < 0 or args.distill_temperature <= 0 or args.threads < 1:
+        ap.error('Invalid distillation or thread settings')
+    if args.distill_weight and not args.teacher_cache:
+        ap.error('--distill-weight requires --teacher-cache')
+    torch.set_num_threads(args.threads)
     if args.consistency_weight < 0 or args.consistency_warmup < 1 or not 0 <= args.cls_weight_power <= 1:
         ap.error('Invalid optimization parameters')
     if args.consistency_weight and not args.paired_clean:
         ap.error('--consistency-weight requires --paired-clean')
 
+    args.teacher_cache_sha256 = (hashlib.sha256(Path(args.teacher_cache).read_bytes()).hexdigest()
+                                 if args.teacher_cache else None)
     set_seed(args.seed)
     device = torch.device(config.DEVICE if torch.cuda.is_available() else "cpu")
     out_dir = Path(args.out)
@@ -105,12 +118,14 @@ def main():
     if (out_dir / "best.pt").exists():
         raise FileExistsError("Choose a new run directory; existing checkpoint will not be overwritten")
 
-    splits = load_splits()
+    splits = load_training_splits()
     std = Standardizer.fit(splits["train"])
 
     train_ds = Q2Dataset(splits["train"], std, train=True, paired_clean=args.paired_clean,
                          augmenter=None if args.no_aug else
                          MixedBlockAugment(p_file=args.p_file, seed=args.seed))
+    if args.distill_weight:
+        train_ds = TeacherDataset(train_ds, args.teacher_cache)
     valid_clean = Q2Dataset(splits["valid"], std, train=False, augmenter=None)
     valid_corr = Q2Dataset(splits["valid"], std, train=False,
                            augmenter=WordLevelTAV(p_file=1.0, rate_pool=[0.2], seed=777),
@@ -156,11 +171,17 @@ def main():
             model.bert.eval()
         tot, nb = 0.0, 0
         consistency_total, reliable_total = 0.0, 0.0
+        kd_total, kd_fraction = 0.0, 0.0
         for batch in train_dl:
             batch = {k: v.to(device, non_blocking=True) for k, v in batch.items()}
             with torch.autocast(device.type, dtype=torch.bfloat16, enabled=device.type == "cuda" and torch.cuda.is_bf16_supported()):
                 out = model(batch)
                 loss, _ = q2_loss(out, batch, lambda_cls=args.lambda_cls, cls_weight=cls_w)
+                if args.distill_weight:
+                    kd, fraction = teacher_loss(out, batch, args.distill_temperature)
+                    loss = loss + args.distill_weight * kd
+                    kd_total += float(kd.detach())
+                    kd_fraction += float(fraction.detach())
                 if args.paired_clean:
                     clean_batch = {k.removeprefix('clean_'): v for k,v in batch.items() if k.startswith('clean_')}
                     clean_batch.update(y_cls=batch['y_cls'], y_reg=batch['y_reg'])
@@ -185,6 +206,8 @@ def main():
         mr = evaluate(model, vr_dl, device)
         rec = {"epoch": ep, "train_loss": tot / max(nb, 1),
                "valid_clean": mc, "valid_corrupt20": mr,
+               "distillation_loss": kd_total / max(nb,1),
+               "distillation_eligible_fraction": kd_fraction / max(nb,1),
                "consistency_loss": consistency_total / max(nb,1),
                "reliable_teacher_fraction": reliable_total / max(nb,1)}
         history.append(rec)

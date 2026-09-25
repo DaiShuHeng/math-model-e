@@ -35,15 +35,23 @@ def selected_files(root):
              '本地核验结果.json', 'math_model_e_optimized/models/decision_calibration.json',
              # Q3 便携归一化（G2 认证的同一文件入包，独立推理不再需要 train 数据）
              'math_model_e_optimized/data/cache/a2_stats_v2.npz',
-             # 专项交付：附件3 预测（修订协议 Tiny 模型）、附件4 Shapley 与重算互证、秒级证据
+             # 专项交付：附件3 预测（最终模型 Tiny 蒸馏 kd10 s42；首轮 finetune_cw 保留为记录）、附件4 Shapley 与重算互证、秒级证据
+             'solution/results/att3_predictions_kd10_s42.csv',
              'solution/results/att3_predictions_tiny_s42.csv',
              'solution/results/附件4_shapley.csv',
              'solution/results/附件4_shapley_重算.csv',
              'math_model_e_optimized/results/evidence_time_mapping.csv',
-             # 修订协议验证与测试记录（可复核）
+             # 修订协议验证与测试记录（可复核）：第一轮优化对照 + 第二轮教师蒸馏
              'solution/logs/optimization_s2026_comparison.json',
              'solution/logs/optimization_s2026_seed_check.json',
-             'solution/logs/final_test_eval_tiny_finetune_s42.json']
+             'solution/logs/final_test_eval_tiny_finetune_s42.json',
+             'solution/logs/final_test_eval_tiny_kd10_s42.json',
+             'solution/logs/distill_v4_comparison.json',
+             'solution/logs/distill_v4_plan.json',
+             'solution/logs/distill_v4_teacher_audit.json',
+             'solution/logs/distill_v4_diagnostics_kd10_s42.json',
+             'solution/logs/distill_v4_q3_p2_report.json',
+             'solution/logs/distill_v4_q3_p3_report.json']
     exact += [f'math_model_e_optimized/models/p3_{s}/model.pt' for s in (2026, 2027, 2028)]
     result = []
     for name in trees:

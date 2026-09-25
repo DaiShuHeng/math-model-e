@@ -1,0 +1,41 @@
+{
+  "protocol_version": "continuous_blocks_v3_no_special_fit",
+  "checkpoints": [
+    "weights/distill_v4/runs/kd10_s42/best.pt"
+  ],
+  "n_test": 727,
+  "test": {
+    "clean": {
+      "Accuracy": 0.5804676753782668,
+      "MacroF1": 0.54648773162794,
+      "WeightedF1": 0.584214442106692,
+      "MAE": 0.7462610006332397,
+      "Pearson": 0.531018421214377,
+      "head_agreement": 0.7262723521320495
+    },
+    "pool": {
+      "Accuracy": 0.5667125171939478,
+      "MacroF1": 0.534736632213335,
+      "WeightedF1": 0.5713896831833167,
+      "MAE": 0.757116436958313,
+      "Pearson": 0.5074034657068708,
+      "head_agreement": 0.7056396148555708
+    },
+    "r20": {
+      "Accuracy": 0.5529573590096286,
+      "MacroF1": 0.5237469300761944,
+      "WeightedF1": 0.559233696376554,
+      "MAE": 0.7602536678314209,
+      "Pearson": 0.49692381203261204,
+      "head_agreement": 0.6932599724896836
+    },
+    "r40": {
+      "Accuracy": 0.5529573590096286,
+      "MacroF1": 0.5233726119199166,
+      "WeightedF1": 0.5593228945771059,
+      "MAE": 0.7662826776504517,
+      "Pearson": 0.4764151111525409,
+      "head_agreement": 0.686382393397524
+    }
+  }
+}

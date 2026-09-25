@@ -1,0 +1,52 @@
+{
+  "model": "p2",
+  "calibrated": false,
+  "valid_metrics": {
+    "acc": 0.6414835164835165,
+    "f1_macro": 0.6347761639791254,
+    "f1_weighted": 0.6467050831943981,
+    "mae": 0.5785998106002808,
+    "pearson": 0.6700042128108212,
+    "acc2": 0.820054945054945,
+    "f1_2": 0.8739172281039461
+  },
+  "scope": "VALID feature-position group deletion versus five random controls; not raw-word causal evidence",
+  "subset_seed": 2026,
+  "subset_size": 128,
+  "bootstrap_unit": "source video",
+  "explanation_validation": [
+    {
+      "fraction": 0.1,
+      "n": 128,
+      "n_video_groups": 98,
+      "scope": "feature_position_occlusion",
+      "local_occlusion_drop": 0.10737239569425583,
+      "random_drop": 0.0009693801403045654,
+      "paired_difference": 0.10640302300453186,
+      "ci95_low": 0.09216146171092987,
+      "ci95_high": 0.1222616657614708
+    },
+    {
+      "fraction": 0.2,
+      "n": 128,
+      "n_video_groups": 98,
+      "scope": "feature_position_occlusion",
+      "local_occlusion_drop": 0.1723865568637848,
+      "random_drop": 0.008149873465299606,
+      "paired_difference": 0.16423669457435608,
+      "ci95_low": 0.14532797038555145,
+      "ci95_high": 0.18400859832763672
+    },
+    {
+      "fraction": 0.4,
+      "n": 128,
+      "n_video_groups": 98,
+      "scope": "feature_position_occlusion",
+      "local_occlusion_drop": 0.2783557176589966,
+      "random_drop": 0.015354623086750507,
+      "paired_difference": 0.26300108432769775,
+      "ci95_low": 0.24028141796588898,
+      "ci95_high": 0.2867795526981354
+    }
+  ]
+}
