@@ -21,8 +21,12 @@ dl() {  # dl <资产ID> <临时文件名> <期望SHA256>
 }
 
 # ===== Release data-v1：原始数据 + 预训练 + 缓存 =====
-dl 586379398 E题数据.zip 71c248958ba4ee63ed836a310c277337630ed32a3192a83bf1bc83af46c427b2
+# 注：组织方原版 E题数据.zip 内 aligned_50.pkl 压缩流损坏，此为从完好解压树重建的 v2（350 文件全量 CRC 自检通过）
+dl 586447895 E题数据.zip ffdeae72ef381c037c30f990743c689bc188d4b1d5a1b313d3adc00258f3b3a0
 python3 -m zipfile -e "$STAGE/E题数据.zip" E题/
+# 只需修复截断的 aligned_50.pkl 时可单独下小包（735MB，解压到 E题/ 即覆写归位）：
+#   dl 587311383 aligned_50_only.zip e34ed0182123665f562400e68ca26a800616b38b2749086402cb7397a838500d
+#   python3 -m zipfile -e aligned_50_only.zip E题/
 
 dl 586383566 bert-base-uncased.zip c64485be4735377734d6b2ec0b386f552036c16241a88d13ee4596fe6777c580
 python3 -m zipfile -e "$STAGE/bert-base-uncased.zip" models/
