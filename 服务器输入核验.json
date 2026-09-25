@@ -1,0 +1,53 @@
+{
+  "training_ready": true,
+  "aligned_bytes": 993842861,
+  "splits": {
+    "train": {
+      "samples": 3395,
+      "class_counts": [
+        967,
+        758,
+        1670
+      ]
+    },
+    "valid": {
+      "samples": 728,
+      "class_counts": [
+        206,
+        184,
+        338
+      ]
+    },
+    "test": {
+      "samples": 727,
+      "class_counts": [
+        207,
+        158,
+        362
+      ]
+    }
+  },
+  "bert_dir": "models/bert-tiny",
+  "model_parameter_bytes_fp32": 18838404,
+  "cuda_available": false,
+  "torch": "2.9.0",
+  "q1_features": 100,
+  "attachment3_aligned_count": 30,
+  "attachment4_aligned_count": 20,
+  "q3_normalizer_valid": true,
+  "optional_for_q2_training": {
+    "bert_base_present": false,
+    "unaligned_present": false
+  },
+  "training_smoke": {
+    "status": "passed",
+    "samples": 4,
+    "meaning": "real TRAIN execution check only; not accuracy evidence"
+  },
+  "checked_on": "2026-09-25",
+  "q3_reproduction": {
+    "samples": 20,
+    "class_matches": 20,
+    "max_abs_phi_difference": 0.0
+  }
+}
