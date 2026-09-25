@@ -146,6 +146,10 @@ def sample_blocks(length,n_drop,n_segments,rng):
     return out
 
 def apply_missing(sample,miss_type,miss_rate,rng,n_segments=1):
+    """Historical FEATURE-space perturbation. Text is already contextualized.
+    This is not raw-token deletion and does not remove contextual information
+    in remaining token embeddings. Do not claim it reproduces input text loss.
+    """
     if not 0<=miss_rate<=1:raise ValueError('miss_rate must be in [0,1]')
     if n_segments<1:raise ValueError('n_segments must be positive')
     feats={m:getattr(sample,m).copy() for m in C.MODALITIES};masks={m:sample.mask[m].copy() for m in C.MODALITIES};meta=dict(sample.meta);audit={}

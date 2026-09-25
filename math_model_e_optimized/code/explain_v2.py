@@ -1,4 +1,7 @@
-"""Measured modality/position occlusion effects and CTC-grounded evidence times."""
+"""Feature-position occlusion; NOT raw-word deletion.
+Text effects retain contextual information in unmasked BERT features.
+Audio/vision timestamps inferred from token alignment need independent review.
+"""
 import json
 from dataclasses import replace
 import config as C
@@ -67,7 +70,7 @@ def main():
             for j in order:
                 span=mapping.get(int(j));key=span['char_start'] if span else f'unmapped{j}'
                 if key in seen:continue
-                seen.add(key);entry={'position':int(j),'probability_drop':round(float(effects[i,mi,j]),6),'pooling_weight':round(float(base['beta'][i,mi,j]),6)}
+                seen.add(key);entry={'position':int(j),'explanation_scope':'feature_position_occlusion','time_mapping_status':('ctc_text_anchor' if m=='text' else 'inferred_from_text_anchor_unverified_av_timing'),'probability_drop':round(float(effects[i,mi,j]),6),'pooling_weight':round(float(base['beta'][i,mi,j]),6)}
                 if span:entry.update(span)
                 else:entry['mapping_status']='unverified_position_no_timestamp'
                 chosen.append(entry)
@@ -75,10 +78,10 @@ def main():
             row[f'{m}_evidence']=json.dumps(chosen,ensure_ascii=False)
             for rank,entry in enumerate(chosen,1):evidence.append({'sample_id':s.sid,'modality':m,'rank':rank,**entry})
         rows.append(row)
-    pd.DataFrame(rows).to_csv(C.RESULT_DIR/'附件4_优化预测与解释.csv',index=False,encoding='utf-8-sig')
-    pd.DataFrame(evidence).to_csv(C.RESULT_DIR/'evidence_time_mapping.csv',index=False,encoding='utf-8-sig')
-    pd.DataFrame(mapping_audit).to_csv(C.RESULT_DIR/'evidence_mapping_audit.csv',index=False,encoding='utf-8-sig')
-    np.savez_compressed(C.RESULT_DIR/'explanation_effects.npz',modality_effect=contribution,local_effect=effects,pooling_beta=base['beta'],gate_alpha=base['alpha'])
+    pd.DataFrame(rows).to_csv(C.RESULT_DIR/'revised_附件4_特征位置解释.csv',index=False,encoding='utf-8-sig')
+    pd.DataFrame(evidence).to_csv(C.RESULT_DIR/'revised_evidence_time_mapping.csv',index=False,encoding='utf-8-sig')
+    pd.DataFrame(mapping_audit).to_csv(C.RESULT_DIR/'revised_evidence_mapping_audit.csv',index=False,encoding='utf-8-sig')
+    np.savez_compressed(C.RESULT_DIR/'revised_explanation_effects.npz',modality_effect=contribution,local_effect=effects,pooling_beta=base['beta'],gate_alpha=base['alpha'])
     print('EXPLANATIONS',len(rows),'mapped',pd.DataFrame(mapping_audit).to_dict('records'),flush=True)
 
 if __name__=='__main__':main()
