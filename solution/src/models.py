@@ -12,7 +12,8 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from transformers import BertModel
+from transformers import BertModel, BertConfig
+from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
 
 from . import config
 
@@ -28,8 +29,22 @@ class MaskedAttnPool(nn.Module):
         # h: (B, T, D), mask: (B, T) float
         scores = torch.einsum("btd,d->bt", h, self.query) / np.sqrt(h.size(-1))
         scores = scores.masked_fill(mask <= 0, -1e4)
-        w = torch.softmax(scores, dim=-1)
+        w = torch.softmax(scores, dim=-1) * (mask > 0).to(scores.dtype)
+        w = w / w.sum(-1, keepdim=True).clamp_min(1e-12)
         return torch.einsum("bt,btd->bd", w, h)
+
+
+def run_packed(gru, x, span):
+    """Exclude right padding from both directions; retain interior missing steps."""
+    lengths = span.long().sum(-1)
+    expected = torch.arange(x.shape[1], device=x.device)[None] < lengths[:, None]
+    if not torch.equal(span.bool(), expected):
+        raise ValueError("Attention mask must be a contiguous prefix")
+    packed = pack_padded_sequence(x, lengths.clamp_min(1).cpu(), batch_first=True, enforce_sorted=False)
+    output, _ = gru(packed)
+    h, _ = pad_packed_sequence(output, batch_first=True, total_length=x.shape[1])
+    return h * span[..., None]
+
 
 
 class ModalityBranch(nn.Module):
@@ -45,19 +60,20 @@ class ModalityBranch(nn.Module):
     def forward(self, x: torch.Tensor, obs: torch.Tensor, span: torch.Tensor):
         # x: (B, T, D) standardised (zeros at missing); obs/span: (B, T) float
         h = self.proj(self.norm(x))
-        h, _ = self.gru(h)
+        h = run_packed(self.gru, h, span)
         mask = obs * span
         rep = self.pool(h, mask)
-        avail = mask.mean(dim=-1, keepdim=True)             # (B, 1)
+        avail = mask.sum(dim=-1, keepdim=True) / span.sum(dim=-1, keepdim=True).clamp_min(1)             # (B, 1)
         rep = rep * (avail > 0).float()                     # zero out if no obs
         return rep, avail
 
 
 class Q2Model(nn.Module):
     def __init__(self, bert_dir=config.BERT_DIR, freeze_text: bool = True,
-                 hidden: int = 64, mlp_hidden: int = 128, dropout: float = 0.3):
+                 hidden: int = 64, mlp_hidden: int = 128, dropout: float = 0.3, bert_config=None):
         super().__init__()
-        self.bert = BertModel.from_pretrained(str(bert_dir))
+        self.bert = (BertModel(BertConfig.from_dict(bert_config)) if bert_config is not None
+                     else BertModel.from_pretrained(str(bert_dir), local_files_only=True))
         d_text = self.bert.config.hidden_size          # 128 (Tiny) or 768 (Base)
         self.freeze_text = freeze_text
         if freeze_text:
@@ -99,9 +115,9 @@ class Q2Model(nn.Module):
         span = attn                                        # text-valid positions
         t = self.encode_text(ids, attn.long())
         t = self.text_norm(t)
-        th, _ = self.text_gru(t)
+        th = run_packed(self.text_gru, t, span)
         rep_t = self.text_pool(th, span)
-        avail_t = span.mean(dim=-1, keepdim=True)          # always > 0 (CLS/SEP)
+        avail_t = (span.sum(dim=-1, keepdim=True) > 0).float()  # text branch present, NOT word reliability
 
         rep_a, avail_a = self.audio_branch(batch["audio"], batch["audio_obs"], span)
         rep_v, avail_v = self.vision_branch(batch["vision"], batch["vision_obs"], span)

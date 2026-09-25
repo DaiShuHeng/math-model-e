@@ -32,15 +32,16 @@ import cv2
 import numpy as np
 import pandas as pd
 
+_E_ROOT = Path(__file__).resolve().parents[2]
 SOL = Path(__file__).resolve().parents[1]
-TM = Path("/home/daishuheng/math_competition/math_model_e_optimized")
-os.environ.setdefault("MATH_E_DATA", "/home/daishuheng/math_competition/E题/E题数据")
+TM = _E_ROOT / "math_model_e_optimized"
+os.environ.setdefault("MATH_E_DATA", str(_E_ROOT / "E题" / "E题数据"))
 sys.path.insert(0, str(TM / "code"))
 
 import config as C                     # noqa: E402  (teammate's config)
 from p1_extract import decode_frames, _cascade, _detect_box  # noqa: E402
 
-YUNET = Path("/home/daishuheng/math_competition/models/face_detection_yunet_2023mar.onnx")
+YUNET = _E_ROOT / "models" / "face_detection_yunet_2023mar.onnx"
 FPS = 10.0
 SIZE = (320, 180)                      # (W, H) — identical to their protocol
 OUT_DIR = SOL / "data" / "p1_features_v3"

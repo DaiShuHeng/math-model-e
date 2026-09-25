@@ -1,19 +1,11 @@
-"""ONE-TIME final test evaluation of the frozen Q2 champion (q2_base_cw).
-
-Config was selected on valid ONLY (10-config x 3-seed ablation, see
-logs/ablation_v2_table.json); test is touched exactly once here and never
-again. Evaluates the 3-seed ensemble on test under: clean, the adjudicated
-附件3 rate-pool protocol (P_FILE=0.9 + empirical rates), and fixed r20/r40 —
-identical protocol to eval_q2 (fixed per-sample damage seeds 0+index), so
-numbers are directly comparable with logs/rate_curve_base_cw.json and
-logs/head2head.json.
-
-Run:
-  cd solution && CUDA_VISIBLE_DEVICES=0 python -m src.final_test_eval
+"""Evaluate a frozen revised model on TEST after validation selection.
+Requires explicit checkpoint arguments; will not overwrite a previous report.
+This script does not establish that historical test access occurred only once.
 """
 from __future__ import annotations
 
 import json
+import argparse
 from pathlib import Path
 
 import numpy as np
@@ -25,7 +17,7 @@ from src.augment import WordLevelTAV
 from src.data_adapter import Standardizer, load_splits
 from src.datasets import Q2Dataset
 from src.metrics import cls_metrics, head_agreement, reg_metrics
-from src.models import Q2Model
+from src.checkpoints import load_ensemble
 
 SOL = Path(__file__).resolve().parents[1]
 CKPTS = sorted((SOL / "weights" / "q2_base_cw").glob("s*/best.pt"))
@@ -60,18 +52,16 @@ def ensemble_metrics(models, ds, device):
 
 
 def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--ckpt", nargs="+", required=True)
+    ap.add_argument("--out", required=True)
+    args = ap.parse_args()
+    out = Path(args.out)
+    if out.exists():
+        raise FileExistsError("Test report exists; choose an explicit new path")
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-    models = []
-    for c in CKPTS:
-        ck = torch.load(c, map_location="cpu", weights_only=False)
-        m = Q2Model(bert_dir=ck["args"].get("bert_dir", str(config.BERT_DIR)),
-                    freeze_text=bool(ck["args"].get("freeze_text", 1))).to(device).eval()
-        m.load_state_dict(ck["state_dict"])
-        models.append(m)
-    print(f"final config: q2_base_cw ensemble {[c.parent.name for c in CKPTS]}", flush=True)
-
+    models, std = load_ensemble(args.ckpt, device)
     splits = load_splits()
-    std = Standardizer.fit(splits["train"])
 
     results = {}
     for cond in CONDITIONS:
@@ -82,11 +72,12 @@ def main():
         print(f"TEST [{cond:>5}] Acc {m['Accuracy']:.4f} mF1 {m['MacroF1']:.4f} "
               f"MAE {m['MAE']:.4f} r {m['Pearson']:.4f}", flush=True)
 
-    out = SOL / "logs" / "final_test_eval.json"
-    out.write_text(json.dumps({"config": "q2_base_cw", "seeds": [c.parent.name for c in CKPTS],
-                               "n_test": len(splits["test"]), "test": results},
-                              ensure_ascii=False, indent=2))
-    print(f"wrote {out} — test is now FROZEN, do not retune", flush=True)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps({"protocol_version": config.PROTOCOL_VERSION,
+        "checkpoints": args.ckpt, "n_test": len(splits["test"]), "test": results},
+        ensure_ascii=False, indent=2))
+    print(f"wrote {out}")
+
 
 
 if __name__ == "__main__":

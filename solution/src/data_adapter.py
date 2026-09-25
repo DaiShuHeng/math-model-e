@@ -2,9 +2,8 @@
 
 Design decisions (verified by the vocab/interface audit):
 - Observation masks are computed on RAW features: a row is "observed" iff it is
-  not all-zero. Audio interior zeros are a perfect marker of artificial damage
-  (natural rate 0/85717); vision has ~1.1% natural interior zeros which are
-  treated as unobserved (natural missing) identically.
+  not all-zero. Zeros are an operational visibility convention; a zero row alone does not
+  establish the physical cause of missingness.
 - Standardization statistics are computed ONCE on the TRAIN split over observed
   rows only, and applied with zero-preservation (missing rows stay exactly 0).
 - The adapter never touches labels beyond passing them through; splits keep the
@@ -13,6 +12,7 @@ Design decisions (verified by the vocab/interface audit):
 from __future__ import annotations
 
 import pickle
+import json
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -40,7 +40,10 @@ class _SafeUnpickler(pickle.Unpickler):
 
 def read_pickle(path: Path):
     with open(path, "rb") as f:
-        return _SafeUnpickler(f).load()
+        try:
+            return _SafeUnpickler(f).load()
+        except (EOFError, pickle.UnpicklingError) as exc:
+            raise ValueError(f"Cannot read {path}: incomplete/corrupt or unsupported pickle ({exc})") from exc
 
 
 @dataclass
@@ -87,8 +90,13 @@ def _build_from_pkl() -> dict:
 def load_splits(use_cache: bool = True) -> dict[str, SplitData]:
     """Return {'train': SplitData, 'valid': ..., 'test': ...} for aligned_50."""
     raw = None
-    if use_cache and _CACHE_FILE.exists():
-        z = np.load(_CACHE_FILE, allow_pickle=True)
+    source = config.ALIGNED_PKL
+    stamp_path = _CACHE_FILE.with_suffix(".source.json")
+    st = source.stat()
+    stamp = {"path": str(source.resolve()), "size": st.st_size, "mtime_ns": st.st_mtime_ns}
+    cached_stamp = json.loads(stamp_path.read_text()) if stamp_path.exists() else None
+    if use_cache and _CACHE_FILE.exists() and cached_stamp == stamp:
+        z = np.load(_CACHE_FILE, allow_pickle=False)
         raw = {}
         for s in ["train", "valid", "test"]:
             prefix = f"{s}__"
@@ -100,6 +108,7 @@ def load_splits(use_cache: bool = True) -> dict[str, SplitData]:
             _CACHE_FILE,
             **{f"{s}__{k}": v for s, d in raw.items() for k, v in d.items()},
         )
+        stamp_path.write_text(json.dumps(stamp))
     return {s: SplitData(split=s, **d) for s, d in raw.items()}
 
 

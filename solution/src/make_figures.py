@@ -100,7 +100,7 @@ def shapley_fig():
 
 
 def q1_vision_fig():
-    v2 = pd.read_csv("/home/daishuheng/math_competition/math_model_e_optimized/data/p1_summary_v2.csv")
+    v2 = pd.read_csv(str(Path(__file__).resolve().parents[2] / "math_model_e_optimized/data/p1_summary_v2.csv"))
     v3 = pd.read_csv(SOL / "data" / "p1_summary_v3.csv")
     fig, axes = plt.subplots(1, 2, figsize=(9.5, 3.4))
     ax = axes[0]

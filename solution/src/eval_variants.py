@@ -24,7 +24,7 @@ from . import config
 from .augment import WordLevelTAV
 from .data_adapter import Standardizer, load_splits
 from .datasets import Q2Dataset
-from .models import Q2Model
+from .checkpoints import load_ensemble
 from .train_q2 import evaluate
 
 VARIANTS = (
@@ -33,14 +33,16 @@ VARIANTS = (
     ("type", "T_only", dict(modalities=("t",))),
     ("type", "A_only", dict(modalities=("a",))),
     ("type", "V_only", dict(modalities=("v",))),
+    ("type", "TA_only", dict(modalities=("t", "a"))),
+    ("type", "TV_only", dict(modalities=("t", "v"))),
     ("type", "AV_only", dict(modalities=("a", "v"))),
     ("type", "TAV (default)", dict(modalities=("t", "a", "v"))),
-    ("position", "head_third", dict(region="head")),
-    ("position", "mid_third", dict(region="mid")),
-    ("position", "tail_third", dict(region="tail")),
-    ("duration", "scattered_r20", dict()),
+    ("position", "head_block", dict(region="head")),
+    ("position", "mid_block", dict(region="mid")),
+    ("position", "tail_block", dict(region="tail")),
+    ("duration", "scattered_r20", dict(contiguous=False)),
     ("duration", "contiguous_r20", dict(contiguous=True)),
-    ("duration", "scattered_r40", dict(rate_pool=[0.4])),
+    ("duration", "scattered_r40", dict(rate_pool=[0.4], contiguous=False)),
     ("duration", "contiguous_r40", dict(contiguous=True, rate_pool=[0.4])),
 )
 
@@ -48,19 +50,12 @@ VARIANTS = (
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--ckpt", type=str, nargs="+", required=True)
-    ap.add_argument("--out", type=str, default="logs/variant_grid.json")
+    ap.add_argument("--out", type=str, default="logs/revised_variant_grid.json")
     args = ap.parse_args()
 
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     splits = load_splits()
-    std = Standardizer.fit(splits["train"])
-    models = []
-    for c in args.ckpt:
-        ck = torch.load(Path(c), map_location="cpu", weights_only=False)
-        m = Q2Model(bert_dir=ck["args"].get("bert_dir", str(config.BERT_DIR)),
-                    freeze_text=bool(ck["args"].get("freeze_text", 1))).to(device)
-        m.load_state_dict(ck["state_dict"])
-        models.append(m)
+    models, std = load_ensemble(args.ckpt, device)
 
     results = []
     for group, name, kw in VARIANTS:
@@ -78,7 +73,7 @@ def main():
                 aug = WordLevelTAV(p_file=1.0, rate_pool=rate_pool, seed=777, **kwargs)
                 ds = Q2Dataset(splits["valid"], std, train=False,
                                augmenter=aug, fixed_corrupt_seed=0)
-            dl = DataLoader(ds, batch_size=128, num_workers=2, pin_memory=True)
+            dl = DataLoader(ds, batch_size=128, num_workers=0, pin_memory=device.type == "cuda")
             mm = evaluate(m, dl, device)
             per_model.append(mm)
             gate_means.append(mm["gate_mean"])

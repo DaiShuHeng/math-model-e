@@ -11,7 +11,7 @@ Output CSV columns:
 
 Run:
   cd solution && python -m src.predict_att3 --ckpt weights/q2_ft/s*/best.pt \
-      --out results/att3_predictions.csv
+      --out results/revised_att3_predictions.csv
 """
 from __future__ import annotations
 
@@ -24,7 +24,7 @@ import torch
 
 from . import config
 from .data_adapter import Standardizer, load_splits, read_pickle
-from .models import Q2Model
+from .checkpoints import load_ensemble
 
 POLARITY = {0: "Negative", 1: "Neutral", 2: "Positive"}
 
@@ -46,15 +46,9 @@ def load_att3_samples():
 @torch.no_grad()
 def predict(checkpoints: list[Path], samples) -> list[dict]:
     device = torch.device(config.DEVICE if torch.cuda.is_available() else "cpu")
-    models = []
-    for cp in checkpoints:
-        ck = torch.load(cp, map_location="cpu", weights_only=False)
-        m = Q2Model(bert_dir=ck["args"].get("bert_dir", str(config.BERT_DIR)),
-                    freeze_text=bool(ck["args"].get("freeze_text", 1))).to(device).eval()
-        m.load_state_dict(ck["state_dict"])
-        models.append(m)
-
-    std = Standardizer.fit(load_splits()["train"])
+    models, std = load_ensemble(checkpoints, device)
+    if len(samples) != 30:
+        raise ValueError(f"Expected 30 attachment-3 samples, found {len(samples)}")
     rows = []
     for s in samples:
         audio_obs = ~np.isclose(s["audio"], 0).all(axis=1)
@@ -93,7 +87,7 @@ def predict(checkpoints: list[Path], samples) -> list[dict]:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--ckpt", type=str, nargs="+", required=True)
-    ap.add_argument("--out", type=str, default="results/att3_predictions.csv")
+    ap.add_argument("--out", type=str, default="results/revised_att3_predictions.csv")
     args = ap.parse_args()
     ckpts = [Path(c) for c in args.ckpt]
     samples = load_att3_samples()

@@ -1,46 +1,26 @@
-"""Central configuration: paths, constants, empirical augmentation parameters.
-
-All empirical corruption parameters come from the forensic audit of 附件3
-(analysis/vocab_cache/adv/zero_row.damage_sets.csv, adjudicated 2026-09-24).
+"""Revised protocol: predefined continuous blocks; no special-test fitted rates.
+Changing this protocol requires NEW training and NEW validation results.
 """
+import os
 from pathlib import Path
-
-ROOT = Path("/home/daishuheng/math_competition")
-DATA_DIR = ROOT / "E题" / "E题数据"
+ROOT = Path(__file__).resolve().parents[2]
+SOLUTION = ROOT / "solution"
+DATA_DIR = Path(os.environ.get("MATH_E_DATA", str(ROOT / "E题" / "E题数据"))).resolve()
 ALIGNED_PKL = DATA_DIR / "附件2-数据集特征文件" / "aligned_50.pkl"
 ATT3_DIR = DATA_DIR / "附件3-模态缺失特征样本" / "对齐版本"
-ATT4_DIR = (
-    DATA_DIR / "附件4-可解释专项视频样本与特征文件"
-    / "附件4-可解释专项视频样本与特征文件" / "对齐版本"
-)
-BERT_DIR = ROOT / "models" / "bert-tiny"
-
-SOLUTION = ROOT / "solution"
+ATT4_DIR = DATA_DIR / "附件4-可解释专项视频样本与特征文件" / "附件4-可解释专项视频样本与特征文件" / "对齐版本"
+BERT_DIR = Path(os.environ.get("MATH_E_BERT", str(ROOT / "models" / "bert-tiny")))
 CACHE = SOLUTION / "cache"
 WEIGHTS = SOLUTION / "weights"
 RESULTS = SOLUTION / "results"
 LOGS = SOLUTION / "logs"
-
-# ---- tokenizer interface (verified 2026-09-24, see analysis/词表与接口核验结论.md) ----
 MAX_LEN = 50
-PAD_ID = 0
-UNK_ID = 100
-CLS_ID = 101
-SEP_ID = 102
-
-# ---- label mapping (audited): 0=Negative, 1=Neutral, 2=Positive ----
+PAD_ID, UNK_ID, CLS_ID, SEP_ID = 0, 100, 101, 102
 N_CLASSES = 3
 CLASS_NAMES = ["Negative", "Neutral", "Positive"]
-
-# ---- augmentation: empirical rate pool from 附件3 (30 files, 3 zeros included) ----
-P_FILE = 0.9
-EMPIRICAL_RATES = [
-    0.0, 0.1786, 0.1562, 0.0645, 0.0, 0.12, 0.1429, 0.1333, 0.1429, 0.0,
-    0.2857, 0.1538, 0.1053, 0.087, 0.1111, 0.1176, 0.3636, 0.1765, 0.2917,
-    0.2917, 0.3333, 0.2353, 0.3077, 0.25, 0.2222, 0.2727, 0.381, 0.3333,
-    0.4444, 0.5,
-]
-
-# ---- training defaults ----
+# Design values; chosen before any new runs, NOT estimated from attachment 3.
+P_FILE = 0.7
+PREDEFINED_RATES = (0.1, 0.2, 0.3, 0.4, 0.5, 0.7)
+PROTOCOL_VERSION = "continuous_blocks_v3_no_special_fit"
 SEED = 2026
-DEVICE = "cuda:0"
+DEVICE = os.environ.get("MATH_E_DEVICE", "cuda:0")

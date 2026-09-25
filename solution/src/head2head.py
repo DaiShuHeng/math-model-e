@@ -15,6 +15,8 @@ Run:
 """
 from __future__ import annotations
 
+raise RuntimeError("Historical comparison only. See 审查与修订报告.md; rerun matched revised baselines before reporting comparisons.")
+
 import json
 import os
 import sys
@@ -23,10 +25,11 @@ from pathlib import Path
 import numpy as np
 import torch
 
+_E_ROOT = Path(__file__).resolve().parents[2]
 SOL = Path(__file__).resolve().parents[1]
-TM = Path("/home/daishuheng/math_competition/math_model_e_optimized")
-os.environ.setdefault("MATH_E_DATA", "/home/daishuheng/math_competition/E题/E题数据")
-os.environ.setdefault("MATH_E_BERT", "/home/daishuheng/math_competition/models/bert-base-uncased")
+TM = _E_ROOT / "math_model_e_optimized"
+os.environ.setdefault("MATH_E_DATA", str(_E_ROOT / "E题" / "E题数据"))
+os.environ.setdefault("MATH_E_BERT", str(_E_ROOT / "models" / "bert-base-uncased"))
 sys.path.insert(0, str(TM / "code"))
 
 from src import config as mycfg                      # noqa: E402

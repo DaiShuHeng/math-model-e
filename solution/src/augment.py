@@ -1,23 +1,7 @@
-"""Corruption augmentation implementing the adjudicated 附件3 damage model.
-
-Rule 1 (word_level_TAV, primary):
-  - with prob P_FILE, damage a sample;
-  - rate r drawn from the empirical pool of the 30 附件3 files (3 zeros);
-  - k = round(r * |W|) positions drawn uniformly without replacement from the
-    word span W = [1, L-2] (token positions; CLS/SEP/padding excluded);
-  - at each hit i: ids[i] -> UNK(100) in place, attention mask UNCHANGED (=1),
-    audio[i, :] = 0 and vision[i, :] = 0 (both modalities, synchronised).
-
-Rule 3 (keep natural missing): nothing to do — natural vision dropouts and
-whole-modality-missing samples are kept as provided; we never synthesise
-whole-modality loss.
-
-Rule 2 (frame_level_AV_dropout) is a no-op for the aligned pipeline (frame-level
-scattered dropouts are absorbed by word-window averaging) — see audit report.
-
-Acceptance signature (assertion helper): damaged positions are exactly
-  {i : ids[i] == UNK} == {i : audio_row_is_zero(i) and i in W}
-audio interior zeros have natural rate 0, so zero rows inside W == corruption.
+"""Train/validation synthetic corruption in raw token/feature space.
+Default: a continuous block and a predefined rate grid, independent of special
+samples. Region means a head-, centre-, or tail-anchored interval. Scattered
+corruption is an explicitly requested secondary control, not the main task.
 """
 from __future__ import annotations
 
@@ -32,7 +16,7 @@ class WordLevelTAV:
 
     Variants for the 缺失类型/位置/时长 influence study (eval-time grid):
       modalities: subset of ("t","a","v") hit at the chosen positions.
-                  Default ("t","a","v") = the adjudicated synchronized rule.
+                  Default ("t","a","v") = a synchronized-block experimental condition.
       contiguous: True -> one contiguous block of k positions (时长/连续缺失)
                   instead of k scattered positions.
       region: "any" (uniform over W) | "head" | "mid" | "tail" (位置规律).
@@ -40,15 +24,19 @@ class WordLevelTAV:
 
     def __init__(self, p_file: float = config.P_FILE,
                  rate_pool=None, seed: int = config.SEED,
-                 modalities=("t", "a", "v"), contiguous: bool = False,
+                 modalities=("t", "a", "v"), contiguous: bool = True,
                  region: str = "any"):
         self.p_file = float(p_file)
+        if not 0 <= self.p_file <= 1: raise ValueError("p_file outside [0,1]")
         self.rate_pool = np.asarray(
-            config.EMPIRICAL_RATES if rate_pool is None else rate_pool, dtype=np.float64)
+            config.PREDEFINED_RATES if rate_pool is None else rate_pool, dtype=np.float64)
         self.rng = np.random.default_rng(seed)
         self.modalities = tuple(modalities)
         self.contiguous = bool(contiguous)
         self.region = region
+        if region not in ("any", "head", "mid", "tail"): raise ValueError(region)
+        if not self.modalities or not set(self.modalities) <= {"t", "a", "v"}: raise ValueError("Invalid modalities")
+        if self.rate_pool.size == 0 or not np.isfinite(self.rate_pool).all() or ((self.rate_pool < 0) | (self.rate_pool > 1)).any(): raise ValueError("Invalid rate pool")
 
     def reseed(self, seed: int) -> None:
         """Fresh RNG stream. Without this, DataLoader fork clones the parent
@@ -72,17 +60,17 @@ class WordLevelTAV:
             return damage
         w_idx = np.where(W)[0]
         if self.contiguous:
-            # one contiguous block of length k, start uniform in the region
-            start = self.rng.integers(0, n_w - k + 1)
-            pos = w_idx[start:start + k]
+            # Preserve exactly k positions in every location condition.
+            starts = {"head": 0, "mid": (n_w-k)//2, "tail": n_w-k}
+            start = int(self.rng.integers(0, n_w-k+1)) if self.region == "any" else starts[self.region]
+            pos = w_idx[start:start+k]
         elif self.region == "any":
             pos = self.rng.choice(w_idx, size=k, replace=False)
         else:
-            # region-restricted: head/mid/tail third of the word span
             thirds = np.array_split(w_idx, 3)
-            pick = {"head": 0, "mid": 1, "tail": 2}[self.region]
-            pool = thirds[pick]
-            k = min(k, len(pool))
+            pool = thirds[{"head": 0, "mid": 1, "tail": 2}[self.region]]
+            if k > len(pool):
+                raise ValueError("Requested scattered rate exceeds regional capacity; do not silently reduce rate")
             pos = self.rng.choice(pool, size=k, replace=False)
         damage[pos] = True
         if "t" in self.modalities:
@@ -102,13 +90,14 @@ def corruption_signature(ids: np.ndarray, audio: np.ndarray,
     return set(np.where(W & (ids == config.UNK_ID) & audio_zero)[0].tolist())
 
 
-def assert_augmentation_invariants(ids0, attn, ids1, audio1, vision1, damage):
-    """Raise AssertionError if any adjudicated invariant is violated.
+def assert_augmentation_invariants(ids0, attn_before, ids1, audio1, vision1, damage, attn_after):
+    """Raise AssertionError if any synchronized-TAV invariant is violated.
 
     ids0/attn: pre-damage arrays; ids1/audio1/vision1/damage: post-damage.
     """
-    L = int(attn.sum())
-    assert np.array_equal(attn, attn), "attention mask must never change"
+    attn = attn_before
+    L = int(attn_before.sum())
+    assert np.array_equal(attn_before, attn_after), "attention mask changed"
     # CLS/SEP/padding untouched
     assert ids1[0] == ids0[0] == config.CLS_ID
     assert ids1[L - 1] == ids0[L - 1] == config.SEP_ID
@@ -125,3 +114,10 @@ def assert_augmentation_invariants(ids0, attn, ids1, audio1, vision1, damage):
     assert v0 >= hits, "damaged vision rows must be zero"
     # no damage outside hits relative to original
     assert set(np.where(ids0 == config.UNK_ID)[0].tolist()) <= unk
+
+class MixedBlockAugment(WordLevelTAV):
+    """Uniformly choose one of seven nonempty modality subsets, then one block."""
+    SUBSETS = (("t",), ("a",), ("v",), ("t","a"), ("t","v"), ("a","v"), ("t","a","v"))
+    def __call__(self, ids, attn, audio, vision):
+        self.modalities = self.SUBSETS[int(self.rng.integers(len(self.SUBSETS)))]
+        return super().__call__(ids, attn, audio, vision)

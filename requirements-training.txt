@@ -1,0 +1,8 @@
+# Install a CUDA-compatible PyTorch separately on the server; do not force CPU wheels.
+# Smoke-tested locally with torch 2.9.0, transformers 4.46.3, tokenizers 0.20.3.
+numpy>=1.26,<3
+scipy>=1.11,<2
+scikit-learn>=1.4,<2
+transformers==4.46.3
+tokenizers>=0.20,<0.21
+safetensors>=0.4.1

@@ -19,7 +19,8 @@ from .data_adapter import SplitData, Standardizer
 class Q2Dataset(Dataset):
     def __init__(self, sd: SplitData, std: Standardizer, *,
                  train: bool = True, augmenter: WordLevelTAV | None = None,
-                 fixed_corrupt_seed: int | None = None):
+                 fixed_corrupt_seed: int | None = None, paired_clean: bool = False):
+        self.paired_clean = paired_clean
         self.sd = sd
         self.std = std
         self.train = train
@@ -56,7 +57,7 @@ class Q2Dataset(Dataset):
         audio_z = self.std.transform_audio(audio[None], audio_obs[None])[0]
         vision_z = self.std.transform_vision(vision[None], vision_obs[None])[0]
 
-        return {
+        result = {
             "ids": torch.from_numpy(ids),
             "attn": torch.from_numpy(attn.astype(np.int64)),
             "audio": torch.from_numpy(audio_z),
@@ -66,3 +67,17 @@ class Q2Dataset(Dataset):
             "y_reg": torch.tensor(float(self.sd.y_reg[j]), dtype=torch.float32),
             "y_cls": torch.tensor(int(self.sd.y_cls[j]), dtype=torch.long),
         }
+
+        if self.paired_clean:
+            # Raw inputs are immutable; the clean target is never reconstructed
+            # from corrupted arrays or from special-test examples.
+            a_obs = ~np.isclose(sd.audio[j], 0).all(axis=1)
+            v_obs = ~np.isclose(sd.vision[j], 0).all(axis=1)
+            clean = {
+                'ids': sd.ids[j].copy(), 'attn': sd.attn[j].astype(np.int64),
+                'audio': self.std.transform_audio(sd.audio[j], a_obs),
+                'vision': self.std.transform_vision(sd.vision[j], v_obs),
+                'audio_obs': a_obs.astype(np.float32), 'vision_obs': v_obs.astype(np.float32),
+            }
+            result.update({f'clean_{k}': torch.from_numpy(v) for k,v in clean.items()})
+        return result

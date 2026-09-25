@@ -7,7 +7,7 @@ fix improves not just coverage (39->4 zero-vision videos) but also usable
 signal for downstream prediction.
 
 Run:
-  cd solution && MATH_E_DATA=/home/daishuheng/math_competition/E题/E题数据 \
+  cd solution && MATH_E_DATA=$E_ROOT/E题/E题数据 \
     python -m src.p1_validation_v3
 """
 from __future__ import annotations
@@ -23,9 +23,10 @@ from sklearn.model_selection import StratifiedGroupKFold
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
+_E_ROOT = Path(__file__).resolve().parents[2]
 SOL = Path(__file__).resolve().parents[1]
-TM = Path("/home/daishuheng/math_competition/math_model_e_optimized")
-os.environ.setdefault("MATH_E_DATA", "/home/daishuheng/math_competition/E题/E题数据")
+TM = _E_ROOT / "math_model_e_optimized"
+os.environ.setdefault("MATH_E_DATA", str(_E_ROOT / "E题" / "E题数据"))
 sys.path.insert(0, str(TM / "code"))
 
 import config as C                     # noqa: E402

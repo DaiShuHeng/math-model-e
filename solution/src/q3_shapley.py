@@ -32,10 +32,11 @@ from pathlib import Path
 
 import numpy as np
 
+_E_ROOT = Path(__file__).resolve().parents[2]
 SOL = Path(__file__).resolve().parents[1]
-TM = Path("/home/daishuheng/math_competition/math_model_e_optimized")
-os.environ.setdefault("MATH_E_DATA", "/home/daishuheng/math_competition/E题/E题数据")
-os.environ.setdefault("MATH_E_BERT", "/home/daishuheng/math_competition/models/bert-base-uncased")
+TM = _E_ROOT / "math_model_e_optimized"
+os.environ.setdefault("MATH_E_DATA", str(_E_ROOT / "E题" / "E题数据"))
+os.environ.setdefault("MATH_E_BERT", str(_E_ROOT / "models" / "bert-base-uncased"))
 sys.path.insert(0, str(TM / "code"))
 
 import io_utils as U                     # noqa: E402  (teammate's modules)
@@ -48,7 +49,7 @@ W = {  # |S|! (2-|S|)! / 3!  for 3 players
     1: 1.0 / 6.0,
     2: 1.0 / 3.0,
 }
-P3_BIAS = np.array([0.2, -0.2, 0.0])     # models/decision_calibration.json p3
+P3_BIAS = None  # loaded at runtime from the associated calibration file
 POLARITY = {0: "Negative", 1: "Neutral", 2: "Positive"}
 
 
@@ -81,6 +82,8 @@ def key(c):
 
 
 def main():
+    global P3_BIAS
+    P3_BIAS = np.asarray(json.loads((TM / "models/decision_calibration.json").read_text())["p3"])
     samples = U.load_a4()
     net = TI.load_model("p3")
 
@@ -145,7 +148,7 @@ def main():
               f"φ_cls T {φ_cls['text']:+.3f} A {φ_cls['audio']:+.3f} V {φ_cls['vision']:+.3f} "
               f"| Σφ {sum_cls:+.4f} vs eff {eff_cls:+.4f}", flush=True)
 
-    out = SOL / "results" / "附件4_shapley.csv"
+    out = SOL / "results" / "附件4_shapley_重算.csv"
     out.parent.mkdir(parents=True, exist_ok=True)
     with open(out, "w", newline="", encoding="utf-8-sig") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))

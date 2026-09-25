@@ -1,147 +1,83 @@
-"""Build the anonymized, size-budgeted submission bundle.
-
-Layout inside the bundle mirrors the working tree (solution/ and
-math_model_e_optimized/ as siblings under the bundle root), so each absolute
-/home/... literal is rewritten to the equivalent _E_ROOT expression:
-
-    _E_ROOT = Path(__file__).resolve().parents[2]   # src -> solution -> root
-
-Excludes: weights/, cache/, __pycache__, .vscode (teammate OneDrive path), .env.
-Per-file size cap 2 MB keeps the small p2/p3 head checkpoints (~1.9 MB) and all
-code/results/data features, drops nothing else of value.
-
-Run:  cd solution && python -m src.build_submission
+"""Explicit, fail-closed export. Review bundles are never labeled final submissions.
+Usage: python -m src.build_submission --out /new/output [--review-only]
+Final mode additionally needs --q2-checkpoint (revised, self-contained), and
+--q3-normalizer (training-fitted statistics exported by the Q3 pipeline).
 """
 from __future__ import annotations
-
+import argparse
+import hashlib
+import json
 import shutil
-import subprocess
-import sys
+import tempfile
 from pathlib import Path
 
-SOL = Path(__file__).resolve().parents[1]
-MC = SOL.parent
-OUT = MC / "E题_submission"
+ROOT = Path(__file__).resolve().parents[2]
+LIMIT = 50_000_000
 
-INCLUDE_SOL = ["src", "tests", "results", "logs", "paper", "README.md", "run_v2_queue.sh"]
-SOL_DATA_SUB = ["p1_features_v3", "p1_summary_v3.csv"]
-INCLUDE_TM = ["code", "results", "paper", "models"]
-TM_DATA_SUB = ["alignment", "p1_features", "p1_summary_v2.csv"]
-SIZE_CAP = 2 * 1024 * 1024
+def selected_files(root):
+    trees = ['solution/src','solution/tests','solution/paper','solution/data/p1_features_v3',
+             'math_model_e_optimized/code','math_model_e_optimized/data/alignment']
+    exact = ['solution/data/p1_summary_v3.csv','审查与修订报告.md','修订运行指南.md',
+             '本地核验结果.json','math_model_e_optimized/models/decision_calibration.json']
+    exact += [f'math_model_e_optimized/models/p3_{s}/model.pt' for s in (2026,2027,2028)]
+    result = []
+    for name in trees:
+        folder = root/name
+        if not folder.is_dir(): raise FileNotFoundError(folder)
+        result.extend(p for p in folder.rglob('*') if p.is_file() and '__pycache__' not in p.parts and '历史原稿' not in p.parts and p.suffix != '.pyc')
+    for name in exact:
+        p=root/name
+        if not p.is_file(): raise FileNotFoundError(p)
+        result.append(p)
+    return sorted(set(result))
 
-HELPER = '_E_ROOT = Path(__file__).resolve().parents[2]\n'
-
-# exact code-literal rewrites (order matters: specific before generic)
-PY_REWRITES = [
-    ('Path("/home/daishuheng/math_competition/math_model_e_optimized")',
-     '_E_ROOT / "math_model_e_optimized"'),
-    ('"/home/daishuheng/math_competition/math_model_e_optimized/data/p1_summary_v2.csv"',
-     'str(_E_ROOT / "math_model_e_optimized" / "data" / "p1_summary_v2.csv")'),
-    ('"/home/daishuheng/math_competition/models/bert-base-uncased"',
-     'str(_E_ROOT / "models" / "bert-base-uncased")'),
-    ('"/home/daishuheng/math_competition/models/face_detection_yunet_2023mar.onnx"',
-     'str(_E_ROOT / "models" / "face_detection_yunet_2023mar.onnx")'),
-    ('"/home/daishuheng/math_competition/E题/E题数据"',
-     'str(_E_ROOT / "E题" / "E题数据")'),
-    ('ROOT = Path("/home/daishuheng/math_competition")', 'ROOT = _E_ROOT'),
-    # docstring / comment residue (after code literals are gone)
-    ('/home/daishuheng/math_competition/E题/E题数据', '$E_ROOT/E题/E题数据'),
-    ('/home/daishuheng/math_competition', '$E_ROOT'),
-]
-SH_REWRITES = [
-    ('/home/daishuheng/miniconda3/envs/mosei/bin/python', 'python'),
-    ('/home/daishuheng/math_competition/solution', '$E_ROOT/solution'),
-    ('/home/daishuheng/math_competition/models', '$E_ROOT/models'),
-]
-
-
-def copy_tree(src: Path, dst: Path, data_sub: list[str] | None = None):
-    if src.is_file():
-        shutil.copy2(src, dst)
-        return
-    dst.mkdir(parents=True, exist_ok=True)
-    skip = {"__pycache__", ".vscode", ".env", ".pytest_cache", ".ipynb_checkpoints",
-            "build_submission.py"}
-    for p in sorted(src.iterdir()):
-        if p.name in skip:
-            continue
-        if data_sub is not None and src.name == "data":
-            if p.name in data_sub:
-                copy_tree(p, dst / p.name)
-            continue
-        if p.is_dir():
-            copy_tree(p, dst / p.name)
-        elif p.stat().st_size < SIZE_CAP:
-            shutil.copy2(p, dst / p.name)
-
-
-def rewrite_py(txt: str) -> str:
-    for old, new in PY_REWRITES:
-        txt = txt.replace(old, new)
-    if "_E_ROOT" in txt and HELPER not in txt:
-        lines = txt.splitlines(keepends=True)
-        last_import = max(i for i, l in enumerate(lines[:80])
-                          if l.startswith(("import ", "from ")))
-        lines.insert(last_import + 1, HELPER)
-        txt = "".join(lines)
-    return txt
-
+def preflight(root):
+    import csv
+    errors=[]
+    for rel, count in [('solution/data/p1_features_v3',100),('math_model_e_optimized/data/alignment/a1',100),('math_model_e_optimized/data/alignment/a4',20)]:
+        pattern='*.npz' if 'features' in rel else '*.json'
+        if len(list((root/rel).glob(pattern))) != count:errors.append(f'{rel}: expected {count}')
+    summary=root/'solution/data/p1_summary_v3.csv'
+    if not summary.exists(): errors.append('Q1 summary missing')
+    else:
+        rows=list(csv.DictReader(summary.open(encoding='utf-8-sig')))
+        ids={r['sample_id'].replace('$_$','__') for r in rows}
+        if len(rows)!=100 or len(ids)!=100 or ids!={p.stem for p in (root/'solution/data/p1_features_v3').glob('*.npz')}:errors.append('Q1 sample IDs/count do not match')
+    if errors:raise ValueError('; '.join(errors))
 
 def main():
-    if OUT.exists():
-        shutil.rmtree(OUT)
-    (OUT / "solution").mkdir(parents=True)
-    (OUT / "math_model_e_optimized").mkdir(parents=True)
-    shutil.copy2(SOL / "提交说明.md", OUT / "提交说明.md")
+    ap=argparse.ArgumentParser()
+    ap.add_argument('--out', type=Path, required=True)
+    ap.add_argument('--review-only',action='store_true')
+    ap.add_argument('--q2-checkpoint',type=Path,nargs='+')
+    ap.add_argument('--q3-normalizer',type=Path)
+    args=ap.parse_args()
+    out=args.out.resolve()
+    if out.exists():raise FileExistsError(f'Will not overwrite: {out}')
+    preflight(ROOT)
+    files=selected_files(ROOT)
+    missing=['New-protocol Q2 training and evaluation pending','Q3 portable train normalizer and raw-evidence timing validation pending']
+    if not args.review_only:
+        # Q3 currently recomputes normalization from train; accepting a random NPZ would
+        # incorrectly certify standalone inference. Keep blocked until loader is wired.
+        if not args.q2_checkpoint:raise ValueError('No revised Q2 checkpoints. Historical q2_base_cw cannot certify the new method.')
+        from .checkpoints import load_revised
+        for cp in args.q2_checkpoint:load_revised(cp)
+        raise ValueError('Final export blocked: Q3 portable normalization/evidence verification is not yet completed. Use --review-only for an explicitly incomplete review bundle.')
+    size=sum(p.stat().st_size for p in files)
+    if size>LIMIT:raise ValueError(f'Export exceeds 50MB: {size} bytes; nothing silently skipped')
+    out.parent.mkdir(parents=True,exist_ok=True)
+    with tempfile.TemporaryDirectory(prefix='math-e-build-',dir=out.parent) as tmp:
+        stage=Path(tmp)/'bundle';stage.mkdir()
+        manifest=[]
+        for p in files:
+            rel=p.relative_to(ROOT);dst=stage/rel;dst.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(p,dst)
+            manifest.append({'path':rel.as_posix(),'bytes':dst.stat().st_size,'sha256':hashlib.sha256(dst.read_bytes()).hexdigest()})
+        (stage/'MANIFEST.json').write_text(json.dumps({'status':'REVIEW_ONLY_NOT_SUBMITTABLE','missing':missing,'files':manifest},ensure_ascii=False,indent=2))
+        (stage/'请先阅读.txt').write_text('修订评审包，不能直接参赛提交。缺少修订后Q2训练权重/结果，Q3可移植归一化与原始证据核验未完成。旧实验未被冒充为新实验。\n')
+        actual=sum(p.stat().st_size for p in stage.rglob('*') if p.is_file())
+        if actual>LIMIT:raise ValueError(f'Including manifest exceeds limit: {actual}')
+        shutil.move(str(stage),out)
+    print(json.dumps({'out':str(out),'bytes':actual,'status':'REVIEW_ONLY_NOT_SUBMITTABLE'},ensure_ascii=False))
 
-    for name in INCLUDE_SOL:
-        copy_tree(SOL / name, OUT / "solution" / name,
-                  data_sub=SOL_DATA_SUB if name == "data" else None)
-    for name in INCLUDE_TM:
-        copy_tree(MC / "math_model_e_optimized" / name, OUT / "math_model_e_optimized" / name,
-                  data_sub=TM_DATA_SUB if name == "data" else None)
-
-    n_py = 0
-    for f in sorted((OUT / "solution").rglob("*.py")):
-        t = f.read_text(encoding="utf-8")
-        if "daishuheng" in t:
-            f.write_text(rewrite_py(t), encoding="utf-8")
-            n_py += 1
-    for f in sorted((OUT / "math_model_e_optimized").rglob("*.py")):
-        t = f.read_text(encoding="utf-8")
-        if "daishuheng" in t or "OneDrive" in t:
-            f.write_text(rewrite_py(t), encoding="utf-8")
-            n_py += 1
-    sh = OUT / "solution" / "run_v2_queue.sh"
-    if sh.exists():
-        t = sh.read_text(encoding="utf-8")
-        for old, new in SH_REWRITES:
-            t = t.replace(old, new)
-        sh.write_text(t, encoding="utf-8")
-
-    # console logs embed home paths in command lines — sanitize textually
-    for f in OUT.rglob("*.log"):
-        t = f.read_text(encoding="utf-8", errors="ignore")
-        f.write_text(t.replace("/home/daishuheng", "$HOME"), encoding="utf-8")
-
-    # ---- verification: syntax, anonymity, size ----
-    r = subprocess.run([sys.executable, "-m", "compileall", "-q", str(OUT)],
-                       capture_output=True, text=True)
-    print("compileall:", "OK" if r.returncode == 0 else "FAIL\n" + r.stderr[:800])
-
-    bad = []
-    for f in OUT.rglob("*"):
-        if f.is_file() and f.suffix in {".py", ".md", ".json", ".csv", ".sh", ".txt", ".log"}:
-            t = f.read_text(encoding="utf-8", errors="ignore")
-            if "daishuheng" in t or "OneDrive" in t:
-                bad.append(str(f.relative_to(OUT)))
-    print("anonymity:", "CLEAN" if not bad else f"LEAKS: {bad}")
-
-    total = sum(f.stat().st_size for f in OUT.rglob("*") if f.is_file())
-    print(f"rewrote {n_py} py files; bundle: {total/1e6:.1f} MB "
-          f"({'OK <50MB' if total < 50e6 else 'OVER 50MB!'})")
-    print(f"bundle at {OUT}")
-
-
-if __name__ == "__main__":
-    main()
+if __name__=='__main__':main()
