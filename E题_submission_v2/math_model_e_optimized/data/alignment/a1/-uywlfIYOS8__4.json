@@ -1,0 +1,175 @@
+{
+  "duration": 5.881125,
+  "words": [
+    {
+      "word": "And",
+      "char_start": 0,
+      "char_end": 3,
+      "spoken": "AND",
+      "start": 0.1405,
+      "end": 0.7828,
+      "confidence": 0.6663
+    },
+    {
+      "word": "then",
+      "char_start": 4,
+      "char_end": 8,
+      "spoken": "THEN",
+      "start": 1.1843,
+      "end": 1.2846,
+      "confidence": 0.9948
+    },
+    {
+      "word": "from",
+      "char_start": 9,
+      "char_end": 13,
+      "spoken": "FROM",
+      "start": 1.3649,
+      "end": 1.4853,
+      "confidence": 0.9637
+    },
+    {
+      "word": "a",
+      "char_start": 14,
+      "char_end": 15,
+      "spoken": "A",
+      "start": 1.5456,
+      "end": 1.5656,
+      "confidence": 0.9906
+    },
+    {
+      "word": "brand",
+      "char_start": 16,
+      "char_end": 21,
+      "spoken": "BRAND",
+      "start": 1.6861,
+      "end": 2.0273,
+      "confidence": 0.9701
+    },
+    {
+      "word": "point",
+      "char_start": 22,
+      "char_end": 27,
+      "spoken": "POINT",
+      "start": 2.1076,
+      "end": 2.3083,
+      "confidence": 0.9847
+    },
+    {
+      "word": "of",
+      "char_start": 28,
+      "char_end": 30,
+      "spoken": "OF",
+      "start": 2.3886,
+      "end": 2.4287,
+      "confidence": 0.9846
+    },
+    {
+      "word": "view",
+      "char_start": 31,
+      "char_end": 35,
+      "spoken": "VIEW",
+      "start": 2.4689,
+      "end": 2.5692,
+      "confidence": 0.9999
+    },
+    {
+      "word": "we",
+      "char_start": 37,
+      "char_end": 39,
+      "spoken": "WE",
+      "start": 2.6495,
+      "end": 2.7298,
+      "confidence": 0.9999
+    },
+    {
+      "word": "need",
+      "char_start": 40,
+      "char_end": 44,
+      "spoken": "NEED",
+      "start": 2.8302,
+      "end": 3.0108,
+      "confidence": 0.985
+    },
+    {
+      "word": "to",
+      "char_start": 45,
+      "char_end": 47,
+      "spoken": "TO",
+      "start": 3.0911,
+      "end": 3.1513,
+      "confidence": 0.991
+    },
+    {
+      "word": "make",
+      "char_start": 48,
+      "char_end": 52,
+      "spoken": "MAKE",
+      "start": 3.2115,
+      "end": 3.352,
+      "confidence": 0.9256
+    },
+    {
+      "word": "sure",
+      "char_start": 53,
+      "char_end": 57,
+      "spoken": "SURE",
+      "start": 3.3922,
+      "end": 3.5126,
+      "confidence": 0.9997
+    },
+    {
+      "word": "we're",
+      "char_start": 58,
+      "char_end": 63,
+      "spoken": "WE'RE",
+      "start": 3.6933,
+      "end": 3.8739,
+      "confidence": 0.9154
+    },
+    {
+      "word": "driving",
+      "char_start": 64,
+      "char_end": 71,
+      "spoken": "DRIVING",
+      "start": 3.9141,
+      "end": 4.2151,
+      "confidence": 0.9562
+    },
+    {
+      "word": "the",
+      "char_start": 72,
+      "char_end": 75,
+      "spoken": "THE",
+      "start": 4.2553,
+      "end": 4.3155,
+      "confidence": 0.9939
+    },
+    {
+      "word": "relevant",
+      "char_start": 76,
+      "char_end": 84,
+      "spoken": "RELEVANT",
+      "start": 4.3757,
+      "end": 4.7169,
+      "confidence": 0.6453
+    },
+    {
+      "word": "insight",
+      "char_start": 85,
+      "char_end": 92,
+      "spoken": "INSIGHT",
+      "start": 4.8775,
+      "end": 5.279,
+      "confidence": 0.9982
+    }
+  ],
+  "normalized_transcript": "AND THEN FROM A BRAND POINT OF VIEW WE NEED TO MAKE SURE WE'RE DRIVING THE RELEVANT INSIGHT",
+  "greedy_transcript": "IGORYIS NOT OVER DEVELOPED AND THEN FROM A BRAND POINT OF VIEW WE NEED TO MAKE SURE THAT WE'RE DRIVING THE REL OF AN INSIGHT",
+  "transcript_similarity": 0.8186046511627907,
+  "mean_confidence": 0.9424944444444444,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-uywlfIYOS8__4",
+  "transcript": "And then from a brand point of view, we need to make sure we're driving the relevant insight.",
+  "model": "facebook/wav2vec2-base-960h"
+}

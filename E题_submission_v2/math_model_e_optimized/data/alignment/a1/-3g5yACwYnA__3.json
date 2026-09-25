@@ -1,0 +1,274 @@
+{
+  "duration": 14.327875,
+  "words": [
+    {
+      "word": "We're",
+      "char_start": 0,
+      "char_end": 5,
+      "spoken": "WE'RE",
+      "start": 0.6003,
+      "end": 0.9405,
+      "confidence": 0.817
+    },
+    {
+      "word": "a",
+      "char_start": 6,
+      "char_end": 7,
+      "spoken": "A",
+      "start": 1.2407,
+      "end": 1.2607,
+      "confidence": 0.977
+    },
+    {
+      "word": "huge",
+      "char_start": 8,
+      "char_end": 12,
+      "spoken": "HUGE",
+      "start": 1.3607,
+      "end": 1.6609,
+      "confidence": 0.9991
+    },
+    {
+      "word": "user",
+      "char_start": 13,
+      "char_end": 17,
+      "spoken": "USER",
+      "start": 2.6415,
+      "end": 2.9016,
+      "confidence": 0.9361
+    },
+    {
+      "word": "of",
+      "char_start": 18,
+      "char_end": 20,
+      "spoken": "OF",
+      "start": 2.9616,
+      "end": 3.0016,
+      "confidence": 0.1626
+    },
+    {
+      "word": "adhesives",
+      "char_start": 21,
+      "char_end": 30,
+      "spoken": "ADHESIVES",
+      "start": 3.1017,
+      "end": 3.5219,
+      "confidence": 0.5566
+    },
+    {
+      "word": "for",
+      "char_start": 31,
+      "char_end": 34,
+      "spoken": "FOR",
+      "start": 4.2023,
+      "end": 4.3824,
+      "confidence": 0.9987
+    },
+    {
+      "word": "our",
+      "char_start": 35,
+      "char_end": 38,
+      "spoken": "OUR",
+      "start": 4.5825,
+      "end": 4.6626,
+      "confidence": 0.984
+    },
+    {
+      "word": "operation",
+      "char_start": 39,
+      "char_end": 48,
+      "spoken": "OPERATION",
+      "start": 4.7426,
+      "end": 5.1828,
+      "confidence": 0.9929
+    },
+    {
+      "word": "called",
+      "char_start": 50,
+      "char_end": 56,
+      "spoken": "CALLED",
+      "start": 5.6431,
+      "end": 5.8232,
+      "confidence": 0.8085
+    },
+    {
+      "word": "flocking",
+      "char_start": 57,
+      "char_end": 65,
+      "spoken": "FLOCKING",
+      "start": 5.8632,
+      "end": 6.2634,
+      "confidence": 0.9586
+    },
+    {
+      "word": "and",
+      "char_start": 67,
+      "char_end": 70,
+      "spoken": "AND",
+      "start": 6.6036,
+      "end": 6.7237,
+      "confidence": 0.9904
+    },
+    {
+      "word": "we",
+      "char_start": 71,
+      "char_end": 73,
+      "spoken": "WE",
+      "start": 7.0239,
+      "end": 7.0839,
+      "confidence": 0.9995
+    },
+    {
+      "word": "don't",
+      "char_start": 74,
+      "char_end": 79,
+      "spoken": "DON'T",
+      "start": 7.1439,
+      "end": 7.264,
+      "confidence": 0.9304
+    },
+    {
+      "word": "have",
+      "char_start": 80,
+      "char_end": 84,
+      "spoken": "HAVE",
+      "start": 7.284,
+      "end": 7.364,
+      "confidence": 0.9569
+    },
+    {
+      "word": "the",
+      "char_start": 85,
+      "char_end": 88,
+      "spoken": "THE",
+      "start": 7.4041,
+      "end": 7.4641,
+      "confidence": 0.9463
+    },
+    {
+      "word": "technical",
+      "char_start": 89,
+      "char_end": 98,
+      "spoken": "TECHNICAL",
+      "start": 7.5241,
+      "end": 7.8843,
+      "confidence": 0.9782
+    },
+    {
+      "word": "inside",
+      "char_start": 99,
+      "char_end": 105,
+      "spoken": "INSIDE",
+      "start": 8.3846,
+      "end": 8.6648,
+      "confidence": 0.95
+    },
+    {
+      "word": "compounding",
+      "char_start": 106,
+      "char_end": 117,
+      "spoken": "COMPOUNDING",
+      "start": 9.4052,
+      "end": 9.9855,
+      "confidence": 0.9853
+    },
+    {
+      "word": "or",
+      "char_start": 118,
+      "char_end": 120,
+      "spoken": "OR",
+      "start": 10.2056,
+      "end": 10.2656,
+      "confidence": 0.9824
+    },
+    {
+      "word": "the",
+      "char_start": 121,
+      "char_end": 124,
+      "spoken": "THE",
+      "start": 10.3457,
+      "end": 10.4057,
+      "confidence": 0.9927
+    },
+    {
+      "word": "technical",
+      "char_start": 125,
+      "char_end": 134,
+      "spoken": "TECHNICAL",
+      "start": 10.4658,
+      "end": 10.7859,
+      "confidence": 0.9648
+    },
+    {
+      "word": "expertise",
+      "char_start": 135,
+      "char_end": 144,
+      "spoken": "EXPERTISE",
+      "start": 10.846,
+      "end": 11.2862,
+      "confidence": 0.7411
+    },
+    {
+      "word": "to",
+      "char_start": 145,
+      "char_end": 147,
+      "spoken": "TO",
+      "start": 11.3262,
+      "end": 11.3662,
+      "confidence": 0.9964
+    },
+    {
+      "word": "do",
+      "char_start": 148,
+      "char_end": 150,
+      "spoken": "DO",
+      "start": 11.4263,
+      "end": 11.4863,
+      "confidence": 0.995
+    },
+    {
+      "word": "these",
+      "char_start": 151,
+      "char_end": 156,
+      "spoken": "THESE",
+      "start": 11.5664,
+      "end": 11.7064,
+      "confidence": 0.917
+    },
+    {
+      "word": "types",
+      "char_start": 157,
+      "char_end": 162,
+      "spoken": "TYPES",
+      "start": 11.7665,
+      "end": 11.9466,
+      "confidence": 0.9925
+    },
+    {
+      "word": "of",
+      "char_start": 163,
+      "char_end": 165,
+      "spoken": "OF",
+      "start": 12.0066,
+      "end": 12.0466,
+      "confidence": 0.9405
+    },
+    {
+      "word": "things",
+      "char_start": 166,
+      "char_end": 172,
+      "spoken": "THINGS",
+      "start": 12.1067,
+      "end": 12.9471,
+      "confidence": 0.9859
+    }
+  ],
+  "normalized_transcript": "WE'RE A HUGE USER OF ADHESIVES FOR OUR OPERATION CALLED FLOCKING AND WE DON'T HAVE THE TECHNICAL INSIDE COMPOUNDING OR THE TECHNICAL EXPERTISE TO DO THESE TYPES OF THINGS",
+  "greedy_transcript": "OM WE'RE A HUGE A USERVE IT HE SAYS FOR OUR OPERATION CALL FLOCKING AND WE DON'T HAVE THE TECHNICAL AND INSIDE INFOM COMPOUNDING OR THE TECHNICAL EXPRATIS TO DO THESE TYPES OF THINGS SO A KEYBRINGS",
+  "transcript_similarity": 0.8664850136239782,
+  "mean_confidence": 0.9116000000000001,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-3g5yACwYnA__3",
+  "transcript": "We're a huge user of adhesives for our operation, called flocking, and we don't have the technical inside compounding or the technical expertise to do these types of things.",
+  "model": "facebook/wav2vec2-base-960h"
+}

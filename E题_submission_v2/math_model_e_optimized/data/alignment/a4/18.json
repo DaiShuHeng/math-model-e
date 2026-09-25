@@ -1,0 +1,409 @@
+{
+  "duration": 18.6365625,
+  "words": [
+    {
+      "word": "And",
+      "char_start": 1,
+      "char_end": 4,
+      "spoken": "AND",
+      "start": 0.5605,
+      "end": 0.6406,
+      "confidence": 0.884
+    },
+    {
+      "word": "in",
+      "char_start": 5,
+      "char_end": 7,
+      "spoken": "IN",
+      "start": 0.7206,
+      "end": 0.7607,
+      "confidence": 0.9958
+    },
+    {
+      "word": "Denmark",
+      "char_start": 8,
+      "char_end": 15,
+      "spoken": "DENMARK",
+      "start": 0.8207,
+      "end": 1.2011,
+      "confidence": 0.8485
+    },
+    {
+      "word": "the",
+      "char_start": 18,
+      "char_end": 21,
+      "spoken": "THE",
+      "start": 1.5814,
+      "end": 1.6615,
+      "confidence": 0.9414
+    },
+    {
+      "word": "first",
+      "char_start": 22,
+      "char_end": 27,
+      "spoken": "FIRST",
+      "start": 1.7215,
+      "end": 1.9417,
+      "confidence": 0.9999
+    },
+    {
+      "word": "Baltic",
+      "char_start": 28,
+      "char_end": 34,
+      "spoken": "BALTIC",
+      "start": 2.0018,
+      "end": 2.3621,
+      "confidence": 0.867
+    },
+    {
+      "word": "Cod",
+      "char_start": 35,
+      "char_end": 38,
+      "spoken": "COD",
+      "start": 2.4622,
+      "end": 2.7224,
+      "confidence": 0.9544
+    },
+    {
+      "word": "fishery",
+      "char_start": 39,
+      "char_end": 46,
+      "spoken": "FISHERY",
+      "start": 2.8225,
+      "end": 3.2429,
+      "confidence": 0.9558
+    },
+    {
+      "word": "has",
+      "char_start": 47,
+      "char_end": 50,
+      "spoken": "HAS",
+      "start": 3.6633,
+      "end": 3.7633,
+      "confidence": 0.9921
+    },
+    {
+      "word": "been",
+      "char_start": 51,
+      "char_end": 55,
+      "spoken": "BEEN",
+      "start": 3.8234,
+      "end": 3.9635,
+      "confidence": 0.9929
+    },
+    {
+      "word": "MSC",
+      "char_start": 56,
+      "char_end": 59,
+      "spoken": "MSC",
+      "start": 4.1036,
+      "end": 4.3238,
+      "confidence": 0.6518
+    },
+    {
+      "word": "certified",
+      "char_start": 62,
+      "char_end": 71,
+      "spoken": "CERTIFIED",
+      "start": 4.524,
+      "end": 5.0845,
+      "confidence": 0.774
+    },
+    {
+      "word": "Meanwhile",
+      "char_start": 73,
+      "char_end": 82,
+      "spoken": "MEANWHILE",
+      "start": 6.3456,
+      "end": 6.8261,
+      "confidence": 0.9873
+    },
+    {
+      "word": "the",
+      "char_start": 84,
+      "char_end": 87,
+      "spoken": "THE",
+      "start": 7.1464,
+      "end": 7.2464,
+      "confidence": 0.9961
+    },
+    {
+      "word": "Faeroese",
+      "char_start": 88,
+      "char_end": 96,
+      "spoken": "FAEROESE",
+      "start": 7.3065,
+      "end": 7.7469,
+      "confidence": 0.5019
+    },
+    {
+      "word": "Mackerel",
+      "char_start": 97,
+      "char_end": 105,
+      "spoken": "MACKEREL",
+      "start": 7.827,
+      "end": 8.1673,
+      "confidence": 0.6796
+    },
+    {
+      "word": "Fishery",
+      "char_start": 106,
+      "char_end": 113,
+      "spoken": "FISHERY",
+      "start": 8.2473,
+      "end": 8.5876,
+      "confidence": 0.886
+    },
+    {
+      "word": "has",
+      "char_start": 114,
+      "char_end": 117,
+      "spoken": "HAS",
+      "start": 8.6877,
+      "end": 8.7678,
+      "confidence": 0.9836
+    },
+    {
+      "word": "been",
+      "char_start": 118,
+      "char_end": 122,
+      "spoken": "BEEN",
+      "start": 8.8479,
+      "end": 8.988,
+      "confidence": 0.9956
+    },
+    {
+      "word": "denied",
+      "char_start": 123,
+      "char_end": 129,
+      "spoken": "DENIED",
+      "start": 9.028,
+      "end": 9.4284,
+      "confidence": 0.9624
+    },
+    {
+      "word": "MSC",
+      "char_start": 130,
+      "char_end": 133,
+      "spoken": "MSC",
+      "start": 9.5285,
+      "end": 9.7687,
+      "confidence": 0.2129
+    },
+    {
+      "word": "certification",
+      "char_start": 134,
+      "char_end": 147,
+      "spoken": "CERTIFICATION",
+      "start": 9.9488,
+      "end": 10.6495,
+      "confidence": 0.7329
+    },
+    {
+      "word": "based",
+      "char_start": 148,
+      "char_end": 153,
+      "spoken": "BASED",
+      "start": 11.1299,
+      "end": 11.3901,
+      "confidence": 0.9966
+    },
+    {
+      "word": "on",
+      "char_start": 154,
+      "char_end": 156,
+      "spoken": "ON",
+      "start": 11.4702,
+      "end": 11.5102,
+      "confidence": 0.9998
+    },
+    {
+      "word": "the",
+      "char_start": 157,
+      "char_end": 160,
+      "spoken": "THE",
+      "start": 11.5703,
+      "end": 11.6303,
+      "confidence": 0.9986
+    },
+    {
+      "word": "fact",
+      "char_start": 161,
+      "char_end": 165,
+      "spoken": "FACT",
+      "start": 11.6704,
+      "end": 11.8906,
+      "confidence": 0.9793
+    },
+    {
+      "word": "that",
+      "char_start": 166,
+      "char_end": 170,
+      "spoken": "THAT",
+      "start": 11.9306,
+      "end": 12.0507,
+      "confidence": 0.9804
+    },
+    {
+      "word": "the",
+      "char_start": 171,
+      "char_end": 174,
+      "spoken": "THE",
+      "start": 12.0707,
+      "end": 12.1308,
+      "confidence": 0.9905
+    },
+    {
+      "word": "fishery",
+      "char_start": 175,
+      "char_end": 182,
+      "spoken": "FISHERY",
+      "start": 12.1908,
+      "end": 12.5512,
+      "confidence": 0.945
+    },
+    {
+      "word": "has",
+      "char_start": 183,
+      "char_end": 186,
+      "spoken": "HAS",
+      "start": 12.5912,
+      "end": 12.6913,
+      "confidence": 0.5892
+    },
+    {
+      "word": "failed",
+      "char_start": 187,
+      "char_end": 193,
+      "spoken": "FAILED",
+      "start": 12.7914,
+      "end": 13.0916,
+      "confidence": 0.9535
+    },
+    {
+      "word": "to",
+      "char_start": 194,
+      "char_end": 196,
+      "spoken": "TO",
+      "start": 13.1317,
+      "end": 13.1917,
+      "confidence": 0.9603
+    },
+    {
+      "word": "reach",
+      "char_start": 197,
+      "char_end": 202,
+      "spoken": "REACH",
+      "start": 13.2718,
+      "end": 13.472,
+      "confidence": 0.9725
+    },
+    {
+      "word": "an",
+      "char_start": 203,
+      "char_end": 205,
+      "spoken": "AN",
+      "start": 13.532,
+      "end": 13.5721,
+      "confidence": 0.9886
+    },
+    {
+      "word": "agreement",
+      "char_start": 206,
+      "char_end": 215,
+      "spoken": "AGREEMENT",
+      "start": 13.6321,
+      "end": 14.0525,
+      "confidence": 0.9493
+    },
+    {
+      "word": "on",
+      "char_start": 216,
+      "char_end": 218,
+      "spoken": "ON",
+      "start": 14.6931,
+      "end": 14.7331,
+      "confidence": 0.9987
+    },
+    {
+      "word": "mackerel",
+      "char_start": 219,
+      "char_end": 227,
+      "spoken": "MACKEREL",
+      "start": 14.8132,
+      "end": 15.2135,
+      "confidence": 0.6919
+    },
+    {
+      "word": "quotas",
+      "char_start": 228,
+      "char_end": 234,
+      "spoken": "QUOTAS",
+      "start": 15.3136,
+      "end": 15.734,
+      "confidence": 0.6832
+    },
+    {
+      "word": "with",
+      "char_start": 235,
+      "char_end": 239,
+      "spoken": "WITH",
+      "start": 15.9742,
+      "end": 16.1143,
+      "confidence": 0.9236
+    },
+    {
+      "word": "Norway",
+      "char_start": 240,
+      "char_end": 246,
+      "spoken": "NORWAY",
+      "start": 16.5947,
+      "end": 16.9951,
+      "confidence": 0.914
+    },
+    {
+      "word": "and",
+      "char_start": 247,
+      "char_end": 250,
+      "spoken": "AND",
+      "start": 17.1152,
+      "end": 17.1953,
+      "confidence": 0.8953
+    },
+    {
+      "word": "the",
+      "char_start": 251,
+      "char_end": 254,
+      "spoken": "THE",
+      "start": 17.2153,
+      "end": 17.2754,
+      "confidence": 0.924
+    },
+    {
+      "word": "European",
+      "char_start": 255,
+      "char_end": 263,
+      "spoken": "EUROPEAN",
+      "start": 17.3554,
+      "end": 17.7358,
+      "confidence": 0.9307
+    },
+    {
+      "word": "Union",
+      "char_start": 264,
+      "char_end": 269,
+      "spoken": "UNION",
+      "start": 17.8559,
+      "end": 18.0761,
+      "confidence": 0.9969
+    }
+  ],
+  "normalized_transcript": "AND IN DENMARK THE FIRST BALTIC COD FISHERY HAS BEEN MSC CERTIFIED MEANWHILE THE FAEROESE MACKEREL FISHERY HAS BEEN DENIED MSC CERTIFICATION BASED ON THE FACT THAT THE FISHERY HAS FAILED TO REACH AN AGREEMENT ON MACKEREL QUOTAS WITH NORWAY AND THE EUROPEAN UNION",
+  "greedy_transcript": "AND IN DENMARK THE FIRST BAULTIC COD FISHERY HAS BEEN EMA C CERIFIED MEANWHILE THE PHARAOH'S MACKRIL FISHRY HAS BEEN DENIED ON THE SEA CERFICATION BASED ON THE FACT THAT THE FISHERY IS FAILED TO REACH AN AGREEMENT ON MACREL CROTAS WITH NORWAY AND THE EUROPEAN UNION",
+  "transcript_similarity": 0.34535104364326374,
+  "mean_confidence": 0.8876772727272727,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "18",
+  "transcript": "-And in Denmark - the first Baltic Cod fishery has been MSC – certified -Meanwhile, the Faeroese Mackerel Fishery has been denied MSC certification based on the fact that the fishery has failed to reach an agreement on mackerel quotas with Norway and the European Union.",
+  "model": "facebook/wav2vec2-base-960h"
+}

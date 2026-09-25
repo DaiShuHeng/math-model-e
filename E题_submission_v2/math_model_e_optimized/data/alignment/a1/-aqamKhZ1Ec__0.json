@@ -1,0 +1,139 @@
+{
+  "duration": 10.8901875,
+  "words": [
+    {
+      "word": "In",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "IN",
+      "start": 0.1201,
+      "end": 0.1601,
+      "confidence": 0.1189
+    },
+    {
+      "word": "2008",
+      "char_start": 3,
+      "char_end": 7,
+      "spoken": "TWO|ZERO|ZERO|EIGHT",
+      "start": 0.3603,
+      "end": 2.7826,
+      "confidence": 0.5438
+    },
+    {
+      "word": "there",
+      "char_start": 9,
+      "char_end": 14,
+      "spoken": "THERE",
+      "start": 2.8627,
+      "end": 3.0028,
+      "confidence": 0.931
+    },
+    {
+      "word": "were",
+      "char_start": 15,
+      "char_end": 19,
+      "spoken": "WERE",
+      "start": 3.0428,
+      "end": 3.1429,
+      "confidence": 0.9134
+    },
+    {
+      "word": "very",
+      "char_start": 20,
+      "char_end": 24,
+      "spoken": "VERY",
+      "start": 3.243,
+      "end": 3.5033,
+      "confidence": 0.9949
+    },
+    {
+      "word": "serious",
+      "char_start": 25,
+      "char_end": 32,
+      "spoken": "SERIOUS",
+      "start": 3.6234,
+      "end": 4.0638,
+      "confidence": 0.9755
+    },
+    {
+      "word": "tribal",
+      "char_start": 33,
+      "char_end": 39,
+      "spoken": "TRIBAL",
+      "start": 4.1639,
+      "end": 4.5242,
+      "confidence": 0.8232
+    },
+    {
+      "word": "warfare",
+      "char_start": 40,
+      "char_end": 47,
+      "spoken": "WARFARE",
+      "start": 4.7244,
+      "end": 5.2249,
+      "confidence": 0.9161
+    },
+    {
+      "word": "in",
+      "char_start": 48,
+      "char_end": 50,
+      "spoken": "IN",
+      "start": 5.4451,
+      "end": 5.4851,
+      "confidence": 0.9199
+    },
+    {
+      "word": "Kenya",
+      "char_start": 51,
+      "char_end": 56,
+      "spoken": "KENYA",
+      "start": 5.9656,
+      "end": 8.0075,
+      "confidence": 0.6275
+    },
+    {
+      "word": "following",
+      "char_start": 57,
+      "char_end": 66,
+      "spoken": "FOLLOWING",
+      "start": 8.9884,
+      "end": 9.3487,
+      "confidence": 0.9844
+    },
+    {
+      "word": "a",
+      "char_start": 67,
+      "char_end": 68,
+      "spoken": "A",
+      "start": 9.4088,
+      "end": 9.4288,
+      "confidence": 0.8673
+    },
+    {
+      "word": "disputed",
+      "char_start": 69,
+      "char_end": 77,
+      "spoken": "DISPUTED",
+      "start": 9.4889,
+      "end": 9.9493,
+      "confidence": 0.94
+    },
+    {
+      "word": "election",
+      "char_start": 78,
+      "char_end": 86,
+      "spoken": "ELECTION",
+      "start": 10.0294,
+      "end": 10.4097,
+      "confidence": 0.9392
+    }
+  ],
+  "normalized_transcript": "IN TWO ZERO ZERO EIGHT THERE WERE VERY SERIOUS TRIBAL WARFARE IN KENYA FOLLOWING A DISPUTED ELECTION",
+  "greedy_transcript": "TWO THOUSAND AND OF EIHT THERE WERE VERY SERIOUS TRIBAL WARFARE IN ANYON AND AND EVEN AS THE TF FOLLOWING AT DISPUTED ELECTION AND EVEN",
+  "transcript_similarity": 0.7489361702127659,
+  "mean_confidence": 0.8210785714285714,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-aqamKhZ1Ec__0",
+  "transcript": "In 2008, there were very serious tribal warfare in Kenya following a disputed election.",
+  "model": "facebook/wav2vec2-base-960h"
+}

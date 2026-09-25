@@ -19,27 +19,27 @@
   {
    "path": "math_model_e_optimized/code/__pycache__/config.cpython-311.pyc",
    "bytes": 5884,
-   "sha256": "d8e9a58ae5ecc4dfdd0211e94f9ed5d34bdf547a6799886b838dbdc4a6a23912"
+   "sha256": "92f040f6f85a5ff884daec2dfe343f92d4004ffc1104559f70f0bdad9574b998"
   },
   {
    "path": "math_model_e_optimized/code/__pycache__/inference.cpython-311.pyc",
    "bytes": 4981,
-   "sha256": "a607cffa6e634871af97ee12021655e0e2639ae63fb76692b448d5b367d4a562"
+   "sha256": "f8ca404c7f437aa5d574e0129317ed303a8afec25e6075a7df5760b862b89665"
   },
   {
    "path": "math_model_e_optimized/code/__pycache__/io_utils.cpython-311.pyc",
    "bytes": 28017,
-   "sha256": "151c1f24d01c82567dd464561235f3969671289d4655a4f35d231b6e6843a60c"
+   "sha256": "849493c9393d1db4d9af0e8f06cabffc05ce9162af2e884d4d8d08272f44f591"
   },
   {
    "path": "math_model_e_optimized/code/__pycache__/models.cpython-311.pyc",
    "bytes": 18852,
-   "sha256": "31cc1c08f7eadec9ea3de2c4534dd4c1381d0bd60ba8c4e18925a5dbda1c62f0"
+   "sha256": "30855903de34c731d5af689fb8e643525b6fcda338829f75745aa7b5f4edea0c"
   },
   {
    "path": "math_model_e_optimized/code/__pycache__/trainer.cpython-311.pyc",
    "bytes": 21129,
-   "sha256": "974635a21da9548f9cedfb6fc1a1d71cbba7830f7b032de6dbaa7d2a46c65111"
+   "sha256": "077cc49709596ed89b89cc5deb13273de7d06322b6c0fa01ca2c9c36ee918c5a"
   },
   {
    "path": "math_model_e_optimized/code/align_media.py",
@@ -1287,6 +1287,11 @@
    "sha256": "2de17f7409474782c04db1470775273aa9081680a10f2788687f968136310210"
   },
   {
+   "path": "solution/logs/optimization_s2026_seed_check.json",
+   "bytes": 1426,
+   "sha256": "b21089cd96dd92c68f0659e8c9a2c865e008acfce9b06e8fdad4e31267208405"
+  },
+  {
    "path": "solution/paper/figures/fig_q1_vision.png",
    "bytes": 94920,
    "sha256": "cde21818ab46c80a0d3446b38b566dff02335dd2be1ace1a91e995fd5d65c4fe"
@@ -1303,8 +1308,8 @@
   },
   {
    "path": "solution/paper/论文.md",
-   "bytes": 13765,
-   "sha256": "f34783166da4117bb211593d51899a1f2462eb13dbac7eb4fa6ddc4c07acbafd"
+   "bytes": 16901,
+   "sha256": "1dd5f48b3b718cc184f1fd185f553b7412502d94fe048e591afb9abdcf3a76ad"
   },
   {
    "path": "solution/results/att3_predictions_tiny_s42.csv",
@@ -1324,12 +1329,12 @@
   {
    "path": "solution/src/__pycache__/__init__.cpython-311.pyc",
    "bytes": 196,
-   "sha256": "359ccecd63ece5f22c911636785f140e02d1b4ffbfdfa54f0a4df7871a1145f4"
+   "sha256": "00161bcf93bd00974cbcea0d2f94ac316d2838802fabac1063508a8023d610a4"
   },
   {
    "path": "solution/src/__pycache__/q3_shapley.cpython-311.pyc",
    "bytes": 15762,
-   "sha256": "5d9623ad75181f75894b0670998a802d2d7ab5928c3f7c80c3e13a5756478041"
+   "sha256": "31c4ed80e1576380d7cb711670b9d1bc56b4aa44c875156151c333d60dd53f65"
   },
   {
    "path": "solution/src/augment.py",
@@ -1338,8 +1343,8 @@
   },
   {
    "path": "solution/src/build_submission.py",
-   "bytes": 12211,
-   "sha256": "ecd6c50891a0d7c7374e496371a8446e3e518a07701361396e41a26cca10a56e"
+   "bytes": 12276,
+   "sha256": "bfcd52eb614fe1a3a0a85a62f237e91647df644a8f6cc7898ab054d65f78c6de"
   },
   {
    "path": "solution/src/checkpoints.py",
@@ -1473,8 +1478,8 @@
   },
   {
    "path": "审查与修订报告.md",
-   "bytes": 9103,
-   "sha256": "46675045698acd08555f88cc31c4f6911205fdcd68568aefa3baf626f74a68ce"
+   "bytes": 9189,
+   "sha256": "db529805fef080abd5c75175c56ac37c8906dc51c48768e5a4bc11ad32ec18f4"
   },
   {
    "path": "本地核验结果.json",

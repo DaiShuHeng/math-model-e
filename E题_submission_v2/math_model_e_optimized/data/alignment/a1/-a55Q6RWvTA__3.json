@@ -1,0 +1,598 @@
+{
+  "duration": 22.0833125,
+  "words": [
+    {
+      "word": "And",
+      "char_start": 0,
+      "char_end": 3,
+      "spoken": "AND",
+      "start": 0.7608,
+      "end": 0.8809,
+      "confidence": 0.9929
+    },
+    {
+      "word": "if",
+      "char_start": 4,
+      "char_end": 6,
+      "spoken": "IF",
+      "start": 1.0411,
+      "end": 1.0811,
+      "confidence": 0.1303
+    },
+    {
+      "word": "you",
+      "char_start": 7,
+      "char_end": 10,
+      "spoken": "YOU",
+      "start": 1.1812,
+      "end": 1.2814,
+      "confidence": 0.8199
+    },
+    {
+      "word": "clip",
+      "char_start": 11,
+      "char_end": 15,
+      "spoken": "CLIP",
+      "start": 1.4415,
+      "end": 1.6818,
+      "confidence": 0.841
+    },
+    {
+      "word": "coupons",
+      "char_start": 16,
+      "char_end": 23,
+      "spoken": "COUPONS",
+      "start": 1.7619,
+      "end": 2.5427,
+      "confidence": 0.9683
+    },
+    {
+      "word": "if",
+      "char_start": 25,
+      "char_end": 27,
+      "spoken": "IF",
+      "start": 2.7029,
+      "end": 2.7429,
+      "confidence": 0.9993
+    },
+    {
+      "word": "you",
+      "char_start": 28,
+      "char_end": 31,
+      "spoken": "YOU",
+      "start": 2.803,
+      "end": 2.9031,
+      "confidence": 0.9258
+    },
+    {
+      "word": "don't",
+      "char_start": 32,
+      "char_end": 37,
+      "spoken": "DON'T",
+      "start": 3.0432,
+      "end": 3.2835,
+      "confidence": 0.9311
+    },
+    {
+      "word": "go",
+      "char_start": 38,
+      "char_end": 40,
+      "spoken": "GO",
+      "start": 3.3435,
+      "end": 3.4436,
+      "confidence": 0.9997
+    },
+    {
+      "word": "out",
+      "char_start": 41,
+      "char_end": 44,
+      "spoken": "OUT",
+      "start": 3.5638,
+      "end": 3.6639,
+      "confidence": 0.9977
+    },
+    {
+      "word": "for",
+      "char_start": 45,
+      "char_end": 48,
+      "spoken": "FOR",
+      "start": 3.744,
+      "end": 3.8641,
+      "confidence": 0.9884
+    },
+    {
+      "word": "dinner",
+      "char_start": 49,
+      "char_end": 55,
+      "spoken": "DINNER",
+      "start": 3.9442,
+      "end": 4.3246,
+      "confidence": 0.9934
+    },
+    {
+      "word": "and",
+      "char_start": 56,
+      "char_end": 59,
+      "spoken": "AND",
+      "start": 4.4647,
+      "end": 4.5248,
+      "confidence": 0.9877
+    },
+    {
+      "word": "movies",
+      "char_start": 60,
+      "char_end": 66,
+      "spoken": "MOVIES",
+      "start": 4.6649,
+      "end": 5.1454,
+      "confidence": 0.9965
+    },
+    {
+      "word": "and",
+      "char_start": 67,
+      "char_end": 70,
+      "spoken": "AND",
+      "start": 5.2455,
+      "end": 5.3256,
+      "confidence": 0.8779
+    },
+    {
+      "word": "things",
+      "char_start": 71,
+      "char_end": 77,
+      "spoken": "THINGS",
+      "start": 5.3857,
+      "end": 5.5659,
+      "confidence": 0.9997
+    },
+    {
+      "word": "of",
+      "char_start": 78,
+      "char_end": 80,
+      "spoken": "OF",
+      "start": 5.6059,
+      "end": 5.646,
+      "confidence": 0.6846
+    },
+    {
+      "word": "that",
+      "char_start": 81,
+      "char_end": 85,
+      "spoken": "THAT",
+      "start": 5.666,
+      "end": 5.8061,
+      "confidence": 0.9377
+    },
+    {
+      "word": "nature",
+      "char_start": 86,
+      "char_end": 92,
+      "spoken": "NATURE",
+      "start": 5.8862,
+      "end": 6.2866,
+      "confidence": 0.9551
+    },
+    {
+      "word": "and",
+      "char_start": 93,
+      "char_end": 96,
+      "spoken": "AND",
+      "start": 6.9473,
+      "end": 7.0274,
+      "confidence": 0.9971
+    },
+    {
+      "word": "try",
+      "char_start": 97,
+      "char_end": 100,
+      "spoken": "TRY",
+      "start": 7.1676,
+      "end": 7.3077,
+      "confidence": 0.9833
+    },
+    {
+      "word": "to",
+      "char_start": 101,
+      "char_end": 103,
+      "spoken": "TO",
+      "start": 7.3878,
+      "end": 7.4479,
+      "confidence": 0.9528
+    },
+    {
+      "word": "take",
+      "char_start": 104,
+      "char_end": 108,
+      "spoken": "TAKE",
+      "start": 7.5079,
+      "end": 7.6681,
+      "confidence": 0.9986
+    },
+    {
+      "word": "up",
+      "char_start": 109,
+      "char_end": 111,
+      "spoken": "UP",
+      "start": 7.7482,
+      "end": 7.8082,
+      "confidence": 0.9982
+    },
+    {
+      "word": "things",
+      "char_start": 112,
+      "char_end": 118,
+      "spoken": "THINGS",
+      "start": 7.9684,
+      "end": 8.2687,
+      "confidence": 0.936
+    },
+    {
+      "word": "in",
+      "char_start": 119,
+      "char_end": 121,
+      "spoken": "IN",
+      "start": 8.3688,
+      "end": 8.4089,
+      "confidence": 0.9991
+    },
+    {
+      "word": "life",
+      "char_start": 122,
+      "char_end": 126,
+      "spoken": "LIFE",
+      "start": 8.549,
+      "end": 8.7893,
+      "confidence": 0.9776
+    },
+    {
+      "word": "that",
+      "char_start": 127,
+      "char_end": 131,
+      "spoken": "THAT",
+      "start": 8.8493,
+      "end": 8.9895,
+      "confidence": 0.9849
+    },
+    {
+      "word": "well",
+      "char_start": 133,
+      "char_end": 137,
+      "spoken": "WELL",
+      "start": 9.0896,
+      "end": 9.3298,
+      "confidence": 0.9982
+    },
+    {
+      "word": "they",
+      "char_start": 139,
+      "char_end": 143,
+      "spoken": "THEY",
+      "start": 9.47,
+      "end": 9.5901,
+      "confidence": 0.9916
+    },
+    {
+      "word": "always",
+      "char_start": 144,
+      "char_end": 150,
+      "spoken": "ALWAYS",
+      "start": 9.6502,
+      "end": 9.9105,
+      "confidence": 0.9901
+    },
+    {
+      "word": "say",
+      "char_start": 151,
+      "char_end": 154,
+      "spoken": "SAY",
+      "start": 9.9705,
+      "end": 10.1307,
+      "confidence": 0.9998
+    },
+    {
+      "word": "the",
+      "char_start": 157,
+      "char_end": 160,
+      "spoken": "THE",
+      "start": 10.2308,
+      "end": 10.2909,
+      "confidence": 0.9937
+    },
+    {
+      "word": "best",
+      "char_start": 161,
+      "char_end": 165,
+      "spoken": "BEST",
+      "start": 10.3509,
+      "end": 10.5511,
+      "confidence": 0.9237
+    },
+    {
+      "word": "things",
+      "char_start": 166,
+      "char_end": 172,
+      "spoken": "THINGS",
+      "start": 10.5912,
+      "end": 10.7914,
+      "confidence": 0.9987
+    },
+    {
+      "word": "in",
+      "char_start": 173,
+      "char_end": 175,
+      "spoken": "IN",
+      "start": 10.8515,
+      "end": 10.8915,
+      "confidence": 0.9987
+    },
+    {
+      "word": "life",
+      "char_start": 176,
+      "char_end": 180,
+      "spoken": "LIFE",
+      "start": 10.9716,
+      "end": 11.1718,
+      "confidence": 0.9813
+    },
+    {
+      "word": "are",
+      "char_start": 181,
+      "char_end": 184,
+      "spoken": "ARE",
+      "start": 11.2519,
+      "end": 11.352,
+      "confidence": 0.9946
+    },
+    {
+      "word": "free",
+      "char_start": 185,
+      "char_end": 189,
+      "spoken": "FREE",
+      "start": 11.4521,
+      "end": 11.7324,
+      "confidence": 0.9829
+    },
+    {
+      "word": "Reading",
+      "char_start": 192,
+      "char_end": 199,
+      "spoken": "READING",
+      "start": 12.4331,
+      "end": 12.7134,
+      "confidence": 0.9501
+    },
+    {
+      "word": "a",
+      "char_start": 200,
+      "char_end": 201,
+      "spoken": "A",
+      "start": 12.7935,
+      "end": 12.8135,
+      "confidence": 0.9907
+    },
+    {
+      "word": "book",
+      "char_start": 202,
+      "char_end": 206,
+      "spoken": "BOOK",
+      "start": 12.9136,
+      "end": 13.1739,
+      "confidence": 0.9713
+    },
+    {
+      "word": "going",
+      "char_start": 208,
+      "char_end": 213,
+      "spoken": "GOING",
+      "start": 14.3952,
+      "end": 14.6154,
+      "confidence": 0.9885
+    },
+    {
+      "word": "for",
+      "char_start": 214,
+      "char_end": 217,
+      "spoken": "FOR",
+      "start": 14.6555,
+      "end": 14.7556,
+      "confidence": 0.9992
+    },
+    {
+      "word": "a",
+      "char_start": 218,
+      "char_end": 219,
+      "spoken": "A",
+      "start": 14.8156,
+      "end": 14.8357,
+      "confidence": 0.9566
+    },
+    {
+      "word": "nice",
+      "char_start": 220,
+      "char_end": 224,
+      "spoken": "NICE",
+      "start": 14.8957,
+      "end": 15.0959,
+      "confidence": 0.9868
+    },
+    {
+      "word": "walk",
+      "char_start": 225,
+      "char_end": 229,
+      "spoken": "WALK",
+      "start": 15.196,
+      "end": 15.4763,
+      "confidence": 0.991
+    },
+    {
+      "word": "and",
+      "char_start": 231,
+      "char_end": 234,
+      "spoken": "AND",
+      "start": 15.5564,
+      "end": 15.6165,
+      "confidence": 0.6571
+    },
+    {
+      "word": "of",
+      "char_start": 236,
+      "char_end": 238,
+      "spoken": "OF",
+      "start": 15.6365,
+      "end": 15.6765,
+      "confidence": 0.6299
+    },
+    {
+      "word": "course",
+      "char_start": 239,
+      "char_end": 245,
+      "spoken": "COURSE",
+      "start": 15.7166,
+      "end": 15.9168,
+      "confidence": 0.9361
+    },
+    {
+      "word": "combining",
+      "char_start": 247,
+      "char_end": 256,
+      "spoken": "COMBINING",
+      "start": 15.9769,
+      "end": 16.5174,
+      "confidence": 0.967
+    },
+    {
+      "word": "exercise",
+      "char_start": 257,
+      "char_end": 265,
+      "spoken": "EXERCISE",
+      "start": 16.6576,
+      "end": 17.1781,
+      "confidence": 0.981
+    },
+    {
+      "word": "and",
+      "char_start": 266,
+      "char_end": 269,
+      "spoken": "AND",
+      "start": 17.2582,
+      "end": 17.3383,
+      "confidence": 0.8376
+    },
+    {
+      "word": "various",
+      "char_start": 270,
+      "char_end": 277,
+      "spoken": "VARIOUS",
+      "start": 17.3783,
+      "end": 17.6386,
+      "confidence": 0.9805
+    },
+    {
+      "word": "things",
+      "char_start": 278,
+      "char_end": 284,
+      "spoken": "THINGS",
+      "start": 17.6987,
+      "end": 17.8589,
+      "confidence": 0.9565
+    },
+    {
+      "word": "of",
+      "char_start": 285,
+      "char_end": 287,
+      "spoken": "OF",
+      "start": 17.9189,
+      "end": 17.959,
+      "confidence": 0.0115
+    },
+    {
+      "word": "that",
+      "char_start": 288,
+      "char_end": 292,
+      "spoken": "THAT",
+      "start": 17.979,
+      "end": 18.0991,
+      "confidence": 0.5266
+    },
+    {
+      "word": "nature",
+      "char_start": 293,
+      "char_end": 299,
+      "spoken": "NATURE",
+      "start": 18.1992,
+      "end": 18.5396,
+      "confidence": 0.9496
+    },
+    {
+      "word": "where",
+      "char_start": 300,
+      "char_end": 305,
+      "spoken": "WHERE",
+      "start": 18.96,
+      "end": 19.0801,
+      "confidence": 0.8438
+    },
+    {
+      "word": "you're",
+      "char_start": 306,
+      "char_end": 312,
+      "spoken": "YOU'RE",
+      "start": 19.1002,
+      "end": 19.2603,
+      "confidence": 0.8559
+    },
+    {
+      "word": "not",
+      "char_start": 313,
+      "char_end": 316,
+      "spoken": "NOT",
+      "start": 19.3004,
+      "end": 19.4205,
+      "confidence": 0.9984
+    },
+    {
+      "word": "spending",
+      "char_start": 317,
+      "char_end": 325,
+      "spoken": "SPENDING",
+      "start": 19.5807,
+      "end": 20.0612,
+      "confidence": 0.9819
+    },
+    {
+      "word": "money",
+      "char_start": 326,
+      "char_end": 331,
+      "spoken": "MONEY",
+      "start": 20.2814,
+      "end": 20.5817,
+      "confidence": 0.9755
+    },
+    {
+      "word": "per",
+      "char_start": 332,
+      "char_end": 335,
+      "spoken": "PER",
+      "start": 20.862,
+      "end": 21.0823,
+      "confidence": 0.9774
+    },
+    {
+      "word": "se",
+      "char_start": 336,
+      "char_end": 338,
+      "spoken": "SE",
+      "start": 21.2424,
+      "end": 21.6028,
+      "confidence": 0.4734
+    }
+  ],
+  "normalized_transcript": "AND IF YOU CLIP COUPONS IF YOU DON'T GO OUT FOR DINNER AND MOVIES AND THINGS OF THAT NATURE AND TRY TO TAKE UP THINGS IN LIFE THAT WELL THEY ALWAYS SAY THE BEST THINGS IN LIFE ARE FREE READING A BOOK GOING FOR A NICE WALK AND OF COURSE COMBINING EXERCISE AND VARIOUS THINGS OF THAT NATURE WHERE YOU'RE NOT SPENDING MONEY PER SE",
+  "greedy_transcript": "AND A YOU CLIP COUPONS IF YOU DON'T GO OUT FOR DINNER AND MOVIES AND THINGS OF THAT NATURE AND TRY TO TAKE UP THINGS IN LIFE THAT WELL THEY ALWAYS SAY THE BEST THINGS IN LIFE ARE FREE READING A BOOK A GOING FOR A NICE WALK AND OF COURSE COMBINING EXERCISE AND VARIOUS THINGS TAT NATURE WERE YOU'RE NOT SPENDING MONEY PER SAY",
+  "transcript_similarity": 0.9769585253456221,
+  "mean_confidence": 0.9089507692307692,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-a55Q6RWvTA__3",
+  "transcript": "And if you clip coupons, if you don't go out for dinner and movies and things of that nature and try to take up things in life that, well, they always say, \"the best things in life are free\". Reading a book, going for a nice walk, and, of course, combining exercise and various things of that nature where you're not spending money per se.",
+  "model": "facebook/wav2vec2-base-960h"
+}

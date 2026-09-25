@@ -1,0 +1,94 @@
+{
+  "duration": 4.038375,
+  "words": [
+    {
+      "word": "My",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "MY",
+      "start": 0.5626,
+      "end": 0.6429,
+      "confidence": 0.9931
+    },
+    {
+      "word": "goal",
+      "char_start": 3,
+      "char_end": 7,
+      "spoken": "GOAL",
+      "start": 0.7032,
+      "end": 0.9845,
+      "confidence": 0.9517
+    },
+    {
+      "word": "is",
+      "char_start": 8,
+      "char_end": 10,
+      "spoken": "IS",
+      "start": 1.2457,
+      "end": 1.3059,
+      "confidence": 0.994
+    },
+    {
+      "word": "to",
+      "char_start": 11,
+      "char_end": 13,
+      "spoken": "TO",
+      "start": 1.4667,
+      "end": 1.5872,
+      "confidence": 0.1919
+    },
+    {
+      "word": "become",
+      "char_start": 14,
+      "char_end": 20,
+      "spoken": "BECOME",
+      "start": 1.7279,
+      "end": 2.0493,
+      "confidence": 0.9097
+    },
+    {
+      "word": "a",
+      "char_start": 21,
+      "char_end": 22,
+      "spoken": "A",
+      "start": 2.632,
+      "end": 2.6521,
+      "confidence": 0.9629
+    },
+    {
+      "word": "human",
+      "char_start": 23,
+      "char_end": 28,
+      "spoken": "HUMAN",
+      "start": 2.6923,
+      "end": 2.9133,
+      "confidence": 0.9378
+    },
+    {
+      "word": "rights",
+      "char_start": 29,
+      "char_end": 35,
+      "spoken": "RIGHTS",
+      "start": 2.9534,
+      "end": 3.1744,
+      "confidence": 0.9299
+    },
+    {
+      "word": "lawyer",
+      "char_start": 36,
+      "char_end": 42,
+      "spoken": "LAWYER",
+      "start": 3.2548,
+      "end": 3.6566,
+      "confidence": 0.5854
+    }
+  ],
+  "normalized_transcript": "MY GOAL IS TO BECOME A HUMAN RIGHTS LAWYER",
+  "greedy_transcript": "SIDE MY GOAL IS CHESE BECOME A HUMAN RIGHT'S LAWYER TH",
+  "transcript_similarity": 0.8333333333333334,
+  "mean_confidence": 0.8284888888888888,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-UuX1xuaiiE__3",
+  "transcript": "My goal is to become a human rights lawyer",
+  "model": "facebook/wav2vec2-base-960h"
+}

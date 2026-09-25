@@ -1,0 +1,94 @@
+{
+  "duration": 3.575875,
+  "words": [
+    {
+      "word": "it's",
+      "char_start": 1,
+      "char_end": 5,
+      "spoken": "IT'S",
+      "start": 0.0402,
+      "end": 0.1808,
+      "confidence": 0.0
+    },
+    {
+      "word": "amazing",
+      "char_start": 6,
+      "char_end": 13,
+      "spoken": "AMAZING",
+      "start": 0.3013,
+      "end": 0.7232,
+      "confidence": 0.9975
+    },
+    {
+      "word": "to",
+      "char_start": 14,
+      "char_end": 16,
+      "spoken": "TO",
+      "start": 0.8839,
+      "end": 0.9643,
+      "confidence": 0.9978
+    },
+    {
+      "word": "see",
+      "char_start": 17,
+      "char_end": 20,
+      "spoken": "SEE",
+      "start": 1.0647,
+      "end": 1.2455,
+      "confidence": 0.9993
+    },
+    {
+      "word": "their",
+      "char_start": 21,
+      "char_end": 26,
+      "spoken": "THEIR",
+      "start": 1.3259,
+      "end": 1.4866,
+      "confidence": 0.9936
+    },
+    {
+      "word": "enthusiasm",
+      "char_start": 27,
+      "char_end": 37,
+      "spoken": "ENTHUSIASM",
+      "start": 1.5469,
+      "end": 2.25,
+      "confidence": 0.9693
+    },
+    {
+      "word": "and",
+      "char_start": 38,
+      "char_end": 41,
+      "spoken": "AND",
+      "start": 2.3103,
+      "end": 2.3906,
+      "confidence": 0.6116
+    },
+    {
+      "word": "their",
+      "char_start": 42,
+      "char_end": 47,
+      "spoken": "THEIR",
+      "start": 2.4107,
+      "end": 2.5513,
+      "confidence": 0.9873
+    },
+    {
+      "word": "passion",
+      "char_start": 48,
+      "char_end": 55,
+      "spoken": "PASSION",
+      "start": 2.5915,
+      "end": 2.9933,
+      "confidence": 0.9571
+    }
+  ],
+  "normalized_transcript": "IT'S AMAZING TO SEE THEIR ENTHUSIASM AND THEIR PASSION",
+  "greedy_transcript": "AMAZING TO SEE THEIR ENTHUSIASM AN THEIR PASSION",
+  "transcript_similarity": 0.9411764705882353,
+  "mean_confidence": 0.8348333333333333,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-UuX1xuaiiE__0",
+  "transcript": "^it's amazing to see their enthusiasm and their passion",
+  "model": "facebook/wav2vec2-base-960h"
+}

@@ -1,0 +1,283 @@
+{
+  "duration": 7.982875,
+  "words": [
+    {
+      "word": "You",
+      "char_start": 0,
+      "char_end": 3,
+      "spoken": "YOU",
+      "start": 0.4814,
+      "end": 0.5616,
+      "confidence": 0.9986
+    },
+    {
+      "word": "know",
+      "char_start": 4,
+      "char_end": 8,
+      "spoken": "KNOW",
+      "start": 0.6017,
+      "end": 0.702,
+      "confidence": 0.9996
+    },
+    {
+      "word": "that",
+      "char_start": 9,
+      "char_end": 13,
+      "spoken": "THAT",
+      "start": 0.7421,
+      "end": 0.8224,
+      "confidence": 0.0
+    },
+    {
+      "word": "I",
+      "char_start": 14,
+      "char_end": 15,
+      "spoken": "I",
+      "start": 0.8625,
+      "end": 0.8825,
+      "confidence": 0.0
+    },
+    {
+      "word": "think",
+      "char_start": 16,
+      "char_end": 21,
+      "spoken": "THINK",
+      "start": 0.9026,
+      "end": 1.063,
+      "confidence": 0.9503
+    },
+    {
+      "word": "listening",
+      "char_start": 22,
+      "char_end": 31,
+      "spoken": "LISTENING",
+      "start": 1.4843,
+      "end": 1.8854,
+      "confidence": 0.9804
+    },
+    {
+      "word": "to",
+      "char_start": 32,
+      "char_end": 34,
+      "spoken": "TO",
+      "start": 1.9456,
+      "end": 2.0057,
+      "confidence": 1.0
+    },
+    {
+      "word": "young",
+      "char_start": 35,
+      "char_end": 40,
+      "spoken": "YOUNG",
+      "start": 2.0659,
+      "end": 2.2264,
+      "confidence": 0.9997
+    },
+    {
+      "word": "people",
+      "char_start": 41,
+      "char_end": 47,
+      "spoken": "PEOPLE",
+      "start": 2.3066,
+      "end": 2.5674,
+      "confidence": 0.9806
+    },
+    {
+      "word": "taking",
+      "char_start": 49,
+      "char_end": 55,
+      "spoken": "TAKING",
+      "start": 2.7078,
+      "end": 3.0287,
+      "confidence": 0.9901
+    },
+    {
+      "word": "in",
+      "char_start": 56,
+      "char_end": 58,
+      "spoken": "IN",
+      "start": 3.0889,
+      "end": 3.129,
+      "confidence": 0.9991
+    },
+    {
+      "word": "what",
+      "char_start": 59,
+      "char_end": 63,
+      "spoken": "WHAT",
+      "start": 3.2293,
+      "end": 3.3697,
+      "confidence": 0.9981
+    },
+    {
+      "word": "they",
+      "char_start": 64,
+      "char_end": 68,
+      "spoken": "THEY",
+      "start": 3.4098,
+      "end": 3.5301,
+      "confidence": 0.928
+    },
+    {
+      "word": "have",
+      "char_start": 69,
+      "char_end": 73,
+      "spoken": "HAVE",
+      "start": 3.6103,
+      "end": 3.7507,
+      "confidence": 0.9929
+    },
+    {
+      "word": "to",
+      "char_start": 74,
+      "char_end": 76,
+      "spoken": "TO",
+      "start": 3.7909,
+      "end": 3.8711,
+      "confidence": 0.9999
+    },
+    {
+      "word": "say",
+      "char_start": 77,
+      "char_end": 80,
+      "spoken": "SAY",
+      "start": 3.9513,
+      "end": 4.1318,
+      "confidence": 1.0
+    },
+    {
+      "word": "because",
+      "char_start": 81,
+      "char_end": 88,
+      "spoken": "BECAUSE",
+      "start": 4.2321,
+      "end": 4.4528,
+      "confidence": 1.0
+    },
+    {
+      "word": "what",
+      "char_start": 89,
+      "char_end": 93,
+      "spoken": "WHAT",
+      "start": 4.874,
+      "end": 4.9743,
+      "confidence": 0.9999
+    },
+    {
+      "word": "we",
+      "char_start": 94,
+      "char_end": 96,
+      "spoken": "WE",
+      "start": 5.0144,
+      "end": 5.0745,
+      "confidence": 0.9996
+    },
+    {
+      "word": "have",
+      "char_start": 97,
+      "char_end": 101,
+      "spoken": "HAVE",
+      "start": 5.0946,
+      "end": 5.1949,
+      "confidence": 0.5471
+    },
+    {
+      "word": "seen",
+      "char_start": 102,
+      "char_end": 106,
+      "spoken": "SEEN",
+      "start": 5.2551,
+      "end": 5.4356,
+      "confidence": 0.9988
+    },
+    {
+      "word": "all",
+      "char_start": 107,
+      "char_end": 110,
+      "spoken": "ALL",
+      "start": 5.576,
+      "end": 5.6963,
+      "confidence": 0.9997
+    },
+    {
+      "word": "around",
+      "char_start": 111,
+      "char_end": 117,
+      "spoken": "AROUND",
+      "start": 5.7565,
+      "end": 5.937,
+      "confidence": 0.9444
+    },
+    {
+      "word": "the",
+      "char_start": 118,
+      "char_end": 121,
+      "spoken": "THE",
+      "start": 5.9972,
+      "end": 6.0574,
+      "confidence": 0.9999
+    },
+    {
+      "word": "world",
+      "char_start": 122,
+      "char_end": 127,
+      "spoken": "WORLD",
+      "start": 6.1175,
+      "end": 6.3382,
+      "confidence": 0.9511
+    },
+    {
+      "word": "is",
+      "char_start": 128,
+      "char_end": 130,
+      "spoken": "IS",
+      "start": 6.5187,
+      "end": 6.5789,
+      "confidence": 0.9311
+    },
+    {
+      "word": "the",
+      "char_start": 131,
+      "char_end": 134,
+      "spoken": "THE",
+      "start": 6.619,
+      "end": 6.6992,
+      "confidence": 0.9649
+    },
+    {
+      "word": "power",
+      "char_start": 135,
+      "char_end": 140,
+      "spoken": "POWER",
+      "start": 6.7594,
+      "end": 7.0602,
+      "confidence": 0.9082
+    },
+    {
+      "word": "of",
+      "char_start": 141,
+      "char_end": 143,
+      "spoken": "OF",
+      "start": 7.1405,
+      "end": 7.1806,
+      "confidence": 0.9997
+    },
+    {
+      "word": "youth",
+      "char_start": 144,
+      "char_end": 149,
+      "spoken": "YOUTH",
+      "start": 7.2608,
+      "end": 7.5617,
+      "confidence": 0.7411
+    }
+  ],
+  "normalized_transcript": "YOU KNOW THAT I THINK LISTENING TO YOUNG PEOPLE TAKING IN WHAT THEY HAVE TO SAY BECAUSE WHAT WE HAVE SEEN ALL AROUND THE WORLD IS THE POWER OF YOUTH",
+  "greedy_transcript": "YOU KNOW I THINK THAT LISTENING TO YOUNG PEOPLE TAKING IN WHAT THEY HAVE TO SAY BECAUSE WHAT WE'VE SEEN ALL AROUND THE WORLD IS THE POWER OF YOUTH",
+  "transcript_similarity": 0.9523809523809523,
+  "mean_confidence": 0.8934266666666667,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-THoVjtIkeU__6",
+  "transcript": "You know that I think listening to young people, taking in what they have to say because what we have seen all around the world is the power of youth.",
+  "model": "facebook/wav2vec2-base-960h"
+}

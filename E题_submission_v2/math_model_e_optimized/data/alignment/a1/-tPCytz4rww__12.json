@@ -1,0 +1,247 @@
+{
+  "duration": 11.7361875,
+  "words": [
+    {
+      "word": "No",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "NO",
+      "start": 0.5407,
+      "end": 0.6209,
+      "confidence": 0.9992
+    },
+    {
+      "word": "less",
+      "char_start": 3,
+      "char_end": 7,
+      "spoken": "LESS",
+      "start": 0.701,
+      "end": 0.8812,
+      "confidence": 0.9603
+    },
+    {
+      "word": "than",
+      "char_start": 8,
+      "char_end": 12,
+      "spoken": "THAN",
+      "start": 0.9413,
+      "end": 1.0615,
+      "confidence": 0.9997
+    },
+    {
+      "word": "eight",
+      "char_start": 13,
+      "char_end": 18,
+      "spoken": "EIGHT",
+      "start": 1.3419,
+      "end": 1.5021,
+      "confidence": 0.9263
+    },
+    {
+      "word": "hundred",
+      "char_start": 19,
+      "char_end": 26,
+      "spoken": "HUNDRED",
+      "start": 1.5421,
+      "end": 1.7424,
+      "confidence": 0.9338
+    },
+    {
+      "word": "squire",
+      "char_start": 27,
+      "char_end": 33,
+      "spoken": "SQUIRE",
+      "start": 1.7825,
+      "end": 2.0028,
+      "confidence": 0.8682
+    },
+    {
+      "word": "feet",
+      "char_start": 34,
+      "char_end": 38,
+      "spoken": "FEET",
+      "start": 2.0428,
+      "end": 2.2231,
+      "confidence": 0.9843
+    },
+    {
+      "word": "and",
+      "char_start": 39,
+      "char_end": 42,
+      "spoken": "AND",
+      "start": 2.6036,
+      "end": 2.6637,
+      "confidence": 0.4776
+    },
+    {
+      "word": "going",
+      "char_start": 43,
+      "char_end": 48,
+      "spoken": "GOING",
+      "start": 2.6837,
+      "end": 2.8039,
+      "confidence": 0.0598
+    },
+    {
+      "word": "to",
+      "char_start": 49,
+      "char_end": 51,
+      "spoken": "TO",
+      "start": 2.8239,
+      "end": 2.884,
+      "confidence": 0.0016
+    },
+    {
+      "word": "similar",
+      "char_start": 52,
+      "char_end": 59,
+      "spoken": "SIMILAR",
+      "start": 2.9841,
+      "end": 3.3847,
+      "confidence": 0.9899
+    },
+    {
+      "word": "in",
+      "char_start": 60,
+      "char_end": 62,
+      "spoken": "IN",
+      "start": 3.625,
+      "end": 3.6651,
+      "confidence": 0.9644
+    },
+    {
+      "word": "similar",
+      "char_start": 64,
+      "char_end": 71,
+      "spoken": "SIMILAR",
+      "start": 4.9468,
+      "end": 5.3273,
+      "confidence": 0.9674
+    },
+    {
+      "word": "with",
+      "char_start": 72,
+      "char_end": 76,
+      "spoken": "WITH",
+      "start": 5.5877,
+      "end": 5.7479,
+      "confidence": 0.9996
+    },
+    {
+      "word": "bedrooms",
+      "char_start": 77,
+      "char_end": 85,
+      "spoken": "BEDROOMS",
+      "start": 5.9282,
+      "end": 6.2686,
+      "confidence": 0.9535
+    },
+    {
+      "word": "and",
+      "char_start": 86,
+      "char_end": 89,
+      "spoken": "AND",
+      "start": 6.3087,
+      "end": 6.3688,
+      "confidence": 0.8902
+    },
+    {
+      "word": "bathrooms",
+      "char_start": 90,
+      "char_end": 99,
+      "spoken": "BATHROOMS",
+      "start": 6.4289,
+      "end": 6.8895,
+      "confidence": 0.9965
+    },
+    {
+      "word": "as",
+      "char_start": 100,
+      "char_end": 102,
+      "spoken": "AS",
+      "start": 6.9696,
+      "end": 7.0097,
+      "confidence": 0.9981
+    },
+    {
+      "word": "well",
+      "char_start": 103,
+      "char_end": 107,
+      "spoken": "WELL",
+      "start": 7.0898,
+      "end": 7.2901,
+      "confidence": 0.998
+    },
+    {
+      "word": "and",
+      "char_start": 108,
+      "char_end": 111,
+      "spoken": "AND",
+      "start": 7.8909,
+      "end": 8.0311,
+      "confidence": 0.9242
+    },
+    {
+      "word": "hopefully",
+      "char_start": 112,
+      "char_end": 121,
+      "spoken": "HOPEFULLY",
+      "start": 8.4116,
+      "end": 8.7721,
+      "confidence": 0.9521
+    },
+    {
+      "word": "the",
+      "char_start": 122,
+      "char_end": 125,
+      "spoken": "THE",
+      "start": 9.1326,
+      "end": 9.2327,
+      "confidence": 0.9923
+    },
+    {
+      "word": "complexes",
+      "char_start": 126,
+      "char_end": 135,
+      "spoken": "COMPLEXES",
+      "start": 9.413,
+      "end": 9.8936,
+      "confidence": 0.9323
+    },
+    {
+      "word": "have",
+      "char_start": 136,
+      "char_end": 140,
+      "spoken": "HAVE",
+      "start": 9.9537,
+      "end": 10.0739,
+      "confidence": 0.9993
+    },
+    {
+      "word": "similar",
+      "char_start": 141,
+      "char_end": 148,
+      "spoken": "SIMILAR",
+      "start": 10.174,
+      "end": 10.5145,
+      "confidence": 0.9487
+    },
+    {
+      "word": "amenities",
+      "char_start": 149,
+      "char_end": 158,
+      "spoken": "AMENITIES",
+      "start": 10.6347,
+      "end": 11.1354,
+      "confidence": 0.9781
+    }
+  ],
+  "normalized_transcript": "NO LESS THAN EIGHT HUNDRED SQUIRE FEET AND GOING TO SIMILAR IN SIMILAR WITH BEDROOMS AND BATHROOMS AS WELL AND HOPEFULLY THE COMPLEXES HAVE SIMILAR AMENITIES",
+  "greedy_transcript": "SQUARE FEET NO LESS THAN EIGHT HUNDRED SQUARE FEET AN GNTO BE SIMILAR IN AM SIMILAR WITH BEDROOMS AND BATHROOMS AS WELL AND AHOPEFULLY THE THE COMPLEXES HAVE SIMILAR AMENITIES MEANIN",
+  "transcript_similarity": 0.8908554572271387,
+  "mean_confidence": 0.8729,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-tPCytz4rww__12",
+  "transcript": "No less than eight hundred squire feet and going to similar in, similar with bedrooms and bathrooms as well and hopefully the complexes have similar amenities.",
+  "model": "facebook/wav2vec2-base-960h"
+}

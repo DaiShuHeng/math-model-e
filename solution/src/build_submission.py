@@ -42,6 +42,7 @@ def selected_files(root):
              'math_model_e_optimized/results/evidence_time_mapping.csv',
              # 修订协议验证与测试记录（可复核）
              'solution/logs/optimization_s2026_comparison.json',
+             'solution/logs/optimization_s2026_seed_check.json',
              'solution/logs/final_test_eval_tiny_finetune_s42.json']
     exact += [f'math_model_e_optimized/models/p3_{s}/model.pt' for s in (2026, 2027, 2028)]
     result = []

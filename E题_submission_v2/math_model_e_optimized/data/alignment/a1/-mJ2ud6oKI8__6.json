@@ -1,0 +1,58 @@
+{
+  "duration": 2.228125,
+  "words": [
+    {
+      "word": "They",
+      "char_start": 0,
+      "char_end": 4,
+      "spoken": "THEY",
+      "start": 0.0201,
+      "end": 0.4416,
+      "confidence": 0.7234
+    },
+    {
+      "word": "are",
+      "char_start": 5,
+      "char_end": 8,
+      "spoken": "ARE",
+      "start": 0.5821,
+      "end": 0.7026,
+      "confidence": 0.3333
+    },
+    {
+      "word": "all",
+      "char_start": 9,
+      "char_end": 12,
+      "spoken": "ALL",
+      "start": 0.8431,
+      "end": 0.9434,
+      "confidence": 0.3299
+    },
+    {
+      "word": "very",
+      "char_start": 13,
+      "char_end": 17,
+      "spoken": "VERY",
+      "start": 1.365,
+      "end": 2.0073,
+      "confidence": 0.5879
+    },
+    {
+      "word": "safe",
+      "char_start": 18,
+      "char_end": 22,
+      "spoken": "SAFE",
+      "start": 2.0274,
+      "end": 2.1679,
+      "confidence": 0.2453
+    }
+  ],
+  "normalized_transcript": "THEY ARE ALL VERY SAFE",
+  "greedy_transcript": "THAT WE ALL WANT A PROACH REALLY ANY",
+  "transcript_similarity": 0.4482758620689655,
+  "mean_confidence": 0.44395999999999997,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-mJ2ud6oKI8__6",
+  "transcript": "They are all very safe",
+  "model": "facebook/wav2vec2-base-960h"
+}

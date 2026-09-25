@@ -1,0 +1,319 @@
+{
+  "duration": 12.738,
+  "words": [
+    {
+      "word": "Many",
+      "char_start": 0,
+      "char_end": 4,
+      "spoken": "MANY",
+      "start": 0.5207,
+      "end": 0.701,
+      "confidence": 0.94
+    },
+    {
+      "word": "people",
+      "char_start": 5,
+      "char_end": 11,
+      "spoken": "PEOPLE",
+      "start": 0.7811,
+      "end": 0.9814,
+      "confidence": 0.9976
+    },
+    {
+      "word": "are",
+      "char_start": 12,
+      "char_end": 15,
+      "spoken": "ARE",
+      "start": 1.0615,
+      "end": 1.1416,
+      "confidence": 0.956
+    },
+    {
+      "word": "not",
+      "char_start": 16,
+      "char_end": 19,
+      "spoken": "NOT",
+      "start": 1.2418,
+      "end": 1.5021,
+      "confidence": 0.9727
+    },
+    {
+      "word": "until",
+      "char_start": 20,
+      "char_end": 25,
+      "spoken": "UNTIL",
+      "start": 1.5822,
+      "end": 1.8226,
+      "confidence": 0.9604
+    },
+    {
+      "word": "they",
+      "char_start": 26,
+      "char_end": 30,
+      "spoken": "THEY",
+      "start": 1.8626,
+      "end": 1.9628,
+      "confidence": 0.9944
+    },
+    {
+      "word": "get",
+      "char_start": 31,
+      "char_end": 34,
+      "spoken": "GET",
+      "start": 2.0229,
+      "end": 2.1631,
+      "confidence": 0.9997
+    },
+    {
+      "word": "to",
+      "char_start": 35,
+      "char_end": 37,
+      "spoken": "TO",
+      "start": 2.2632,
+      "end": 2.3433,
+      "confidence": 0.8348
+    },
+    {
+      "word": "be",
+      "char_start": 38,
+      "char_end": 40,
+      "spoken": "BE",
+      "start": 2.4034,
+      "end": 2.5035,
+      "confidence": 0.9987
+    },
+    {
+      "word": "a",
+      "char_start": 41,
+      "char_end": 42,
+      "spoken": "A",
+      "start": 2.6638,
+      "end": 2.6838,
+      "confidence": 0.992
+    },
+    {
+      "word": "older",
+      "char_start": 43,
+      "char_end": 48,
+      "spoken": "OLDER",
+      "start": 3.3047,
+      "end": 3.545,
+      "confidence": 0.9871
+    },
+    {
+      "word": "age",
+      "char_start": 49,
+      "char_end": 52,
+      "spoken": "AGE",
+      "start": 3.7653,
+      "end": 3.9255,
+      "confidence": 0.9991
+    },
+    {
+      "word": "and",
+      "char_start": 53,
+      "char_end": 56,
+      "spoken": "AND",
+      "start": 4.0257,
+      "end": 4.0858,
+      "confidence": 0.9415
+    },
+    {
+      "word": "they",
+      "char_start": 57,
+      "char_end": 61,
+      "spoken": "THEY",
+      "start": 4.1258,
+      "end": 4.226,
+      "confidence": 0.9918
+    },
+    {
+      "word": "realize",
+      "char_start": 62,
+      "char_end": 69,
+      "spoken": "REALIZE",
+      "start": 4.3261,
+      "end": 4.7267,
+      "confidence": 0.8771
+    },
+    {
+      "word": "that",
+      "char_start": 70,
+      "char_end": 74,
+      "spoken": "THAT",
+      "start": 4.8268,
+      "end": 4.947,
+      "confidence": 0.9178
+    },
+    {
+      "word": "gosh",
+      "char_start": 75,
+      "char_end": 79,
+      "spoken": "GOSH",
+      "start": 5.0672,
+      "end": 5.3476,
+      "confidence": 0.7239
+    },
+    {
+      "word": "they",
+      "char_start": 80,
+      "char_end": 84,
+      "spoken": "THEY",
+      "start": 5.7481,
+      "end": 5.8483,
+      "confidence": 0.9907
+    },
+    {
+      "word": "wasted",
+      "char_start": 85,
+      "char_end": 91,
+      "spoken": "WASTED",
+      "start": 6.0085,
+      "end": 6.3289,
+      "confidence": 0.8674
+    },
+    {
+      "word": "a",
+      "char_start": 92,
+      "char_end": 93,
+      "spoken": "A",
+      "start": 6.369,
+      "end": 6.389,
+      "confidence": 0.9987
+    },
+    {
+      "word": "lot",
+      "char_start": 94,
+      "char_end": 97,
+      "spoken": "LOT",
+      "start": 6.4491,
+      "end": 6.5693,
+      "confidence": 0.997
+    },
+    {
+      "word": "of",
+      "char_start": 98,
+      "char_end": 100,
+      "spoken": "OF",
+      "start": 6.6294,
+      "end": 6.6694,
+      "confidence": 0.9995
+    },
+    {
+      "word": "time",
+      "char_start": 101,
+      "char_end": 105,
+      "spoken": "TIME",
+      "start": 6.7495,
+      "end": 7.07,
+      "confidence": 0.9998
+    },
+    {
+      "word": "and",
+      "char_start": 106,
+      "char_end": 109,
+      "spoken": "AND",
+      "start": 7.1501,
+      "end": 7.2102,
+      "confidence": 0.9304
+    },
+    {
+      "word": "money",
+      "char_start": 110,
+      "char_end": 115,
+      "spoken": "MONEY",
+      "start": 7.3304,
+      "end": 7.5707,
+      "confidence": 0.9248
+    },
+    {
+      "word": "in",
+      "char_start": 116,
+      "char_end": 118,
+      "spoken": "IN",
+      "start": 8.9727,
+      "end": 9.0328,
+      "confidence": 0.9908
+    },
+    {
+      "word": "placing",
+      "char_start": 119,
+      "char_end": 126,
+      "spoken": "PLACING",
+      "start": 9.3132,
+      "end": 9.6336,
+      "confidence": 0.9999
+    },
+    {
+      "word": "bets",
+      "char_start": 127,
+      "char_end": 131,
+      "spoken": "BETS",
+      "start": 9.7137,
+      "end": 9.9541,
+      "confidence": 0.821
+    },
+    {
+      "word": "on",
+      "char_start": 132,
+      "char_end": 134,
+      "spoken": "ON",
+      "start": 10.0342,
+      "end": 10.0742,
+      "confidence": 0.998
+    },
+    {
+      "word": "stock",
+      "char_start": 135,
+      "char_end": 140,
+      "spoken": "STOCK",
+      "start": 10.1744,
+      "end": 10.4347,
+      "confidence": 0.9982
+    },
+    {
+      "word": "that's",
+      "char_start": 141,
+      "char_end": 147,
+      "spoken": "THAT'S",
+      "start": 10.5349,
+      "end": 10.7552,
+      "confidence": 0.8744
+    },
+    {
+      "word": "ultimately",
+      "char_start": 148,
+      "char_end": 158,
+      "spoken": "ULTIMATELY",
+      "start": 10.8754,
+      "end": 11.3761,
+      "confidence": 0.9953
+    },
+    {
+      "word": "lost",
+      "char_start": 159,
+      "char_end": 163,
+      "spoken": "LOST",
+      "start": 11.4562,
+      "end": 11.7166,
+      "confidence": 0.9775
+    },
+    {
+      "word": "value",
+      "char_start": 164,
+      "char_end": 169,
+      "spoken": "VALUE",
+      "start": 11.8568,
+      "end": 12.2173,
+      "confidence": 0.9627
+    }
+  ],
+  "normalized_transcript": "MANY PEOPLE ARE NOT UNTIL THEY GET TO BE A OLDER AGE AND THEY REALIZE THAT GOSH THEY WASTED A LOT OF TIME AND MONEY IN PLACING BETS ON STOCK THAT'S ULTIMATELY LOST VALUE",
+  "greedy_transcript": "AWARE OF MANY PEOPLE ARE NOT UNTIL THEY GET TO BE A OLDER AGE AND THEY REALIZED THAT GASHEF THEY'VE WASTED A LOT OF TIME AND MONEY IN IN PLACING BATS ON STOCK THAT'S ULTIMATELY LOST VALUE",
+  "transcript_similarity": 0.9382022471910112,
+  "mean_confidence": 0.9532558823529411,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-6rXp3zJ3kc__8",
+  "transcript": "Many people are not until they get to be a older age and they realize that gosh they wasted a lot of time and money in placing bets on stock that's ultimately lost value.",
+  "model": "facebook/wav2vec2-base-960h"
+}

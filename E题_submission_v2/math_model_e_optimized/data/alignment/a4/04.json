@@ -1,0 +1,193 @@
+{
+  "duration": 6.8475,
+  "words": [
+    {
+      "word": "If",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "IF",
+      "start": 0.5005,
+      "end": 0.5406,
+      "confidence": 0.9999
+    },
+    {
+      "word": "I",
+      "char_start": 3,
+      "char_end": 4,
+      "spoken": "I",
+      "start": 0.6207,
+      "end": 0.6407,
+      "confidence": 0.9997
+    },
+    {
+      "word": "blow",
+      "char_start": 5,
+      "char_end": 9,
+      "spoken": "BLOW",
+      "start": 0.7408,
+      "end": 0.9611,
+      "confidence": 0.8691
+    },
+    {
+      "word": "it",
+      "char_start": 10,
+      "char_end": 12,
+      "spoken": "IT",
+      "start": 1.0211,
+      "end": 1.0612,
+      "confidence": 0.5412
+    },
+    {
+      "word": "at",
+      "char_start": 13,
+      "char_end": 15,
+      "spoken": "AT",
+      "start": 1.1012,
+      "end": 1.1412,
+      "confidence": 0.9907
+    },
+    {
+      "word": "the",
+      "char_start": 16,
+      "char_end": 19,
+      "spoken": "THE",
+      "start": 1.1813,
+      "end": 1.2414,
+      "confidence": 0.9919
+    },
+    {
+      "word": "team",
+      "char_start": 20,
+      "char_end": 24,
+      "spoken": "TEAM",
+      "start": 1.2814,
+      "end": 1.4416,
+      "confidence": 0.9896
+    },
+    {
+      "word": "exercise",
+      "char_start": 25,
+      "char_end": 33,
+      "spoken": "EXERCISE",
+      "start": 1.5417,
+      "end": 1.9621,
+      "confidence": 0.9553
+    },
+    {
+      "word": "should",
+      "char_start": 35,
+      "char_end": 41,
+      "spoken": "SHOULD",
+      "start": 2.1824,
+      "end": 2.3426,
+      "confidence": 0.9684
+    },
+    {
+      "word": "I",
+      "char_start": 42,
+      "char_end": 43,
+      "spoken": "I",
+      "start": 2.3826,
+      "end": 2.4026,
+      "confidence": 0.9997
+    },
+    {
+      "word": "kiss",
+      "char_start": 44,
+      "char_end": 48,
+      "spoken": "KISS",
+      "start": 2.4827,
+      "end": 2.6629,
+      "confidence": 0.9997
+    },
+    {
+      "word": "my",
+      "char_start": 49,
+      "char_end": 51,
+      "spoken": "MY",
+      "start": 2.743,
+      "end": 2.8031,
+      "confidence": 0.9997
+    },
+    {
+      "word": "chances",
+      "char_start": 52,
+      "char_end": 59,
+      "spoken": "CHANCES",
+      "start": 2.9032,
+      "end": 3.2436,
+      "confidence": 0.9906
+    },
+    {
+      "word": "of",
+      "char_start": 60,
+      "char_end": 62,
+      "spoken": "OF",
+      "start": 3.3036,
+      "end": 3.3437,
+      "confidence": 0.9981
+    },
+    {
+      "word": "cheering",
+      "char_start": 63,
+      "char_end": 71,
+      "spoken": "CHEERING",
+      "start": 3.4037,
+      "end": 3.684,
+      "confidence": 0.9895
+    },
+    {
+      "word": "GO",
+      "char_start": 73,
+      "char_end": 75,
+      "spoken": "GO",
+      "start": 3.7841,
+      "end": 3.8843,
+      "confidence": 0.7879
+    },
+    {
+      "word": "BLUE",
+      "char_start": 76,
+      "char_end": 80,
+      "spoken": "BLUE",
+      "start": 4.0444,
+      "end": 4.2647,
+      "confidence": 0.9836
+    },
+    {
+      "word": "goodbye",
+      "char_start": 82,
+      "char_end": 89,
+      "spoken": "GOODBYE",
+      "start": 4.4849,
+      "end": 4.9654,
+      "confidence": 0.8691
+    },
+    {
+      "word": "Absolutely",
+      "char_start": 92,
+      "char_end": 102,
+      "spoken": "ABSOLUTELY",
+      "start": 5.446,
+      "end": 5.9465,
+      "confidence": 0.9888
+    },
+    {
+      "word": "not",
+      "char_start": 103,
+      "char_end": 106,
+      "spoken": "NOT",
+      "start": 6.0266,
+      "end": 6.2468,
+      "confidence": 0.9902
+    }
+  ],
+  "normalized_transcript": "IF I BLOW IT AT THE TEAM EXERCISE SHOULD I KISS MY CHANCES OF CHEERING GO BLUE GOODBYE ABSOLUTELY NOT",
+  "greedy_transcript": "IF I GLOW IT AT THE TEAM EXERCISE SHOULD I KISS MY CHANCES OF CHEERING GO BLUE GOOD BYE ABSOLUTELY NOT THERE",
+  "transcript_similarity": 0.9569377990430622,
+  "mean_confidence": 0.9451350000000002,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "04",
+  "transcript": "If I blow it at the team exercise, should I kiss my chances of cheering \"GO BLUE\" goodbye?] Absolutely not.",
+  "model": "facebook/wav2vec2-base-960h"
+}

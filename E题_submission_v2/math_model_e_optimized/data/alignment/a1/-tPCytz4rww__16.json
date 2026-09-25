@@ -1,0 +1,157 @@
+{
+  "duration": 7.1391875,
+  "words": [
+    {
+      "word": "So",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "SO",
+      "start": 0.5816,
+      "end": 0.7219,
+      "confidence": 0.9993
+    },
+    {
+      "word": "make",
+      "char_start": 3,
+      "char_end": 7,
+      "spoken": "MAKE",
+      "start": 0.9626,
+      "end": 1.103,
+      "confidence": 0.9993
+    },
+    {
+      "word": "sure",
+      "char_start": 8,
+      "char_end": 12,
+      "spoken": "SURE",
+      "start": 1.1832,
+      "end": 1.3637,
+      "confidence": 0.9961
+    },
+    {
+      "word": "to",
+      "char_start": 13,
+      "char_end": 15,
+      "spoken": "TO",
+      "start": 1.484,
+      "end": 1.6645,
+      "confidence": 0.9998
+    },
+    {
+      "word": "get",
+      "char_start": 16,
+      "char_end": 19,
+      "spoken": "GET",
+      "start": 1.9252,
+      "end": 2.0455,
+      "confidence": 0.9975
+    },
+    {
+      "word": "a",
+      "char_start": 20,
+      "char_end": 21,
+      "spoken": "A",
+      "start": 2.1057,
+      "end": 2.1257,
+      "confidence": 0.9862
+    },
+    {
+      "word": "through",
+      "char_start": 22,
+      "char_end": 29,
+      "spoken": "THROUGH",
+      "start": 2.1859,
+      "end": 2.5067,
+      "confidence": 0.9703
+    },
+    {
+      "word": "or",
+      "char_start": 30,
+      "char_end": 32,
+      "spoken": "OR",
+      "start": 3.1485,
+      "end": 3.2086,
+      "confidence": 0.363
+    },
+    {
+      "word": "to",
+      "char_start": 33,
+      "char_end": 35,
+      "spoken": "TO",
+      "start": 4.2715,
+      "end": 4.3517,
+      "confidence": 0.9849
+    },
+    {
+      "word": "do",
+      "char_start": 36,
+      "char_end": 38,
+      "spoken": "DO",
+      "start": 4.4319,
+      "end": 4.5322,
+      "confidence": 0.9952
+    },
+    {
+      "word": "a",
+      "char_start": 39,
+      "char_end": 40,
+      "spoken": "A",
+      "start": 4.6726,
+      "end": 4.6926,
+      "confidence": 0.8925
+    },
+    {
+      "word": "through",
+      "char_start": 41,
+      "char_end": 48,
+      "spoken": "THROUGH",
+      "start": 4.8129,
+      "end": 5.1137,
+      "confidence": 0.9686
+    },
+    {
+      "word": "cleaning",
+      "char_start": 49,
+      "char_end": 57,
+      "spoken": "CLEANING",
+      "start": 5.194,
+      "end": 5.5549,
+      "confidence": 0.9542
+    },
+    {
+      "word": "of",
+      "char_start": 58,
+      "char_end": 60,
+      "spoken": "OF",
+      "start": 5.8557,
+      "end": 5.8958,
+      "confidence": 0.9989
+    },
+    {
+      "word": "the",
+      "char_start": 61,
+      "char_end": 64,
+      "spoken": "THE",
+      "start": 6.0362,
+      "end": 6.0964,
+      "confidence": 0.9802
+    },
+    {
+      "word": "property",
+      "char_start": 65,
+      "char_end": 73,
+      "spoken": "PROPERTY",
+      "start": 6.1565,
+      "end": 6.5977,
+      "confidence": 0.7029
+    }
+  ],
+  "normalized_transcript": "SO MAKE SURE TO GET A THROUGH OR TO DO A THROUGH CLEANING OF THE PROPERTY",
+  "greedy_transcript": "SO MAKE SURE TO GET A THOROUGH ON TO DO A THOROUGH CLEANING OF THE PROPERTY IF YOU NEE",
+  "transcript_similarity": 0.9056603773584906,
+  "mean_confidence": 0.92430625,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-tPCytz4rww__16",
+  "transcript": "So make sure to get a through or to do a through cleaning of the property.",
+  "model": "facebook/wav2vec2-base-960h"
+}

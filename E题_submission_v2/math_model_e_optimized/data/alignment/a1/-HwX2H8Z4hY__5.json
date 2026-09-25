@@ -1,0 +1,94 @@
+{
+  "duration": 5.5440625,
+  "words": [
+    {
+      "word": "President",
+      "char_start": 2,
+      "char_end": 11,
+      "spoken": "PRESIDENT",
+      "start": 0.8035,
+      "end": 1.2052,
+      "confidence": 0.9951
+    },
+    {
+      "word": "Ronald",
+      "char_start": 12,
+      "char_end": 18,
+      "spoken": "RONALD",
+      "start": 1.3258,
+      "end": 1.6271,
+      "confidence": 0.9224
+    },
+    {
+      "word": "Reagan",
+      "char_start": 19,
+      "char_end": 25,
+      "spoken": "REAGAN",
+      "start": 1.7074,
+      "end": 2.0891,
+      "confidence": 0.6135
+    },
+    {
+      "word": "blamed",
+      "char_start": 26,
+      "char_end": 32,
+      "spoken": "BLAMED",
+      "start": 2.2096,
+      "end": 2.531,
+      "confidence": 0.9836
+    },
+    {
+      "word": "the",
+      "char_start": 33,
+      "char_end": 36,
+      "spoken": "THE",
+      "start": 2.6515,
+      "end": 2.7319,
+      "confidence": 0.9991
+    },
+    {
+      "word": "professional",
+      "char_start": 37,
+      "char_end": 49,
+      "spoken": "PROFESSIONAL",
+      "start": 2.7921,
+      "end": 3.3746,
+      "confidence": 0.9592
+    },
+    {
+      "word": "bureaucracy",
+      "char_start": 50,
+      "char_end": 61,
+      "spoken": "BUREAUCRACY",
+      "start": 3.4751,
+      "end": 4.158,
+      "confidence": 0.8107
+    },
+    {
+      "word": "of",
+      "char_start": 62,
+      "char_end": 64,
+      "spoken": "OF",
+      "start": 4.3187,
+      "end": 4.3589,
+      "confidence": 0.9994
+    },
+    {
+      "word": "education",
+      "char_start": 65,
+      "char_end": 74,
+      "spoken": "EDUCATION",
+      "start": 4.4794,
+      "end": 5.1021,
+      "confidence": 0.6834
+    }
+  ],
+  "normalized_transcript": "PRESIDENT RONALD REAGAN BLAMED THE PROFESSIONAL BUREAUCRACY OF EDUCATION",
+  "greedy_transcript": "PRESIDENT RONALD REGEN BLAMED THE PROFESSIONAL BURACRACY OF EDUCATION",
+  "transcript_similarity": 0.9645390070921985,
+  "mean_confidence": 0.8851555555555555,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-HwX2H8Z4hY__5",
+  "transcript": "\" President Ronald Reagan blamed the professional bureaucracy of education",
+  "model": "facebook/wav2vec2-base-960h"
+}

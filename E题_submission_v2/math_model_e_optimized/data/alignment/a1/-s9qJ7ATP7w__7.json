@@ -1,0 +1,265 @@
+{
+  "duration": 6.8385625,
+  "words": [
+    {
+      "word": "I",
+      "char_start": 0,
+      "char_end": 1,
+      "spoken": "I",
+      "start": 0.5615,
+      "end": 0.5816,
+      "confidence": 0.8175
+    },
+    {
+      "word": "used",
+      "char_start": 2,
+      "char_end": 6,
+      "spoken": "USED",
+      "start": 0.6819,
+      "end": 0.7821,
+      "confidence": 0.9607
+    },
+    {
+      "word": "to",
+      "char_start": 7,
+      "char_end": 9,
+      "spoken": "TO",
+      "start": 0.8022,
+      "end": 0.8623,
+      "confidence": 0.9792
+    },
+    {
+      "word": "work",
+      "char_start": 10,
+      "char_end": 14,
+      "spoken": "WORK",
+      "start": 0.8824,
+      "end": 0.9827,
+      "confidence": 0.9988
+    },
+    {
+      "word": "for",
+      "char_start": 15,
+      "char_end": 18,
+      "spoken": "FOR",
+      "start": 1.0428,
+      "end": 1.123,
+      "confidence": 0.9984
+    },
+    {
+      "word": "Warren",
+      "char_start": 19,
+      "char_end": 25,
+      "spoken": "WARREN",
+      "start": 1.1632,
+      "end": 1.4038,
+      "confidence": 0.812
+    },
+    {
+      "word": "Avis",
+      "char_start": 26,
+      "char_end": 30,
+      "spoken": "AVIS",
+      "start": 1.4439,
+      "end": 1.6846,
+      "confidence": 0.9025
+    },
+    {
+      "word": "the",
+      "char_start": 32,
+      "char_end": 35,
+      "spoken": "THE",
+      "start": 1.9252,
+      "end": 1.9854,
+      "confidence": 0.9775
+    },
+    {
+      "word": "guy",
+      "char_start": 36,
+      "char_end": 39,
+      "spoken": "GUY",
+      "start": 2.0255,
+      "end": 2.1258,
+      "confidence": 0.321
+    },
+    {
+      "word": "who",
+      "char_start": 40,
+      "char_end": 43,
+      "spoken": "WHO",
+      "start": 2.1659,
+      "end": 2.226,
+      "confidence": 0.0439
+    },
+    {
+      "word": "started",
+      "char_start": 44,
+      "char_end": 51,
+      "spoken": "STARTED",
+      "start": 2.2662,
+      "end": 2.5269,
+      "confidence": 0.5849
+    },
+    {
+      "word": "Avis",
+      "char_start": 52,
+      "char_end": 56,
+      "spoken": "AVIS",
+      "start": 2.5469,
+      "end": 2.7675,
+      "confidence": 0.9481
+    },
+    {
+      "word": "Rent",
+      "char_start": 57,
+      "char_end": 61,
+      "spoken": "RENT",
+      "start": 2.8076,
+      "end": 2.9681,
+      "confidence": 0.6673
+    },
+    {
+      "word": "a",
+      "char_start": 62,
+      "char_end": 63,
+      "spoken": "A",
+      "start": 2.9881,
+      "end": 3.0082,
+      "confidence": 0.1167
+    },
+    {
+      "word": "Car",
+      "char_start": 64,
+      "char_end": 67,
+      "spoken": "CAR",
+      "start": 3.0683,
+      "end": 3.1887,
+      "confidence": 0.8436
+    },
+    {
+      "word": "and",
+      "char_start": 69,
+      "char_end": 72,
+      "spoken": "AND",
+      "start": 3.2288,
+      "end": 3.2889,
+      "confidence": 0.8073
+    },
+    {
+      "word": "he",
+      "char_start": 73,
+      "char_end": 75,
+      "spoken": "HE",
+      "start": 3.329,
+      "end": 3.3691,
+      "confidence": 0.9975
+    },
+    {
+      "word": "said",
+      "char_start": 76,
+      "char_end": 80,
+      "spoken": "SAID",
+      "start": 3.4494,
+      "end": 3.6299,
+      "confidence": 0.25
+    },
+    {
+      "word": "to",
+      "char_start": 81,
+      "char_end": 83,
+      "spoken": "TO",
+      "start": 3.6499,
+      "end": 3.69,
+      "confidence": 0.0005
+    },
+    {
+      "word": "me",
+      "char_start": 84,
+      "char_end": 86,
+      "spoken": "ME",
+      "start": 3.7101,
+      "end": 3.7702,
+      "confidence": 0.8669
+    },
+    {
+      "word": "one",
+      "char_start": 87,
+      "char_end": 90,
+      "spoken": "ONE",
+      "start": 3.8906,
+      "end": 3.9908,
+      "confidence": 0.8247
+    },
+    {
+      "word": "day",
+      "char_start": 91,
+      "char_end": 94,
+      "spoken": "DAY",
+      "start": 4.0309,
+      "end": 4.1914,
+      "confidence": 0.9996
+    },
+    {
+      "word": "Robert",
+      "char_start": 97,
+      "char_end": 103,
+      "spoken": "ROBERT",
+      "start": 4.8331,
+      "end": 5.1139,
+      "confidence": 0.9984
+    },
+    {
+      "word": "what's",
+      "char_start": 106,
+      "char_end": 112,
+      "spoken": "WHAT'S",
+      "start": 5.174,
+      "end": 5.3545,
+      "confidence": 0.9765
+    },
+    {
+      "word": "the",
+      "char_start": 113,
+      "char_end": 116,
+      "spoken": "THE",
+      "start": 5.3946,
+      "end": 5.4548,
+      "confidence": 0.999
+    },
+    {
+      "word": "purpose",
+      "char_start": 117,
+      "char_end": 124,
+      "spoken": "PURPOSE",
+      "start": 5.515,
+      "end": 5.8158,
+      "confidence": 0.9523
+    },
+    {
+      "word": "of",
+      "char_start": 125,
+      "char_end": 127,
+      "spoken": "OF",
+      "start": 5.8559,
+      "end": 5.896,
+      "confidence": 0.9937
+    },
+    {
+      "word": "business",
+      "char_start": 128,
+      "char_end": 136,
+      "spoken": "BUSINESS",
+      "start": 5.9562,
+      "end": 6.638,
+      "confidence": 0.9788
+    }
+  ],
+  "normalized_transcript": "I USED TO WORK FOR WARREN AVIS THE GUY WHO STARTED AVIS RENT A CAR AND HE SAID TO ME ONE DAY ROBERT WHAT'S THE PURPOSE OF BUSINESS",
+  "greedy_transcript": "OIN TI USED TO WORK FOR WARREN AVIS THE GARSTAR DAVIS RENICAR AND HE SETS ME ONE DAY ROBERT WHAT'S THE PURPOSE OF BUSINESS AND I SAIT U",
+  "transcript_similarity": 0.8377358490566038,
+  "mean_confidence": 0.7720464285714286,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-s9qJ7ATP7w__7",
+  "transcript": "I used to work for Warren Avis, the guy who started Avis Rent a Car, and he said to me one day, \"Robert, \"what's the purpose of business",
+  "model": "facebook/wav2vec2-base-960h"
+}

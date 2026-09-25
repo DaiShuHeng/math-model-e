@@ -1,0 +1,121 @@
+{
+  "duration": 6.183125,
+  "words": [
+    {
+      "word": "First",
+      "char_start": 0,
+      "char_end": 5,
+      "spoken": "FIRST",
+      "start": 0.522,
+      "end": 0.803,
+      "confidence": 0.9971
+    },
+    {
+      "word": "exhibiting",
+      "char_start": 6,
+      "char_end": 16,
+      "spoken": "EXHIBITING",
+      "start": 1.0439,
+      "end": 1.5659,
+      "confidence": 0.9638
+    },
+    {
+      "word": "is",
+      "char_start": 17,
+      "char_end": 19,
+      "spoken": "IS",
+      "start": 1.6462,
+      "end": 1.7465,
+      "confidence": 0.807
+    },
+    {
+      "word": "a",
+      "char_start": 20,
+      "char_end": 21,
+      "spoken": "A",
+      "start": 1.8068,
+      "end": 1.8268,
+      "confidence": 0.9776
+    },
+    {
+      "word": "wonderful",
+      "char_start": 22,
+      "char_end": 31,
+      "spoken": "WONDERFUL",
+      "start": 1.9473,
+      "end": 2.409,
+      "confidence": 0.9
+    },
+    {
+      "word": "opportunity",
+      "char_start": 32,
+      "char_end": 43,
+      "spoken": "OPPORTUNITY",
+      "start": 2.5495,
+      "end": 3.1719,
+      "confidence": 0.9839
+    },
+    {
+      "word": "to",
+      "char_start": 44,
+      "char_end": 46,
+      "spoken": "TO",
+      "start": 3.2722,
+      "end": 3.3927,
+      "confidence": 0.9932
+    },
+    {
+      "word": "network",
+      "char_start": 47,
+      "char_end": 54,
+      "spoken": "NETWORK",
+      "start": 3.4931,
+      "end": 3.8745,
+      "confidence": 0.9998
+    },
+    {
+      "word": "with",
+      "char_start": 55,
+      "char_end": 59,
+      "spoken": "WITH",
+      "start": 3.9749,
+      "end": 4.0953,
+      "confidence": 0.9998
+    },
+    {
+      "word": "other",
+      "char_start": 60,
+      "char_end": 65,
+      "spoken": "OTHER",
+      "start": 4.276,
+      "end": 4.4567,
+      "confidence": 0.9946
+    },
+    {
+      "word": "legal",
+      "char_start": 66,
+      "char_end": 71,
+      "spoken": "LEGAL",
+      "start": 4.6173,
+      "end": 4.8983,
+      "confidence": 0.9687
+    },
+    {
+      "word": "vendors",
+      "char_start": 72,
+      "char_end": 79,
+      "spoken": "VENDORS",
+      "start": 4.9786,
+      "end": 5.4002,
+      "confidence": 0.746
+    }
+  ],
+  "normalized_transcript": "FIRST EXHIBITING IS A WONDERFUL OPPORTUNITY TO NETWORK WITH OTHER LEGAL VENDORS",
+  "greedy_transcript": "FIRST EXHIBITING ITS A WONDERFUL OPPORTUNITY TO NET WORK WITH OTHER LEGAL VENGERS",
+  "transcript_similarity": 0.9625,
+  "mean_confidence": 0.9442916666666669,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-egA8-b7-3M__6",
+  "transcript": "First exhibiting is a wonderful opportunity to network with other legal vendors.",
+  "model": "facebook/wav2vec2-base-960h"
+}

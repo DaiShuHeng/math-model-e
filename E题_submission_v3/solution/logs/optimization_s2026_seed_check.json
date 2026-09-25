@@ -1,0 +1,58 @@
+{
+ "purpose": "预注册选型 finetune_cw 的三种子稳健性核验（仅验证集）",
+ "per_seed": {
+  "baseline_cw": {
+   "2026": {
+    "clean_MacroF1": 0.5553409998441099,
+    "r20_MacroF1": 0.5361961024998332,
+    "score": 0.5457685511719715
+   },
+   "7": {
+    "clean_MacroF1": 0.5340866290018833,
+    "r20_MacroF1": 0.5331381762879182,
+    "score": 0.5336124026449007
+   },
+   "42": {
+    "clean_MacroF1": 0.5595248385046552,
+    "r20_MacroF1": 0.542174730248291,
+    "score": 0.550849784376473
+   }
+  },
+  "finetune_cw": {
+   "2026": {
+    "clean_MacroF1": 0.548979411528518,
+    "r20_MacroF1": 0.555013747629452,
+    "score": 0.551996579578985
+   },
+   "7": {
+    "clean_MacroF1": 0.5402489908430216,
+    "r20_MacroF1": 0.5348984970441226,
+    "score": 0.5375737439435722
+   },
+   "42": {
+    "clean_MacroF1": 0.5459885276579495,
+    "r20_MacroF1": 0.561034983877569,
+    "score": 0.5535117557677592
+   }
+  }
+ },
+ "summary": {
+  "baseline_cw": {
+   "mean_score": 0.5434102460644484,
+   "std": 0.008857371758886085,
+   "finetune_wins_all_seeds": null
+  },
+  "finetune_cw": {
+   "mean_score": 0.5476940264301055,
+   "std": 0.00879710338271533,
+   "finetune_wins_all_seeds": null
+  },
+  "finetune_cw_vs_baseline_per_seed_delta": [
+   0.006228,
+   0.003961,
+   0.002662
+  ],
+  "finetune_wins_all_seeds": true
+ },
+ "selection": "finetune_cw s42（valid score 三种子最高 0.5535），单模型入包以满足 50MB"
+}

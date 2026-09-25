@@ -1,0 +1,238 @@
+{
+  "duration": 5.3918125,
+  "words": [
+    {
+      "word": "You",
+      "char_start": 0,
+      "char_end": 3,
+      "spoken": "YOU",
+      "start": 0.5011,
+      "end": 0.5813,
+      "confidence": 0.2747
+    },
+    {
+      "word": "can",
+      "char_start": 4,
+      "char_end": 7,
+      "spoken": "CAN",
+      "start": 0.6214,
+      "end": 0.7015,
+      "confidence": 0.9753
+    },
+    {
+      "word": "make",
+      "char_start": 8,
+      "char_end": 12,
+      "spoken": "MAKE",
+      "start": 0.7617,
+      "end": 0.902,
+      "confidence": 0.8739
+    },
+    {
+      "word": "a",
+      "char_start": 13,
+      "char_end": 14,
+      "spoken": "A",
+      "start": 0.9421,
+      "end": 0.9621,
+      "confidence": 0.986
+    },
+    {
+      "word": "conference",
+      "char_start": 15,
+      "char_end": 25,
+      "spoken": "CONFERENCE",
+      "start": 1.0022,
+      "end": 1.3429,
+      "confidence": 0.8799
+    },
+    {
+      "word": "call",
+      "char_start": 26,
+      "char_end": 30,
+      "spoken": "CALL",
+      "start": 1.383,
+      "end": 1.5233,
+      "confidence": 0.9956
+    },
+    {
+      "word": "but",
+      "char_start": 31,
+      "char_end": 34,
+      "spoken": "BUT",
+      "start": 1.5835,
+      "end": 1.6436,
+      "confidence": 0.8422
+    },
+    {
+      "word": "it",
+      "char_start": 35,
+      "char_end": 37,
+      "spoken": "IT",
+      "start": 1.6837,
+      "end": 1.7238,
+      "confidence": 0.0017
+    },
+    {
+      "word": "takes",
+      "char_start": 38,
+      "char_end": 43,
+      "spoken": "TAKES",
+      "start": 1.7639,
+      "end": 1.9843,
+      "confidence": 0.2103
+    },
+    {
+      "word": "quite",
+      "char_start": 44,
+      "char_end": 49,
+      "spoken": "QUITE",
+      "start": 2.0445,
+      "end": 2.2048,
+      "confidence": 0.3113
+    },
+    {
+      "word": "a",
+      "char_start": 50,
+      "char_end": 51,
+      "spoken": "A",
+      "start": 2.285,
+      "end": 2.305,
+      "confidence": 0.7059
+    },
+    {
+      "word": "bit",
+      "char_start": 52,
+      "char_end": 55,
+      "spoken": "BIT",
+      "start": 2.3251,
+      "end": 2.4253,
+      "confidence": 0.8839
+    },
+    {
+      "word": "of",
+      "char_start": 56,
+      "char_end": 58,
+      "spoken": "OF",
+      "start": 2.4854,
+      "end": 2.5255,
+      "confidence": 0.6591
+    },
+    {
+      "word": "planning",
+      "char_start": 59,
+      "char_end": 67,
+      "spoken": "PLANNING",
+      "start": 2.5857,
+      "end": 2.8462,
+      "confidence": 0.7289
+    },
+    {
+      "word": "well",
+      "char_start": 69,
+      "char_end": 73,
+      "spoken": "WELL",
+      "start": 2.8663,
+      "end": 2.9665,
+      "confidence": 0.5437
+    },
+    {
+      "word": "not",
+      "char_start": 74,
+      "char_end": 77,
+      "spoken": "NOT",
+      "start": 2.9865,
+      "end": 3.0667,
+      "confidence": 0.9966
+    },
+    {
+      "word": "a",
+      "char_start": 78,
+      "char_end": 79,
+      "spoken": "A",
+      "start": 3.1269,
+      "end": 3.1469,
+      "confidence": 0.9944
+    },
+    {
+      "word": "lot",
+      "char_start": 80,
+      "char_end": 83,
+      "spoken": "LOT",
+      "start": 3.187,
+      "end": 3.3273,
+      "confidence": 0.9288
+    },
+    {
+      "word": "of",
+      "char_start": 84,
+      "char_end": 86,
+      "spoken": "OF",
+      "start": 3.3674,
+      "end": 3.4275,
+      "confidence": 0.9459
+    },
+    {
+      "word": "planning",
+      "char_start": 87,
+      "char_end": 95,
+      "spoken": "PLANNING",
+      "start": 3.4676,
+      "end": 3.7883,
+      "confidence": 0.8755
+    },
+    {
+      "word": "it's",
+      "char_start": 96,
+      "char_end": 100,
+      "spoken": "IT'S",
+      "start": 3.8284,
+      "end": 3.9286,
+      "confidence": 0.9722
+    },
+    {
+      "word": "pretty",
+      "char_start": 101,
+      "char_end": 107,
+      "spoken": "PRETTY",
+      "start": 3.9887,
+      "end": 4.2092,
+      "confidence": 0.9773
+    },
+    {
+      "word": "easy",
+      "char_start": 108,
+      "char_end": 112,
+      "spoken": "EASY",
+      "start": 4.2894,
+      "end": 4.4698,
+      "confidence": 1.0
+    },
+    {
+      "word": "to",
+      "char_start": 113,
+      "char_end": 115,
+      "spoken": "TO",
+      "start": 4.6502,
+      "end": 4.7705,
+      "confidence": 0.4998
+    },
+    {
+      "word": "do",
+      "char_start": 116,
+      "char_end": 118,
+      "spoken": "DO",
+      "start": 5.2715,
+      "end": 5.3718,
+      "confidence": 0.0064
+    }
+  ],
+  "normalized_transcript": "YOU CAN MAKE A CONFERENCE CALL BUT IT TAKES QUITE A BIT OF PLANNING WELL NOT A LOT OF PLANNING IT'S PRETTY EASY TO DO",
+  "greedy_transcript": "IT CAN MAKE A CONFERENCE CALL BUT A TEXT CRIED A BIT OF PLAN ANG WELE NOT A LOT OF PLANING IT'S PRETTY EASY TO DO WHAT",
+  "transcript_similarity": 0.8425531914893617,
+  "mean_confidence": 0.722772,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-RfYyzHpjk4__2",
+  "transcript": "You can make a conference call but it takes quite a bit of planning, well not a lot of planning it's pretty easy to do.",
+  "model": "facebook/wav2vec2-base-960h"
+}

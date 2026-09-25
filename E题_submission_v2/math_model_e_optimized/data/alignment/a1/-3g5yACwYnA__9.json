@@ -1,0 +1,220 @@
+{
+  "duration": 8.696125,
+  "words": [
+    {
+      "word": "We",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "WE",
+      "start": 0.8015,
+      "end": 0.8816,
+      "confidence": 0.9987
+    },
+    {
+      "word": "have",
+      "char_start": 3,
+      "char_end": 7,
+      "spoken": "HAVE",
+      "start": 0.9417,
+      "end": 1.062,
+      "confidence": 0.9851
+    },
+    {
+      "word": "many",
+      "char_start": 8,
+      "char_end": 12,
+      "spoken": "MANY",
+      "start": 1.1221,
+      "end": 1.3225,
+      "confidence": 0.9083
+    },
+    {
+      "word": "new",
+      "char_start": 13,
+      "char_end": 16,
+      "spoken": "NEW",
+      "start": 1.7032,
+      "end": 1.8234,
+      "confidence": 0.9921
+    },
+    {
+      "word": "opportunities",
+      "char_start": 17,
+      "char_end": 30,
+      "spoken": "OPPORTUNITIES",
+      "start": 1.9236,
+      "end": 2.4646,
+      "confidence": 0.8866
+    },
+    {
+      "word": "through",
+      "char_start": 31,
+      "char_end": 38,
+      "spoken": "THROUGH",
+      "start": 2.4846,
+      "end": 2.7251,
+      "confidence": 0.9564
+    },
+    {
+      "word": "the",
+      "char_start": 39,
+      "char_end": 42,
+      "spoken": "THE",
+      "start": 3.3662,
+      "end": 3.4464,
+      "confidence": 0.999
+    },
+    {
+      "word": "way",
+      "char_start": 43,
+      "char_end": 46,
+      "spoken": "WAY",
+      "start": 3.4865,
+      "end": 3.6067,
+      "confidence": 0.9887
+    },
+    {
+      "word": "things",
+      "char_start": 47,
+      "char_end": 53,
+      "spoken": "THINGS",
+      "start": 3.6868,
+      "end": 3.8672,
+      "confidence": 0.9702
+    },
+    {
+      "word": "have",
+      "char_start": 54,
+      "char_end": 58,
+      "spoken": "HAVE",
+      "start": 3.9072,
+      "end": 4.0074,
+      "confidence": 0.8502
+    },
+    {
+      "word": "changed",
+      "char_start": 59,
+      "char_end": 66,
+      "spoken": "CHANGED",
+      "start": 4.0275,
+      "end": 4.288,
+      "confidence": 0.8714
+    },
+    {
+      "word": "through",
+      "char_start": 67,
+      "char_end": 74,
+      "spoken": "THROUGH",
+      "start": 4.308,
+      "end": 4.4683,
+      "confidence": 0.47
+    },
+    {
+      "word": "the",
+      "char_start": 75,
+      "char_end": 78,
+      "spoken": "THE",
+      "start": 4.4883,
+      "end": 4.5484,
+      "confidence": 0.9885
+    },
+    {
+      "word": "years",
+      "char_start": 79,
+      "char_end": 84,
+      "spoken": "YEARS",
+      "start": 4.5885,
+      "end": 4.869,
+      "confidence": 0.9586
+    },
+    {
+      "word": "looking",
+      "char_start": 86,
+      "char_end": 93,
+      "spoken": "LOOKING",
+      "start": 5.6505,
+      "end": 5.8709,
+      "confidence": 0.9995
+    },
+    {
+      "word": "for",
+      "char_start": 94,
+      "char_end": 97,
+      "spoken": "FOR",
+      "start": 5.931,
+      "end": 6.0111,
+      "confidence": 0.9983
+    },
+    {
+      "word": "new",
+      "char_start": 98,
+      "char_end": 101,
+      "spoken": "NEW",
+      "start": 6.0913,
+      "end": 6.1915,
+      "confidence": 0.9972
+    },
+    {
+      "word": "niche",
+      "char_start": 102,
+      "char_end": 107,
+      "spoken": "NICHE",
+      "start": 6.2716,
+      "end": 6.5521,
+      "confidence": 0.8508
+    },
+    {
+      "word": "high",
+      "char_start": 108,
+      "char_end": 112,
+      "spoken": "HIGH",
+      "start": 6.6523,
+      "end": 6.8527,
+      "confidence": 0.983
+    },
+    {
+      "word": "end",
+      "char_start": 113,
+      "char_end": 116,
+      "spoken": "END",
+      "start": 6.9329,
+      "end": 7.033,
+      "confidence": 0.6197
+    },
+    {
+      "word": "value",
+      "char_start": 118,
+      "char_end": 123,
+      "spoken": "VALUE",
+      "start": 7.0932,
+      "end": 7.3737,
+      "confidence": 0.9963
+    },
+    {
+      "word": "added",
+      "char_start": 124,
+      "char_end": 129,
+      "spoken": "ADDED",
+      "start": 7.4538,
+      "end": 7.6342,
+      "confidence": 0.2143
+    },
+    {
+      "word": "products",
+      "char_start": 130,
+      "char_end": 138,
+      "spoken": "PRODUCTS",
+      "start": 7.6542,
+      "end": 8.4958,
+      "confidence": 0.6747
+    }
+  ],
+  "normalized_transcript": "WE HAVE MANY NEW OPPORTUNITIES THROUGH THE WAY THINGS HAVE CHANGED THROUGH THE YEARS LOOKING FOR NEW NICHE HIGH END VALUE ADDED PRODUCTS",
+  "greedy_transcript": "WE HAVE MANY A NEW OPPORTUNITYE THROUGH THE WAY THINGS HAVE CHANGED TO THE YEARS ON LOOKING FOR NEW NICH HIGH AND VALUE AT A PRODUCTS AND",
+  "transcript_similarity": 0.9010989010989011,
+  "mean_confidence": 0.876417391304348,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-3g5yACwYnA__9",
+  "transcript": "We have many new opportunities through the way things have changed through the years, looking for new niche high-end, value-added products.",
+  "model": "facebook/wav2vec2-base-960h"
+}

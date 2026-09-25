@@ -1,0 +1,175 @@
+{
+  "duration": 7.2420625,
+  "words": [
+    {
+      "word": "Because",
+      "char_start": 0,
+      "char_end": 7,
+      "spoken": "BECAUSE",
+      "start": 0.5216,
+      "end": 0.8024,
+      "confidence": 0.956
+    },
+    {
+      "word": "if",
+      "char_start": 9,
+      "char_end": 11,
+      "spoken": "IF",
+      "start": 0.8827,
+      "end": 0.9228,
+      "confidence": 0.9986
+    },
+    {
+      "word": "they",
+      "char_start": 12,
+      "char_end": 16,
+      "spoken": "THEY",
+      "start": 1.0031,
+      "end": 1.1635,
+      "confidence": 0.9622
+    },
+    {
+      "word": "are",
+      "char_start": 17,
+      "char_end": 20,
+      "spoken": "ARE",
+      "start": 1.2237,
+      "end": 1.304,
+      "confidence": 0.9561
+    },
+    {
+      "word": "not",
+      "char_start": 21,
+      "char_end": 24,
+      "spoken": "NOT",
+      "start": 1.3642,
+      "end": 1.645,
+      "confidence": 0.9566
+    },
+    {
+      "word": "in",
+      "char_start": 25,
+      "char_end": 27,
+      "spoken": "IN",
+      "start": 2.2067,
+      "end": 2.2468,
+      "confidence": 0.9852
+    },
+    {
+      "word": "any",
+      "char_start": 28,
+      "char_end": 31,
+      "spoken": "ANY",
+      "start": 2.4475,
+      "end": 2.5678,
+      "confidence": 0.9995
+    },
+    {
+      "word": "way",
+      "char_start": 32,
+      "char_end": 35,
+      "spoken": "WAY",
+      "start": 2.6481,
+      "end": 2.7885,
+      "confidence": 1.0
+    },
+    {
+      "word": "held",
+      "char_start": 36,
+      "char_end": 40,
+      "spoken": "HELD",
+      "start": 2.8687,
+      "end": 3.0894,
+      "confidence": 0.8987
+    },
+    {
+      "word": "accountable",
+      "char_start": 41,
+      "char_end": 52,
+      "spoken": "ACCOUNTABLE",
+      "start": 3.1697,
+      "end": 3.8317,
+      "confidence": 0.9739
+    },
+    {
+      "word": "for",
+      "char_start": 53,
+      "char_end": 56,
+      "spoken": "FOR",
+      "start": 3.9721,
+      "end": 4.1727,
+      "confidence": 0.9828
+    },
+    {
+      "word": "reading",
+      "char_start": 57,
+      "char_end": 64,
+      "spoken": "READING",
+      "start": 4.2931,
+      "end": 4.5539,
+      "confidence": 0.9999
+    },
+    {
+      "word": "the",
+      "char_start": 65,
+      "char_end": 68,
+      "spoken": "THE",
+      "start": 4.6141,
+      "end": 4.6943,
+      "confidence": 0.9415
+    },
+    {
+      "word": "material",
+      "char_start": 69,
+      "char_end": 77,
+      "spoken": "MATERIAL",
+      "start": 4.7344,
+      "end": 5.2961,
+      "confidence": 0.9996
+    },
+    {
+      "word": "they",
+      "char_start": 78,
+      "char_end": 82,
+      "spoken": "THEY",
+      "start": 5.9782,
+      "end": 6.0986,
+      "confidence": 0.9996
+    },
+    {
+      "word": "won't",
+      "char_start": 83,
+      "char_end": 88,
+      "spoken": "WON'T",
+      "start": 6.1588,
+      "end": 6.3594,
+      "confidence": 0.9405
+    },
+    {
+      "word": "do",
+      "char_start": 89,
+      "char_end": 91,
+      "spoken": "DO",
+      "start": 6.4196,
+      "end": 6.5199,
+      "confidence": 0.9999
+    },
+    {
+      "word": "it",
+      "char_start": 92,
+      "char_end": 94,
+      "spoken": "IT",
+      "start": 6.6402,
+      "end": 6.7004,
+      "confidence": 0.6655
+    }
+  ],
+  "normalized_transcript": "BECAUSE IF THEY ARE NOT IN ANY WAY HELD ACCOUNTABLE FOR READING THE MATERIAL THEY WON'T DO IT",
+  "greedy_transcript": "READING IT BECAUSE IF THEY ARE NOT IN ANY WAY HELD ACCOUNTABLE FOR READING THE MATERIAL THEY WON'T DO IT",
+  "transcript_similarity": 0.9441624365482234,
+  "mean_confidence": 0.95645,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-UacrmKiTn4__10",
+  "transcript": "Because, if they are not in any way held accountable for reading the material they won't do it.",
+  "model": "facebook/wav2vec2-base-960h"
+}

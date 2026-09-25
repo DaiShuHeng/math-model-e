@@ -1,0 +1,400 @@
+{
+  "duration": 14.740375,
+  "words": [
+    {
+      "word": "If",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "IF",
+      "start": 0.6008,
+      "end": 0.6409,
+      "confidence": 0.9997
+    },
+    {
+      "word": "the",
+      "char_start": 3,
+      "char_end": 6,
+      "spoken": "THE",
+      "start": 0.741,
+      "end": 0.8011,
+      "confidence": 0.9928
+    },
+    {
+      "word": "product",
+      "char_start": 7,
+      "char_end": 14,
+      "spoken": "PRODUCT",
+      "start": 0.8612,
+      "end": 1.2417,
+      "confidence": 0.9995
+    },
+    {
+      "word": "or",
+      "char_start": 15,
+      "char_end": 17,
+      "spoken": "OR",
+      "start": 1.5822,
+      "end": 1.6222,
+      "confidence": 0.9997
+    },
+    {
+      "word": "poison",
+      "char_start": 18,
+      "char_end": 24,
+      "spoken": "POISON",
+      "start": 1.7224,
+      "end": 2.1029,
+      "confidence": 0.9603
+    },
+    {
+      "word": "is",
+      "char_start": 25,
+      "char_end": 27,
+      "spoken": "IS",
+      "start": 2.203,
+      "end": 2.2431,
+      "confidence": 0.4749
+    },
+    {
+      "word": "some",
+      "char_start": 28,
+      "char_end": 32,
+      "spoken": "SOME",
+      "start": 2.2832,
+      "end": 2.4434,
+      "confidence": 0.9026
+    },
+    {
+      "word": "type",
+      "char_start": 33,
+      "char_end": 37,
+      "spoken": "TYPE",
+      "start": 2.4634,
+      "end": 2.6837,
+      "confidence": 0.8676
+    },
+    {
+      "word": "of",
+      "char_start": 38,
+      "char_end": 40,
+      "spoken": "OF",
+      "start": 2.7438,
+      "end": 2.7838,
+      "confidence": 0.998
+    },
+    {
+      "word": "petroleum",
+      "char_start": 41,
+      "char_end": 50,
+      "spoken": "PETROLEUM",
+      "start": 2.884,
+      "end": 3.3647,
+      "confidence": 0.8397
+    },
+    {
+      "word": "product",
+      "char_start": 51,
+      "char_end": 58,
+      "spoken": "PRODUCT",
+      "start": 3.4448,
+      "end": 3.7852,
+      "confidence": 0.9586
+    },
+    {
+      "word": "or",
+      "char_start": 59,
+      "char_end": 61,
+      "spoken": "OR",
+      "start": 4.2258,
+      "end": 4.2859,
+      "confidence": 0.8363
+    },
+    {
+      "word": "corrosive",
+      "char_start": 62,
+      "char_end": 71,
+      "spoken": "CORROSIVE",
+      "start": 4.366,
+      "end": 4.8066,
+      "confidence": 0.9488
+    },
+    {
+      "word": "product",
+      "char_start": 72,
+      "char_end": 79,
+      "spoken": "PRODUCT",
+      "start": 4.8667,
+      "end": 5.2272,
+      "confidence": 0.9377
+    },
+    {
+      "word": "you",
+      "char_start": 81,
+      "char_end": 84,
+      "spoken": "YOU",
+      "start": 5.808,
+      "end": 5.8881,
+      "confidence": 0.9992
+    },
+    {
+      "word": "would",
+      "char_start": 85,
+      "char_end": 90,
+      "spoken": "WOULD",
+      "start": 5.9282,
+      "end": 6.0884,
+      "confidence": 0.9378
+    },
+    {
+      "word": "not",
+      "char_start": 91,
+      "char_end": 94,
+      "spoken": "NOT",
+      "start": 6.1285,
+      "end": 6.2887,
+      "confidence": 0.943
+    },
+    {
+      "word": "attempt",
+      "char_start": 95,
+      "char_end": 102,
+      "spoken": "ATTEMPT",
+      "start": 6.4689,
+      "end": 6.7894,
+      "confidence": 0.9587
+    },
+    {
+      "word": "to",
+      "char_start": 103,
+      "char_end": 105,
+      "spoken": "TO",
+      "start": 7.1899,
+      "end": 7.2901,
+      "confidence": 0.8791
+    },
+    {
+      "word": "induce",
+      "char_start": 106,
+      "char_end": 112,
+      "spoken": "INDUCE",
+      "start": 7.6305,
+      "end": 7.931,
+      "confidence": 0.9961
+    },
+    {
+      "word": "vomiting",
+      "char_start": 113,
+      "char_end": 121,
+      "spoken": "VOMITING",
+      "start": 8.0111,
+      "end": 8.3916,
+      "confidence": 0.8768
+    },
+    {
+      "word": "and",
+      "char_start": 122,
+      "char_end": 125,
+      "spoken": "AND",
+      "start": 8.6119,
+      "end": 8.692,
+      "confidence": 0.8506
+    },
+    {
+      "word": "nausea",
+      "char_start": 126,
+      "char_end": 132,
+      "spoken": "NAUSEA",
+      "start": 8.7321,
+      "end": 9.0926,
+      "confidence": 0.9395
+    },
+    {
+      "word": "as",
+      "char_start": 134,
+      "char_end": 136,
+      "spoken": "AS",
+      "start": 9.6533,
+      "end": 9.7134,
+      "confidence": 0.9978
+    },
+    {
+      "word": "as",
+      "char_start": 137,
+      "char_end": 139,
+      "spoken": "AS",
+      "start": 9.7735,
+      "end": 9.8136,
+      "confidence": 0.0051
+    },
+    {
+      "word": "the",
+      "char_start": 140,
+      "char_end": 143,
+      "spoken": "THE",
+      "start": 9.8937,
+      "end": 9.9538,
+      "confidence": 0.9905
+    },
+    {
+      "word": "product",
+      "char_start": 144,
+      "char_end": 151,
+      "spoken": "PRODUCT",
+      "start": 9.9938,
+      "end": 10.3143,
+      "confidence": 0.9919
+    },
+    {
+      "word": "burned",
+      "char_start": 152,
+      "char_end": 158,
+      "spoken": "BURNED",
+      "start": 10.4344,
+      "end": 10.6948,
+      "confidence": 0.9756
+    },
+    {
+      "word": "on",
+      "char_start": 159,
+      "char_end": 161,
+      "spoken": "ON",
+      "start": 10.7749,
+      "end": 10.8149,
+      "confidence": 0.9992
+    },
+    {
+      "word": "the",
+      "char_start": 162,
+      "char_end": 165,
+      "spoken": "THE",
+      "start": 10.875,
+      "end": 10.9351,
+      "confidence": 0.9813
+    },
+    {
+      "word": "way",
+      "char_start": 166,
+      "char_end": 169,
+      "spoken": "WAY",
+      "start": 10.9752,
+      "end": 11.0953,
+      "confidence": 0.9951
+    },
+    {
+      "word": "down",
+      "char_start": 170,
+      "char_end": 174,
+      "spoken": "DOWN",
+      "start": 11.1554,
+      "end": 11.3958,
+      "confidence": 1.0
+    },
+    {
+      "word": "it",
+      "char_start": 175,
+      "char_end": 177,
+      "spoken": "IT",
+      "start": 11.8163,
+      "end": 11.8564,
+      "confidence": 0.999
+    },
+    {
+      "word": "could",
+      "char_start": 178,
+      "char_end": 183,
+      "spoken": "COULD",
+      "start": 11.8964,
+      "end": 12.0366,
+      "confidence": 0.9987
+    },
+    {
+      "word": "cause",
+      "char_start": 184,
+      "char_end": 189,
+      "spoken": "CAUSE",
+      "start": 12.0567,
+      "end": 12.297,
+      "confidence": 0.9984
+    },
+    {
+      "word": "damage",
+      "char_start": 190,
+      "char_end": 196,
+      "spoken": "DAMAGE",
+      "start": 12.3571,
+      "end": 12.7176,
+      "confidence": 0.9872
+    },
+    {
+      "word": "and",
+      "char_start": 197,
+      "char_end": 200,
+      "spoken": "AND",
+      "start": 12.7977,
+      "end": 12.8578,
+      "confidence": 0.9677
+    },
+    {
+      "word": "burning",
+      "char_start": 201,
+      "char_end": 208,
+      "spoken": "BURNING",
+      "start": 12.8978,
+      "end": 13.2183,
+      "confidence": 0.9889
+    },
+    {
+      "word": "on",
+      "char_start": 209,
+      "char_end": 211,
+      "spoken": "ON",
+      "start": 13.4786,
+      "end": 13.5187,
+      "confidence": 0.9985
+    },
+    {
+      "word": "the",
+      "char_start": 212,
+      "char_end": 215,
+      "spoken": "THE",
+      "start": 13.5788,
+      "end": 13.6389,
+      "confidence": 0.9889
+    },
+    {
+      "word": "way",
+      "char_start": 216,
+      "char_end": 219,
+      "spoken": "WAY",
+      "start": 13.6789,
+      "end": 13.779,
+      "confidence": 0.8997
+    },
+    {
+      "word": "back",
+      "char_start": 220,
+      "char_end": 224,
+      "spoken": "BACK",
+      "start": 13.8391,
+      "end": 13.9994,
+      "confidence": 0.9999
+    },
+    {
+      "word": "up",
+      "char_start": 225,
+      "char_end": 227,
+      "spoken": "UP",
+      "start": 14.1395,
+      "end": 14.1996,
+      "confidence": 0.9993
+    }
+  ],
+  "normalized_transcript": "IF THE PRODUCT OR POISON IS SOME TYPE OF PETROLEUM PRODUCT OR CORROSIVE PRODUCT YOU WOULD NOT ATTEMPT TO INDUCE VOMITING AND NAUSEA AS AS THE PRODUCT BURNED ON THE WAY DOWN IT COULD CAUSE DAMAGE AND BURNING ON THE WAY BACK UP",
+  "greedy_transcript": "IF THE PRODUCT OR POISON O SOME TYPE OF PATROLEUM PRODUCT OR CORROSIVE PRODUCT YOU WOULD NOT ATTEMPT TO INDUCE VOMINING AND NAUSEA AS THE PRODUCT BURNED ON THE WAY DOWN IT COULD CAUSE DAMAGE AND BURNING ON THE WAY BACK UP",
+  "transcript_similarity": 0.9775784753363229,
+  "mean_confidence": 0.9269697674418604,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-lzEya4AM_4__6",
+  "transcript": "If the product or poison is some type of petroleum product or corrosive product, you would not attempt to induce vomiting and nausea, as as the product burned on the way down it could cause damage and burning on the way back up.",
+  "model": "facebook/wav2vec2-base-960h"
+}

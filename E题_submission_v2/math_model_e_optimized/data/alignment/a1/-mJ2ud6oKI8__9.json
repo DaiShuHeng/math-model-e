@@ -1,0 +1,211 @@
+{
+  "duration": 6.90875,
+  "words": [
+    {
+      "word": "It's",
+      "char_start": 0,
+      "char_end": 4,
+      "spoken": "IT'S",
+      "start": 0.0601,
+      "end": 0.2804,
+      "confidence": 0.2421
+    },
+    {
+      "word": "safe",
+      "char_start": 5,
+      "char_end": 9,
+      "spoken": "SAFE",
+      "start": 0.4005,
+      "end": 0.5207,
+      "confidence": 0.25
+    },
+    {
+      "word": "and",
+      "char_start": 10,
+      "char_end": 13,
+      "spoken": "AND",
+      "start": 0.6008,
+      "end": 0.7009,
+      "confidence": 0.7487
+    },
+    {
+      "word": "the",
+      "char_start": 14,
+      "char_end": 17,
+      "spoken": "THE",
+      "start": 0.8411,
+      "end": 0.9212,
+      "confidence": 0.0
+    },
+    {
+      "word": "person",
+      "char_start": 18,
+      "char_end": 24,
+      "spoken": "PERSON",
+      "start": 1.0613,
+      "end": 1.4218,
+      "confidence": 0.4405
+    },
+    {
+      "word": "will",
+      "char_start": 25,
+      "char_end": 29,
+      "spoken": "WILL",
+      "start": 1.4619,
+      "end": 1.582,
+      "confidence": 0.2499
+    },
+    {
+      "word": "feel",
+      "char_start": 30,
+      "char_end": 34,
+      "spoken": "FEEL",
+      "start": 1.7422,
+      "end": 1.8624,
+      "confidence": 0.2465
+    },
+    {
+      "word": "better",
+      "char_start": 35,
+      "char_end": 41,
+      "spoken": "BETTER",
+      "start": 1.9825,
+      "end": 2.2629,
+      "confidence": 0.4506
+    },
+    {
+      "word": "later",
+      "char_start": 42,
+      "char_end": 47,
+      "spoken": "LATER",
+      "start": 2.3029,
+      "end": 2.4831,
+      "confidence": 0.6054
+    },
+    {
+      "word": "on",
+      "char_start": 48,
+      "char_end": 50,
+      "spoken": "ON",
+      "start": 2.6834,
+      "end": 2.7435,
+      "confidence": 0.0037
+    },
+    {
+      "word": "but",
+      "char_start": 52,
+      "char_end": 55,
+      "spoken": "BUT",
+      "start": 2.9237,
+      "end": 3.0238,
+      "confidence": 0.9921
+    },
+    {
+      "word": "it's",
+      "char_start": 56,
+      "char_end": 60,
+      "spoken": "IT'S",
+      "start": 3.0839,
+      "end": 3.2641,
+      "confidence": 0.189
+    },
+    {
+      "word": "sort",
+      "char_start": 61,
+      "char_end": 65,
+      "spoken": "SORT",
+      "start": 3.3042,
+      "end": 3.4043,
+      "confidence": 0.2473
+    },
+    {
+      "word": "of",
+      "char_start": 66,
+      "char_end": 68,
+      "spoken": "OF",
+      "start": 3.4444,
+      "end": 3.5645,
+      "confidence": 0.0
+    },
+    {
+      "word": "like",
+      "char_start": 69,
+      "char_end": 73,
+      "spoken": "LIKE",
+      "start": 3.7047,
+      "end": 3.8449,
+      "confidence": 0.2492
+    },
+    {
+      "word": "flossing",
+      "char_start": 74,
+      "char_end": 82,
+      "spoken": "FLOSSING",
+      "start": 3.8849,
+      "end": 4.2854,
+      "confidence": 0.1246
+    },
+    {
+      "word": "your",
+      "char_start": 83,
+      "char_end": 87,
+      "spoken": "YOUR",
+      "start": 5.8674,
+      "end": 5.9876,
+      "confidence": 0.7401
+    },
+    {
+      "word": "teeth",
+      "char_start": 88,
+      "char_end": 93,
+      "spoken": "TEETH",
+      "start": 6.0877,
+      "end": 6.2479,
+      "confidence": 0.003
+    },
+    {
+      "word": "for",
+      "char_start": 94,
+      "char_end": 97,
+      "spoken": "FOR",
+      "start": 6.2679,
+      "end": 6.3681,
+      "confidence": 0.3306
+    },
+    {
+      "word": "the",
+      "char_start": 98,
+      "char_end": 101,
+      "spoken": "THE",
+      "start": 6.4281,
+      "end": 6.5082,
+      "confidence": 0.3328
+    },
+    {
+      "word": "first",
+      "char_start": 102,
+      "char_end": 107,
+      "spoken": "FIRST",
+      "start": 6.5883,
+      "end": 6.7686,
+      "confidence": 0.2932
+    },
+    {
+      "word": "time",
+      "char_start": 108,
+      "char_end": 112,
+      "spoken": "TIME",
+      "start": 6.8086,
+      "end": 6.8887,
+      "confidence": 0.0003
+    }
+  ],
+  "normalized_transcript": "IT'S SAFE AND THE PERSON WILL FEEL BETTER LATER ON BUT IT'S SORT OF LIKE FLOSSING YOUR TEETH FOR THE FIRST TIME",
+  "greedy_transcript": "WATION TO FIND OUT BECAUSE YOU MIGHT HAVE HIPPOTER A THRITUS BUT THAT YOU COULD ALSO HAVE OTHER A YOU KNOW DISFUNCTIONS ROUND YOUR",
+  "transcript_similarity": 0.29045643153526973,
+  "mean_confidence": 0.30634545454545453,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-mJ2ud6oKI8__9",
+  "transcript": "It's safe and the person will feel better later on, but it's sort of like flossing your teeth for the first time",
+  "model": "facebook/wav2vec2-base-960h"
+}

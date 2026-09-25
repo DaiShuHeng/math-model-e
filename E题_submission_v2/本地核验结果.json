@@ -1,0 +1,41 @@
+{
+  "repo": ".",
+  "q1_npz_count": 100,
+  "q1_summary_count": 100,
+  "q1_errors": [],
+  "alignment_a1_count": 100,
+  "alignment_a4_count": 20,
+  "shapley_rows": 20,
+  "shapley_cls_max_abs_error_from_rounded_coalitions": 1.0000000000065512e-05,
+  "augmentation_vs_noaug_historical_deltas": {
+    "Accuracy": {
+      "clean": 0.001831501831501825,
+      "corrupt20": 0.027930402930402942
+    },
+    "MacroF1": {
+      "clean": 0.0010676937280823529,
+      "corrupt20": 0.02506129026067816
+    },
+    "MAE": {
+      "clean": 0.02019689480463671,
+      "corrupt20": -0.014334321022033691
+    },
+    "Pearson": {
+      "clean": -0.00929506484976561,
+      "corrupt20": 0.021515679172660507
+    }
+  },
+  "aligned_size": 746061824,
+  "q2_weights": {
+    "solution/weights/q2_base_cw/s2026/best.pt": 440291262,
+    "solution/weights/q2_base_cw/s42/best.pt": 440291262,
+    "solution/weights/q2_base_cw/s7/best.pt": 440291262
+  },
+  "q2_sha256": {
+    "solution/weights/q2_base_cw/s2026/best.pt": "405abcdcecf39defc49f6e33ba041d2fb42ebc681381dd51d1e670d3f7199968",
+    "solution/weights/q2_base_cw/s42/best.pt": "e2cee7228e7107b61f109237f982ce7179419dd7c38a4d0f06761e4001bb07de",
+    "solution/weights/q2_base_cw/s7/best.pt": "afe0dc7d318699e02902167ef63cc9436c18eaded2d7d21fbf1b7f5da6477658"
+  },
+  "audit_phase": "before_data_recovery",
+  "current_status_file": "服务器输入核验.json"
+}

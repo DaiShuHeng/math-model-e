@@ -1,0 +1,112 @@
+{
+  "duration": 6.014,
+  "words": [
+    {
+      "word": "Hi",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "HI",
+      "start": 1.2629,
+      "end": 1.4634,
+      "confidence": 0.8081
+    },
+    {
+      "word": "my",
+      "char_start": 4,
+      "char_end": 6,
+      "spoken": "MY",
+      "start": 1.9646,
+      "end": 2.0648,
+      "confidence": 0.9998
+    },
+    {
+      "word": "name",
+      "char_start": 7,
+      "char_end": 11,
+      "spoken": "NAME",
+      "start": 2.1249,
+      "end": 2.2452,
+      "confidence": 0.9935
+    },
+    {
+      "word": "is",
+      "char_start": 12,
+      "char_end": 14,
+      "spoken": "IS",
+      "start": 2.3054,
+      "end": 2.3655,
+      "confidence": 0.5995
+    },
+    {
+      "word": "Chloe",
+      "char_start": 15,
+      "char_end": 20,
+      "spoken": "CHLOE",
+      "start": 2.4457,
+      "end": 2.7664,
+      "confidence": 0.8668
+    },
+    {
+      "word": "video",
+      "char_start": 22,
+      "char_end": 27,
+      "spoken": "VIDEO",
+      "start": 3.2275,
+      "end": 3.5282,
+      "confidence": 0.7658
+    },
+    {
+      "word": "marketer",
+      "char_start": 28,
+      "char_end": 36,
+      "spoken": "MARKETER",
+      "start": 3.6284,
+      "end": 4.0294,
+      "confidence": 0.9424
+    },
+    {
+      "word": "for",
+      "char_start": 37,
+      "char_end": 40,
+      "spoken": "FOR",
+      "start": 4.1697,
+      "end": 4.2699,
+      "confidence": 0.9994
+    },
+    {
+      "word": "Red",
+      "char_start": 41,
+      "char_end": 44,
+      "spoken": "RED",
+      "start": 4.3902,
+      "end": 4.5706,
+      "confidence": 0.9913
+    },
+    {
+      "word": "Wagon",
+      "char_start": 45,
+      "char_end": 50,
+      "spoken": "WAGON",
+      "start": 4.6508,
+      "end": 4.9315,
+      "confidence": 0.6735
+    },
+    {
+      "word": "Marketing",
+      "char_start": 51,
+      "char_end": 60,
+      "spoken": "MARKETING",
+      "start": 4.9916,
+      "end": 5.4527,
+      "confidence": 0.8341
+    }
+  ],
+  "normalized_transcript": "HI MY NAME IS CHLOE VIDEO MARKETER FOR RED WAGON MARKETING",
+  "greedy_transcript": "HI MY NAME WAS CHLOEY VIDIO MARKETER FOR RED WEG IN MARKETING",
+  "transcript_similarity": 0.907563025210084,
+  "mean_confidence": 0.8612909090909091,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "05",
+  "transcript": "Hi, my name is Chloe, video marketer for Red Wagon Marketing.",
+  "model": "facebook/wav2vec2-base-960h"
+}

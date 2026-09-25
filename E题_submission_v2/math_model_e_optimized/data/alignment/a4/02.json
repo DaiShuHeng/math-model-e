@@ -1,0 +1,130 @@
+{
+  "duration": 3.328375,
+  "words": [
+    {
+      "word": "We",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "WE",
+      "start": 0.4812,
+      "end": 0.5414,
+      "confidence": 0.999
+    },
+    {
+      "word": "want",
+      "char_start": 3,
+      "char_end": 7,
+      "spoken": "WANT",
+      "start": 0.6015,
+      "end": 0.7018,
+      "confidence": 0.9965
+    },
+    {
+      "word": "to",
+      "char_start": 8,
+      "char_end": 10,
+      "spoken": "TO",
+      "start": 0.7419,
+      "end": 0.782,
+      "confidence": 0.9953
+    },
+    {
+      "word": "live",
+      "char_start": 11,
+      "char_end": 15,
+      "spoken": "LIVE",
+      "start": 0.8221,
+      "end": 0.9424,
+      "confidence": 0.9995
+    },
+    {
+      "word": "by",
+      "char_start": 16,
+      "char_end": 18,
+      "spoken": "BY",
+      "start": 0.9825,
+      "end": 1.0426,
+      "confidence": 0.9989
+    },
+    {
+      "word": "each",
+      "char_start": 19,
+      "char_end": 23,
+      "spoken": "EACH",
+      "start": 1.1028,
+      "end": 1.183,
+      "confidence": 1.0
+    },
+    {
+      "word": "other’s",
+      "char_start": 24,
+      "char_end": 31,
+      "spoken": "OTHER'S",
+      "start": 1.2431,
+      "end": 1.4236,
+      "confidence": 0.9925
+    },
+    {
+      "word": "happiness",
+      "char_start": 32,
+      "char_end": 41,
+      "spoken": "HAPPINESS",
+      "start": 1.4436,
+      "end": 1.8045,
+      "confidence": 0.9469
+    },
+    {
+      "word": "not",
+      "char_start": 44,
+      "char_end": 47,
+      "spoken": "NOT",
+      "start": 1.8246,
+      "end": 1.9248,
+      "confidence": 0.9884
+    },
+    {
+      "word": "by",
+      "char_start": 48,
+      "char_end": 50,
+      "spoken": "BY",
+      "start": 1.985,
+      "end": 2.0451,
+      "confidence": 0.9946
+    },
+    {
+      "word": "each",
+      "char_start": 51,
+      "char_end": 55,
+      "spoken": "EACH",
+      "start": 2.1053,
+      "end": 2.2055,
+      "confidence": 0.9683
+    },
+    {
+      "word": "other’s",
+      "char_start": 56,
+      "char_end": 63,
+      "spoken": "OTHER'S",
+      "start": 2.2457,
+      "end": 2.4462,
+      "confidence": 0.9794
+    },
+    {
+      "word": "misery",
+      "char_start": 64,
+      "char_end": 70,
+      "spoken": "MISERY",
+      "start": 2.4863,
+      "end": 2.767,
+      "confidence": 0.9712
+    }
+  ],
+  "normalized_transcript": "WE WANT TO LIVE BY EACH OTHER'S HAPPINESS NOT BY EACH OTHER'S MISERY",
+  "greedy_transcript": "WE WANT TO LIVE BY EACH OTHER'S HAPPINESS NOT BY EACH OTHER'S MISERY",
+  "transcript_similarity": 1.0,
+  "mean_confidence": 0.9869615384615383,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "02",
+  "transcript": "We want to live by each other’s happiness - not by each other’s misery.",
+  "model": "facebook/wav2vec2-base-960h"
+}

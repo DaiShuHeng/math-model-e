@@ -1,0 +1,193 @@
+{
+  "duration": 6.4744375,
+  "words": [
+    {
+      "word": "Now",
+      "char_start": 0,
+      "char_end": 3,
+      "spoken": "NOW",
+      "start": 0.5813,
+      "end": 0.7016,
+      "confidence": 0.9997
+    },
+    {
+      "word": "you've",
+      "char_start": 4,
+      "char_end": 10,
+      "spoken": "YOU'VE",
+      "start": 0.7617,
+      "end": 0.9421,
+      "confidence": 0.9945
+    },
+    {
+      "word": "got",
+      "char_start": 11,
+      "char_end": 14,
+      "spoken": "GOT",
+      "start": 0.9822,
+      "end": 1.1425,
+      "confidence": 0.937
+    },
+    {
+      "word": "a",
+      "char_start": 15,
+      "char_end": 16,
+      "spoken": "A",
+      "start": 1.2027,
+      "end": 1.2227,
+      "confidence": 0.9969
+    },
+    {
+      "word": "face",
+      "char_start": 17,
+      "char_end": 21,
+      "spoken": "FACE",
+      "start": 1.3029,
+      "end": 1.5835,
+      "confidence": 0.9981
+    },
+    {
+      "word": "that",
+      "char_start": 22,
+      "char_end": 26,
+      "spoken": "THAT",
+      "start": 1.6437,
+      "end": 1.7639,
+      "confidence": 0.9699
+    },
+    {
+      "word": "you",
+      "char_start": 27,
+      "char_end": 30,
+      "spoken": "YOU",
+      "start": 1.804,
+      "end": 1.8842,
+      "confidence": 0.997
+    },
+    {
+      "word": "can",
+      "char_start": 31,
+      "char_end": 34,
+      "spoken": "CAN",
+      "start": 1.9644,
+      "end": 2.0646,
+      "confidence": 0.9994
+    },
+    {
+      "word": "connect",
+      "char_start": 35,
+      "char_end": 42,
+      "spoken": "CONNECT",
+      "start": 2.1448,
+      "end": 2.4655,
+      "confidence": 0.9989
+    },
+    {
+      "word": "with",
+      "char_start": 43,
+      "char_end": 47,
+      "spoken": "WITH",
+      "start": 2.5858,
+      "end": 2.706,
+      "confidence": 0.996
+    },
+    {
+      "word": "a",
+      "char_start": 48,
+      "char_end": 49,
+      "spoken": "A",
+      "start": 2.7862,
+      "end": 2.8063,
+      "confidence": 0.9964
+    },
+    {
+      "word": "voice",
+      "char_start": 50,
+      "char_end": 55,
+      "spoken": "VOICE",
+      "start": 2.8864,
+      "end": 3.2472,
+      "confidence": 0.9996
+    },
+    {
+      "word": "and",
+      "char_start": 57,
+      "char_end": 60,
+      "spoken": "AND",
+      "start": 3.9488,
+      "end": 4.049,
+      "confidence": 0.9623
+    },
+    {
+      "word": "that",
+      "char_start": 61,
+      "char_end": 65,
+      "spoken": "THAT",
+      "start": 4.1092,
+      "end": 4.2495,
+      "confidence": 0.9634
+    },
+    {
+      "word": "makes",
+      "char_start": 66,
+      "char_end": 71,
+      "spoken": "MAKES",
+      "start": 4.3096,
+      "end": 4.5101,
+      "confidence": 0.9929
+    },
+    {
+      "word": "you",
+      "char_start": 72,
+      "char_end": 75,
+      "spoken": "YOU",
+      "start": 4.5501,
+      "end": 4.6504,
+      "confidence": 0.9999
+    },
+    {
+      "word": "closer",
+      "char_start": 76,
+      "char_end": 82,
+      "spoken": "CLOSER",
+      "start": 4.7305,
+      "end": 5.1114,
+      "confidence": 0.9672
+    },
+    {
+      "word": "to",
+      "char_start": 83,
+      "char_end": 85,
+      "spoken": "TO",
+      "start": 5.2116,
+      "end": 5.3118,
+      "confidence": 0.9991
+    },
+    {
+      "word": "that",
+      "char_start": 86,
+      "char_end": 90,
+      "spoken": "THAT",
+      "start": 5.372,
+      "end": 5.5123,
+      "confidence": 0.8145
+    },
+    {
+      "word": "client",
+      "char_start": 91,
+      "char_end": 97,
+      "spoken": "CLIENT",
+      "start": 5.5925,
+      "end": 5.9533,
+      "confidence": 0.975
+    }
+  ],
+  "normalized_transcript": "NOW YOU'VE GOT A FACE THAT YOU CAN CONNECT WITH A VOICE AND THAT MAKES YOU CLOSER TO THAT CLIENT",
+  "greedy_transcript": "NOW YOU'VE GOT A FACE THAT YOU CAN CONNECT WITH A VOICE AND THAT MAKES YOU CLOSER TO THAT CLIENT",
+  "transcript_similarity": 1.0,
+  "mean_confidence": 0.9778849999999999,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-egA8-b7-3M__20",
+  "transcript": "Now you've got a face that you can connect with a voice, and that makes you closer to that client.",
+  "model": "facebook/wav2vec2-base-960h"
+}

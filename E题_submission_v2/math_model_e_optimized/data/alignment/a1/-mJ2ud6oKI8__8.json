@@ -1,0 +1,112 @@
+{
+  "duration": 4.171375,
+  "words": [
+    {
+      "word": "Sometimes",
+      "char_start": 0,
+      "char_end": 9,
+      "spoken": "SOMETIMES",
+      "start": 0.7821,
+      "end": 1.1431,
+      "confidence": 0.1158
+    },
+    {
+      "word": "we",
+      "char_start": 10,
+      "char_end": 12,
+      "spoken": "WE",
+      "start": 1.2233,
+      "end": 1.3637,
+      "confidence": 0.0001
+    },
+    {
+      "word": "have",
+      "char_start": 13,
+      "char_end": 17,
+      "spoken": "HAVE",
+      "start": 1.4439,
+      "end": 1.6244,
+      "confidence": 0.4495
+    },
+    {
+      "word": "to",
+      "char_start": 18,
+      "char_end": 20,
+      "spoken": "TO",
+      "start": 1.6445,
+      "end": 1.7849,
+      "confidence": 0.4593
+    },
+    {
+      "word": "stretch",
+      "char_start": 21,
+      "char_end": 28,
+      "spoken": "STRETCH",
+      "start": 2.0255,
+      "end": 2.3464,
+      "confidence": 0.0177
+    },
+    {
+      "word": "that",
+      "char_start": 29,
+      "char_end": 33,
+      "spoken": "THAT",
+      "start": 2.3865,
+      "end": 2.4667,
+      "confidence": 0.2181
+    },
+    {
+      "word": "joint",
+      "char_start": 34,
+      "char_end": 39,
+      "spoken": "JOINT",
+      "start": 2.5469,
+      "end": 2.7876,
+      "confidence": 0.0
+    },
+    {
+      "word": "that",
+      "char_start": 40,
+      "char_end": 44,
+      "spoken": "THAT",
+      "start": 2.928,
+      "end": 3.0684,
+      "confidence": 0.4998
+    },
+    {
+      "word": "is",
+      "char_start": 45,
+      "char_end": 47,
+      "spoken": "IS",
+      "start": 3.2288,
+      "end": 3.2689,
+      "confidence": 0.0131
+    },
+    {
+      "word": "already",
+      "char_start": 48,
+      "char_end": 55,
+      "spoken": "ALREADY",
+      "start": 3.3892,
+      "end": 3.7502,
+      "confidence": 0.312
+    },
+    {
+      "word": "irritated",
+      "char_start": 56,
+      "char_end": 65,
+      "spoken": "IRRITATED",
+      "start": 3.7903,
+      "end": 4.1714,
+      "confidence": 0.1778
+    }
+  ],
+  "normalized_transcript": "SOMETIMES WE HAVE TO STRETCH THAT JOINT THAT IS ALREADY IRRITATED",
+  "greedy_transcript": "WE WANT O TYUATE THEM AND IL GIV EM A FULL THOROUGH AVALUATION TO FI",
+  "transcript_similarity": 0.16541353383458646,
+  "mean_confidence": 0.20574545454545454,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-mJ2ud6oKI8__8",
+  "transcript": "Sometimes we have to stretch that joint that is already irritated",
+  "model": "facebook/wav2vec2-base-960h"
+}

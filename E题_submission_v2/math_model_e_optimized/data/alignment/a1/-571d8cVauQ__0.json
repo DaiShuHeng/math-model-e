@@ -1,0 +1,121 @@
+{
+  "duration": 4.9923125,
+  "words": [
+    {
+      "word": "This",
+      "char_start": 0,
+      "char_end": 4,
+      "spoken": "THIS",
+      "start": 1.0626,
+      "end": 1.1629,
+      "confidence": 0.4959
+    },
+    {
+      "word": "is",
+      "char_start": 5,
+      "char_end": 7,
+      "spoken": "IS",
+      "start": 1.2431,
+      "end": 1.2832,
+      "confidence": 0.5219
+    },
+    {
+      "word": "Rhett",
+      "char_start": 8,
+      "char_end": 13,
+      "spoken": "RHETT",
+      "start": 1.3433,
+      "end": 1.5037,
+      "confidence": 0.4183
+    },
+    {
+      "word": "Reiger",
+      "char_start": 14,
+      "char_end": 20,
+      "spoken": "REIGER",
+      "start": 1.5639,
+      "end": 1.8846,
+      "confidence": 0.8517
+    },
+    {
+      "word": "White",
+      "char_start": 22,
+      "char_end": 27,
+      "spoken": "WHITE",
+      "start": 1.9648,
+      "end": 2.1453,
+      "confidence": 0.9923
+    },
+    {
+      "word": "Caspian",
+      "char_start": 28,
+      "char_end": 35,
+      "spoken": "CASPIAN",
+      "start": 2.1653,
+      "end": 2.5463,
+      "confidence": 0.838
+    },
+    {
+      "word": "Studios",
+      "char_start": 36,
+      "char_end": 43,
+      "spoken": "STUDIOS",
+      "start": 2.6265,
+      "end": 3.0676,
+      "confidence": 0.9661
+    },
+    {
+      "word": "on",
+      "char_start": 44,
+      "char_end": 46,
+      "spoken": "ON",
+      "start": 3.1478,
+      "end": 3.2079,
+      "confidence": 0.9987
+    },
+    {
+      "word": "behalf",
+      "char_start": 47,
+      "char_end": 53,
+      "spoken": "BEHALF",
+      "start": 3.2681,
+      "end": 3.5488,
+      "confidence": 0.9487
+    },
+    {
+      "word": "of",
+      "char_start": 54,
+      "char_end": 56,
+      "spoken": "OF",
+      "start": 3.629,
+      "end": 3.669,
+      "confidence": 0.9905
+    },
+    {
+      "word": "Expert",
+      "char_start": 57,
+      "char_end": 63,
+      "spoken": "EXPERT",
+      "start": 3.7492,
+      "end": 4.05,
+      "confidence": 0.8947
+    },
+    {
+      "word": "Village",
+      "char_start": 64,
+      "char_end": 71,
+      "spoken": "VILLAGE",
+      "start": 4.1101,
+      "end": 4.4109,
+      "confidence": 0.9984
+    }
+  ],
+  "normalized_transcript": "THIS IS RHETT REIGER WHITE CASPIAN STUDIOS ON BEHALF OF EXPERT VILLAGE",
+  "greedy_transcript": "MISSUS RED RIGER WHITECASPING STUDIOS ON BEHALF OF EXPERT VILLAGE",
+  "transcript_similarity": 0.8888888888888888,
+  "mean_confidence": 0.8262666666666667,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-571d8cVauQ__0",
+  "transcript": "This is Rhett Reiger, White Caspian Studios on behalf of Expert Village.",
+  "model": "facebook/wav2vec2-base-960h"
+}

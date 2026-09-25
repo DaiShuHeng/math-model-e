@@ -1,0 +1,211 @@
+{
+  "duration": 6.7765625,
+  "words": [
+    {
+      "word": "And",
+      "char_start": 0,
+      "char_end": 3,
+      "spoken": "AND",
+      "start": 0.5614,
+      "end": 0.6215,
+      "confidence": 0.9987
+    },
+    {
+      "word": "because",
+      "char_start": 4,
+      "char_end": 11,
+      "spoken": "BECAUSE",
+      "start": 0.6616,
+      "end": 0.9223,
+      "confidence": 0.9999
+    },
+    {
+      "word": "they",
+      "char_start": 12,
+      "char_end": 16,
+      "spoken": "THEY",
+      "start": 0.9624,
+      "end": 1.0626,
+      "confidence": 0.9909
+    },
+    {
+      "word": "couldn’t",
+      "char_start": 17,
+      "char_end": 25,
+      "spoken": "COULDN'T",
+      "start": 1.1027,
+      "end": 1.3232,
+      "confidence": 0.9559
+    },
+    {
+      "word": "join",
+      "char_start": 26,
+      "char_end": 30,
+      "spoken": "JOIN",
+      "start": 1.3633,
+      "end": 1.5237,
+      "confidence": 0.9463
+    },
+    {
+      "word": "unions",
+      "char_start": 31,
+      "char_end": 37,
+      "spoken": "UNIONS",
+      "start": 1.6841,
+      "end": 2.0049,
+      "confidence": 0.9134
+    },
+    {
+      "word": "many",
+      "char_start": 39,
+      "char_end": 43,
+      "spoken": "MANY",
+      "start": 2.1653,
+      "end": 2.3257,
+      "confidence": 0.9996
+    },
+    {
+      "word": "Black",
+      "char_start": 44,
+      "char_end": 49,
+      "spoken": "BLACK",
+      "start": 2.3658,
+      "end": 2.5462,
+      "confidence": 0.9291
+    },
+    {
+      "word": "workers",
+      "char_start": 50,
+      "char_end": 57,
+      "spoken": "WORKERS",
+      "start": 2.6064,
+      "end": 2.8871,
+      "confidence": 0.9821
+    },
+    {
+      "word": "couldn’t",
+      "char_start": 58,
+      "char_end": 66,
+      "spoken": "COULDN'T",
+      "start": 2.9673,
+      "end": 3.2078,
+      "confidence": 0.9419
+    },
+    {
+      "word": "get",
+      "char_start": 67,
+      "char_end": 70,
+      "spoken": "GET",
+      "start": 3.2479,
+      "end": 3.3482,
+      "confidence": 0.9994
+    },
+    {
+      "word": "manufacturing",
+      "char_start": 71,
+      "char_end": 84,
+      "spoken": "MANUFACTURING",
+      "start": 3.4083,
+      "end": 4.0098,
+      "confidence": 0.993
+    },
+    {
+      "word": "or",
+      "char_start": 85,
+      "char_end": 87,
+      "spoken": "OR",
+      "start": 4.0499,
+      "end": 4.11,
+      "confidence": 0.9981
+    },
+    {
+      "word": "trade",
+      "char_start": 88,
+      "char_end": 93,
+      "spoken": "TRADE",
+      "start": 4.1702,
+      "end": 4.3707,
+      "confidence": 0.9714
+    },
+    {
+      "word": "work",
+      "char_start": 94,
+      "char_end": 98,
+      "spoken": "WORK",
+      "start": 4.4108,
+      "end": 4.5511,
+      "confidence": 0.9424
+    },
+    {
+      "word": "which",
+      "char_start": 101,
+      "char_end": 106,
+      "spoken": "WHICH",
+      "start": 4.6714,
+      "end": 4.7917,
+      "confidence": 0.9996
+    },
+    {
+      "word": "paid",
+      "char_start": 107,
+      "char_end": 111,
+      "spoken": "PAID",
+      "start": 4.8719,
+      "end": 5.0724,
+      "confidence": 0.9318
+    },
+    {
+      "word": "much",
+      "char_start": 112,
+      "char_end": 116,
+      "spoken": "MUCH",
+      "start": 5.1726,
+      "end": 5.313,
+      "confidence": 1.0
+    },
+    {
+      "word": "better",
+      "char_start": 117,
+      "char_end": 123,
+      "spoken": "BETTER",
+      "start": 5.3932,
+      "end": 5.5937,
+      "confidence": 0.9872
+    },
+    {
+      "word": "than",
+      "char_start": 124,
+      "char_end": 128,
+      "spoken": "THAN",
+      "start": 5.6338,
+      "end": 5.734,
+      "confidence": 0.9779
+    },
+    {
+      "word": "service",
+      "char_start": 129,
+      "char_end": 136,
+      "spoken": "SERVICE",
+      "start": 5.7942,
+      "end": 6.0748,
+      "confidence": 0.9328
+    },
+    {
+      "word": "work",
+      "char_start": 137,
+      "char_end": 141,
+      "spoken": "WORK",
+      "start": 6.1149,
+      "end": 6.2352,
+      "confidence": 0.98
+    }
+  ],
+  "normalized_transcript": "AND BECAUSE THEY COULDN'T JOIN UNIONS MANY BLACK WORKERS COULDN'T GET MANUFACTURING OR TRADE WORK WHICH PAID MUCH BETTER THAN SERVICE WORK",
+  "greedy_transcript": "S TO JOIN AND BECAUSE THEY COULDN'T JOIN UNIONS MANY BLACK WORKERS COULDN'T GET MANUFACTURING OR TRADE WORK WHICH PAID MUCH BETTER THAN SERVICE WORK AND BECAUSE",
+  "transcript_similarity": 0.9261744966442953,
+  "mean_confidence": 0.9714272727272729,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-wny0OAz3g8__1",
+  "transcript": "And because they couldn’t join unions, many Black workers couldn’t get manufacturing or trade work – which paid much better than service work",
+  "model": "facebook/wav2vec2-base-960h"
+}

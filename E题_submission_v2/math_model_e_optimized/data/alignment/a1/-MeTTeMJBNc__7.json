@@ -1,0 +1,292 @@
+{
+  "duration": 10.4113125,
+  "words": [
+    {
+      "word": "Maybe",
+      "char_start": 0,
+      "char_end": 5,
+      "spoken": "MAYBE",
+      "start": 0.5406,
+      "end": 0.7408,
+      "confidence": 0.9012
+    },
+    {
+      "word": "you",
+      "char_start": 6,
+      "char_end": 9,
+      "spoken": "YOU",
+      "start": 0.8009,
+      "end": 0.901,
+      "confidence": 0.8717
+    },
+    {
+      "word": "could",
+      "char_start": 10,
+      "char_end": 15,
+      "spoken": "COULD",
+      "start": 0.961,
+      "end": 1.1412,
+      "confidence": 0.9272
+    },
+    {
+      "word": "find",
+      "char_start": 16,
+      "char_end": 20,
+      "spoken": "FIND",
+      "start": 1.5617,
+      "end": 1.862,
+      "confidence": 0.8714
+    },
+    {
+      "word": "a",
+      "char_start": 21,
+      "char_end": 22,
+      "spoken": "A",
+      "start": 1.9421,
+      "end": 1.9621,
+      "confidence": 0.997
+    },
+    {
+      "word": "picture",
+      "char_start": 23,
+      "char_end": 30,
+      "spoken": "PICTURE",
+      "start": 2.0422,
+      "end": 2.4026,
+      "confidence": 0.9499
+    },
+    {
+      "word": "of",
+      "char_start": 31,
+      "char_end": 33,
+      "spoken": "OF",
+      "start": 2.4627,
+      "end": 2.5027,
+      "confidence": 0.8122
+    },
+    {
+      "word": "the",
+      "char_start": 34,
+      "char_end": 37,
+      "spoken": "THE",
+      "start": 2.5828,
+      "end": 2.6429,
+      "confidence": 0.9942
+    },
+    {
+      "word": "couple",
+      "char_start": 38,
+      "char_end": 44,
+      "spoken": "COUPLE",
+      "start": 2.7029,
+      "end": 3.0433,
+      "confidence": 0.9807
+    },
+    {
+      "word": "from",
+      "char_start": 45,
+      "char_end": 49,
+      "spoken": "FROM",
+      "start": 3.1634,
+      "end": 3.3637,
+      "confidence": 0.9471
+    },
+    {
+      "word": "their",
+      "char_start": 50,
+      "char_end": 55,
+      "spoken": "THEIR",
+      "start": 3.724,
+      "end": 3.8842,
+      "confidence": 0.9973
+    },
+    {
+      "word": "wedding",
+      "char_start": 56,
+      "char_end": 63,
+      "spoken": "WEDDING",
+      "start": 3.9443,
+      "end": 4.3647,
+      "confidence": 0.9758
+    },
+    {
+      "word": "or",
+      "char_start": 64,
+      "char_end": 66,
+      "spoken": "OR",
+      "start": 4.645,
+      "end": 4.7251,
+      "confidence": 0.9804
+    },
+    {
+      "word": "sometime",
+      "char_start": 67,
+      "char_end": 75,
+      "spoken": "SOMETIME",
+      "start": 4.9053,
+      "end": 5.3258,
+      "confidence": 0.9172
+    },
+    {
+      "word": "in",
+      "char_start": 76,
+      "char_end": 78,
+      "spoken": "IN",
+      "start": 5.3859,
+      "end": 5.4259,
+      "confidence": 0.9998
+    },
+    {
+      "word": "their",
+      "char_start": 79,
+      "char_end": 84,
+      "spoken": "THEIR",
+      "start": 5.486,
+      "end": 5.6461,
+      "confidence": 0.9811
+    },
+    {
+      "word": "life",
+      "char_start": 85,
+      "char_end": 89,
+      "spoken": "LIFE",
+      "start": 5.7262,
+      "end": 6.0466,
+      "confidence": 0.9451
+    },
+    {
+      "word": "or",
+      "char_start": 91,
+      "char_end": 93,
+      "spoken": "OR",
+      "start": 6.1667,
+      "end": 6.2067,
+      "confidence": 0.9979
+    },
+    {
+      "word": "maybe",
+      "char_start": 94,
+      "char_end": 99,
+      "spoken": "MAYBE",
+      "start": 6.2668,
+      "end": 6.467,
+      "confidence": 0.9828
+    },
+    {
+      "word": "even",
+      "char_start": 100,
+      "char_end": 104,
+      "spoken": "EVEN",
+      "start": 6.5872,
+      "end": 6.7473,
+      "confidence": 0.9969
+    },
+    {
+      "word": "a",
+      "char_start": 105,
+      "char_end": 106,
+      "spoken": "A",
+      "start": 6.8074,
+      "end": 6.8274,
+      "confidence": 0.9959
+    },
+    {
+      "word": "current",
+      "char_start": 107,
+      "char_end": 114,
+      "spoken": "CURRENT",
+      "start": 6.9275,
+      "end": 7.2679,
+      "confidence": 0.9302
+    },
+    {
+      "word": "picture",
+      "char_start": 115,
+      "char_end": 122,
+      "spoken": "PICTURE",
+      "start": 7.368,
+      "end": 7.7885,
+      "confidence": 0.9551
+    },
+    {
+      "word": "and",
+      "char_start": 123,
+      "char_end": 126,
+      "spoken": "AND",
+      "start": 8.2089,
+      "end": 8.269,
+      "confidence": 0.9982
+    },
+    {
+      "word": "have",
+      "char_start": 127,
+      "char_end": 131,
+      "spoken": "HAVE",
+      "start": 8.329,
+      "end": 8.4292,
+      "confidence": 0.6872
+    },
+    {
+      "word": "it",
+      "char_start": 132,
+      "char_end": 134,
+      "spoken": "IT",
+      "start": 8.4492,
+      "end": 8.4892,
+      "confidence": 0.4868
+    },
+    {
+      "word": "put",
+      "char_start": 135,
+      "char_end": 138,
+      "spoken": "PUT",
+      "start": 8.5893,
+      "end": 8.7295,
+      "confidence": 0.9999
+    },
+    {
+      "word": "in",
+      "char_start": 139,
+      "char_end": 141,
+      "spoken": "IN",
+      "start": 8.7896,
+      "end": 8.8296,
+      "confidence": 0.9966
+    },
+    {
+      "word": "a",
+      "char_start": 142,
+      "char_end": 143,
+      "spoken": "A",
+      "start": 8.8696,
+      "end": 8.9097,
+      "confidence": 0.8988
+    },
+    {
+      "word": "beautiful",
+      "char_start": 144,
+      "char_end": 153,
+      "spoken": "BEAUTIFUL",
+      "start": 8.9297,
+      "end": 9.2901,
+      "confidence": 0.9828
+    },
+    {
+      "word": "frame",
+      "char_start": 154,
+      "char_end": 159,
+      "spoken": "FRAME",
+      "start": 9.4102,
+      "end": 9.8507,
+      "confidence": 0.5623
+    }
+  ],
+  "normalized_transcript": "MAYBE YOU COULD FIND A PICTURE OF THE COUPLE FROM THEIR WEDDING OR SOMETIME IN THEIR LIFE OR MAYBE EVEN A CURRENT PICTURE AND HAVE IT PUT IN A BEAUTIFUL FRAME",
+  "greedy_transcript": "ICTURE MAYBE YOU COULD FIND A PICTURE OF THE COUPLE FROM THEIR WEDDING OR SOMETIME IN THEIR LIFE OR MAYBE EVEN A CURRENT PICTURE AND HAV TO PUT IN A BEAUTIFUL FRAME",
+  "transcript_similarity": 0.968944099378882,
+  "mean_confidence": 0.9200225806451613,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-MeTTeMJBNc__7",
+  "transcript": "Maybe you could find a picture of the couple from their wedding or sometime in their life, or maybe even a current picture and have it put in a beautiful frame.",
+  "model": "facebook/wav2vec2-base-960h"
+}

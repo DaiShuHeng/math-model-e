@@ -1,0 +1,121 @@
+{
+  "duration": 4.917,
+  "words": [
+    {
+      "word": "That’s",
+      "char_start": 0,
+      "char_end": 6,
+      "spoken": "THAT'S",
+      "start": 0.2609,
+      "end": 0.4415,
+      "confidence": 0.9613
+    },
+    {
+      "word": "a",
+      "char_start": 7,
+      "char_end": 8,
+      "spoken": "A",
+      "start": 0.582,
+      "end": 0.6021,
+      "confidence": 0.7964
+    },
+    {
+      "word": "more",
+      "char_start": 9,
+      "char_end": 13,
+      "spoken": "MORE",
+      "start": 0.9633,
+      "end": 1.164,
+      "confidence": 0.9974
+    },
+    {
+      "word": "decent",
+      "char_start": 14,
+      "char_end": 20,
+      "spoken": "DECENT",
+      "start": 1.3647,
+      "end": 1.8062,
+      "confidence": 0.9634
+    },
+    {
+      "word": "and",
+      "char_start": 21,
+      "char_end": 24,
+      "spoken": "AND",
+      "start": 2.1073,
+      "end": 2.1675,
+      "confidence": 0.9916
+    },
+    {
+      "word": "more",
+      "char_start": 25,
+      "char_end": 29,
+      "spoken": "MORE",
+      "start": 2.2076,
+      "end": 2.328,
+      "confidence": 0.998
+    },
+    {
+      "word": "polite",
+      "char_start": 30,
+      "char_end": 36,
+      "spoken": "POLITE",
+      "start": 2.3883,
+      "end": 2.7896,
+      "confidence": 0.9334
+    },
+    {
+      "word": "way",
+      "char_start": 37,
+      "char_end": 40,
+      "spoken": "WAY",
+      "start": 2.9301,
+      "end": 3.0505,
+      "confidence": 0.9799
+    },
+    {
+      "word": "to",
+      "char_start": 41,
+      "char_end": 43,
+      "spoken": "TO",
+      "start": 3.191,
+      "end": 3.2914,
+      "confidence": 0.9995
+    },
+    {
+      "word": "call",
+      "char_start": 44,
+      "char_end": 48,
+      "spoken": "CALL",
+      "start": 3.3516,
+      "end": 3.6125,
+      "confidence": 0.9878
+    },
+    {
+      "word": "a",
+      "char_start": 49,
+      "char_end": 50,
+      "spoken": "A",
+      "start": 4.0139,
+      "end": 4.0339,
+      "confidence": 0.9933
+    },
+    {
+      "word": "lady",
+      "char_start": 51,
+      "char_end": 55,
+      "spoken": "LADY",
+      "start": 4.0942,
+      "end": 4.4153,
+      "confidence": 0.5726
+    }
+  ],
+  "normalized_transcript": "THAT'S A MORE DECENT AND MORE POLITE WAY TO CALL A LADY",
+  "greedy_transcript": "A'AM THAT'S A MORE DECENT AND MORE POLITE WAY TO CALL A LADY AND",
+  "transcript_similarity": 0.9243697478991597,
+  "mean_confidence": 0.9312166666666665,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-9y-fZ3swSY__8",
+  "transcript": "That’s a more decent and more polite way to call a lady",
+  "model": "facebook/wav2vec2-base-960h"
+}

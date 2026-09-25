@@ -1,0 +1,157 @@
+{
+  "duration": 8.150875,
+  "words": [
+    {
+      "word": "The",
+      "char_start": 0,
+      "char_end": 3,
+      "spoken": "THE",
+      "start": 0.1402,
+      "end": 0.4005,
+      "confidence": 0.3292
+    },
+    {
+      "word": "August",
+      "char_start": 4,
+      "char_end": 10,
+      "spoken": "AUGUST",
+      "start": 1.9426,
+      "end": 2.2029,
+      "confidence": 0.938
+    },
+    {
+      "word": "jobs",
+      "char_start": 11,
+      "char_end": 15,
+      "spoken": "JOBS",
+      "start": 2.3231,
+      "end": 2.6235,
+      "confidence": 0.9669
+    },
+    {
+      "word": "report",
+      "char_start": 16,
+      "char_end": 22,
+      "spoken": "REPORT",
+      "start": 2.6836,
+      "end": 2.984,
+      "confidence": 0.9769
+    },
+    {
+      "word": "is",
+      "char_start": 23,
+      "char_end": 25,
+      "spoken": "IS",
+      "start": 3.0641,
+      "end": 3.1442,
+      "confidence": 0.5751
+    },
+    {
+      "word": "out",
+      "char_start": 26,
+      "char_end": 29,
+      "spoken": "OUT",
+      "start": 3.3244,
+      "end": 3.4246,
+      "confidence": 0.9978
+    },
+    {
+      "word": "and",
+      "char_start": 30,
+      "char_end": 33,
+      "spoken": "AND",
+      "start": 3.8652,
+      "end": 3.9853,
+      "confidence": 0.9534
+    },
+    {
+      "word": "it",
+      "char_start": 34,
+      "char_end": 36,
+      "spoken": "IT",
+      "start": 4.2056,
+      "end": 4.2457,
+      "confidence": 0.9947
+    },
+    {
+      "word": "was",
+      "char_start": 37,
+      "char_end": 40,
+      "spoken": "WAS",
+      "start": 4.3057,
+      "end": 4.4059,
+      "confidence": 0.9957
+    },
+    {
+      "word": "seen",
+      "char_start": 41,
+      "char_end": 45,
+      "spoken": "SEEN",
+      "start": 4.506,
+      "end": 4.7463,
+      "confidence": 0.9302
+    },
+    {
+      "word": "overall",
+      "char_start": 46,
+      "char_end": 53,
+      "spoken": "OVERALL",
+      "start": 5.267,
+      "end": 5.7276,
+      "confidence": 0.9277
+    },
+    {
+      "word": "as",
+      "char_start": 54,
+      "char_end": 56,
+      "spoken": "AS",
+      "start": 6.2083,
+      "end": 6.2483,
+      "confidence": 0.6745
+    },
+    {
+      "word": "solid",
+      "char_start": 57,
+      "char_end": 62,
+      "spoken": "SOLID",
+      "start": 6.3885,
+      "end": 6.729,
+      "confidence": 0.9274
+    },
+    {
+      "word": "but",
+      "char_start": 63,
+      "char_end": 66,
+      "spoken": "BUT",
+      "start": 6.8091,
+      "end": 6.9292,
+      "confidence": 0.9689
+    },
+    {
+      "word": "not",
+      "char_start": 67,
+      "char_end": 70,
+      "spoken": "NOT",
+      "start": 7.0294,
+      "end": 7.2096,
+      "confidence": 0.9959
+    },
+    {
+      "word": "great",
+      "char_start": 71,
+      "char_end": 76,
+      "spoken": "GREAT",
+      "start": 7.3498,
+      "end": 8.1308,
+      "confidence": 0.6149
+    }
+  ],
+  "normalized_transcript": "THE AUGUST JOBS REPORT IS OUT AND IT WAS SEEN OVERALL AS SOLID BUT NOT GREAT",
+  "greedy_transcript": "IT TO DAY AH THE AUGUST JOBS REPORTES OUT AND IT WAS SEEN OVER ALL A SOLID BUT NOT CRATE THE REPORT",
+  "transcript_similarity": 0.8114285714285714,
+  "mean_confidence": 0.86045,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-HeZS2-Prhc__2",
+  "transcript": "The August jobs report is out and it was seen overall as solid but not great.",
+  "model": "facebook/wav2vec2-base-960h"
+}

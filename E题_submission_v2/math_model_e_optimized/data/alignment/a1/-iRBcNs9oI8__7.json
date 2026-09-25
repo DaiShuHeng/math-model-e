@@ -1,0 +1,94 @@
+{
+  "duration": 4.00575,
+  "words": [
+    {
+      "word": "Well",
+      "char_start": 0,
+      "char_end": 4,
+      "spoken": "WELL",
+      "start": 0.0401,
+      "end": 0.2203,
+      "confidence": 0.25
+    },
+    {
+      "word": "for",
+      "char_start": 6,
+      "char_end": 9,
+      "spoken": "FOR",
+      "start": 0.2804,
+      "end": 0.3605,
+      "confidence": 0.0
+    },
+    {
+      "word": "starters",
+      "char_start": 10,
+      "char_end": 18,
+      "spoken": "STARTERS",
+      "start": 0.4206,
+      "end": 1.5823,
+      "confidence": 0.3462
+    },
+    {
+      "word": "let's",
+      "char_start": 20,
+      "char_end": 25,
+      "spoken": "LET'S",
+      "start": 1.6223,
+      "end": 1.9428,
+      "confidence": 0.2
+    },
+    {
+      "word": "look",
+      "char_start": 26,
+      "char_end": 30,
+      "spoken": "LOOK",
+      "start": 2.4034,
+      "end": 2.5637,
+      "confidence": 0.0
+    },
+    {
+      "word": "at",
+      "char_start": 31,
+      "char_end": 33,
+      "spoken": "AT",
+      "start": 2.6238,
+      "end": 2.764,
+      "confidence": 0.5
+    },
+    {
+      "word": "the",
+      "char_start": 34,
+      "char_end": 37,
+      "spoken": "THE",
+      "start": 2.9042,
+      "end": 3.0043,
+      "confidence": 0.7492
+    },
+    {
+      "word": "word",
+      "char_start": 38,
+      "char_end": 42,
+      "spoken": "WORD",
+      "start": 3.1645,
+      "end": 3.3047,
+      "confidence": 0.25
+    },
+    {
+      "word": "power",
+      "char_start": 44,
+      "char_end": 49,
+      "spoken": "POWER",
+      "start": 3.6052,
+      "end": 3.9857,
+      "confidence": 0.3507
+    }
+  ],
+  "normalized_transcript": "WELL FOR STARTERS LET'S LOOK AT THE WORD POWER",
+  "greedy_transcript": "TERVIEW AND THE SECRET WILL ALSO HELP YOU IF YOU E",
+  "transcript_similarity": 0.3541666666666667,
+  "mean_confidence": 0.29401111111111106,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-iRBcNs9oI8__7",
+  "transcript": "Well, for starters, let's look at the word \"power\"",
+  "model": "facebook/wav2vec2-base-960h"
+}

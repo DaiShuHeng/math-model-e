@@ -1,0 +1,229 @@
+{
+  "duration": 6.7105625,
+  "words": [
+    {
+      "word": "they",
+      "char_start": 0,
+      "char_end": 4,
+      "spoken": "THEY",
+      "start": 0.02,
+      "end": 0.1002,
+      "confidence": 0.0859
+    },
+    {
+      "word": "have",
+      "char_start": 5,
+      "char_end": 9,
+      "spoken": "HAVE",
+      "start": 0.1803,
+      "end": 0.2804,
+      "confidence": 0.3677
+    },
+    {
+      "word": "doubt",
+      "char_start": 10,
+      "char_end": 15,
+      "spoken": "DOUBT",
+      "start": 0.3405,
+      "end": 0.6009,
+      "confidence": 0.9749
+    },
+    {
+      "word": "they",
+      "char_start": 17,
+      "char_end": 21,
+      "spoken": "THEY",
+      "start": 0.6811,
+      "end": 0.7812,
+      "confidence": 0.9822
+    },
+    {
+      "word": "have",
+      "char_start": 22,
+      "char_end": 26,
+      "spoken": "HAVE",
+      "start": 0.8614,
+      "end": 0.9615,
+      "confidence": 0.7163
+    },
+    {
+      "word": "fear",
+      "char_start": 27,
+      "char_end": 31,
+      "spoken": "FEAR",
+      "start": 1.0817,
+      "end": 1.3221,
+      "confidence": 0.9918
+    },
+    {
+      "word": "they",
+      "char_start": 33,
+      "char_end": 37,
+      "spoken": "THEY",
+      "start": 1.7227,
+      "end": 1.8229,
+      "confidence": 0.8072
+    },
+    {
+      "word": "lose",
+      "char_start": 38,
+      "char_end": 42,
+      "spoken": "LOSE",
+      "start": 1.883,
+      "end": 2.1033,
+      "confidence": 0.7284
+    },
+    {
+      "word": "in",
+      "char_start": 43,
+      "char_end": 45,
+      "spoken": "IN",
+      "start": 2.1634,
+      "end": 2.2035,
+      "confidence": 0.899
+    },
+    {
+      "word": "a",
+      "char_start": 46,
+      "char_end": 47,
+      "spoken": "A",
+      "start": 2.2636,
+      "end": 2.2836,
+      "confidence": 0.8693
+    },
+    {
+      "word": "Ferrari",
+      "char_start": 48,
+      "char_end": 55,
+      "spoken": "FERRARI",
+      "start": 2.3437,
+      "end": 2.7644,
+      "confidence": 0.5668
+    },
+    {
+      "word": "race",
+      "char_start": 56,
+      "char_end": 60,
+      "spoken": "RACE",
+      "start": 2.8445,
+      "end": 3.0849,
+      "confidence": 0.9974
+    },
+    {
+      "word": "or",
+      "char_start": 62,
+      "char_end": 64,
+      "spoken": "OR",
+      "start": 3.145,
+      "end": 3.205,
+      "confidence": 0.991
+    },
+    {
+      "word": "they",
+      "char_start": 65,
+      "char_end": 69,
+      "spoken": "THEY",
+      "start": 3.2651,
+      "end": 3.3653,
+      "confidence": 0.3292
+    },
+    {
+      "word": "lose",
+      "char_start": 70,
+      "char_end": 74,
+      "spoken": "LOSE",
+      "start": 3.4254,
+      "end": 3.6858,
+      "confidence": 0.8896
+    },
+    {
+      "word": "in",
+      "char_start": 75,
+      "char_end": 77,
+      "spoken": "IN",
+      "start": 3.806,
+      "end": 3.8461,
+      "confidence": 0.7412
+    },
+    {
+      "word": "a",
+      "char_start": 78,
+      "char_end": 79,
+      "spoken": "A",
+      "start": 4.1065,
+      "end": 4.1265,
+      "confidence": 0.9267
+    },
+    {
+      "word": "race",
+      "char_start": 80,
+      "char_end": 84,
+      "spoken": "RACE",
+      "start": 4.5271,
+      "end": 4.7875,
+      "confidence": 0.9464
+    },
+    {
+      "word": "and",
+      "char_start": 86,
+      "char_end": 89,
+      "spoken": "AND",
+      "start": 5.1882,
+      "end": 5.2483,
+      "confidence": 0.9586
+    },
+    {
+      "word": "then",
+      "char_start": 90,
+      "char_end": 94,
+      "spoken": "THEN",
+      "start": 5.2883,
+      "end": 5.3685,
+      "confidence": 0.9475
+    },
+    {
+      "word": "they",
+      "char_start": 95,
+      "char_end": 99,
+      "spoken": "THEY",
+      "start": 5.4285,
+      "end": 5.5287,
+      "confidence": 0.9947
+    },
+    {
+      "word": "just",
+      "char_start": 100,
+      "char_end": 104,
+      "spoken": "JUST",
+      "start": 5.5888,
+      "end": 5.749,
+      "confidence": 0.9745
+    },
+    {
+      "word": "give",
+      "char_start": 105,
+      "char_end": 109,
+      "spoken": "GIVE",
+      "start": 5.7891,
+      "end": 5.9293,
+      "confidence": 0.9986
+    },
+    {
+      "word": "up",
+      "char_start": 110,
+      "char_end": 112,
+      "spoken": "UP",
+      "start": 6.0896,
+      "end": 6.1296,
+      "confidence": 0.9963
+    }
+  ],
+  "normalized_transcript": "THEY HAVE DOUBT THEY HAVE FEAR THEY LOSE IN A FERRARI RACE OR THEY LOSE IN A RACE AND THEN THEY JUST GIVE UP",
+  "greedy_transcript": "ANA DOUBT THEY HAVE FEAR THEY LOSING A FORIRY RACE OR DE LOSEIN A RACE AND THEN THEY JUST GIVE UP",
+  "transcript_similarity": 0.8780487804878049,
+  "mean_confidence": 0.8200500000000002,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-s9qJ7ATP7w__0",
+  "transcript": "they have doubt, they have fear, they lose in a Ferrari race, or they lose in a race, and then they just give up",
+  "model": "facebook/wav2vec2-base-960h"
+}

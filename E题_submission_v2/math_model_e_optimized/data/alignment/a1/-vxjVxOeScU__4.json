@@ -1,0 +1,202 @@
+{
+  "duration": 9.0370625,
+  "words": [
+    {
+      "word": "You're",
+      "char_start": 0,
+      "char_end": 6,
+      "spoken": "YOU'RE",
+      "start": 0.0,
+      "end": 0.1202,
+      "confidence": 0.0158
+    },
+    {
+      "word": "going",
+      "char_start": 7,
+      "char_end": 12,
+      "spoken": "GOING",
+      "start": 0.5811,
+      "end": 0.7013,
+      "confidence": 0.1386
+    },
+    {
+      "word": "to",
+      "char_start": 13,
+      "char_end": 15,
+      "spoken": "TO",
+      "start": 0.7414,
+      "end": 0.7815,
+      "confidence": 0.7144
+    },
+    {
+      "word": "talk",
+      "char_start": 16,
+      "char_end": 20,
+      "spoken": "TALK",
+      "start": 0.8416,
+      "end": 1.062,
+      "confidence": 0.9978
+    },
+    {
+      "word": "about",
+      "char_start": 21,
+      "char_end": 26,
+      "spoken": "ABOUT",
+      "start": 1.1822,
+      "end": 1.5429,
+      "confidence": 0.9994
+    },
+    {
+      "word": "their",
+      "char_start": 27,
+      "char_end": 32,
+      "spoken": "THEIR",
+      "start": 1.8635,
+      "end": 2.0639,
+      "confidence": 0.9933
+    },
+    {
+      "word": "life",
+      "char_start": 33,
+      "char_end": 37,
+      "spoken": "LIFE",
+      "start": 2.2042,
+      "end": 2.5849,
+      "confidence": 0.8987
+    },
+    {
+      "word": "their",
+      "char_start": 39,
+      "char_end": 44,
+      "spoken": "THEIR",
+      "start": 2.9456,
+      "end": 3.1459,
+      "confidence": 0.9935
+    },
+    {
+      "word": "marriage",
+      "char_start": 45,
+      "char_end": 53,
+      "spoken": "MARRIAGE",
+      "start": 3.2461,
+      "end": 3.7671,
+      "confidence": 0.9852
+    },
+    {
+      "word": "and",
+      "char_start": 54,
+      "char_end": 57,
+      "spoken": "AND",
+      "start": 4.769,
+      "end": 4.8291,
+      "confidence": 0.3353
+    },
+    {
+      "word": "usually",
+      "char_start": 58,
+      "char_end": 65,
+      "spoken": "USUALLY",
+      "start": 5.0095,
+      "end": 5.4904,
+      "confidence": 0.9679
+    },
+    {
+      "word": "how",
+      "char_start": 66,
+      "char_end": 69,
+      "spoken": "HOW",
+      "start": 5.6106,
+      "end": 5.7509,
+      "confidence": 0.9996
+    },
+    {
+      "word": "amazing",
+      "char_start": 70,
+      "char_end": 77,
+      "spoken": "AMAZING",
+      "start": 5.9112,
+      "end": 6.4121,
+      "confidence": 0.9637
+    },
+    {
+      "word": "it",
+      "char_start": 78,
+      "char_end": 80,
+      "spoken": "IT",
+      "start": 6.4923,
+      "end": 6.5323,
+      "confidence": 0.9998
+    },
+    {
+      "word": "is",
+      "char_start": 81,
+      "char_end": 83,
+      "spoken": "IS",
+      "start": 6.6726,
+      "end": 6.7327,
+      "confidence": 0.9677
+    },
+    {
+      "word": "that",
+      "char_start": 84,
+      "char_end": 88,
+      "spoken": "THAT",
+      "start": 6.8329,
+      "end": 6.9531,
+      "confidence": 0.8687
+    },
+    {
+      "word": "they've",
+      "char_start": 89,
+      "char_end": 96,
+      "spoken": "THEY'VE",
+      "start": 6.9732,
+      "end": 7.1735,
+      "confidence": 0.9916
+    },
+    {
+      "word": "stayed",
+      "char_start": 97,
+      "char_end": 103,
+      "spoken": "STAYED",
+      "start": 7.2136,
+      "end": 7.4741,
+      "confidence": 0.961
+    },
+    {
+      "word": "together",
+      "char_start": 104,
+      "char_end": 112,
+      "spoken": "TOGETHER",
+      "start": 7.5342,
+      "end": 7.8949,
+      "confidence": 0.9997
+    },
+    {
+      "word": "this",
+      "char_start": 113,
+      "char_end": 117,
+      "spoken": "THIS",
+      "start": 7.9751,
+      "end": 8.1153,
+      "confidence": 0.9767
+    },
+    {
+      "word": "long",
+      "char_start": 118,
+      "char_end": 122,
+      "spoken": "LONG",
+      "start": 8.2355,
+      "end": 8.496,
+      "confidence": 0.997
+    }
+  ],
+  "normalized_transcript": "YOU'RE GOING TO TALK ABOUT THEIR LIFE THEIR MARRIAGE AND USUALLY HOW AMAZING IT IS THAT THEY'VE STAYED TOGETHER THIS LONG",
+  "greedy_transcript": "OR UN TO TALK ABOUT THEIR LIFE THEIR MARRIAGE  UNUSUALLY HOW AMAZING IT IS THAT THEY'VE STAYED TOGETHER THIS LONG WEDDING IN",
+  "transcript_similarity": 0.889795918367347,
+  "mean_confidence": 0.8459714285714287,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-vxjVxOeScU__4",
+  "transcript": "You're going to talk about their life, their marriage and usually how amazing it is that they've stayed together this long.",
+  "model": "facebook/wav2vec2-base-960h"
+}

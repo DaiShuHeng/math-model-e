@@ -1,0 +1,148 @@
+{
+  "duration": 5.9205625,
+  "words": [
+    {
+      "word": "We're",
+      "char_start": 0,
+      "char_end": 5,
+      "spoken": "WE'RE",
+      "start": 0.5218,
+      "end": 0.7024,
+      "confidence": 0.8226
+    },
+    {
+      "word": "updating",
+      "char_start": 6,
+      "char_end": 14,
+      "spoken": "UPDATING",
+      "start": 0.7827,
+      "end": 1.164,
+      "confidence": 0.9505
+    },
+    {
+      "word": "it",
+      "char_start": 15,
+      "char_end": 17,
+      "spoken": "IT",
+      "start": 1.2443,
+      "end": 1.2845,
+      "confidence": 0.9805
+    },
+    {
+      "word": "all",
+      "char_start": 18,
+      "char_end": 21,
+      "spoken": "ALL",
+      "start": 1.4049,
+      "end": 1.5454,
+      "confidence": 0.9753
+    },
+    {
+      "word": "the",
+      "char_start": 22,
+      "char_end": 25,
+      "spoken": "THE",
+      "start": 1.6056,
+      "end": 1.6859,
+      "confidence": 0.9779
+    },
+    {
+      "word": "time",
+      "char_start": 26,
+      "char_end": 30,
+      "spoken": "TIME",
+      "start": 1.7461,
+      "end": 2.007,
+      "confidence": 0.9997
+    },
+    {
+      "word": "and",
+      "char_start": 31,
+      "char_end": 34,
+      "spoken": "AND",
+      "start": 2.4886,
+      "end": 2.5689,
+      "confidence": 0.9999
+    },
+    {
+      "word": "looking",
+      "char_start": 35,
+      "char_end": 42,
+      "spoken": "LOOKING",
+      "start": 2.6291,
+      "end": 2.9101,
+      "confidence": 0.9996
+    },
+    {
+      "word": "forward",
+      "char_start": 43,
+      "char_end": 50,
+      "spoken": "FORWARD",
+      "start": 3.0105,
+      "end": 3.3115,
+      "confidence": 0.9966
+    },
+    {
+      "word": "to",
+      "char_start": 51,
+      "char_end": 53,
+      "spoken": "TO",
+      "start": 3.3918,
+      "end": 3.4721,
+      "confidence": 0.9999
+    },
+    {
+      "word": "your",
+      "char_start": 54,
+      "char_end": 58,
+      "spoken": "YOUR",
+      "start": 3.5323,
+      "end": 3.7129,
+      "confidence": 0.9897
+    },
+    {
+      "word": "comments",
+      "char_start": 59,
+      "char_end": 67,
+      "spoken": "COMMENTS",
+      "start": 3.7932,
+      "end": 4.2748,
+      "confidence": 0.9556
+    },
+    {
+      "word": "on",
+      "char_start": 68,
+      "char_end": 70,
+      "spoken": "ON",
+      "start": 4.4755,
+      "end": 4.5157,
+      "confidence": 0.998
+    },
+    {
+      "word": "our",
+      "char_start": 71,
+      "char_end": 74,
+      "spoken": "OUR",
+      "start": 4.616,
+      "end": 4.6963,
+      "confidence": 0.5528
+    },
+    {
+      "word": "videos",
+      "char_start": 75,
+      "char_end": 81,
+      "spoken": "VIDEOS",
+      "start": 4.7365,
+      "end": 5.2181,
+      "confidence": 0.8083
+    }
+  ],
+  "normalized_transcript": "WE'RE UPDATING IT ALL THE TIME AND LOOKING FORWARD TO YOUR COMMENTS ON OUR VIDEOS",
+  "greedy_transcript": "WERE UPDATING IT ALL THE TIME AND LOOKING FORWARD TO YOUR COMMENTS ON ARVIDIOS",
+  "transcript_similarity": 0.9559748427672956,
+  "mean_confidence": 0.9337933333333333,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-egA8-b7-3M__26",
+  "transcript": "We're updating it all the time and looking forward to your comments on our videos.",
+  "model": "facebook/wav2vec2-base-960h"
+}

@@ -1,0 +1,139 @@
+{
+  "duration": 5.2555,
+  "words": [
+    {
+      "word": "It",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "IT",
+      "start": 0.1204,
+      "end": 0.1605,
+      "confidence": 0.9982
+    },
+    {
+      "word": "just",
+      "char_start": 3,
+      "char_end": 7,
+      "spoken": "JUST",
+      "start": 1.0631,
+      "end": 1.3239,
+      "confidence": 0.8413
+    },
+    {
+      "word": "needs",
+      "char_start": 8,
+      "char_end": 13,
+      "spoken": "NEEDS",
+      "start": 1.4443,
+      "end": 1.6449,
+      "confidence": 0.9984
+    },
+    {
+      "word": "to",
+      "char_start": 14,
+      "char_end": 16,
+      "spoken": "TO",
+      "start": 1.7251,
+      "end": 1.7853,
+      "confidence": 0.9998
+    },
+    {
+      "word": "be",
+      "char_start": 17,
+      "char_end": 19,
+      "spoken": "BE",
+      "start": 1.8454,
+      "end": 1.9257,
+      "confidence": 0.9999
+    },
+    {
+      "word": "a",
+      "char_start": 20,
+      "char_end": 21,
+      "spoken": "A",
+      "start": 2.026,
+      "end": 2.046,
+      "confidence": 0.9963
+    },
+    {
+      "word": "simple",
+      "char_start": 22,
+      "char_end": 28,
+      "spoken": "SIMPLE",
+      "start": 2.2266,
+      "end": 2.5676,
+      "confidence": 0.943
+    },
+    {
+      "word": "statement",
+      "char_start": 29,
+      "char_end": 38,
+      "spoken": "STATEMENT",
+      "start": 2.6679,
+      "end": 3.2095,
+      "confidence": 0.9804
+    },
+    {
+      "word": "and",
+      "char_start": 40,
+      "char_end": 43,
+      "spoken": "AND",
+      "start": 3.5906,
+      "end": 3.6508,
+      "confidence": 0.9994
+    },
+    {
+      "word": "then",
+      "char_start": 44,
+      "char_end": 48,
+      "spoken": "THEN",
+      "start": 3.6909,
+      "end": 3.7912,
+      "confidence": 0.9982
+    },
+    {
+      "word": "you",
+      "char_start": 49,
+      "char_end": 52,
+      "spoken": "YOU",
+      "start": 3.8313,
+      "end": 3.9115,
+      "confidence": 0.9982
+    },
+    {
+      "word": "present",
+      "char_start": 53,
+      "char_end": 60,
+      "spoken": "PRESENT",
+      "start": 3.9918,
+      "end": 4.3528,
+      "confidence": 0.9986
+    },
+    {
+      "word": "the",
+      "char_start": 61,
+      "char_end": 64,
+      "spoken": "THE",
+      "start": 4.413,
+      "end": 4.4933,
+      "confidence": 0.9973
+    },
+    {
+      "word": "gift",
+      "char_start": 65,
+      "char_end": 69,
+      "spoken": "GIFT",
+      "start": 4.5334,
+      "end": 4.8343,
+      "confidence": 0.9173
+    }
+  ],
+  "normalized_transcript": "IT JUST NEEDS TO BE A SIMPLE STATEMENT AND THEN YOU PRESENT THE GIFT",
+  "greedy_transcript": "R IT IS JEST NEEDS TO BE A SIMPLE STATEMENT AND THEN YOU PRESENT THE GIFT",
+  "transcript_similarity": 0.950354609929078,
+  "mean_confidence": 0.9761642857142857,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-MeTTeMJBNc__13",
+  "transcript": "It just needs to be a simple statement, and then you present the gift.",
+  "model": "facebook/wav2vec2-base-960h"
+}

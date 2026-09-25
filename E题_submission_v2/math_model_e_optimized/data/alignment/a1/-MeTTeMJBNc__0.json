@@ -1,0 +1,202 @@
+{
+  "duration": 9.2183125,
+  "words": [
+    {
+      "word": "Okay",
+      "char_start": 0,
+      "char_end": 4,
+      "spoken": "OKAY",
+      "start": 1.002,
+      "end": 1.2425,
+      "confidence": 0.4764
+    },
+    {
+      "word": "what",
+      "char_start": 6,
+      "char_end": 10,
+      "spoken": "WHAT",
+      "start": 1.3827,
+      "end": 1.523,
+      "confidence": 0.9999
+    },
+    {
+      "word": "happens",
+      "char_start": 11,
+      "char_end": 18,
+      "spoken": "HAPPENS",
+      "start": 1.6433,
+      "end": 2.0841,
+      "confidence": 0.9994
+    },
+    {
+      "word": "at",
+      "char_start": 19,
+      "char_end": 21,
+      "spoken": "AT",
+      "start": 2.2044,
+      "end": 2.2445,
+      "confidence": 0.9991
+    },
+    {
+      "word": "this",
+      "char_start": 22,
+      "char_end": 26,
+      "spoken": "THIS",
+      "start": 2.3246,
+      "end": 2.4849,
+      "confidence": 0.9908
+    },
+    {
+      "word": "point",
+      "char_start": 27,
+      "char_end": 32,
+      "spoken": "POINT",
+      "start": 2.6252,
+      "end": 2.9459,
+      "confidence": 0.9625
+    },
+    {
+      "word": "after",
+      "char_start": 33,
+      "char_end": 38,
+      "spoken": "AFTER",
+      "start": 3.1863,
+      "end": 3.3867,
+      "confidence": 0.9923
+    },
+    {
+      "word": "we've",
+      "char_start": 39,
+      "char_end": 44,
+      "spoken": "WE'VE",
+      "start": 3.4669,
+      "end": 3.6873,
+      "confidence": 0.8224
+    },
+    {
+      "word": "taken",
+      "char_start": 45,
+      "char_end": 50,
+      "spoken": "TAKEN",
+      "start": 3.7274,
+      "end": 4.008,
+      "confidence": 0.9878
+    },
+    {
+      "word": "this",
+      "char_start": 51,
+      "char_end": 55,
+      "spoken": "THIS",
+      "start": 4.0681,
+      "end": 4.2284,
+      "confidence": 0.9512
+    },
+    {
+      "word": "brief",
+      "char_start": 56,
+      "char_end": 61,
+      "spoken": "BRIEF",
+      "start": 4.4689,
+      "end": 4.7094,
+      "confidence": 0.9977
+    },
+    {
+      "word": "walk",
+      "char_start": 62,
+      "char_end": 66,
+      "spoken": "WALK",
+      "start": 4.8697,
+      "end": 5.1502,
+      "confidence": 0.9624
+    },
+    {
+      "word": "down",
+      "char_start": 67,
+      "char_end": 71,
+      "spoken": "DOWN",
+      "start": 5.2705,
+      "end": 5.4709,
+      "confidence": 0.9805
+    },
+    {
+      "word": "memory",
+      "char_start": 72,
+      "char_end": 78,
+      "spoken": "MEMORY",
+      "start": 5.5911,
+      "end": 5.9117,
+      "confidence": 0.9916
+    },
+    {
+      "word": "lane",
+      "char_start": 79,
+      "char_end": 83,
+      "spoken": "LANE",
+      "start": 5.9719,
+      "end": 6.3125,
+      "confidence": 0.993
+    },
+    {
+      "word": "is",
+      "char_start": 85,
+      "char_end": 87,
+      "spoken": "IS",
+      "start": 6.8536,
+      "end": 6.9137,
+      "confidence": 0.9999
+    },
+    {
+      "word": "the",
+      "char_start": 88,
+      "char_end": 91,
+      "spoken": "THE",
+      "start": 6.9939,
+      "end": 7.0741,
+      "confidence": 0.9512
+    },
+    {
+      "word": "presentation",
+      "char_start": 92,
+      "char_end": 104,
+      "spoken": "PRESENTATION",
+      "start": 7.1342,
+      "end": 7.8756,
+      "confidence": 0.9855
+    },
+    {
+      "word": "of",
+      "char_start": 105,
+      "char_end": 107,
+      "spoken": "OF",
+      "start": 7.9558,
+      "end": 7.9959,
+      "confidence": 0.9994
+    },
+    {
+      "word": "the",
+      "char_start": 108,
+      "char_end": 111,
+      "spoken": "THE",
+      "start": 8.0961,
+      "end": 8.1762,
+      "confidence": 0.9991
+    },
+    {
+      "word": "gift",
+      "char_start": 112,
+      "char_end": 116,
+      "spoken": "GIFT",
+      "start": 8.2364,
+      "end": 8.5971,
+      "confidence": 0.9925
+    }
+  ],
+  "normalized_transcript": "OKAY WHAT HAPPENS AT THIS POINT AFTER WE'VE TAKEN THIS BRIEF WALK DOWN MEMORY LANE IS THE PRESENTATION OF THE GIFT",
+  "greedy_transcript": "OQUEY WHAT HAPPENS AT THIS POINT AFTER WE HAVE TAKEN THIS BRIEF WALK DOWN MEMORY LANE IS THE PRESENTATION OF THE GIFT",
+  "transcript_similarity": 0.961038961038961,
+  "mean_confidence": 0.9540285714285713,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-MeTTeMJBNc__0",
+  "transcript": "Okay, what happens at this point after we've taken this brief walk down memory lane, is the presentation of the gift.",
+  "model": "facebook/wav2vec2-base-960h"
+}

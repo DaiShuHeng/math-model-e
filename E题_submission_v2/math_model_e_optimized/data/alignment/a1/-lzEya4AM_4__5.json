@@ -1,0 +1,184 @@
+{
+  "duration": 7.5696875,
+  "words": [
+    {
+      "word": "If",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "IF",
+      "start": 0.5207,
+      "end": 0.5807,
+      "confidence": 0.938
+    },
+    {
+      "word": "it",
+      "char_start": 3,
+      "char_end": 5,
+      "spoken": "IT",
+      "start": 0.6608,
+      "end": 0.7009,
+      "confidence": 0.9989
+    },
+    {
+      "word": "falls",
+      "char_start": 6,
+      "char_end": 11,
+      "spoken": "FALLS",
+      "start": 0.761,
+      "end": 1.0013,
+      "confidence": 0.972
+    },
+    {
+      "word": "into",
+      "char_start": 12,
+      "char_end": 16,
+      "spoken": "INTO",
+      "start": 1.0814,
+      "end": 1.2616,
+      "confidence": 0.9942
+    },
+    {
+      "word": "oh",
+      "char_start": 17,
+      "char_end": 19,
+      "spoken": "OH",
+      "start": 1.3617,
+      "end": 1.4418,
+      "confidence": 0.0935
+    },
+    {
+      "word": "any",
+      "char_start": 20,
+      "char_end": 23,
+      "spoken": "ANY",
+      "start": 1.6421,
+      "end": 1.7422,
+      "confidence": 0.9699
+    },
+    {
+      "word": "of",
+      "char_start": 24,
+      "char_end": 26,
+      "spoken": "OF",
+      "start": 1.8023,
+      "end": 1.8424,
+      "confidence": 0.9975
+    },
+    {
+      "word": "those",
+      "char_start": 27,
+      "char_end": 32,
+      "spoken": "THOSE",
+      "start": 1.9024,
+      "end": 2.0626,
+      "confidence": 0.9982
+    },
+    {
+      "word": "three",
+      "char_start": 33,
+      "char_end": 38,
+      "spoken": "THREE",
+      "start": 2.1227,
+      "end": 2.2829,
+      "confidence": 0.9952
+    },
+    {
+      "word": "categories",
+      "char_start": 39,
+      "char_end": 49,
+      "spoken": "CATEGORIES",
+      "start": 2.323,
+      "end": 2.8837,
+      "confidence": 0.9821
+    },
+    {
+      "word": "inducing",
+      "char_start": 51,
+      "char_end": 59,
+      "spoken": "INDUCING",
+      "start": 3.6447,
+      "end": 4.2054,
+      "confidence": 0.9911
+    },
+    {
+      "word": "nausea",
+      "char_start": 60,
+      "char_end": 66,
+      "spoken": "NAUSEA",
+      "start": 5.0665,
+      "end": 5.3869,
+      "confidence": 0.7548
+    },
+    {
+      "word": "and",
+      "char_start": 67,
+      "char_end": 70,
+      "spoken": "AND",
+      "start": 5.467,
+      "end": 5.5471,
+      "confidence": 0.9983
+    },
+    {
+      "word": "vomiting",
+      "char_start": 71,
+      "char_end": 79,
+      "spoken": "VOMITING",
+      "start": 5.6072,
+      "end": 6.0077,
+      "confidence": 0.9088
+    },
+    {
+      "word": "would",
+      "char_start": 80,
+      "char_end": 85,
+      "spoken": "WOULD",
+      "start": 6.248,
+      "end": 6.3882,
+      "confidence": 0.9843
+    },
+    {
+      "word": "be",
+      "char_start": 86,
+      "char_end": 88,
+      "spoken": "BE",
+      "start": 6.4082,
+      "end": 6.4683,
+      "confidence": 0.9976
+    },
+    {
+      "word": "your",
+      "char_start": 89,
+      "char_end": 93,
+      "spoken": "YOUR",
+      "start": 6.5083,
+      "end": 6.6285,
+      "confidence": 0.8954
+    },
+    {
+      "word": "next",
+      "char_start": 94,
+      "char_end": 98,
+      "spoken": "NEXT",
+      "start": 6.6485,
+      "end": 6.8087,
+      "confidence": 0.9752
+    },
+    {
+      "word": "step",
+      "char_start": 99,
+      "char_end": 103,
+      "spoken": "STEP",
+      "start": 6.8287,
+      "end": 7.049,
+      "confidence": 0.1331
+    }
+  ],
+  "normalized_transcript": "IF IT FALLS INTO OH ANY OF THOSE THREE CATEGORIES INDUCING NAUSEA AND VOMITING WOULD BE YOUR NEXT STEP",
+  "greedy_transcript": "IF IT FALLS INTO ANY OF THOSE THREE CATEGORIES INDUCING NAUSEY AND VOMITING WOULD BE YOUR NEXT DOUT",
+  "transcript_similarity": 0.945273631840796,
+  "mean_confidence": 0.8725315789473683,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-lzEya4AM_4__5",
+  "transcript": "If it falls into oh any of those three categories, inducing nausea and vomiting would be your next step.",
+  "model": "facebook/wav2vec2-base-960h"
+}

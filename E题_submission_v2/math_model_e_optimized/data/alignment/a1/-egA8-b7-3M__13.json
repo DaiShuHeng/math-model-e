@@ -1,0 +1,112 @@
+{
+  "duration": 4.023875,
+  "words": [
+    {
+      "word": "What",
+      "char_start": 0,
+      "char_end": 4,
+      "spoken": "WHAT",
+      "start": 0.5231,
+      "end": 0.6438,
+      "confidence": 0.9874
+    },
+    {
+      "word": "are",
+      "char_start": 5,
+      "char_end": 8,
+      "spoken": "ARE",
+      "start": 0.6639,
+      "end": 0.7444,
+      "confidence": 0.9781
+    },
+    {
+      "word": "you",
+      "char_start": 9,
+      "char_end": 12,
+      "spoken": "YOU",
+      "start": 0.7847,
+      "end": 0.8651,
+      "confidence": 0.9921
+    },
+    {
+      "word": "doing",
+      "char_start": 13,
+      "char_end": 18,
+      "spoken": "DOING",
+      "start": 0.9054,
+      "end": 1.1267,
+      "confidence": 0.9606
+    },
+    {
+      "word": "that's",
+      "char_start": 19,
+      "char_end": 25,
+      "spoken": "THAT'S",
+      "start": 1.187,
+      "end": 1.3681,
+      "confidence": 0.9233
+    },
+    {
+      "word": "different",
+      "char_start": 26,
+      "char_end": 35,
+      "spoken": "DIFFERENT",
+      "start": 1.4084,
+      "end": 1.7906,
+      "confidence": 0.9847
+    },
+    {
+      "word": "They",
+      "char_start": 38,
+      "char_end": 42,
+      "spoken": "THEY",
+      "start": 2.354,
+      "end": 2.4546,
+      "confidence": 0.9996
+    },
+    {
+      "word": "always",
+      "char_start": 43,
+      "char_end": 49,
+      "spoken": "ALWAYS",
+      "start": 2.5149,
+      "end": 2.7765,
+      "confidence": 0.9051
+    },
+    {
+      "word": "want",
+      "char_start": 50,
+      "char_end": 54,
+      "spoken": "WANT",
+      "start": 2.8167,
+      "end": 2.9978,
+      "confidence": 0.9872
+    },
+    {
+      "word": "an",
+      "char_start": 55,
+      "char_end": 57,
+      "spoken": "AN",
+      "start": 3.0783,
+      "end": 3.1185,
+      "confidence": 0.9854
+    },
+    {
+      "word": "answer",
+      "char_start": 58,
+      "char_end": 64,
+      "spoken": "ANSWER",
+      "start": 3.2191,
+      "end": 3.6014,
+      "confidence": 0.5641
+    }
+  ],
+  "normalized_transcript": "WHAT ARE YOU DOING THAT'S DIFFERENT THEY ALWAYS WANT AN ANSWER",
+  "greedy_transcript": "WHAT ARE YOU DOING THAT'S DIFFERENT THEY ALWAYS WANT AN ANSWER",
+  "transcript_similarity": 1.0,
+  "mean_confidence": 0.9334181818181818,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-egA8-b7-3M__13",
+  "transcript": "What are you doing that's different?\" They always want an answer.",
+  "model": "facebook/wav2vec2-base-960h"
+}
