@@ -67,10 +67,10 @@ class SplitData:
 _CACHE_FILE = config.CACHE / "aligned_arrays.npz"
 
 
-def _build_from_pkl() -> dict:
+def _build_from_pkl(splits=("train", "valid", "test")) -> dict:
     data = read_pickle(config.ALIGNED_PKL)
     out = {}
-    for split in ["train", "valid", "test"]:
+    for split in splits:
         d = data[split]
         tb = np.asarray(d["text_bert"], dtype=np.int64)
         audio = np.asarray(d["audio"], dtype=np.float32)
@@ -150,3 +150,13 @@ def word_span_mask(attn_row: np.ndarray) -> np.ndarray:
     if L >= 3:
         m[1: L - 1] = True   # positions 1 .. L-2
     return m
+
+
+def load_training_splits() -> dict[str, SplitData]:
+    """Read TRAIN/VALID only into model inputs; no persistent cache mutation.
+
+    The supplied pickle is one container, so deserialization necessarily reads
+    the container, but TEST arrays are never adapted, evaluated or optimized.
+    """
+    return {s: SplitData(split=s, **d) for s, d in
+            _build_from_pkl(splits=("train", "valid")).items()}

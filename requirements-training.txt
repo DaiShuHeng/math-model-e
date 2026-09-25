@@ -6,3 +6,6 @@ scikit-learn>=1.4,<2
 transformers==4.46.3
 tokenizers>=0.20,<0.21
 safetensors>=0.4.1
+
+# Teacher audit / Q3 feature-deletion reports
+pandas>=2.1,<3
