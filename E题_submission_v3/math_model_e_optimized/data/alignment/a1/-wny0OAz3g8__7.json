@@ -1,0 +1,274 @@
+{
+  "duration": 7.9105,
+  "words": [
+    {
+      "word": "Omi",
+      "char_start": 0,
+      "char_end": 3,
+      "spoken": "OMI",
+      "start": 0.1602,
+      "end": 0.6809,
+      "confidence": 0.9355
+    },
+    {
+      "word": "and",
+      "char_start": 4,
+      "char_end": 7,
+      "spoken": "AND",
+      "start": 0.741,
+      "end": 0.8011,
+      "confidence": 0.6933
+    },
+    {
+      "word": "Winant",
+      "char_start": 8,
+      "char_end": 14,
+      "spoken": "WINANT",
+      "start": 0.8211,
+      "end": 1.0614,
+      "confidence": 0.6606
+    },
+    {
+      "word": "argue",
+      "char_start": 15,
+      "char_end": 20,
+      "spoken": "ARGUE",
+      "start": 1.1415,
+      "end": 1.3218,
+      "confidence": 0.9485
+    },
+    {
+      "word": "that",
+      "char_start": 21,
+      "char_end": 25,
+      "spoken": "THAT",
+      "start": 1.3618,
+      "end": 1.4419,
+      "confidence": 0.9997
+    },
+    {
+      "word": "the",
+      "char_start": 26,
+      "char_end": 29,
+      "spoken": "THE",
+      "start": 1.4619,
+      "end": 1.542,
+      "confidence": 0.992
+    },
+    {
+      "word": "concept",
+      "char_start": 30,
+      "char_end": 37,
+      "spoken": "CONCEPT",
+      "start": 1.5821,
+      "end": 1.9025,
+      "confidence": 0.9263
+    },
+    {
+      "word": "of",
+      "char_start": 38,
+      "char_end": 40,
+      "spoken": "OF",
+      "start": 1.9626,
+      "end": 2.0027,
+      "confidence": 0.9994
+    },
+    {
+      "word": "race",
+      "char_start": 41,
+      "char_end": 45,
+      "spoken": "RACE",
+      "start": 2.0627,
+      "end": 2.243,
+      "confidence": 0.9772
+    },
+    {
+      "word": "came",
+      "char_start": 46,
+      "char_end": 50,
+      "spoken": "CAME",
+      "start": 2.3231,
+      "end": 2.4633,
+      "confidence": 0.9952
+    },
+    {
+      "word": "about",
+      "char_start": 51,
+      "char_end": 56,
+      "spoken": "ABOUT",
+      "start": 2.5233,
+      "end": 2.6836,
+      "confidence": 0.9824
+    },
+    {
+      "word": "as",
+      "char_start": 57,
+      "char_end": 59,
+      "spoken": "AS",
+      "start": 2.7436,
+      "end": 2.7837,
+      "confidence": 0.9993
+    },
+    {
+      "word": "a",
+      "char_start": 60,
+      "char_end": 61,
+      "spoken": "A",
+      "start": 2.8438,
+      "end": 2.8638,
+      "confidence": 0.9946
+    },
+    {
+      "word": "tool",
+      "char_start": 62,
+      "char_end": 66,
+      "spoken": "TOOL",
+      "start": 2.9239,
+      "end": 3.1241,
+      "confidence": 0.9408
+    },
+    {
+      "word": "to",
+      "char_start": 67,
+      "char_end": 69,
+      "spoken": "TO",
+      "start": 3.2043,
+      "end": 3.2643,
+      "confidence": 0.9999
+    },
+    {
+      "word": "justify",
+      "char_start": 70,
+      "char_end": 77,
+      "spoken": "JUSTIFY",
+      "start": 3.3244,
+      "end": 3.765,
+      "confidence": 0.9992
+    },
+    {
+      "word": "and",
+      "char_start": 78,
+      "char_end": 81,
+      "spoken": "AND",
+      "start": 3.8852,
+      "end": 3.9653,
+      "confidence": 0.5793
+    },
+    {
+      "word": "maintain",
+      "char_start": 82,
+      "char_end": 90,
+      "spoken": "MAINTAIN",
+      "start": 4.0053,
+      "end": 4.4058,
+      "confidence": 0.9469
+    },
+    {
+      "word": "the",
+      "char_start": 91,
+      "char_end": 94,
+      "spoken": "THE",
+      "start": 4.546,
+      "end": 4.6261,
+      "confidence": 0.9922
+    },
+    {
+      "word": "economic",
+      "char_start": 95,
+      "char_end": 103,
+      "spoken": "ECONOMIC",
+      "start": 4.7062,
+      "end": 5.0667,
+      "confidence": 0.9727
+    },
+    {
+      "word": "and",
+      "char_start": 104,
+      "char_end": 107,
+      "spoken": "AND",
+      "start": 5.1468,
+      "end": 5.2069,
+      "confidence": 0.9953
+    },
+    {
+      "word": "political",
+      "char_start": 108,
+      "char_end": 117,
+      "spoken": "POLITICAL",
+      "start": 5.247,
+      "end": 5.6074,
+      "confidence": 0.9824
+    },
+    {
+      "word": "power",
+      "char_start": 118,
+      "char_end": 123,
+      "spoken": "POWER",
+      "start": 5.6675,
+      "end": 5.9479,
+      "confidence": 0.9957
+    },
+    {
+      "word": "held",
+      "char_start": 124,
+      "char_end": 128,
+      "spoken": "HELD",
+      "start": 6.048,
+      "end": 6.2283,
+      "confidence": 0.9993
+    },
+    {
+      "word": "by",
+      "char_start": 129,
+      "char_end": 131,
+      "spoken": "BY",
+      "start": 6.2683,
+      "end": 6.3484,
+      "confidence": 0.8292
+    },
+    {
+      "word": "those",
+      "char_start": 132,
+      "char_end": 137,
+      "spoken": "THOSE",
+      "start": 6.3885,
+      "end": 6.5487,
+      "confidence": 0.9982
+    },
+    {
+      "word": "of",
+      "char_start": 138,
+      "char_end": 140,
+      "spoken": "OF",
+      "start": 6.6088,
+      "end": 6.6488,
+      "confidence": 0.9997
+    },
+    {
+      "word": "European",
+      "char_start": 141,
+      "char_end": 149,
+      "spoken": "EUROPEAN",
+      "start": 6.7089,
+      "end": 7.0694,
+      "confidence": 0.9719
+    },
+    {
+      "word": "descent",
+      "char_start": 150,
+      "char_end": 157,
+      "spoken": "DESCENT",
+      "start": 7.1295,
+      "end": 7.7703,
+      "confidence": 0.9671
+    }
+  ],
+  "normalized_transcript": "OMI AND WINANT ARGUE THAT THE CONCEPT OF RACE CAME ABOUT AS A TOOL TO JUSTIFY AND MAINTAIN THE ECONOMIC AND POLITICAL POWER HELD BY THOSE OF EUROPEAN DESCENT",
+  "greedy_transcript": "FORCES OMIAN WINNAT ARGUE THAT THE CONCEPT OF RACE CAME ABOUT AS A TOOL TO JUSTIFY IN MAINTAIN IN THE ECONOMIC AND POLITICAL POWER HELD BY THOSE OF EUROPEAN DESCENT ANOTHER",
+  "transcript_similarity": 0.9240121580547113,
+  "mean_confidence": 0.9404758620689656,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-wny0OAz3g8__7",
+  "transcript": "Omi and Winant argue that the concept of race came about as a tool to justify and maintain the economic and political power held by those of European descent",
+  "model": "facebook/wav2vec2-base-960h"
+}

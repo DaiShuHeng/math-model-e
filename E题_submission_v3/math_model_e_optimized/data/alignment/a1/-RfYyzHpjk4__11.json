@@ -1,0 +1,166 @@
+{
+  "duration": 5.074875,
+  "words": [
+    {
+      "word": "So",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "SO",
+      "start": 0.5817,
+      "end": 0.7221,
+      "confidence": 0.9992
+    },
+    {
+      "word": "get",
+      "char_start": 3,
+      "char_end": 6,
+      "spoken": "GET",
+      "start": 1.3439,
+      "end": 1.4643,
+      "confidence": 0.9994
+    },
+    {
+      "word": "your",
+      "char_start": 7,
+      "char_end": 11,
+      "spoken": "YOUR",
+      "start": 1.5245,
+      "end": 1.6248,
+      "confidence": 0.9979
+    },
+    {
+      "word": "friends",
+      "char_start": 12,
+      "char_end": 19,
+      "spoken": "FRIENDS",
+      "start": 1.6448,
+      "end": 1.8655,
+      "confidence": 0.951
+    },
+    {
+      "word": "lined",
+      "char_start": 20,
+      "char_end": 25,
+      "spoken": "LINED",
+      "start": 1.9256,
+      "end": 2.1463,
+      "confidence": 0.7583
+    },
+    {
+      "word": "up",
+      "char_start": 26,
+      "char_end": 28,
+      "spoken": "UP",
+      "start": 2.2466,
+      "end": 2.3068,
+      "confidence": 0.9949
+    },
+    {
+      "word": "get",
+      "char_start": 30,
+      "char_end": 33,
+      "spoken": "GET",
+      "start": 2.4071,
+      "end": 2.5274,
+      "confidence": 0.9231
+    },
+    {
+      "word": "your",
+      "char_start": 34,
+      "char_end": 38,
+      "spoken": "YOUR",
+      "start": 2.5876,
+      "end": 2.6879,
+      "confidence": 0.888
+    },
+    {
+      "word": "business",
+      "char_start": 39,
+      "char_end": 47,
+      "spoken": "BUSINESS",
+      "start": 2.728,
+      "end": 2.9687,
+      "confidence": 0.9581
+    },
+    {
+      "word": "colleagues",
+      "char_start": 48,
+      "char_end": 58,
+      "spoken": "COLLEAGUES",
+      "start": 2.9888,
+      "end": 3.3097,
+      "confidence": 0.5616
+    },
+    {
+      "word": "lined",
+      "char_start": 59,
+      "char_end": 64,
+      "spoken": "LINED",
+      "start": 3.3498,
+      "end": 3.5705,
+      "confidence": 0.813
+    },
+    {
+      "word": "up",
+      "char_start": 65,
+      "char_end": 67,
+      "spoken": "UP",
+      "start": 3.6708,
+      "end": 3.7309,
+      "confidence": 0.999
+    },
+    {
+      "word": "and",
+      "char_start": 68,
+      "char_end": 71,
+      "spoken": "AND",
+      "start": 3.8112,
+      "end": 3.8713,
+      "confidence": 0.9828
+    },
+    {
+      "word": "have",
+      "char_start": 72,
+      "char_end": 76,
+      "spoken": "HAVE",
+      "start": 3.9115,
+      "end": 4.0318,
+      "confidence": 0.9236
+    },
+    {
+      "word": "a",
+      "char_start": 77,
+      "char_end": 78,
+      "spoken": "A",
+      "start": 4.0719,
+      "end": 4.1121,
+      "confidence": 0.8469
+    },
+    {
+      "word": "good",
+      "char_start": 79,
+      "char_end": 83,
+      "spoken": "GOOD",
+      "start": 4.1321,
+      "end": 4.2725,
+      "confidence": 0.9861
+    },
+    {
+      "word": "time",
+      "char_start": 84,
+      "char_end": 88,
+      "spoken": "TIME",
+      "start": 4.3126,
+      "end": 4.5132,
+      "confidence": 0.9873
+    }
+  ],
+  "normalized_transcript": "SO GET YOUR FRIENDS LINED UP GET YOUR BUSINESS COLLEAGUES LINED UP AND HAVE A GOOD TIME",
+  "greedy_transcript": "SO UM GET YOUR FRIEND'S LIND UP GET YOUR BUSINESS COLLEGS LIND UP AND HAVE A GOOD TIME CATHY",
+  "transcript_similarity": 0.9162011173184358,
+  "mean_confidence": 0.9158941176470587,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-RfYyzHpjk4__11",
+  "transcript": "So get your friends lined up, get your business colleagues lined up and have a good time.",
+  "model": "facebook/wav2vec2-base-960h"
+}

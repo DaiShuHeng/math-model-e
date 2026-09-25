@@ -1,0 +1,121 @@
+{
+  "duration": 5.6301875,
+  "words": [
+    {
+      "word": "But",
+      "char_start": 0,
+      "char_end": 3,
+      "spoken": "BUT",
+      "start": 0.5209,
+      "end": 0.7013,
+      "confidence": 0.3209
+    },
+    {
+      "word": "a",
+      "char_start": 4,
+      "char_end": 5,
+      "spoken": "A",
+      "start": 0.9217,
+      "end": 0.9417,
+      "confidence": 0.966
+    },
+    {
+      "word": "good",
+      "char_start": 6,
+      "char_end": 10,
+      "spoken": "GOOD",
+      "start": 1.4426,
+      "end": 1.5829,
+      "confidence": 0.9457
+    },
+    {
+      "word": "thing",
+      "char_start": 11,
+      "char_end": 16,
+      "spoken": "THING",
+      "start": 1.6229,
+      "end": 1.7432,
+      "confidence": 0.9849
+    },
+    {
+      "word": "to",
+      "char_start": 17,
+      "char_end": 19,
+      "spoken": "TO",
+      "start": 1.7632,
+      "end": 1.8233,
+      "confidence": 0.6485
+    },
+    {
+      "word": "do",
+      "char_start": 20,
+      "char_end": 22,
+      "spoken": "DO",
+      "start": 1.8634,
+      "end": 1.9235,
+      "confidence": 0.9556
+    },
+    {
+      "word": "is",
+      "char_start": 23,
+      "char_end": 25,
+      "spoken": "IS",
+      "start": 2.0036,
+      "end": 2.0637,
+      "confidence": 0.8589
+    },
+    {
+      "word": "yawning",
+      "char_start": 26,
+      "char_end": 33,
+      "spoken": "YAWNING",
+      "start": 2.1238,
+      "end": 2.5646,
+      "confidence": 0.9425
+    },
+    {
+      "word": "chewing",
+      "char_start": 35,
+      "char_end": 42,
+      "spoken": "CHEWING",
+      "start": 3.5865,
+      "end": 3.9071,
+      "confidence": 0.9925
+    },
+    {
+      "word": "gum",
+      "char_start": 43,
+      "char_end": 46,
+      "spoken": "GUM",
+      "start": 4.0073,
+      "end": 4.1876,
+      "confidence": 0.96
+    },
+    {
+      "word": "is",
+      "char_start": 47,
+      "char_end": 49,
+      "spoken": "IS",
+      "start": 4.3078,
+      "end": 4.408,
+      "confidence": 0.9652
+    },
+    {
+      "word": "effective",
+      "char_start": 50,
+      "char_end": 59,
+      "spoken": "EFFECTIVE",
+      "start": 4.4881,
+      "end": 5.0692,
+      "confidence": 0.7452
+    }
+  ],
+  "normalized_transcript": "BUT A GOOD THING TO DO IS YAWNING CHEWING GUM IS EFFECTIVE",
+  "greedy_transcript": "WHAT A A GOOD THING TO DO IS YAWNING A CHEWING GUM IS EFFECTIVE",
+  "transcript_similarity": 0.9256198347107438,
+  "mean_confidence": 0.8571583333333334,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-t217m2on-s__2",
+  "transcript": "But a good thing to do is yawning, chewing gum is effective.",
+  "model": "facebook/wav2vec2-base-960h"
+}

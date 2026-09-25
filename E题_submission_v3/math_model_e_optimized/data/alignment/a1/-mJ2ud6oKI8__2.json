@@ -1,0 +1,112 @@
+{
+  "duration": 5.7016875,
+  "words": [
+    {
+      "word": "So",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "SO",
+      "start": 0.0,
+      "end": 0.0602,
+      "confidence": 0.0269
+    },
+    {
+      "word": "physical",
+      "char_start": 3,
+      "char_end": 11,
+      "spoken": "PHYSICAL",
+      "start": 0.0803,
+      "end": 0.4015,
+      "confidence": 0.017
+    },
+    {
+      "word": "therapists",
+      "char_start": 12,
+      "char_end": 22,
+      "spoken": "THERAPISTS",
+      "start": 0.4417,
+      "end": 3.2524,
+      "confidence": 0.025
+    },
+    {
+      "word": "and",
+      "char_start": 23,
+      "char_end": 26,
+      "spoken": "AND",
+      "start": 3.2724,
+      "end": 3.3327,
+      "confidence": 0.0143
+    },
+    {
+      "word": "chiropractors",
+      "char_start": 27,
+      "char_end": 40,
+      "spoken": "CHIROPRACTORS",
+      "start": 3.3528,
+      "end": 4.6979,
+      "confidence": 0.0168
+    },
+    {
+      "word": "will",
+      "char_start": 41,
+      "char_end": 45,
+      "spoken": "WILL",
+      "start": 4.738,
+      "end": 4.8384,
+      "confidence": 0.0093
+    },
+    {
+      "word": "do",
+      "char_start": 46,
+      "char_end": 48,
+      "spoken": "DO",
+      "start": 4.8585,
+      "end": 4.8986,
+      "confidence": 0.0112
+    },
+    {
+      "word": "joint",
+      "char_start": 49,
+      "char_end": 54,
+      "spoken": "JOINT",
+      "start": 4.9187,
+      "end": 5.0191,
+      "confidence": 0.0166
+    },
+    {
+      "word": "manipulations",
+      "char_start": 55,
+      "char_end": 68,
+      "spoken": "MANIPULATIONS",
+      "start": 5.0392,
+      "end": 5.3002,
+      "confidence": 0.0186
+    },
+    {
+      "word": "and",
+      "char_start": 69,
+      "char_end": 72,
+      "spoken": "AND",
+      "start": 5.3202,
+      "end": 5.3805,
+      "confidence": 0.0142
+    },
+    {
+      "word": "mobilizations",
+      "char_start": 73,
+      "char_end": 86,
+      "spoken": "MOBILIZATIONS",
+      "start": 5.4005,
+      "end": 5.6816,
+      "confidence": 0.0188
+    }
+  ],
+  "normalized_transcript": "SO PHYSICAL THERAPISTS AND CHIROPRACTORS WILL DO JOINT MANIPULATIONS AND MOBILIZATIONS",
+  "greedy_transcript": "",
+  "transcript_similarity": 0.0,
+  "mean_confidence": 0.017154545454545454,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-mJ2ud6oKI8__2",
+  "transcript": "So physical therapists and chiropractors will do joint manipulations and mobilizations",
+  "model": "facebook/wav2vec2-base-960h"
+}

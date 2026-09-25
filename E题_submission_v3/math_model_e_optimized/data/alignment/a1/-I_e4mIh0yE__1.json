@@ -1,0 +1,175 @@
+{
+  "duration": 7.4443125,
+  "words": [
+    {
+      "word": "In",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "IN",
+      "start": 0.8227,
+      "end": 0.8628,
+      "confidence": 0.999
+    },
+    {
+      "word": "the",
+      "char_start": 3,
+      "char_end": 6,
+      "spoken": "THE",
+      "start": 0.9029,
+      "end": 0.9631,
+      "confidence": 0.9994
+    },
+    {
+      "word": "United",
+      "char_start": 7,
+      "char_end": 13,
+      "spoken": "UNITED",
+      "start": 1.0233,
+      "end": 1.2842,
+      "confidence": 0.9759
+    },
+    {
+      "word": "States",
+      "char_start": 14,
+      "char_end": 20,
+      "spoken": "STATES",
+      "start": 1.3444,
+      "end": 1.5852,
+      "confidence": 0.9961
+    },
+    {
+      "word": "we",
+      "char_start": 21,
+      "char_end": 23,
+      "spoken": "WE",
+      "start": 1.6454,
+      "end": 1.7457,
+      "confidence": 0.9173
+    },
+    {
+      "word": "don't",
+      "char_start": 24,
+      "char_end": 29,
+      "spoken": "DON'T",
+      "start": 1.8661,
+      "end": 2.0868,
+      "confidence": 0.9527
+    },
+    {
+      "word": "punish",
+      "char_start": 30,
+      "char_end": 36,
+      "spoken": "PUNISH",
+      "start": 2.2072,
+      "end": 2.5082,
+      "confidence": 0.9549
+    },
+    {
+      "word": "failure",
+      "char_start": 37,
+      "char_end": 44,
+      "spoken": "FAILURE",
+      "start": 2.6487,
+      "end": 3.0901,
+      "confidence": 0.9985
+    },
+    {
+      "word": "to",
+      "char_start": 45,
+      "char_end": 47,
+      "spoken": "TO",
+      "start": 3.5315,
+      "end": 3.6319,
+      "confidence": 0.9994
+    },
+    {
+      "word": "the",
+      "char_start": 48,
+      "char_end": 51,
+      "spoken": "THE",
+      "start": 3.6921,
+      "end": 3.7523,
+      "confidence": 0.998
+    },
+    {
+      "word": "degree",
+      "char_start": 52,
+      "char_end": 58,
+      "spoken": "DEGREE",
+      "start": 3.8125,
+      "end": 4.1736,
+      "confidence": 0.9783
+    },
+    {
+      "word": "to",
+      "char_start": 59,
+      "char_end": 61,
+      "spoken": "TO",
+      "start": 4.274,
+      "end": 4.3342,
+      "confidence": 0.964
+    },
+    {
+      "word": "which",
+      "char_start": 62,
+      "char_end": 67,
+      "spoken": "WHICH",
+      "start": 4.4345,
+      "end": 4.6351,
+      "confidence": 0.9996
+    },
+    {
+      "word": "failure",
+      "char_start": 68,
+      "char_end": 75,
+      "spoken": "FAILURE",
+      "start": 4.9161,
+      "end": 5.2973,
+      "confidence": 0.9948
+    },
+    {
+      "word": "is",
+      "char_start": 76,
+      "char_end": 78,
+      "spoken": "IS",
+      "start": 5.3575,
+      "end": 5.4177,
+      "confidence": 0.9802
+    },
+    {
+      "word": "punished",
+      "char_start": 79,
+      "char_end": 87,
+      "spoken": "PUNISHED",
+      "start": 5.518,
+      "end": 5.8792,
+      "confidence": 0.9797
+    },
+    {
+      "word": "in",
+      "char_start": 88,
+      "char_end": 90,
+      "spoken": "IN",
+      "start": 6.3206,
+      "end": 6.3608,
+      "confidence": 0.9997
+    },
+    {
+      "word": "Europe",
+      "char_start": 91,
+      "char_end": 97,
+      "spoken": "EUROPE",
+      "start": 6.6417,
+      "end": 6.9025,
+      "confidence": 0.8791
+    }
+  ],
+  "normalized_transcript": "IN THE UNITED STATES WE DON'T PUNISH FAILURE TO THE DEGREE TO WHICH FAILURE IS PUNISHED IN EUROPE",
+  "greedy_transcript": "SHIP IN THE UNITED STATES WE DON'T PUNISH FAILURE TO THE DEGREE TO WHICH FAILURE IS PUNISHED IN EUROPE",
+  "transcript_similarity": 0.9748743718592965,
+  "mean_confidence": 0.9759222222222222,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-I_e4mIh0yE__1",
+  "transcript": "In the United States we don't punish failure to the degree to which failure is punished in Europe.",
+  "model": "facebook/wav2vec2-base-960h"
+}

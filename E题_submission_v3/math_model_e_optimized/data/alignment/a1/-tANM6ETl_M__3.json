@@ -1,0 +1,211 @@
+{
+  "duration": 6.603625,
+  "words": [
+    {
+      "word": "The",
+      "char_start": 0,
+      "char_end": 3,
+      "spoken": "THE",
+      "start": 0.5419,
+      "end": 0.6222,
+      "confidence": 0.9997
+    },
+    {
+      "word": "first",
+      "char_start": 4,
+      "char_end": 9,
+      "spoken": "FIRST",
+      "start": 0.7025,
+      "end": 0.9233,
+      "confidence": 0.9682
+    },
+    {
+      "word": "place",
+      "char_start": 10,
+      "char_end": 15,
+      "spoken": "PLACE",
+      "start": 1.0036,
+      "end": 1.2846,
+      "confidence": 0.9519
+    },
+    {
+      "word": "is",
+      "char_start": 16,
+      "char_end": 18,
+      "spoken": "IS",
+      "start": 1.385,
+      "end": 1.4452,
+      "confidence": 0.9981
+    },
+    {
+      "word": "either",
+      "char_start": 19,
+      "char_end": 25,
+      "spoken": "EITHER",
+      "start": 1.5455,
+      "end": 1.7462,
+      "confidence": 0.9992
+    },
+    {
+      "word": "you",
+      "char_start": 26,
+      "char_end": 29,
+      "spoken": "YOU",
+      "start": 1.8667,
+      "end": 1.947,
+      "confidence": 0.9999
+    },
+    {
+      "word": "have",
+      "char_start": 30,
+      "char_end": 34,
+      "spoken": "HAVE",
+      "start": 2.0473,
+      "end": 2.2079,
+      "confidence": 0.9885
+    },
+    {
+      "word": "a",
+      "char_start": 35,
+      "char_end": 36,
+      "spoken": "A",
+      "start": 2.2882,
+      "end": 2.3083,
+      "confidence": 0.9981
+    },
+    {
+      "word": "prospect",
+      "char_start": 37,
+      "char_end": 45,
+      "spoken": "PROSPECT",
+      "start": 2.3885,
+      "end": 2.9104,
+      "confidence": 0.965
+    },
+    {
+      "word": "or",
+      "char_start": 47,
+      "char_end": 49,
+      "spoken": "OR",
+      "start": 2.9506,
+      "end": 3.0108,
+      "confidence": 0.9522
+    },
+    {
+      "word": "a",
+      "char_start": 50,
+      "char_end": 51,
+      "spoken": "A",
+      "start": 3.071,
+      "end": 3.0911,
+      "confidence": 0.9884
+    },
+    {
+      "word": "customer",
+      "char_start": 52,
+      "char_end": 60,
+      "spoken": "CUSTOMER",
+      "start": 3.1513,
+      "end": 3.5126,
+      "confidence": 0.9904
+    },
+    {
+      "word": "who's",
+      "char_start": 61,
+      "char_end": 66,
+      "spoken": "WHO'S",
+      "start": 3.5728,
+      "end": 3.6932,
+      "confidence": 0.6123
+    },
+    {
+      "word": "never",
+      "char_start": 67,
+      "char_end": 72,
+      "spoken": "NEVER",
+      "start": 3.8939,
+      "end": 4.1749,
+      "confidence": 0.9519
+    },
+    {
+      "word": "done",
+      "char_start": 73,
+      "char_end": 77,
+      "spoken": "DONE",
+      "start": 4.2954,
+      "end": 4.476,
+      "confidence": 0.9675
+    },
+    {
+      "word": "it",
+      "char_start": 78,
+      "char_end": 80,
+      "spoken": "IT",
+      "start": 4.5362,
+      "end": 4.5764,
+      "confidence": 0.9987
+    },
+    {
+      "word": "before",
+      "char_start": 81,
+      "char_end": 87,
+      "spoken": "BEFORE",
+      "start": 4.6767,
+      "end": 5.0581,
+      "confidence": 0.9974
+    },
+    {
+      "word": "or",
+      "char_start": 89,
+      "char_end": 91,
+      "spoken": "OR",
+      "start": 5.0782,
+      "end": 5.1183,
+      "confidence": 0.0
+    },
+    {
+      "word": "they've",
+      "char_start": 92,
+      "char_end": 99,
+      "spoken": "THEY'VE",
+      "start": 5.1384,
+      "end": 5.3391,
+      "confidence": 0.9504
+    },
+    {
+      "word": "never",
+      "char_start": 100,
+      "char_end": 105,
+      "spoken": "NEVER",
+      "start": 5.4395,
+      "end": 5.6603,
+      "confidence": 0.9788
+    },
+    {
+      "word": "tried",
+      "char_start": 106,
+      "char_end": 111,
+      "spoken": "TRIED",
+      "start": 5.7405,
+      "end": 5.9814,
+      "confidence": 0.9989
+    },
+    {
+      "word": "it",
+      "char_start": 112,
+      "char_end": 114,
+      "spoken": "IT",
+      "start": 6.0617,
+      "end": 6.1219,
+      "confidence": 0.6552
+    }
+  ],
+  "normalized_transcript": "THE FIRST PLACE IS EITHER YOU HAVE A PROSPECT OR A CUSTOMER WHO'S NEVER DONE IT BEFORE OR THEY'VE NEVER TRIED IT",
+  "greedy_transcript": "THE FIRST PLACE IS EITHER YOU HAVE A PROSPECT OR A CUSTOMER WHAS NEVER DONE IT BEFORE THEY'VE NEVER TRIED IT",
+  "transcript_similarity": 0.9727272727272728,
+  "mean_confidence": 0.9050318181818181,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-tANM6ETl_M__3",
+  "transcript": "The first place is either you have a prospect, or a customer who's never done it before, or they've never tried it.",
+  "model": "facebook/wav2vec2-base-960h"
+}

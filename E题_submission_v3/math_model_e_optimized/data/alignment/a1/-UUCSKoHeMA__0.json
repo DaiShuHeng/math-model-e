@@ -1,0 +1,175 @@
+{
+  "duration": 7.73225,
+  "words": [
+    {
+      "word": "I",
+      "char_start": 0,
+      "char_end": 1,
+      "spoken": "I",
+      "start": 1.4423,
+      "end": 1.4623,
+      "confidence": 0.1286
+    },
+    {
+      "word": "mentioned",
+      "char_start": 2,
+      "char_end": 11,
+      "spoken": "MENTIONED",
+      "start": 1.6426,
+      "end": 2.0032,
+      "confidence": 0.9865
+    },
+    {
+      "word": "a",
+      "char_start": 12,
+      "char_end": 13,
+      "spoken": "A",
+      "start": 2.0633,
+      "end": 2.0833,
+      "confidence": 0.9065
+    },
+    {
+      "word": "word",
+      "char_start": 14,
+      "char_end": 18,
+      "spoken": "WORD",
+      "start": 2.1234,
+      "end": 2.4439,
+      "confidence": 0.9822
+    },
+    {
+      "word": "in",
+      "char_start": 19,
+      "char_end": 21,
+      "spoken": "IN",
+      "start": 2.6843,
+      "end": 2.7243,
+      "confidence": 0.6933
+    },
+    {
+      "word": "the",
+      "char_start": 22,
+      "char_end": 25,
+      "spoken": "THE",
+      "start": 2.8044,
+      "end": 2.8645,
+      "confidence": 0.9786
+    },
+    {
+      "word": "last",
+      "char_start": 26,
+      "char_end": 30,
+      "spoken": "LAST",
+      "start": 2.9246,
+      "end": 3.2051,
+      "confidence": 0.9774
+    },
+    {
+      "word": "clip",
+      "char_start": 31,
+      "char_end": 35,
+      "spoken": "CLIP",
+      "start": 3.3653,
+      "end": 3.6257,
+      "confidence": 0.9616
+    },
+    {
+      "word": "called",
+      "char_start": 36,
+      "char_end": 42,
+      "spoken": "CALLED",
+      "start": 3.766,
+      "end": 4.0063,
+      "confidence": 0.999
+    },
+    {
+      "word": "monotone",
+      "char_start": 44,
+      "char_end": 52,
+      "spoken": "MONOTONE",
+      "start": 4.1866,
+      "end": 4.9679,
+      "confidence": 0.9125
+    },
+    {
+      "word": "and",
+      "char_start": 55,
+      "char_end": 58,
+      "spoken": "AND",
+      "start": 5.4687,
+      "end": 5.5488,
+      "confidence": 0.869
+    },
+    {
+      "word": "I",
+      "char_start": 59,
+      "char_end": 60,
+      "spoken": "I",
+      "start": 5.5889,
+      "end": 5.6089,
+      "confidence": 0.9896
+    },
+    {
+      "word": "want",
+      "char_start": 61,
+      "char_end": 65,
+      "spoken": "WANT",
+      "start": 5.669,
+      "end": 5.7892,
+      "confidence": 0.9754
+    },
+    {
+      "word": "to",
+      "char_start": 66,
+      "char_end": 68,
+      "spoken": "TO",
+      "start": 5.8092,
+      "end": 5.8693,
+      "confidence": 0.7858
+    },
+    {
+      "word": "talk",
+      "char_start": 69,
+      "char_end": 73,
+      "spoken": "TALK",
+      "start": 5.9294,
+      "end": 6.1097,
+      "confidence": 0.9892
+    },
+    {
+      "word": "about",
+      "char_start": 74,
+      "char_end": 79,
+      "spoken": "ABOUT",
+      "start": 6.2098,
+      "end": 6.4302,
+      "confidence": 0.9447
+    },
+    {
+      "word": "that",
+      "char_start": 80,
+      "char_end": 84,
+      "spoken": "THAT",
+      "start": 6.4903,
+      "end": 6.6505,
+      "confidence": 0.9748
+    },
+    {
+      "word": "briefly",
+      "char_start": 85,
+      "char_end": 92,
+      "spoken": "BRIEFLY",
+      "start": 6.7507,
+      "end": 7.1914,
+      "confidence": 0.9797
+    }
+  ],
+  "normalized_transcript": "I MENTIONED A WORD IN THE LAST CLIP CALLED MONOTONE AND I WANT TO TALK ABOUT THAT BRIEFLY",
+  "greedy_transcript": "OKA MENTIONED A WORD AN THE LAST CLIP CALLED MONOTONE AND I WANT TO TALK ABOUT THAT BRIEFLY WHAT YOU",
+  "transcript_similarity": 0.9206349206349206,
+  "mean_confidence": 0.8908,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-UUCSKoHeMA__0",
+  "transcript": "I mentioned a word in the last clip called 'monotone', and I want to talk about that briefly.",
+  "model": "facebook/wav2vec2-base-960h"
+}

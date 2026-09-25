@@ -1,0 +1,85 @@
+{
+  "duration": 5.53825,
+  "words": [
+    {
+      "word": "Well",
+      "char_start": 0,
+      "char_end": 4,
+      "spoken": "WELL",
+      "start": 0.903,
+      "end": 1.0434,
+      "confidence": 0.5
+    },
+    {
+      "word": "it",
+      "char_start": 6,
+      "char_end": 8,
+      "spoken": "IT",
+      "start": 1.224,
+      "end": 1.2642,
+      "confidence": 0.0
+    },
+    {
+      "word": "is",
+      "char_start": 9,
+      "char_end": 11,
+      "spoken": "IS",
+      "start": 1.9865,
+      "end": 2.0267,
+      "confidence": 0.001
+    },
+    {
+      "word": "the",
+      "char_start": 12,
+      "char_end": 15,
+      "spoken": "THE",
+      "start": 2.2875,
+      "end": 2.428,
+      "confidence": 0.6658
+    },
+    {
+      "word": "secret",
+      "char_start": 16,
+      "char_end": 22,
+      "spoken": "SECRET",
+      "start": 3.331,
+      "end": 3.632,
+      "confidence": 0.3335
+    },
+    {
+      "word": "of",
+      "char_start": 23,
+      "char_end": 25,
+      "spoken": "OF",
+      "start": 3.8527,
+      "end": 3.9932,
+      "confidence": 0.9671
+    },
+    {
+      "word": "power",
+      "char_start": 26,
+      "char_end": 31,
+      "spoken": "POWER",
+      "start": 4.4145,
+      "end": 4.9563,
+      "confidence": 0.212
+    },
+    {
+      "word": "pose",
+      "char_start": 32,
+      "char_end": 36,
+      "spoken": "POSE",
+      "start": 5.1169,
+      "end": 5.458,
+      "confidence": 0.25
+    }
+  ],
+  "normalized_transcript": "WELL IT IS THE SECRET OF POWER POSE",
+  "greedy_transcript": "IS GOING TO HELP YOU ON YOUR TESTS SUCH AS TOFUL IALTS OR UNIVERSIT",
+  "transcript_similarity": 0.23529411764705882,
+  "mean_confidence": 0.366175,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-iRBcNs9oI8__3",
+  "transcript": "Well, it is the secret of power pose",
+  "model": "facebook/wav2vec2-base-960h"
+}

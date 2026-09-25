@@ -1,0 +1,130 @@
+{
+  "duration": 6.0545,
+  "words": [
+    {
+      "word": "There",
+      "char_start": 0,
+      "char_end": 5,
+      "spoken": "THERE",
+      "start": 0.0,
+      "end": 0.2807,
+      "confidence": 0.0228
+    },
+    {
+      "word": "are",
+      "char_start": 6,
+      "char_end": 9,
+      "spoken": "ARE",
+      "start": 0.3007,
+      "end": 0.3609,
+      "confidence": 0.0261
+    },
+    {
+      "word": "a",
+      "char_start": 10,
+      "char_end": 11,
+      "spoken": "A",
+      "start": 0.3809,
+      "end": 0.401,
+      "confidence": 0.0368
+    },
+    {
+      "word": "dozen",
+      "char_start": 12,
+      "char_end": 17,
+      "spoken": "DOZEN",
+      "start": 0.421,
+      "end": 0.6215,
+      "confidence": 0.011
+    },
+    {
+      "word": "or",
+      "char_start": 18,
+      "char_end": 20,
+      "spoken": "OR",
+      "start": 0.6415,
+      "end": 0.6816,
+      "confidence": 0.014
+    },
+    {
+      "word": "more",
+      "char_start": 21,
+      "char_end": 25,
+      "spoken": "MORE",
+      "start": 0.7017,
+      "end": 0.7819,
+      "confidence": 0.0153
+    },
+    {
+      "word": "hands",
+      "char_start": 26,
+      "char_end": 31,
+      "spoken": "HANDS",
+      "start": 0.8019,
+      "end": 5.413,
+      "confidence": 0.0163
+    },
+    {
+      "word": "on",
+      "char_start": 32,
+      "char_end": 34,
+      "spoken": "ON",
+      "start": 5.433,
+      "end": 5.4731,
+      "confidence": 0.0096
+    },
+    {
+      "word": "techniques",
+      "char_start": 35,
+      "char_end": 45,
+      "spoken": "TECHNIQUES",
+      "start": 5.4932,
+      "end": 5.6936,
+      "confidence": 0.018
+    },
+    {
+      "word": "that",
+      "char_start": 46,
+      "char_end": 50,
+      "spoken": "THAT",
+      "start": 5.7137,
+      "end": 5.7939,
+      "confidence": 0.0261
+    },
+    {
+      "word": "we",
+      "char_start": 51,
+      "char_end": 53,
+      "spoken": "WE",
+      "start": 5.8139,
+      "end": 5.8741,
+      "confidence": 0.0164
+    },
+    {
+      "word": "can",
+      "char_start": 54,
+      "char_end": 57,
+      "spoken": "CAN",
+      "start": 5.9342,
+      "end": 5.9944,
+      "confidence": 0.0134
+    },
+    {
+      "word": "do",
+      "char_start": 58,
+      "char_end": 60,
+      "spoken": "DO",
+      "start": 6.0144,
+      "end": 6.0545,
+      "confidence": 0.0106
+    }
+  ],
+  "normalized_transcript": "THERE ARE A DOZEN OR MORE HANDS ON TECHNIQUES THAT WE CAN DO",
+  "greedy_transcript": "",
+  "transcript_similarity": 0.0,
+  "mean_confidence": 0.018184615384615382,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-mJ2ud6oKI8__1",
+  "transcript": "There are a dozen or more hands on techniques that we can do",
+  "model": "facebook/wav2vec2-base-960h"
+}

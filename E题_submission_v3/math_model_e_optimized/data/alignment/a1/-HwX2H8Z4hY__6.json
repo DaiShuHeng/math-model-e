@@ -1,0 +1,76 @@
+{
+  "duration": 3.256,
+  "words": [
+    {
+      "word": "And",
+      "char_start": 0,
+      "char_end": 3,
+      "spoken": "AND",
+      "start": 0.5628,
+      "end": 0.6432,
+      "confidence": 0.9409
+    },
+    {
+      "word": "in",
+      "char_start": 4,
+      "char_end": 6,
+      "spoken": "IN",
+      "start": 0.6834,
+      "end": 0.7236,
+      "confidence": 0.9993
+    },
+    {
+      "word": "part",
+      "char_start": 7,
+      "char_end": 11,
+      "spoken": "PART",
+      "start": 0.8441,
+      "end": 1.1054,
+      "confidence": 0.9984
+    },
+    {
+      "word": "Al",
+      "char_start": 13,
+      "char_end": 15,
+      "spoken": "AL",
+      "start": 1.5476,
+      "end": 1.628,
+      "confidence": 0.8423
+    },
+    {
+      "word": "Shanker",
+      "char_start": 16,
+      "char_end": 23,
+      "spoken": "SHANKER",
+      "start": 1.7084,
+      "end": 2.1104,
+      "confidence": 0.7342
+    },
+    {
+      "word": "did",
+      "char_start": 24,
+      "char_end": 27,
+      "spoken": "DID",
+      "start": 2.2712,
+      "end": 2.4119,
+      "confidence": 0.9984
+    },
+    {
+      "word": "too",
+      "char_start": 28,
+      "char_end": 31,
+      "spoken": "TOO",
+      "start": 2.5324,
+      "end": 2.8339,
+      "confidence": 0.4015
+    }
+  ],
+  "normalized_transcript": "AND IN PART AL SHANKER DID TOO",
+  "greedy_transcript": "AND IN PART ALSHENKAR DID TOO",
+  "transcript_similarity": 0.9152542372881356,
+  "mean_confidence": 0.8450000000000001,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-HwX2H8Z4hY__6",
+  "transcript": "And in part, Al Shanker did too",
+  "model": "facebook/wav2vec2-base-960h"
+}

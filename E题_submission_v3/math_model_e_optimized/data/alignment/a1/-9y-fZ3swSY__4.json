@@ -1,0 +1,94 @@
+{
+  "duration": 2.6648125,
+  "words": [
+    {
+      "word": "I’ve",
+      "char_start": 0,
+      "char_end": 4,
+      "spoken": "I'VE",
+      "start": 0.3432,
+      "end": 0.5047,
+      "confidence": 0.4438
+    },
+    {
+      "word": "seen",
+      "char_start": 5,
+      "char_end": 9,
+      "spoken": "SEEN",
+      "start": 0.5653,
+      "end": 0.7066,
+      "confidence": 0.6448
+    },
+    {
+      "word": "this",
+      "char_start": 10,
+      "char_end": 14,
+      "spoken": "THIS",
+      "start": 0.7671,
+      "end": 0.9286,
+      "confidence": 0.2649
+    },
+    {
+      "word": "in",
+      "char_start": 15,
+      "char_end": 17,
+      "spoken": "IN",
+      "start": 1.0498,
+      "end": 1.0902,
+      "confidence": 0.0896
+    },
+    {
+      "word": "US",
+      "char_start": 18,
+      "char_end": 20,
+      "spoken": "US",
+      "start": 1.1911,
+      "end": 1.4939,
+      "confidence": 0.2758
+    },
+    {
+      "word": "or",
+      "char_start": 21,
+      "char_end": 23,
+      "spoken": "OR",
+      "start": 1.8371,
+      "end": 1.8977,
+      "confidence": 0.984
+    },
+    {
+      "word": "in",
+      "char_start": 24,
+      "char_end": 26,
+      "spoken": "IN",
+      "start": 1.9784,
+      "end": 2.0188,
+      "confidence": 0.9992
+    },
+    {
+      "word": "the",
+      "char_start": 27,
+      "char_end": 30,
+      "spoken": "THE",
+      "start": 2.0592,
+      "end": 2.1601,
+      "confidence": 0.8177
+    },
+    {
+      "word": "US",
+      "char_start": 31,
+      "char_end": 33,
+      "spoken": "US",
+      "start": 2.2611,
+      "end": 2.5841,
+      "confidence": 0.1304
+    }
+  ],
+  "normalized_transcript": "I'VE SEEN THIS IN US OR IN THE US",
+  "greedy_transcript": "IVE SENLAS ANEESS OR IN THE EST",
+  "transcript_similarity": 0.71875,
+  "mean_confidence": 0.5166888888888889,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-9y-fZ3swSY__4",
+  "transcript": "I’ve seen this in US or in the US",
+  "model": "facebook/wav2vec2-base-960h"
+}

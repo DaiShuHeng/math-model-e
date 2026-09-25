@@ -1,0 +1,112 @@
+{
+  "duration": 5.483,
+  "words": [
+    {
+      "word": "Third",
+      "char_start": 0,
+      "char_end": 5,
+      "spoken": "THIRD",
+      "start": 0.482,
+      "end": 0.7632,
+      "confidence": 0.9398
+    },
+    {
+      "word": "another",
+      "char_start": 7,
+      "char_end": 14,
+      "spoken": "ANOTHER",
+      "start": 0.944,
+      "end": 1.2854,
+      "confidence": 0.9629
+    },
+    {
+      "word": "big",
+      "char_start": 15,
+      "char_end": 18,
+      "spoken": "BIG",
+      "start": 1.3256,
+      "end": 1.4862,
+      "confidence": 1.0
+    },
+    {
+      "word": "benefit",
+      "char_start": 19,
+      "char_end": 26,
+      "spoken": "BENEFIT",
+      "start": 1.5465,
+      "end": 1.9683,
+      "confidence": 0.9983
+    },
+    {
+      "word": "of",
+      "char_start": 27,
+      "char_end": 29,
+      "spoken": "OF",
+      "start": 2.0285,
+      "end": 2.0687,
+      "confidence": 0.9999
+    },
+    {
+      "word": "exhibiting",
+      "char_start": 30,
+      "char_end": 40,
+      "spoken": "EXHIBITING",
+      "start": 2.1892,
+      "end": 2.6913,
+      "confidence": 0.9726
+    },
+    {
+      "word": "is",
+      "char_start": 41,
+      "char_end": 43,
+      "spoken": "IS",
+      "start": 2.8319,
+      "end": 2.9122,
+      "confidence": 0.9982
+    },
+    {
+      "word": "connecting",
+      "char_start": 44,
+      "char_end": 54,
+      "spoken": "CONNECTING",
+      "start": 3.0126,
+      "end": 3.4947,
+      "confidence": 0.9948
+    },
+    {
+      "word": "with",
+      "char_start": 55,
+      "char_end": 59,
+      "spoken": "WITH",
+      "start": 3.5549,
+      "end": 3.6955,
+      "confidence": 0.9699
+    },
+    {
+      "word": "existing",
+      "char_start": 60,
+      "char_end": 68,
+      "spoken": "EXISTING",
+      "start": 3.816,
+      "end": 4.3181,
+      "confidence": 0.984
+    },
+    {
+      "word": "clients",
+      "char_start": 69,
+      "char_end": 76,
+      "spoken": "CLIENTS",
+      "start": 4.3784,
+      "end": 4.8001,
+      "confidence": 0.9284
+    }
+  ],
+  "normalized_transcript": "THIRD ANOTHER BIG BENEFIT OF EXHIBITING IS CONNECTING WITH EXISTING CLIENTS",
+  "greedy_transcript": "THIRD ANOTHER BIG BENEFIT OF EXHIBITING IS CONNECTING WITH EXISTING CLIENTS",
+  "transcript_similarity": 1.0,
+  "mean_confidence": 0.9771636363636365,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-egA8-b7-3M__16",
+  "transcript": "Third, another big benefit of exhibiting is connecting with existing clients.",
+  "model": "facebook/wav2vec2-base-960h"
+}

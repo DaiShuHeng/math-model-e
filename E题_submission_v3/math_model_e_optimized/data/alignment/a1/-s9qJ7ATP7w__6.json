@@ -1,0 +1,58 @@
+{
+  "duration": 2.3148125,
+  "words": [
+    {
+      "word": "But",
+      "char_start": 0,
+      "char_end": 3,
+      "spoken": "BUT",
+      "start": 0.5636,
+      "end": 0.7448,
+      "confidence": 0.9841
+    },
+    {
+      "word": "I",
+      "char_start": 4,
+      "char_end": 5,
+      "spoken": "I",
+      "start": 1.248,
+      "end": 1.2681,
+      "confidence": 0.7993
+    },
+    {
+      "word": "just",
+      "char_start": 6,
+      "char_end": 10,
+      "spoken": "JUST",
+      "start": 1.3486,
+      "end": 1.4694,
+      "confidence": 0.9615
+    },
+    {
+      "word": "kept",
+      "char_start": 11,
+      "char_end": 15,
+      "spoken": "KEPT",
+      "start": 1.4895,
+      "end": 1.6304,
+      "confidence": 0.9245
+    },
+    {
+      "word": "going",
+      "char_start": 16,
+      "char_end": 21,
+      "spoken": "GOING",
+      "start": 1.6506,
+      "end": 1.8518,
+      "confidence": 0.8635
+    }
+  ],
+  "normalized_transcript": "BUT I JUST KEPT GOING",
+  "greedy_transcript": "FOR ME BUT I JUST KEPT GOING I",
+  "transcript_similarity": 0.8235294117647058,
+  "mean_confidence": 0.9065799999999999,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-s9qJ7ATP7w__6",
+  "transcript": "But I just kept going",
+  "model": "facebook/wav2vec2-base-960h"
+}

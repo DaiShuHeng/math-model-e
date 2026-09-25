@@ -1,0 +1,157 @@
+{
+  "duration": 6.5688125,
+  "words": [
+    {
+      "word": "Do",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "DO",
+      "start": 0.5407,
+      "end": 0.6409,
+      "confidence": 0.999
+    },
+    {
+      "word": "so",
+      "char_start": 3,
+      "char_end": 5,
+      "spoken": "SO",
+      "start": 0.761,
+      "end": 0.9212,
+      "confidence": 0.9277
+    },
+    {
+      "word": "and",
+      "char_start": 6,
+      "char_end": 9,
+      "spoken": "AND",
+      "start": 1.522,
+      "end": 1.6222,
+      "confidence": 0.9895
+    },
+    {
+      "word": "as",
+      "char_start": 10,
+      "char_end": 12,
+      "spoken": "AS",
+      "start": 1.7023,
+      "end": 1.7624,
+      "confidence": 0.9929
+    },
+    {
+      "word": "well",
+      "char_start": 13,
+      "char_end": 17,
+      "spoken": "WELL",
+      "start": 1.8224,
+      "end": 2.0427,
+      "confidence": 0.9988
+    },
+    {
+      "word": "you'll",
+      "char_start": 18,
+      "char_end": 24,
+      "spoken": "YOU'LL",
+      "start": 2.5634,
+      "end": 2.7837,
+      "confidence": 0.9695
+    },
+    {
+      "word": "also",
+      "char_start": 25,
+      "char_end": 29,
+      "spoken": "ALSO",
+      "start": 2.8238,
+      "end": 3.0241,
+      "confidence": 1.0
+    },
+    {
+      "word": "want",
+      "char_start": 30,
+      "char_end": 34,
+      "spoken": "WANT",
+      "start": 3.1242,
+      "end": 3.3245,
+      "confidence": 0.9162
+    },
+    {
+      "word": "to",
+      "char_start": 35,
+      "char_end": 37,
+      "spoken": "TO",
+      "start": 3.4046,
+      "end": 3.5448,
+      "confidence": 0.9998
+    },
+    {
+      "word": "remove",
+      "char_start": 38,
+      "char_end": 44,
+      "spoken": "REMOVE",
+      "start": 3.6849,
+      "end": 3.9453,
+      "confidence": 0.9081
+    },
+    {
+      "word": "any",
+      "char_start": 45,
+      "char_end": 48,
+      "spoken": "ANY",
+      "start": 4.0054,
+      "end": 4.1255,
+      "confidence": 0.9676
+    },
+    {
+      "word": "clutter",
+      "char_start": 49,
+      "char_end": 56,
+      "spoken": "CLUTTER",
+      "start": 4.2257,
+      "end": 4.5261,
+      "confidence": 0.9477
+    },
+    {
+      "word": "from",
+      "char_start": 57,
+      "char_end": 61,
+      "spoken": "FROM",
+      "start": 4.5661,
+      "end": 4.6863,
+      "confidence": 0.9755
+    },
+    {
+      "word": "that",
+      "char_start": 62,
+      "char_end": 66,
+      "spoken": "THAT",
+      "start": 5.0067,
+      "end": 5.1069,
+      "confidence": 0.9744
+    },
+    {
+      "word": "you've",
+      "char_start": 67,
+      "char_end": 73,
+      "spoken": "YOU'VE",
+      "start": 5.1669,
+      "end": 5.3472,
+      "confidence": 0.9974
+    },
+    {
+      "word": "accumulated",
+      "char_start": 74,
+      "char_end": 85,
+      "spoken": "ACCUMULATED",
+      "start": 5.3872,
+      "end": 6.0281,
+      "confidence": 0.7789
+    }
+  ],
+  "normalized_transcript": "DO SO AND AS WELL YOU'LL ALSO WANT TO REMOVE ANY CLUTTER FROM THAT YOU'VE ACCUMULATED",
+  "greedy_transcript": "OT DO SO AND AS WELL A YOU'LL ALSO WANT TO REMOVE ANY CLUTTER FROM THE HOME THAT YOU'VE ACCUMULATED OVER",
+  "transcript_similarity": 0.8994708994708994,
+  "mean_confidence": 0.9589375,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-tPCytz4rww__18",
+  "transcript": "Do so and as well you'll also want to remove any clutter from that you've accumulated.",
+  "model": "facebook/wav2vec2-base-960h"
+}

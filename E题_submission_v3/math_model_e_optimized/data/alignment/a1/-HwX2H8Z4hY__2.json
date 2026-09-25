@@ -1,0 +1,76 @@
+{
+  "duration": 3.9158125,
+  "words": [
+    {
+      "word": "President",
+      "char_start": 3,
+      "char_end": 12,
+      "spoken": "PRESIDENT",
+      "start": 0.0,
+      "end": 0.241,
+      "confidence": 0.0901
+    },
+    {
+      "word": "Ronald",
+      "char_start": 13,
+      "char_end": 19,
+      "spoken": "RONALD",
+      "start": 0.3012,
+      "end": 0.5221,
+      "confidence": 0.0001
+    },
+    {
+      "word": "Reagan",
+      "char_start": 20,
+      "char_end": 26,
+      "spoken": "REAGAN",
+      "start": 0.5422,
+      "end": 0.7832,
+      "confidence": 0.1586
+    },
+    {
+      "word": "Look",
+      "char_start": 30,
+      "char_end": 34,
+      "spoken": "LOOK",
+      "start": 2.7109,
+      "end": 2.8314,
+      "confidence": 0.9999
+    },
+    {
+      "word": "at",
+      "char_start": 35,
+      "char_end": 37,
+      "spoken": "AT",
+      "start": 2.8917,
+      "end": 2.9318,
+      "confidence": 0.9969
+    },
+    {
+      "word": "the",
+      "char_start": 38,
+      "char_end": 41,
+      "spoken": "THE",
+      "start": 2.972,
+      "end": 3.0322,
+      "confidence": 0.9967
+    },
+    {
+      "word": "record",
+      "char_start": 42,
+      "char_end": 48,
+      "spoken": "RECORD",
+      "start": 3.0925,
+      "end": 3.3535,
+      "confidence": 0.9941
+    }
+  ],
+  "normalized_transcript": "PRESIDENT RONALD REAGAN LOOK AT THE RECORD",
+  "greedy_transcript": "MEDIOCRITY LOOK AT THE RECORD",
+  "transcript_similarity": 0.6197183098591549,
+  "mean_confidence": 0.6052,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-HwX2H8Z4hY__2",
+  "transcript": "” [President Ronald Reagan:] \"Look at the record",
+  "model": "facebook/wav2vec2-base-960h"
+}

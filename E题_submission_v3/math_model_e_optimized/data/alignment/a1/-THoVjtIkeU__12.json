@@ -1,0 +1,364 @@
+{
+  "duration": 14.8055625,
+  "words": [
+    {
+      "word": "What",
+      "char_start": 0,
+      "char_end": 4,
+      "spoken": "WHAT",
+      "start": 0.0,
+      "end": 1.7607,
+      "confidence": 0.4988
+    },
+    {
+      "word": "ever",
+      "char_start": 5,
+      "char_end": 9,
+      "spoken": "EVER",
+      "start": 1.8207,
+      "end": 1.9407,
+      "confidence": 0.9999
+    },
+    {
+      "word": "we",
+      "char_start": 10,
+      "char_end": 12,
+      "spoken": "WE",
+      "start": 2.0008,
+      "end": 2.0608,
+      "confidence": 0.9999
+    },
+    {
+      "word": "turn",
+      "char_start": 13,
+      "char_end": 17,
+      "spoken": "TURN",
+      "start": 2.1408,
+      "end": 2.3009,
+      "confidence": 0.9881
+    },
+    {
+      "word": "our",
+      "char_start": 18,
+      "char_end": 21,
+      "spoken": "OUR",
+      "start": 2.3609,
+      "end": 2.4409,
+      "confidence": 0.9998
+    },
+    {
+      "word": "attention",
+      "char_start": 22,
+      "char_end": 31,
+      "spoken": "ATTENTION",
+      "start": 2.4809,
+      "end": 2.8411,
+      "confidence": 0.9717
+    },
+    {
+      "word": "to",
+      "char_start": 32,
+      "char_end": 34,
+      "spoken": "TO",
+      "start": 2.9211,
+      "end": 3.0612,
+      "confidence": 0.9951
+    },
+    {
+      "word": "is",
+      "char_start": 35,
+      "char_end": 37,
+      "spoken": "IS",
+      "start": 3.2612,
+      "end": 3.3012,
+      "confidence": 0.9995
+    },
+    {
+      "word": "what",
+      "char_start": 38,
+      "char_end": 42,
+      "spoken": "WHAT",
+      "start": 3.3613,
+      "end": 3.4613,
+      "confidence": 0.9997
+    },
+    {
+      "word": "grows",
+      "char_start": 43,
+      "char_end": 48,
+      "spoken": "GROWS",
+      "start": 3.5213,
+      "end": 3.8615,
+      "confidence": 0.9556
+    },
+    {
+      "word": "and",
+      "char_start": 49,
+      "char_end": 52,
+      "spoken": "AND",
+      "start": 4.3616,
+      "end": 4.4617,
+      "confidence": 0.8786
+    },
+    {
+      "word": "so",
+      "char_start": 53,
+      "char_end": 55,
+      "spoken": "SO",
+      "start": 4.5417,
+      "end": 4.6417,
+      "confidence": 1.0
+    },
+    {
+      "word": "if",
+      "char_start": 56,
+      "char_end": 58,
+      "spoken": "IF",
+      "start": 4.7418,
+      "end": 4.7818,
+      "confidence": 0.9999
+    },
+    {
+      "word": "we",
+      "char_start": 59,
+      "char_end": 61,
+      "spoken": "WE",
+      "start": 4.8618,
+      "end": 4.9619,
+      "confidence": 0.9999
+    },
+    {
+      "word": "believe",
+      "char_start": 62,
+      "char_end": 69,
+      "spoken": "BELIEVE",
+      "start": 5.0619,
+      "end": 5.5221,
+      "confidence": 0.96
+    },
+    {
+      "word": "that",
+      "char_start": 70,
+      "char_end": 74,
+      "spoken": "THAT",
+      "start": 5.6421,
+      "end": 5.7622,
+      "confidence": 0.9723
+    },
+    {
+      "word": "anything",
+      "char_start": 75,
+      "char_end": 83,
+      "spoken": "ANYTHING",
+      "start": 5.8422,
+      "end": 6.1223,
+      "confidence": 0.9813
+    },
+    {
+      "word": "is",
+      "char_start": 84,
+      "char_end": 86,
+      "spoken": "IS",
+      "start": 6.1823,
+      "end": 6.2423,
+      "confidence": 0.971
+    },
+    {
+      "word": "possible",
+      "char_start": 87,
+      "char_end": 95,
+      "spoken": "POSSIBLE",
+      "start": 6.3024,
+      "end": 6.7025,
+      "confidence": 0.9976
+    },
+    {
+      "word": "if",
+      "char_start": 97,
+      "char_end": 99,
+      "spoken": "IF",
+      "start": 6.7625,
+      "end": 6.8026,
+      "confidence": 0.9997
+    },
+    {
+      "word": "we",
+      "char_start": 100,
+      "char_end": 102,
+      "spoken": "WE",
+      "start": 6.9026,
+      "end": 7.0426,
+      "confidence": 1.0
+    },
+    {
+      "word": "believe",
+      "char_start": 103,
+      "char_end": 110,
+      "spoken": "BELIEVE",
+      "start": 7.5628,
+      "end": 8.103,
+      "confidence": 0.9765
+    },
+    {
+      "word": "that",
+      "char_start": 111,
+      "char_end": 115,
+      "spoken": "THAT",
+      "start": 8.5432,
+      "end": 8.8033,
+      "confidence": 0.9983
+    },
+    {
+      "word": "social",
+      "char_start": 116,
+      "char_end": 122,
+      "spoken": "SOCIAL",
+      "start": 9.4636,
+      "end": 9.7036,
+      "confidence": 0.997
+    },
+    {
+      "word": "justice",
+      "char_start": 123,
+      "char_end": 130,
+      "spoken": "JUSTICE",
+      "start": 9.7837,
+      "end": 10.1238,
+      "confidence": 0.9616
+    },
+    {
+      "word": "can",
+      "char_start": 131,
+      "char_end": 134,
+      "spoken": "CAN",
+      "start": 10.1838,
+      "end": 10.3239,
+      "confidence": 0.9223
+    },
+    {
+      "word": "be",
+      "char_start": 135,
+      "char_end": 137,
+      "spoken": "BE",
+      "start": 10.4239,
+      "end": 10.5039,
+      "confidence": 0.899
+    },
+    {
+      "word": "achieved",
+      "char_start": 138,
+      "char_end": 146,
+      "spoken": "ACHIEVED",
+      "start": 10.564,
+      "end": 10.9441,
+      "confidence": 0.9673
+    },
+    {
+      "word": "and",
+      "char_start": 147,
+      "char_end": 150,
+      "spoken": "AND",
+      "start": 10.9841,
+      "end": 11.0642,
+      "confidence": 0.9724
+    },
+    {
+      "word": "if",
+      "char_start": 151,
+      "char_end": 153,
+      "spoken": "IF",
+      "start": 11.0842,
+      "end": 11.1242,
+      "confidence": 0.9996
+    },
+    {
+      "word": "we",
+      "char_start": 154,
+      "char_end": 156,
+      "spoken": "WE",
+      "start": 11.1842,
+      "end": 11.2442,
+      "confidence": 1.0
+    },
+    {
+      "word": "believe",
+      "char_start": 157,
+      "char_end": 164,
+      "spoken": "BELIEVE",
+      "start": 11.3243,
+      "end": 11.7844,
+      "confidence": 0.9875
+    },
+    {
+      "word": "in",
+      "char_start": 165,
+      "char_end": 167,
+      "spoken": "IN",
+      "start": 11.9445,
+      "end": 12.0045,
+      "confidence": 0.9975
+    },
+    {
+      "word": "youth",
+      "char_start": 168,
+      "char_end": 173,
+      "spoken": "YOUTH",
+      "start": 12.1045,
+      "end": 12.3847,
+      "confidence": 0.9397
+    },
+    {
+      "word": "they",
+      "char_start": 175,
+      "char_end": 179,
+      "spoken": "THEY",
+      "start": 13.1049,
+      "end": 13.205,
+      "confidence": 0.9975
+    },
+    {
+      "word": "will",
+      "char_start": 180,
+      "char_end": 184,
+      "spoken": "WILL",
+      "start": 13.245,
+      "end": 13.365,
+      "confidence": 0.9441
+    },
+    {
+      "word": "believe",
+      "char_start": 185,
+      "char_end": 192,
+      "spoken": "BELIEVE",
+      "start": 13.385,
+      "end": 13.5651,
+      "confidence": 0.9992
+    },
+    {
+      "word": "in",
+      "char_start": 193,
+      "char_end": 195,
+      "spoken": "IN",
+      "start": 13.6051,
+      "end": 13.6451,
+      "confidence": 0.9945
+    },
+    {
+      "word": "themselves",
+      "char_start": 196,
+      "char_end": 206,
+      "spoken": "THEMSELVES",
+      "start": 13.6851,
+      "end": 14.1253,
+      "confidence": 0.9634
+    }
+  ],
+  "normalized_transcript": "WHAT EVER WE TURN OUR ATTENTION TO IS WHAT GROWS AND SO IF WE BELIEVE THAT ANYTHING IS POSSIBLE IF WE BELIEVE THAT SOCIAL JUSTICE CAN BE ACHIEVED AND IF WE BELIEVE IN YOUTH THEY WILL BELIEVE IN THEMSELVES",
+  "greedy_transcript": "AM WHATEVER WE TURN OUR ATTENTION TO IS WHAT GROWS AND SO IF WE BELIEVE THAT ANYTHING IS POSSIBLE IF WE BELIEVE THAT DAM SOCIAL JUSTICE CAN BE ACHIEVED AND IF WE BELIEVE IN YOUTH AH THEY WILL BELIEVE IN THEMSELVES",
+  "transcript_similarity": 0.9544364508393285,
+  "mean_confidence": 0.9663025641025641,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-THoVjtIkeU__12",
+  "transcript": "What ever we turn our attention to is what grows and so if we believe that anything is possible, if we believe that social justice can be achieved and if we believe in youth, they will believe in themselves.",
+  "model": "facebook/wav2vec2-base-960h"
+}

@@ -1,0 +1,85 @@
+{
+  "duration": 3.43975,
+  "words": [
+    {
+      "word": "So",
+      "char_start": 2,
+      "char_end": 4,
+      "spoken": "SO",
+      "start": 0.342,
+      "end": 0.6839,
+      "confidence": 0.5
+    },
+    {
+      "word": "I",
+      "char_start": 5,
+      "char_end": 6,
+      "spoken": "I",
+      "start": 0.7845,
+      "end": 0.8046,
+      "confidence": 0.0004
+    },
+    {
+      "word": "think",
+      "char_start": 7,
+      "char_end": 12,
+      "spoken": "THINK",
+      "start": 0.8851,
+      "end": 1.0661,
+      "confidence": 0.0
+    },
+    {
+      "word": "it's",
+      "char_start": 13,
+      "char_end": 17,
+      "spoken": "IT'S",
+      "start": 1.1265,
+      "end": 1.2874,
+      "confidence": 0.0006
+    },
+    {
+      "word": "important",
+      "char_start": 18,
+      "char_end": 27,
+      "spoken": "IMPORTANT",
+      "start": 1.3276,
+      "end": 1.7299,
+      "confidence": 0.3973
+    },
+    {
+      "word": "to",
+      "char_start": 28,
+      "char_end": 30,
+      "spoken": "TO",
+      "start": 2.3133,
+      "end": 2.3535,
+      "confidence": 0.4569
+    },
+    {
+      "word": "discuss",
+      "char_start": 31,
+      "char_end": 38,
+      "spoken": "DISCUSS",
+      "start": 2.5346,
+      "end": 2.8966,
+      "confidence": 0.1415
+    },
+    {
+      "word": "finances",
+      "char_start": 39,
+      "char_end": 47,
+      "spoken": "FINANCES",
+      "start": 2.9167,
+      "end": 3.3392,
+      "confidence": 0.0249
+    }
+  ],
+  "normalized_transcript": "SO I THINK IT'S IMPORTANT TO DISCUSS FINANCES",
+  "greedy_transcript": "AIF AND A LOT OF PEOPLE WHO ARE WORKING OR YOU KNO MONEY IS VERY",
+  "transcript_similarity": 0.2018348623853211,
+  "mean_confidence": 0.19019999999999998,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-ri04Z7vwnc__5",
+  "transcript": "\" So I think it's important to discuss finances",
+  "model": "facebook/wav2vec2-base-960h"
+}

@@ -1,0 +1,211 @@
+{
+  "duration": 8.994375,
+  "words": [
+    {
+      "word": "It's",
+      "char_start": 0,
+      "char_end": 4,
+      "spoken": "IT'S",
+      "start": 0.5809,
+      "end": 0.7212,
+      "confidence": 0.9835
+    },
+    {
+      "word": "perceived",
+      "char_start": 5,
+      "char_end": 14,
+      "spoken": "PERCEIVED",
+      "start": 0.9215,
+      "end": 1.4423,
+      "confidence": 0.9499
+    },
+    {
+      "word": "that",
+      "char_start": 15,
+      "char_end": 19,
+      "spoken": "THAT",
+      "start": 1.5425,
+      "end": 1.6627,
+      "confidence": 0.9831
+    },
+    {
+      "word": "you",
+      "char_start": 20,
+      "char_end": 23,
+      "spoken": "YOU",
+      "start": 1.7027,
+      "end": 2.0433,
+      "confidence": 0.839
+    },
+    {
+      "word": "have",
+      "char_start": 24,
+      "char_end": 28,
+      "spoken": "HAVE",
+      "start": 3.105,
+      "end": 3.3654,
+      "confidence": 0.9952
+    },
+    {
+      "word": "actually",
+      "char_start": 29,
+      "char_end": 37,
+      "spoken": "ACTUALLY",
+      "start": 3.4255,
+      "end": 3.7059,
+      "confidence": 0.997
+    },
+    {
+      "word": "learned",
+      "char_start": 38,
+      "char_end": 45,
+      "spoken": "LEARNED",
+      "start": 3.8061,
+      "end": 4.0865,
+      "confidence": 0.9371
+    },
+    {
+      "word": "something",
+      "char_start": 46,
+      "char_end": 55,
+      "spoken": "SOMETHING",
+      "start": 4.2668,
+      "end": 4.6875,
+      "confidence": 0.9515
+    },
+    {
+      "word": "over",
+      "char_start": 57,
+      "char_end": 61,
+      "spoken": "OVER",
+      "start": 5.4687,
+      "end": 5.5889,
+      "confidence": 0.9967
+    },
+    {
+      "word": "the",
+      "char_start": 62,
+      "char_end": 65,
+      "spoken": "THE",
+      "start": 5.649,
+      "end": 5.7091,
+      "confidence": 0.9938
+    },
+    {
+      "word": "course",
+      "char_start": 66,
+      "char_end": 72,
+      "spoken": "COURSE",
+      "start": 5.7492,
+      "end": 5.9495,
+      "confidence": 0.8961
+    },
+    {
+      "word": "of",
+      "char_start": 73,
+      "char_end": 75,
+      "spoken": "OF",
+      "start": 5.9695,
+      "end": 6.0296,
+      "confidence": 0.1578
+    },
+    {
+      "word": "your",
+      "char_start": 76,
+      "char_end": 80,
+      "spoken": "YOUR",
+      "start": 6.0497,
+      "end": 6.1699,
+      "confidence": 0.6425
+    },
+    {
+      "word": "carreer",
+      "char_start": 81,
+      "char_end": 88,
+      "spoken": "CARREER",
+      "start": 6.23,
+      "end": 6.4503,
+      "confidence": 0.8184
+    },
+    {
+      "word": "and",
+      "char_start": 90,
+      "char_end": 93,
+      "spoken": "AND",
+      "start": 6.4904,
+      "end": 6.5505,
+      "confidence": 0.8593
+    },
+    {
+      "word": "that",
+      "char_start": 94,
+      "char_end": 98,
+      "spoken": "THAT",
+      "start": 6.5705,
+      "end": 6.6506,
+      "confidence": 0.9489
+    },
+    {
+      "word": "you",
+      "char_start": 99,
+      "char_end": 102,
+      "spoken": "YOU",
+      "start": 6.6907,
+      "end": 6.7909,
+      "confidence": 0.9848
+    },
+    {
+      "word": "won't",
+      "char_start": 103,
+      "char_end": 108,
+      "spoken": "WON'T",
+      "start": 6.8509,
+      "end": 7.0513,
+      "confidence": 0.941
+    },
+    {
+      "word": "make",
+      "char_start": 109,
+      "char_end": 113,
+      "spoken": "MAKE",
+      "start": 7.3517,
+      "end": 7.512,
+      "confidence": 0.9164
+    },
+    {
+      "word": "the",
+      "char_start": 114,
+      "char_end": 117,
+      "spoken": "THE",
+      "start": 7.5521,
+      "end": 7.6122,
+      "confidence": 0.9431
+    },
+    {
+      "word": "mistake",
+      "char_start": 118,
+      "char_end": 125,
+      "spoken": "MISTAKE",
+      "start": 7.6522,
+      "end": 7.9727,
+      "confidence": 0.9597
+    },
+    {
+      "word": "twice",
+      "char_start": 126,
+      "char_end": 131,
+      "spoken": "TWICE",
+      "start": 8.0729,
+      "end": 8.3934,
+      "confidence": 0.9684
+    }
+  ],
+  "normalized_transcript": "IT'S PERCEIVED THAT YOU HAVE ACTUALLY LEARNED SOMETHING OVER THE COURSE OF YOUR CARREER AND THAT YOU WON'T MAKE THE MISTAKE TWICE",
+  "greedy_transcript": "IT'S PERCEIVED THAT YOU'VE ACTUALLY TS IT'S PERCEIVED THAT YOU'VE ACTUALLY LEARNED SOMETHING AH OVER THE COURSEE YOUR CAREER AND THAT YOU WON'T MAKE THE MISTAKE TWICE MY",
+  "transcript_similarity": 0.8389261744966443,
+  "mean_confidence": 0.8937818181818183,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-I_e4mIh0yE__3",
+  "transcript": "It's perceived that you have actually learned something, over the course of your carreer, and that you won't make the mistake twice.",
+  "model": "facebook/wav2vec2-base-960h"
+}

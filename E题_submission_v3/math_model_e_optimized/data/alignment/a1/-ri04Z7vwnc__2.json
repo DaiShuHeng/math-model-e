@@ -1,0 +1,157 @@
+{
+  "duration": 5.913375,
+  "words": [
+    {
+      "word": "most",
+      "char_start": 0,
+      "char_end": 4,
+      "spoken": "MOST",
+      "start": 0.0401,
+      "end": 0.3207,
+      "confidence": 0.0116
+    },
+    {
+      "word": "people",
+      "char_start": 5,
+      "char_end": 11,
+      "spoken": "PEOPLE",
+      "start": 0.421,
+      "end": 0.8018,
+      "confidence": 0.0467
+    },
+    {
+      "word": "think",
+      "char_start": 12,
+      "char_end": 17,
+      "spoken": "THINK",
+      "start": 0.902,
+      "end": 1.1025,
+      "confidence": 0.0073
+    },
+    {
+      "word": "it'll",
+      "char_start": 18,
+      "char_end": 23,
+      "spoken": "IT'LL",
+      "start": 1.1827,
+      "end": 1.784,
+      "confidence": 0.1011
+    },
+    {
+      "word": "sort",
+      "char_start": 24,
+      "char_end": 28,
+      "spoken": "SORT",
+      "start": 1.9244,
+      "end": 2.7462,
+      "confidence": 0.0818
+    },
+    {
+      "word": "itself",
+      "char_start": 29,
+      "char_end": 35,
+      "spoken": "ITSELF",
+      "start": 2.7663,
+      "end": 2.8865,
+      "confidence": 0.0012
+    },
+    {
+      "word": "out",
+      "char_start": 36,
+      "char_end": 39,
+      "spoken": "OUT",
+      "start": 2.9467,
+      "end": 3.0268,
+      "confidence": 0.0142
+    },
+    {
+      "word": "we'll",
+      "char_start": 42,
+      "char_end": 47,
+      "spoken": "WE'LL",
+      "start": 3.1872,
+      "end": 3.528,
+      "confidence": 0.0085
+    },
+    {
+      "word": "discuss",
+      "char_start": 48,
+      "char_end": 55,
+      "spoken": "DISCUSS",
+      "start": 3.548,
+      "end": 3.7685,
+      "confidence": 0.0117
+    },
+    {
+      "word": "it",
+      "char_start": 56,
+      "char_end": 58,
+      "spoken": "IT",
+      "start": 3.7886,
+      "end": 3.8287,
+      "confidence": 0.0005
+    },
+    {
+      "word": "later",
+      "char_start": 59,
+      "char_end": 64,
+      "spoken": "LATER",
+      "start": 3.8487,
+      "end": 3.989,
+      "confidence": 0.0438
+    },
+    {
+      "word": "it's",
+      "char_start": 67,
+      "char_end": 71,
+      "spoken": "IT'S",
+      "start": 4.3498,
+      "end": 4.4701,
+      "confidence": 0.0464
+    },
+    {
+      "word": "not",
+      "char_start": 72,
+      "char_end": 75,
+      "spoken": "NOT",
+      "start": 4.4902,
+      "end": 4.8911,
+      "confidence": 0.0001
+    },
+    {
+      "word": "something",
+      "char_start": 76,
+      "char_end": 85,
+      "spoken": "SOMETHING",
+      "start": 4.9111,
+      "end": 5.1116,
+      "confidence": 0.1118
+    },
+    {
+      "word": "too",
+      "char_start": 86,
+      "char_end": 89,
+      "spoken": "TOO",
+      "start": 5.1316,
+      "end": 5.2719,
+      "confidence": 0.0002
+    },
+    {
+      "word": "important",
+      "char_start": 90,
+      "char_end": 99,
+      "spoken": "IMPORTANT",
+      "start": 5.3722,
+      "end": 5.5726,
+      "confidence": 0.0036
+    }
+  ],
+  "normalized_transcript": "MOST PEOPLE THINK IT'LL SORT ITSELF OUT WE'LL DISCUSS IT LATER IT'S NOT SOMETHING TOO IMPORTANT",
+  "greedy_transcript": "URUL  Y I'M A GENTLE",
+  "transcript_similarity": 0.06956521739130435,
+  "mean_confidence": 0.030656250000000003,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-ri04Z7vwnc__2",
+  "transcript": "most people think it'll sort itself out, \"we'll discuss it later,\" it's not something too important",
+  "model": "facebook/wav2vec2-base-960h"
+}

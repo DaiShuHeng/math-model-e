@@ -1,0 +1,238 @@
+{
+  "duration": 9.7755625,
+  "words": [
+    {
+      "word": "umm",
+      "char_start": 1,
+      "char_end": 4,
+      "spoken": "UMM",
+      "start": 0.4006,
+      "end": 0.5409,
+      "confidence": 0.0307
+    },
+    {
+      "word": "And",
+      "char_start": 6,
+      "char_end": 9,
+      "spoken": "AND",
+      "start": 1.2219,
+      "end": 1.3021,
+      "confidence": 0.7832
+    },
+    {
+      "word": "you",
+      "char_start": 10,
+      "char_end": 13,
+      "spoken": "YOU",
+      "start": 1.3421,
+      "end": 1.4223,
+      "confidence": 0.8706
+    },
+    {
+      "word": "know",
+      "char_start": 14,
+      "char_end": 18,
+      "spoken": "KNOW",
+      "start": 1.4623,
+      "end": 1.5825,
+      "confidence": 0.9853
+    },
+    {
+      "word": "I",
+      "char_start": 19,
+      "char_end": 20,
+      "spoken": "I",
+      "start": 1.9231,
+      "end": 1.9431,
+      "confidence": 0.9996
+    },
+    {
+      "word": "really",
+      "char_start": 21,
+      "char_end": 27,
+      "spoken": "REALLY",
+      "start": 2.0433,
+      "end": 2.2836,
+      "confidence": 0.9657
+    },
+    {
+      "word": "do",
+      "char_start": 28,
+      "char_end": 30,
+      "spoken": "DO",
+      "start": 2.3437,
+      "end": 2.4239,
+      "confidence": 0.9989
+    },
+    {
+      "word": "like",
+      "char_start": 31,
+      "char_end": 35,
+      "spoken": "LIKE",
+      "start": 2.524,
+      "end": 2.6843,
+      "confidence": 0.9547
+    },
+    {
+      "word": "to",
+      "char_start": 36,
+      "char_end": 38,
+      "spoken": "TO",
+      "start": 2.7444,
+      "end": 2.8045,
+      "confidence": 0.9991
+    },
+    {
+      "word": "see",
+      "char_start": 39,
+      "char_end": 42,
+      "spoken": "SEE",
+      "start": 2.8846,
+      "end": 3.0248,
+      "confidence": 0.9074
+    },
+    {
+      "word": "fluffy",
+      "char_start": 43,
+      "char_end": 49,
+      "spoken": "FLUFFY",
+      "start": 3.2051,
+      "end": 3.5256,
+      "confidence": 0.8076
+    },
+    {
+      "word": "chick",
+      "char_start": 50,
+      "char_end": 55,
+      "spoken": "CHICK",
+      "start": 3.6458,
+      "end": 3.8461,
+      "confidence": 0.9794
+    },
+    {
+      "word": "flicks",
+      "char_start": 56,
+      "char_end": 62,
+      "spoken": "FLICKS",
+      "start": 3.9062,
+      "end": 4.1867,
+      "confidence": 0.7205
+    },
+    {
+      "word": "sometimes",
+      "char_start": 63,
+      "char_end": 72,
+      "spoken": "SOMETIMES",
+      "start": 4.2668,
+      "end": 4.9679,
+      "confidence": 0.9887
+    },
+    {
+      "word": "so",
+      "char_start": 73,
+      "char_end": 75,
+      "spoken": "SO",
+      "start": 5.048,
+      "end": 5.1282,
+      "confidence": 0.4908
+    },
+    {
+      "word": "I'm",
+      "char_start": 76,
+      "char_end": 79,
+      "spoken": "I'M",
+      "start": 5.2083,
+      "end": 5.2684,
+      "confidence": 0.0825
+    },
+    {
+      "word": "not",
+      "char_start": 80,
+      "char_end": 83,
+      "spoken": "NOT",
+      "start": 5.3485,
+      "end": 5.4887,
+      "confidence": 0.9788
+    },
+    {
+      "word": "against",
+      "char_start": 84,
+      "char_end": 91,
+      "spoken": "AGAINST",
+      "start": 5.8092,
+      "end": 6.1899,
+      "confidence": 0.9469
+    },
+    {
+      "word": "that",
+      "char_start": 92,
+      "char_end": 96,
+      "spoken": "THAT",
+      "start": 6.3501,
+      "end": 6.6105,
+      "confidence": 0.9918
+    },
+    {
+      "word": "but",
+      "char_start": 97,
+      "char_end": 100,
+      "spoken": "BUT",
+      "start": 6.7507,
+      "end": 6.8709,
+      "confidence": 0.9988
+    },
+    {
+      "word": "this",
+      "char_start": 101,
+      "char_end": 105,
+      "spoken": "THIS",
+      "start": 6.9511,
+      "end": 7.1113,
+      "confidence": 0.9979
+    },
+    {
+      "word": "one",
+      "char_start": 106,
+      "char_end": 109,
+      "spoken": "ONE",
+      "start": 7.3116,
+      "end": 7.4318,
+      "confidence": 0.916
+    },
+    {
+      "word": "was",
+      "char_start": 110,
+      "char_end": 113,
+      "spoken": "WAS",
+      "start": 7.512,
+      "end": 7.6722,
+      "confidence": 0.9958
+    },
+    {
+      "word": "pretty",
+      "char_start": 114,
+      "char_end": 120,
+      "spoken": "PRETTY",
+      "start": 8.3934,
+      "end": 8.6137,
+      "confidence": 0.9993
+    },
+    {
+      "word": "terrible",
+      "char_start": 121,
+      "char_end": 129,
+      "spoken": "TERRIBLE",
+      "start": 8.6938,
+      "end": 9.2147,
+      "confidence": 0.7076
+    }
+  ],
+  "normalized_transcript": "UMM AND YOU KNOW I REALLY DO LIKE TO SEE FLUFFY CHICK FLICKS SOMETIMES SO I'M NOT AGAINST THAT BUT THIS ONE WAS PRETTY TERRIBLE",
+  "greedy_transcript": "OH AND YOU KNOW I REALLY DO LIKE TO SEE BLUFFY CHICKFLICKS SOMETIMES THOU NOT AGAINST THAT BUT THIS ONE WAS PRETTY TERRIBLE AND I",
+  "transcript_similarity": 0.9140625,
+  "mean_confidence": 0.843904,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "10",
+  "transcript": "(umm) And you know I really do like to see fluffy chick flicks sometimes so I'm not against that but this one was pretty terrible",
+  "model": "facebook/wav2vec2-base-960h"
+}

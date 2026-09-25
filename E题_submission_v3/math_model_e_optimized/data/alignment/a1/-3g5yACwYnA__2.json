@@ -1,0 +1,139 @@
+{
+  "duration": 9.2313125,
+  "words": [
+    {
+      "word": "Key",
+      "char_start": 0,
+      "char_end": 3,
+      "spoken": "KEY",
+      "start": 1.8623,
+      "end": 1.9824,
+      "confidence": 0.7991
+    },
+    {
+      "word": "Polymer",
+      "char_start": 4,
+      "char_end": 11,
+      "spoken": "POLYMER",
+      "start": 3.0237,
+      "end": 3.3641,
+      "confidence": 0.2751
+    },
+    {
+      "word": "brings",
+      "char_start": 12,
+      "char_end": 18,
+      "spoken": "BRINGS",
+      "start": 3.4042,
+      "end": 3.6044,
+      "confidence": 0.9545
+    },
+    {
+      "word": "a",
+      "char_start": 19,
+      "char_end": 20,
+      "spoken": "A",
+      "start": 3.6845,
+      "end": 3.7045,
+      "confidence": 0.6968
+    },
+    {
+      "word": "technical",
+      "char_start": 21,
+      "char_end": 30,
+      "spoken": "TECHNICAL",
+      "start": 3.7646,
+      "end": 4.1451,
+      "confidence": 0.9924
+    },
+    {
+      "word": "aspect",
+      "char_start": 31,
+      "char_end": 37,
+      "spoken": "ASPECT",
+      "start": 4.3854,
+      "end": 4.6857,
+      "confidence": 0.9957
+    },
+    {
+      "word": "to",
+      "char_start": 38,
+      "char_end": 40,
+      "spoken": "TO",
+      "start": 4.7258,
+      "end": 4.866,
+      "confidence": 0.9961
+    },
+    {
+      "word": "our",
+      "char_start": 41,
+      "char_end": 44,
+      "spoken": "OUR",
+      "start": 5.8672,
+      "end": 5.9473,
+      "confidence": 0.9889
+    },
+    {
+      "word": "operation",
+      "char_start": 45,
+      "char_end": 54,
+      "spoken": "OPERATION",
+      "start": 6.0074,
+      "end": 6.4279,
+      "confidence": 0.9708
+    },
+    {
+      "word": "that",
+      "char_start": 55,
+      "char_end": 59,
+      "spoken": "THAT",
+      "start": 6.508,
+      "end": 6.6281,
+      "confidence": 0.9884
+    },
+    {
+      "word": "we",
+      "char_start": 60,
+      "char_end": 62,
+      "spoken": "WE",
+      "start": 6.6882,
+      "end": 6.7483,
+      "confidence": 0.9997
+    },
+    {
+      "word": "don't",
+      "char_start": 63,
+      "char_end": 68,
+      "spoken": "DON'T",
+      "start": 6.8284,
+      "end": 7.0086,
+      "confidence": 0.8815
+    },
+    {
+      "word": "have",
+      "char_start": 69,
+      "char_end": 73,
+      "spoken": "HAVE",
+      "start": 7.0486,
+      "end": 7.2088,
+      "confidence": 0.9923
+    },
+    {
+      "word": "internally",
+      "char_start": 74,
+      "char_end": 84,
+      "spoken": "INTERNALLY",
+      "start": 7.2889,
+      "end": 7.6894,
+      "confidence": 0.9619
+    }
+  ],
+  "normalized_transcript": "KEY POLYMER BRINGS A TECHNICAL ASPECT TO OUR OPERATION THAT WE DON'T HAVE INTERNALLY",
+  "greedy_transcript": "ERATIONS AM KEE BRINGS THE KEEP ALROM BRINGS A TECHNICAL ASPECT TO AR OUR OPERATION THAT WE DON'T HAVE INTERNALLY AM WE",
+  "transcript_similarity": 0.7783251231527094,
+  "mean_confidence": 0.8923714285714287,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-3g5yACwYnA__2",
+  "transcript": "Key Polymer brings a technical aspect to our operation that we don't have internally.",
+  "model": "facebook/wav2vec2-base-960h"
+}

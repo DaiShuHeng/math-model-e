@@ -1,0 +1,328 @@
+{
+  "duration": 16.6331875,
+  "words": [
+    {
+      "word": "An",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "AN",
+      "start": 0.5604,
+      "end": 0.6005,
+      "confidence": 0.9999
+    },
+    {
+      "word": "estimated",
+      "char_start": 3,
+      "char_end": 12,
+      "spoken": "ESTIMATED",
+      "start": 0.7606,
+      "end": 1.261,
+      "confidence": 0.9045
+    },
+    {
+      "word": "20",
+      "char_start": 13,
+      "char_end": 15,
+      "spoken": "TWO|ZERO",
+      "start": 1.3811,
+      "end": 1.6413,
+      "confidence": 0.3195
+    },
+    {
+      "word": "000",
+      "char_start": 16,
+      "char_end": 19,
+      "spoken": "ZERO|ZERO|ZERO",
+      "start": 1.7214,
+      "end": 2.562,
+      "confidence": 0.3413
+    },
+    {
+      "word": "biotech",
+      "char_start": 20,
+      "char_end": 27,
+      "spoken": "BIOTECH",
+      "start": 2.6021,
+      "end": 2.9223,
+      "confidence": 0.3967
+    },
+    {
+      "word": "scientists",
+      "char_start": 28,
+      "char_end": 38,
+      "spoken": "SCIENTISTS",
+      "start": 3.0224,
+      "end": 3.6029,
+      "confidence": 0.9239
+    },
+    {
+      "word": "executives",
+      "char_start": 40,
+      "char_end": 50,
+      "spoken": "EXECUTIVES",
+      "start": 3.9031,
+      "end": 4.5436,
+      "confidence": 0.9699
+    },
+    {
+      "word": "and",
+      "char_start": 51,
+      "char_end": 54,
+      "spoken": "AND",
+      "start": 4.7438,
+      "end": 4.8238,
+      "confidence": 0.9217
+    },
+    {
+      "word": "industry",
+      "char_start": 55,
+      "char_end": 63,
+      "spoken": "INDUSTRY",
+      "start": 5.044,
+      "end": 5.4443,
+      "confidence": 0.9699
+    },
+    {
+      "word": "experts",
+      "char_start": 64,
+      "char_end": 71,
+      "spoken": "EXPERTS",
+      "start": 5.5644,
+      "end": 6.0248,
+      "confidence": 0.9932
+    },
+    {
+      "word": "from",
+      "char_start": 72,
+      "char_end": 76,
+      "spoken": "FROM",
+      "start": 6.4251,
+      "end": 6.5452,
+      "confidence": 0.9844
+    },
+    {
+      "word": "more",
+      "char_start": 77,
+      "char_end": 81,
+      "spoken": "MORE",
+      "start": 6.6253,
+      "end": 6.7654,
+      "confidence": 0.9993
+    },
+    {
+      "word": "than",
+      "char_start": 82,
+      "char_end": 86,
+      "spoken": "THAN",
+      "start": 6.8054,
+      "end": 6.9255,
+      "confidence": 0.915
+    },
+    {
+      "word": "50",
+      "char_start": 87,
+      "char_end": 89,
+      "spoken": "FIVE|ZERO",
+      "start": 7.0056,
+      "end": 7.3458,
+      "confidence": 0.2924
+    },
+    {
+      "word": "nations",
+      "char_start": 90,
+      "char_end": 97,
+      "spoken": "NATIONS",
+      "start": 7.3658,
+      "end": 7.7662,
+      "confidence": 0.9408
+    },
+    {
+      "word": "were",
+      "char_start": 98,
+      "char_end": 102,
+      "spoken": "WERE",
+      "start": 8.0664,
+      "end": 8.2265,
+      "confidence": 0.9815
+    },
+    {
+      "word": "at",
+      "char_start": 103,
+      "char_end": 105,
+      "spoken": "AT",
+      "start": 8.3866,
+      "end": 8.4667,
+      "confidence": 0.9477
+    },
+    {
+      "word": "the",
+      "char_start": 106,
+      "char_end": 109,
+      "spoken": "THE",
+      "start": 8.5268,
+      "end": 8.6068,
+      "confidence": 0.9933
+    },
+    {
+      "word": "BIO",
+      "char_start": 110,
+      "char_end": 113,
+      "spoken": "BIO",
+      "start": 8.6669,
+      "end": 8.847,
+      "confidence": 0.3607
+    },
+    {
+      "word": "conference",
+      "char_start": 114,
+      "char_end": 124,
+      "spoken": "CONFERENCE",
+      "start": 9.0672,
+      "end": 9.5075,
+      "confidence": 0.9928
+    },
+    {
+      "word": "to",
+      "char_start": 125,
+      "char_end": 127,
+      "spoken": "TO",
+      "start": 9.6076,
+      "end": 9.7077,
+      "confidence": 1.0
+    },
+    {
+      "word": "learn",
+      "char_start": 128,
+      "char_end": 133,
+      "spoken": "LEARN",
+      "start": 9.7878,
+      "end": 10.088,
+      "confidence": 0.916
+    },
+    {
+      "word": "about",
+      "char_start": 134,
+      "char_end": 139,
+      "spoken": "ABOUT",
+      "start": 10.2081,
+      "end": 10.4283,
+      "confidence": 0.9247
+    },
+    {
+      "word": "the",
+      "char_start": 140,
+      "char_end": 143,
+      "spoken": "THE",
+      "start": 10.4683,
+      "end": 10.5283,
+      "confidence": 0.9998
+    },
+    {
+      "word": "latest",
+      "char_start": 144,
+      "char_end": 150,
+      "spoken": "LATEST",
+      "start": 10.5884,
+      "end": 10.9086,
+      "confidence": 0.9996
+    },
+    {
+      "word": "scientific",
+      "char_start": 151,
+      "char_end": 161,
+      "spoken": "SCIENTIFIC",
+      "start": 10.9487,
+      "end": 11.4691,
+      "confidence": 0.94
+    },
+    {
+      "word": "advances",
+      "char_start": 162,
+      "char_end": 170,
+      "spoken": "ADVANCES",
+      "start": 11.5492,
+      "end": 12.0696,
+      "confidence": 0.9792
+    },
+    {
+      "word": "and",
+      "char_start": 172,
+      "char_end": 175,
+      "spoken": "AND",
+      "start": 12.55,
+      "end": 12.63,
+      "confidence": 0.9907
+    },
+    {
+      "word": "to",
+      "char_start": 176,
+      "char_end": 178,
+      "spoken": "TO",
+      "start": 12.6901,
+      "end": 12.7501,
+      "confidence": 0.9999
+    },
+    {
+      "word": "exchange",
+      "char_start": 179,
+      "char_end": 187,
+      "spoken": "EXCHANGE",
+      "start": 12.8302,
+      "end": 13.3306,
+      "confidence": 0.9759
+    },
+    {
+      "word": "ideas",
+      "char_start": 188,
+      "char_end": 193,
+      "spoken": "IDEAS",
+      "start": 13.4907,
+      "end": 13.911,
+      "confidence": 0.9329
+    },
+    {
+      "word": "and",
+      "char_start": 194,
+      "char_end": 197,
+      "spoken": "AND",
+      "start": 14.2113,
+      "end": 14.2913,
+      "confidence": 0.9999
+    },
+    {
+      "word": "establish",
+      "char_start": 198,
+      "char_end": 207,
+      "spoken": "ESTABLISH",
+      "start": 14.3314,
+      "end": 14.7717,
+      "confidence": 0.9957
+    },
+    {
+      "word": "business",
+      "char_start": 208,
+      "char_end": 216,
+      "spoken": "BUSINESS",
+      "start": 14.8718,
+      "end": 15.2321,
+      "confidence": 0.9969
+    },
+    {
+      "word": "relationships",
+      "char_start": 217,
+      "char_end": 230,
+      "spoken": "RELATIONSHIPS",
+      "start": 15.2721,
+      "end": 16.0127,
+      "confidence": 0.9552
+    }
+  ],
+  "normalized_transcript": "AN ESTIMATED TWO ZERO ZERO ZERO ZERO BIOTECH SCIENTISTS EXECUTIVES AND INDUSTRY EXPERTS FROM MORE THAN FIVE ZERO NATIONS WERE AT THE BIO CONFERENCE TO LEARN ABOUT THE LATEST SCIENTIFIC ADVANCES AND TO EXCHANGE IDEAS AND ESTABLISH BUSINESS RELATIONSHIPS",
+  "greedy_transcript": "AN ESTIMATED TWENTY THOUSAND BAOTEC SCIENTIST EXECUTIVES AND INDUSTRY EXPERTS FROM MORE THAN FIFTY NATIONS WERE AT THE BOW CONFERENCE TO LEARN ABOUT THE LATEST SCIENTIFIC ADVANCES AND TO EXCHANGE IDEAS AND ESTABLISH BUSINESS RELATIONSHIPS",
+  "transcript_similarity": 0.5306122448979592,
+  "mean_confidence": 0.8787085714285715,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-dxfTGcXJoc__2",
+  "transcript": "An estimated 20,000 biotech scientists, executives and industry experts from more than 50 nations were at the BIO conference to learn about the latest scientific advances, and to exchange ideas and establish business relationships.",
+  "model": "facebook/wav2vec2-base-960h"
+}

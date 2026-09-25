@@ -1,0 +1,121 @@
+{
+  "duration": 4.6788125,
+  "words": [
+    {
+      "word": "Say",
+      "char_start": 0,
+      "char_end": 3,
+      "spoken": "SAY",
+      "start": 0.6024,
+      "end": 0.7229,
+      "confidence": 0.9995
+    },
+    {
+      "word": "twenty",
+      "char_start": 4,
+      "char_end": 10,
+      "spoken": "TWENTY",
+      "start": 0.8032,
+      "end": 1.0241,
+      "confidence": 0.9997
+    },
+    {
+      "word": "percent",
+      "char_start": 11,
+      "char_end": 18,
+      "spoken": "PERCENT",
+      "start": 1.0844,
+      "end": 1.4458,
+      "confidence": 0.9414
+    },
+    {
+      "word": "so",
+      "char_start": 19,
+      "char_end": 21,
+      "spoken": "SO",
+      "start": 1.5864,
+      "end": 1.7269,
+      "confidence": 0.9999
+    },
+    {
+      "word": "if",
+      "char_start": 22,
+      "char_end": 24,
+      "spoken": "IF",
+      "start": 1.9478,
+      "end": 1.988,
+      "confidence": 0.9997
+    },
+    {
+      "word": "you've",
+      "char_start": 25,
+      "char_end": 31,
+      "spoken": "YOU'VE",
+      "start": 2.0482,
+      "end": 2.2089,
+      "confidence": 0.9539
+    },
+    {
+      "word": "got",
+      "char_start": 32,
+      "char_end": 35,
+      "spoken": "GOT",
+      "start": 2.249,
+      "end": 2.3294,
+      "confidence": 0.7925
+    },
+    {
+      "word": "a",
+      "char_start": 36,
+      "char_end": 37,
+      "spoken": "A",
+      "start": 2.3896,
+      "end": 2.4097,
+      "confidence": 0.9922
+    },
+    {
+      "word": "thousand",
+      "char_start": 38,
+      "char_end": 46,
+      "spoken": "THOUSAND",
+      "start": 2.4699,
+      "end": 2.7912,
+      "confidence": 0.9991
+    },
+    {
+      "word": "square",
+      "char_start": 47,
+      "char_end": 53,
+      "spoken": "SQUARE",
+      "start": 2.8113,
+      "end": 3.0523,
+      "confidence": 0.9814
+    },
+    {
+      "word": "foot",
+      "char_start": 54,
+      "char_end": 58,
+      "spoken": "FOOT",
+      "start": 3.1125,
+      "end": 3.2932,
+      "confidence": 0.9788
+    },
+    {
+      "word": "condo",
+      "char_start": 59,
+      "char_end": 64,
+      "spoken": "CONDO",
+      "start": 3.6949,
+      "end": 4.0362,
+      "confidence": 0.9225
+    }
+  ],
+  "normalized_transcript": "SAY TWENTY PERCENT SO IF YOU'VE GOT A THOUSAND SQUARE FOOT CONDO",
+  "greedy_transcript": "FOOTAGE SAY TWENTY PER CENT SO IF YOU'VE GET A THOUSAND SQUARE FOOT CONDO MAY",
+  "transcript_similarity": 0.8936170212765957,
+  "mean_confidence": 0.9633833333333333,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-tPCytz4rww__10",
+  "transcript": "Say twenty percent so if you've got a thousand square foot condo.",
+  "model": "facebook/wav2vec2-base-960h"
+}

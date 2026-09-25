@@ -1,0 +1,58 @@
+{
+  "duration": 2.8204375,
+  "words": [
+    {
+      "word": "What",
+      "char_start": 0,
+      "char_end": 4,
+      "spoken": "WHAT",
+      "start": 0.3425,
+      "end": 0.7655,
+      "confidence": 0.5221
+    },
+    {
+      "word": "is",
+      "char_start": 5,
+      "char_end": 7,
+      "spoken": "IS",
+      "start": 1.1685,
+      "end": 1.2289,
+      "confidence": 0.9984
+    },
+    {
+      "word": "a",
+      "char_start": 8,
+      "char_end": 9,
+      "spoken": "A",
+      "start": 1.6318,
+      "end": 1.652,
+      "confidence": 0.0
+    },
+    {
+      "word": "power",
+      "char_start": 10,
+      "char_end": 15,
+      "spoken": "POWER",
+      "start": 2.075,
+      "end": 2.3168,
+      "confidence": 0.4964
+    },
+    {
+      "word": "pose",
+      "char_start": 16,
+      "char_end": 20,
+      "spoken": "POSE",
+      "start": 2.5585,
+      "end": 2.6391,
+      "confidence": 0.0004
+    }
+  ],
+  "normalized_transcript": "WHAT IS A POWER POSE",
+  "greedy_transcript": "HELP YOU IF YOU HAVE AN ENGLISH JOB INTERVIEW",
+  "transcript_similarity": 0.2153846153846154,
+  "mean_confidence": 0.40346000000000004,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-iRBcNs9oI8__6",
+  "transcript": "What is a power pose",
+  "model": "facebook/wav2vec2-base-960h"
+}

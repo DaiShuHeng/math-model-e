@@ -1,0 +1,328 @@
+{
+  "duration": 12.8745625,
+  "words": [
+    {
+      "word": "Or",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "OR",
+      "start": 0.5807,
+      "end": 0.6407,
+      "confidence": 0.9995
+    },
+    {
+      "word": "worse",
+      "char_start": 3,
+      "char_end": 8,
+      "spoken": "WORSE",
+      "start": 0.7208,
+      "end": 1.0612,
+      "confidence": 0.9899
+    },
+    {
+      "word": "an",
+      "char_start": 10,
+      "char_end": 12,
+      "spoken": "AN",
+      "start": 1.1613,
+      "end": 1.2014,
+      "confidence": 0.9958
+    },
+    {
+      "word": "individual",
+      "char_start": 13,
+      "char_end": 23,
+      "spoken": "INDIVIDUAL",
+      "start": 1.2614,
+      "end": 1.742,
+      "confidence": 0.9925
+    },
+    {
+      "word": "previously",
+      "char_start": 24,
+      "char_end": 34,
+      "spoken": "PREVIOUSLY",
+      "start": 1.9422,
+      "end": 2.4227,
+      "confidence": 0.9241
+    },
+    {
+      "word": "had",
+      "char_start": 35,
+      "char_end": 38,
+      "spoken": "HAD",
+      "start": 2.5028,
+      "end": 2.7031,
+      "confidence": 0.9988
+    },
+    {
+      "word": "good",
+      "char_start": 39,
+      "char_end": 43,
+      "spoken": "GOOD",
+      "start": 2.8232,
+      "end": 2.9834,
+      "confidence": 0.9997
+    },
+    {
+      "word": "credit",
+      "char_start": 44,
+      "char_end": 50,
+      "spoken": "CREDIT",
+      "start": 3.0835,
+      "end": 3.4039,
+      "confidence": 0.9751
+    },
+    {
+      "word": "but",
+      "char_start": 52,
+      "char_end": 55,
+      "spoken": "BUT",
+      "start": 3.8844,
+      "end": 4.0446,
+      "confidence": 0.9992
+    },
+    {
+      "word": "usually",
+      "char_start": 56,
+      "char_end": 63,
+      "spoken": "USUALLY",
+      "start": 4.6453,
+      "end": 4.8855,
+      "confidence": 0.9926
+    },
+    {
+      "word": "by",
+      "char_start": 64,
+      "char_end": 66,
+      "spoken": "BY",
+      "start": 5.1458,
+      "end": 5.266,
+      "confidence": 0.9997
+    },
+    {
+      "word": "no",
+      "char_start": 67,
+      "char_end": 69,
+      "spoken": "NO",
+      "start": 5.3861,
+      "end": 5.4662,
+      "confidence": 0.9999
+    },
+    {
+      "word": "fault",
+      "char_start": 70,
+      "char_end": 75,
+      "spoken": "FAULT",
+      "start": 5.5863,
+      "end": 5.7865,
+      "confidence": 0.9981
+    },
+    {
+      "word": "of",
+      "char_start": 76,
+      "char_end": 78,
+      "spoken": "OF",
+      "start": 5.8666,
+      "end": 5.9067,
+      "confidence": 0.9481
+    },
+    {
+      "word": "their",
+      "char_start": 79,
+      "char_end": 84,
+      "spoken": "THEIR",
+      "start": 5.9467,
+      "end": 6.1069,
+      "confidence": 0.9983
+    },
+    {
+      "word": "own",
+      "char_start": 85,
+      "char_end": 88,
+      "spoken": "OWN",
+      "start": 6.2671,
+      "end": 6.3872,
+      "confidence": 0.984
+    },
+    {
+      "word": "or",
+      "char_start": 90,
+      "char_end": 92,
+      "spoken": "OR",
+      "start": 6.9679,
+      "end": 7.0079,
+      "confidence": 0.9978
+    },
+    {
+      "word": "perhaps",
+      "char_start": 93,
+      "char_end": 100,
+      "spoken": "PERHAPS",
+      "start": 7.108,
+      "end": 7.4885,
+      "confidence": 0.9439
+    },
+    {
+      "word": "by",
+      "char_start": 101,
+      "char_end": 103,
+      "spoken": "BY",
+      "start": 7.5686,
+      "end": 7.6887,
+      "confidence": 0.9995
+    },
+    {
+      "word": "fault",
+      "char_start": 104,
+      "char_end": 109,
+      "spoken": "FAULT",
+      "start": 7.8088,
+      "end": 8.0091,
+      "confidence": 0.9286
+    },
+    {
+      "word": "of",
+      "char_start": 110,
+      "char_end": 112,
+      "spoken": "OF",
+      "start": 8.0891,
+      "end": 8.1292,
+      "confidence": 0.9944
+    },
+    {
+      "word": "their",
+      "char_start": 113,
+      "char_end": 118,
+      "spoken": "THEIR",
+      "start": 8.1893,
+      "end": 8.3494,
+      "confidence": 0.9935
+    },
+    {
+      "word": "own",
+      "char_start": 119,
+      "char_end": 122,
+      "spoken": "OWN",
+      "start": 8.4696,
+      "end": 8.5497,
+      "confidence": 0.9997
+    },
+    {
+      "word": "they",
+      "char_start": 124,
+      "char_end": 128,
+      "spoken": "THEY",
+      "start": 8.6698,
+      "end": 8.83,
+      "confidence": 0.931
+    },
+    {
+      "word": "have",
+      "char_start": 129,
+      "char_end": 133,
+      "spoken": "HAVE",
+      "start": 8.8901,
+      "end": 9.0302,
+      "confidence": 0.9775
+    },
+    {
+      "word": "let",
+      "char_start": 134,
+      "char_end": 137,
+      "spoken": "LET",
+      "start": 9.0903,
+      "end": 9.2304,
+      "confidence": 0.9719
+    },
+    {
+      "word": "their",
+      "char_start": 138,
+      "char_end": 143,
+      "spoken": "THEIR",
+      "start": 9.2705,
+      "end": 9.4106,
+      "confidence": 0.904
+    },
+    {
+      "word": "credit",
+      "char_start": 144,
+      "char_end": 150,
+      "spoken": "CREDIT",
+      "start": 9.4907,
+      "end": 9.7711,
+      "confidence": 0.9856
+    },
+    {
+      "word": "sag",
+      "char_start": 151,
+      "char_end": 154,
+      "spoken": "SAG",
+      "start": 9.9513,
+      "end": 10.3117,
+      "confidence": 0.7713
+    },
+    {
+      "word": "and",
+      "char_start": 156,
+      "char_end": 159,
+      "spoken": "AND",
+      "start": 10.632,
+      "end": 10.7522,
+      "confidence": 0.9987
+    },
+    {
+      "word": "credit",
+      "char_start": 160,
+      "char_end": 166,
+      "spoken": "CREDIT",
+      "start": 11.1126,
+      "end": 11.3128,
+      "confidence": 0.6648
+    },
+    {
+      "word": "scores",
+      "char_start": 167,
+      "char_end": 173,
+      "spoken": "SCORES",
+      "start": 11.3328,
+      "end": 11.5931,
+      "confidence": 0.7073
+    },
+    {
+      "word": "is",
+      "char_start": 174,
+      "char_end": 176,
+      "spoken": "IS",
+      "start": 11.6332,
+      "end": 11.6932,
+      "confidence": 0.6182
+    },
+    {
+      "word": "very",
+      "char_start": 177,
+      "char_end": 181,
+      "spoken": "VERY",
+      "start": 11.7533,
+      "end": 11.9535,
+      "confidence": 0.8893
+    },
+    {
+      "word": "low",
+      "char_start": 182,
+      "char_end": 185,
+      "spoken": "LOW",
+      "start": 12.0336,
+      "end": 12.2739,
+      "confidence": 0.9916
+    }
+  ],
+  "normalized_transcript": "OR WORSE AN INDIVIDUAL PREVIOUSLY HAD GOOD CREDIT BUT USUALLY BY NO FAULT OF THEIR OWN OR PERHAPS BY FAULT OF THEIR OWN THEY HAVE LET THEIR CREDIT SAG AND CREDIT SCORES IS VERY LOW",
+  "greedy_transcript": "OR WORSE AN INDIVIDUAL PREVIOUSLY HAD GOOD CREDIT BUT USUALLY BY NO FAULT OF THEIR OWN OR PERHAPS BY FAULT OF THEIR OWN THEY HAVE LET THEIR CREDIT SEG AND A CREDSCORES VERY LOW",
+  "transcript_similarity": 0.9719101123595506,
+  "mean_confidence": 0.9446828571428573,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "12",
+  "transcript": "Or worse, an individual previously had good credit, but usually by no fault of their own, or perhaps by fault of their own, they have let their credit sag, and credit scores is very low.",
+  "model": "facebook/wav2vec2-base-960h"
+}

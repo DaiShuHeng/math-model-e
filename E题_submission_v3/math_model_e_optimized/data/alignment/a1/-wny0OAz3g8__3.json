@@ -1,0 +1,193 @@
+{
+  "duration": 6.099875,
+  "words": [
+    {
+      "word": "Which",
+      "char_start": 0,
+      "char_end": 5,
+      "spoken": "WHICH",
+      "start": 0.5418,
+      "end": 0.6622,
+      "confidence": 0.9999
+    },
+    {
+      "word": "then",
+      "char_start": 6,
+      "char_end": 10,
+      "spoken": "THEN",
+      "start": 0.7224,
+      "end": 0.8427,
+      "confidence": 0.9648
+    },
+    {
+      "word": "allowed",
+      "char_start": 11,
+      "char_end": 18,
+      "spoken": "ALLOWED",
+      "start": 0.9431,
+      "end": 1.1437,
+      "confidence": 0.9999
+    },
+    {
+      "word": "the",
+      "char_start": 19,
+      "char_end": 22,
+      "spoken": "THE",
+      "start": 1.1839,
+      "end": 1.2641,
+      "confidence": 0.9804
+    },
+    {
+      "word": "white",
+      "char_start": 23,
+      "char_end": 28,
+      "spoken": "WHITE",
+      "start": 1.2842,
+      "end": 1.4447,
+      "confidence": 0.9551
+    },
+    {
+      "word": "workers",
+      "char_start": 29,
+      "char_end": 36,
+      "spoken": "WORKERS",
+      "start": 1.4848,
+      "end": 1.7658,
+      "confidence": 0.9987
+    },
+    {
+      "word": "and",
+      "char_start": 37,
+      "char_end": 40,
+      "spoken": "AND",
+      "start": 1.8059,
+      "end": 1.8661,
+      "confidence": 0.7922
+    },
+    {
+      "word": "unions",
+      "char_start": 41,
+      "char_end": 47,
+      "spoken": "UNIONS",
+      "start": 1.9463,
+      "end": 2.2072,
+      "confidence": 0.9429
+    },
+    {
+      "word": "to",
+      "char_start": 48,
+      "char_end": 50,
+      "spoken": "TO",
+      "start": 2.2473,
+      "end": 2.3276,
+      "confidence": 1.0
+    },
+    {
+      "word": "justify",
+      "char_start": 51,
+      "char_end": 58,
+      "spoken": "JUSTIFY",
+      "start": 2.4078,
+      "end": 2.8092,
+      "confidence": 0.9585
+    },
+    {
+      "word": "their",
+      "char_start": 59,
+      "char_end": 64,
+      "spoken": "THEIR",
+      "start": 2.8894,
+      "end": 3.0098,
+      "confidence": 0.9996
+    },
+    {
+      "word": "decision",
+      "char_start": 65,
+      "char_end": 73,
+      "spoken": "DECISION",
+      "start": 3.0499,
+      "end": 3.3108,
+      "confidence": 0.9931
+    },
+    {
+      "word": "to",
+      "char_start": 74,
+      "char_end": 76,
+      "spoken": "TO",
+      "start": 3.371,
+      "end": 3.4512,
+      "confidence": 0.8736
+    },
+    {
+      "word": "not",
+      "char_start": 77,
+      "char_end": 80,
+      "spoken": "NOT",
+      "start": 3.5315,
+      "end": 3.692,
+      "confidence": 0.93
+    },
+    {
+      "word": "allow",
+      "char_start": 81,
+      "char_end": 86,
+      "spoken": "ALLOW",
+      "start": 3.7723,
+      "end": 3.9529,
+      "confidence": 0.9998
+    },
+    {
+      "word": "black",
+      "char_start": 87,
+      "char_end": 92,
+      "spoken": "BLACK",
+      "start": 4.0532,
+      "end": 4.2338,
+      "confidence": 0.986
+    },
+    {
+      "word": "workers",
+      "char_start": 93,
+      "char_end": 100,
+      "spoken": "WORKERS",
+      "start": 4.3141,
+      "end": 4.6552,
+      "confidence": 0.9472
+    },
+    {
+      "word": "into",
+      "char_start": 101,
+      "char_end": 105,
+      "spoken": "INTO",
+      "start": 4.8358,
+      "end": 5.0163,
+      "confidence": 0.9966
+    },
+    {
+      "word": "their",
+      "char_start": 106,
+      "char_end": 111,
+      "spoken": "THEIR",
+      "start": 5.0765,
+      "end": 5.1969,
+      "confidence": 0.9867
+    },
+    {
+      "word": "union",
+      "char_start": 112,
+      "char_end": 117,
+      "spoken": "UNION",
+      "start": 5.3374,
+      "end": 5.5581,
+      "confidence": 0.9902
+    }
+  ],
+  "normalized_transcript": "WHICH THEN ALLOWED THE WHITE WORKERS AND UNIONS TO JUSTIFY THEIR DECISION TO NOT ALLOW BLACK WORKERS INTO THEIR UNION",
+  "greedy_transcript": "W BEHAVIOR WHICH THEN ALLOWED THE WHITE WORKERS AND UNIONS TO JUSTIFY THEIR DECISION TO NOT ALLOW BLACK WORKERS INTO THEIR UNIONHE PREVAILI",
+  "transcript_similarity": 0.9140625,
+  "mean_confidence": 0.9647600000000001,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-wny0OAz3g8__3",
+  "transcript": "Which then allowed the white workers and unions to justify their decision to not allow black workers into their union",
+  "model": "facebook/wav2vec2-base-960h"
+}

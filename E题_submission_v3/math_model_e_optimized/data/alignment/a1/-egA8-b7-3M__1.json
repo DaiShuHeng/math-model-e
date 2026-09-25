@@ -1,0 +1,193 @@
+{
+  "duration": 10.15625,
+  "words": [
+    {
+      "word": "I",
+      "char_start": 0,
+      "char_end": 1,
+      "spoken": "I",
+      "start": 0.0801,
+      "end": 0.1002,
+      "confidence": 0.9569
+    },
+    {
+      "word": "started",
+      "char_start": 2,
+      "char_end": 9,
+      "spoken": "STARTED",
+      "start": 1.2821,
+      "end": 1.6426,
+      "confidence": 0.9994
+    },
+    {
+      "word": "a",
+      "char_start": 10,
+      "char_end": 11,
+      "spoken": "A",
+      "start": 1.7628,
+      "end": 1.7829,
+      "confidence": 0.9907
+    },
+    {
+      "word": "successful",
+      "char_start": 12,
+      "char_end": 22,
+      "spoken": "SUCCESSFUL",
+      "start": 1.8429,
+      "end": 2.4038,
+      "confidence": 0.9726
+    },
+    {
+      "word": "Legal",
+      "char_start": 23,
+      "char_end": 28,
+      "spoken": "LEGAL",
+      "start": 2.504,
+      "end": 2.7244,
+      "confidence": 0.9985
+    },
+    {
+      "word": "Nurse",
+      "char_start": 29,
+      "char_end": 34,
+      "spoken": "NURSE",
+      "start": 2.7845,
+      "end": 2.9647,
+      "confidence": 0.862
+    },
+    {
+      "word": "Consulting",
+      "char_start": 35,
+      "char_end": 45,
+      "spoken": "CONSULTING",
+      "start": 3.0248,
+      "end": 3.5256,
+      "confidence": 0.9818
+    },
+    {
+      "word": "Business",
+      "char_start": 46,
+      "char_end": 54,
+      "spoken": "BUSINESS",
+      "start": 3.5857,
+      "end": 3.9864,
+      "confidence": 0.9948
+    },
+    {
+      "word": "in",
+      "char_start": 55,
+      "char_end": 57,
+      "spoken": "IN",
+      "start": 4.5473,
+      "end": 4.5873,
+      "confidence": 0.9993
+    },
+    {
+      "word": "1989",
+      "char_start": 58,
+      "char_end": 62,
+      "spoken": "ONE|NINE|EIGHT|NINE",
+      "start": 4.7877,
+      "end": 5.7292,
+      "confidence": 0.7848
+    },
+    {
+      "word": "I",
+      "char_start": 64,
+      "char_end": 65,
+      "spoken": "I",
+      "start": 6.3902,
+      "end": 6.4103,
+      "confidence": 0.8829
+    },
+    {
+      "word": "mentor",
+      "char_start": 66,
+      "char_end": 72,
+      "spoken": "MENTOR",
+      "start": 6.5505,
+      "end": 6.891,
+      "confidence": 0.8467
+    },
+    {
+      "word": "nurses",
+      "char_start": 73,
+      "char_end": 79,
+      "spoken": "NURSES",
+      "start": 6.9511,
+      "end": 7.3317,
+      "confidence": 0.8994
+    },
+    {
+      "word": "who",
+      "char_start": 80,
+      "char_end": 83,
+      "spoken": "WHO",
+      "start": 7.3918,
+      "end": 7.472,
+      "confidence": 0.9976
+    },
+    {
+      "word": "want",
+      "char_start": 84,
+      "char_end": 88,
+      "spoken": "WANT",
+      "start": 7.5721,
+      "end": 7.7925,
+      "confidence": 0.8843
+    },
+    {
+      "word": "to",
+      "char_start": 89,
+      "char_end": 91,
+      "spoken": "TO",
+      "start": 7.8526,
+      "end": 7.9127,
+      "confidence": 0.9992
+    },
+    {
+      "word": "become",
+      "char_start": 92,
+      "char_end": 98,
+      "spoken": "BECOME",
+      "start": 7.9728,
+      "end": 8.2532,
+      "confidence": 0.9837
+    },
+    {
+      "word": "Legal",
+      "char_start": 99,
+      "char_end": 104,
+      "spoken": "LEGAL",
+      "start": 8.3333,
+      "end": 8.5537,
+      "confidence": 0.9804
+    },
+    {
+      "word": "Nurse",
+      "char_start": 105,
+      "char_end": 110,
+      "spoken": "NURSE",
+      "start": 8.5938,
+      "end": 8.7941,
+      "confidence": 0.8061
+    },
+    {
+      "word": "Consultants",
+      "char_start": 111,
+      "char_end": 122,
+      "spoken": "CONSULTANTS",
+      "start": 8.8742,
+      "end": 9.4752,
+      "confidence": 0.9112
+    }
+  ],
+  "normalized_transcript": "I STARTED A SUCCESSFUL LEGAL NURSE CONSULTING BUSINESS IN ONE NINE EIGHT NINE I MENTOR NURSES WHO WANT TO BECOME LEGAL NURSE CONSULTANTS",
+  "greedy_transcript": "IRE I HAVE STARTED A SUCCESSFUL LEGAL NURSE CONSULTING BUSINESS IN NINETEEN EIGHTY NINE I MEANT TOR NURSES WHO WANT TO BECOME LEGAL NURS CONSULTANTS",
+  "transcript_similarity": 0.9225352112676056,
+  "mean_confidence": 0.9366150000000001,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-egA8-b7-3M__1",
+  "transcript": "I started a successful Legal Nurse Consulting Business in 1989. I mentor nurses who want to become Legal Nurse Consultants.",
+  "model": "facebook/wav2vec2-base-960h"
+}

@@ -1,0 +1,85 @@
+{
+  "duration": 3.0436875,
+  "words": [
+    {
+      "word": "It's",
+      "char_start": 0,
+      "char_end": 4,
+      "spoken": "IT'S",
+      "start": 0.4838,
+      "end": 0.6249,
+      "confidence": 0.5473
+    },
+    {
+      "word": "a",
+      "char_start": 5,
+      "char_end": 6,
+      "spoken": "A",
+      "start": 0.6853,
+      "end": 0.7055,
+      "confidence": 0.8779
+    },
+    {
+      "word": "terrible",
+      "char_start": 7,
+      "char_end": 15,
+      "spoken": "TERRIBLE",
+      "start": 0.8063,
+      "end": 1.1893,
+      "confidence": 0.9686
+    },
+    {
+      "word": "this",
+      "char_start": 17,
+      "char_end": 21,
+      "spoken": "THIS",
+      "start": 1.5118,
+      "end": 1.5924,
+      "confidence": 0.2467
+    },
+    {
+      "word": "is",
+      "char_start": 22,
+      "char_end": 24,
+      "spoken": "IS",
+      "start": 1.6125,
+      "end": 1.673,
+      "confidence": 0.6981
+    },
+    {
+      "word": "a",
+      "char_start": 25,
+      "char_end": 26,
+      "spoken": "A",
+      "start": 1.7335,
+      "end": 1.7536,
+      "confidence": 0.9672
+    },
+    {
+      "word": "terrible",
+      "char_start": 27,
+      "char_end": 35,
+      "spoken": "TERRIBLE",
+      "start": 1.8343,
+      "end": 2.1769,
+      "confidence": 0.9941
+    },
+    {
+      "word": "movie",
+      "char_start": 36,
+      "char_end": 41,
+      "spoken": "MOVIE",
+      "start": 2.2173,
+      "end": 2.5196,
+      "confidence": 0.7979
+    }
+  ],
+  "normalized_transcript": "IT'S A TERRIBLE THIS IS A TERRIBLE MOVIE",
+  "greedy_transcript": "ITA TERRIBLE IS A TERRIBLE MOVING I DO NOT",
+  "transcript_similarity": 0.7560975609756098,
+  "mean_confidence": 0.762225,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "16",
+  "transcript": "It's a terrible, this is a terrible movie",
+  "model": "facebook/wav2vec2-base-960h"
+}

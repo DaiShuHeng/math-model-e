@@ -1,0 +1,130 @@
+{
+  "duration": 7.3085625,
+  "words": [
+    {
+      "word": "Picture",
+      "char_start": 0,
+      "char_end": 7,
+      "spoken": "PICTURE",
+      "start": 0.2803,
+      "end": 0.821,
+      "confidence": 0.25
+    },
+    {
+      "word": "this",
+      "char_start": 8,
+      "char_end": 12,
+      "spoken": "THIS",
+      "start": 0.881,
+      "end": 1.0212,
+      "confidence": 0.0
+    },
+    {
+      "word": "before",
+      "char_start": 14,
+      "char_end": 20,
+      "spoken": "BEFORE",
+      "start": 1.1614,
+      "end": 1.8422,
+      "confidence": 0.6249
+    },
+    {
+      "word": "we",
+      "char_start": 21,
+      "char_end": 23,
+      "spoken": "WE",
+      "start": 1.9823,
+      "end": 2.0624,
+      "confidence": 0.0
+    },
+    {
+      "word": "actually",
+      "char_start": 24,
+      "char_end": 32,
+      "spoken": "ACTUALLY",
+      "start": 2.1025,
+      "end": 2.4429,
+      "confidence": 0.3233
+    },
+    {
+      "word": "start",
+      "char_start": 33,
+      "char_end": 38,
+      "spoken": "START",
+      "start": 3.5041,
+      "end": 3.6843,
+      "confidence": 0.1999
+    },
+    {
+      "word": "hacking",
+      "char_start": 39,
+      "char_end": 46,
+      "spoken": "HACKING",
+      "start": 3.7444,
+      "end": 4.0848,
+      "confidence": 0.1915
+    },
+    {
+      "word": "we’re",
+      "char_start": 48,
+      "char_end": 53,
+      "spoken": "WE'RE",
+      "start": 4.1849,
+      "end": 4.5854,
+      "confidence": 0.3177
+    },
+    {
+      "word": "in",
+      "char_start": 54,
+      "char_end": 56,
+      "spoken": "IN",
+      "start": 5.0259,
+      "end": 5.106,
+      "confidence": 0.4998
+    },
+    {
+      "word": "a",
+      "char_start": 57,
+      "char_end": 58,
+      "spoken": "A",
+      "start": 5.1861,
+      "end": 5.2061,
+      "confidence": 0.0036
+    },
+    {
+      "word": "room",
+      "char_start": 59,
+      "char_end": 63,
+      "spoken": "ROOM",
+      "start": 5.3463,
+      "end": 5.4664,
+      "confidence": 0.0001
+    },
+    {
+      "word": "formal",
+      "char_start": 64,
+      "char_end": 70,
+      "spoken": "FORMAL",
+      "start": 5.5265,
+      "end": 5.8669,
+      "confidence": 0.4282
+    },
+    {
+      "word": "setting",
+      "char_start": 71,
+      "char_end": 78,
+      "spoken": "SETTING",
+      "start": 6.9281,
+      "end": 7.2485,
+      "confidence": 0.4319
+    }
+  ],
+  "normalized_transcript": "PICTURE THIS BEFORE WE ACTUALLY START HACKING WE'RE IN A ROOM FORMAL SETTING",
+  "greedy_transcript": "THE MAJORITY OF AN ENTIRE NATION TO BELIEVE IN TRUST HIS OR HER WORDS ISN'T TAT",
+  "transcript_similarity": 0.2838709677419355,
+  "mean_confidence": 0.2516076923076923,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-hnBHBN8p5A__7",
+  "transcript": "Picture this, before we actually start hacking, we’re in a room formal setting",
+  "model": "facebook/wav2vec2-base-960h"
+}

@@ -1,0 +1,157 @@
+{
+  "duration": 5.658875,
+  "words": [
+    {
+      "word": "Structural",
+      "char_start": 0,
+      "char_end": 10,
+      "spoken": "STRUCTURAL",
+      "start": 0.0803,
+      "end": 0.4816,
+      "confidence": 0.0092
+    },
+    {
+      "word": "mounts",
+      "char_start": 11,
+      "char_end": 17,
+      "spoken": "MOUNTS",
+      "start": 0.6823,
+      "end": 0.8829,
+      "confidence": 0.0049
+    },
+    {
+      "word": "inside",
+      "char_start": 18,
+      "char_end": 24,
+      "spoken": "INSIDE",
+      "start": 0.9431,
+      "end": 1.1839,
+      "confidence": 0.0056
+    },
+    {
+      "word": "have",
+      "char_start": 25,
+      "char_end": 29,
+      "spoken": "HAVE",
+      "start": 1.2642,
+      "end": 1.4448,
+      "confidence": 0.0238
+    },
+    {
+      "word": "to",
+      "char_start": 30,
+      "char_end": 32,
+      "spoken": "TO",
+      "start": 1.6455,
+      "end": 1.7258,
+      "confidence": 0.0079
+    },
+    {
+      "word": "be",
+      "char_start": 33,
+      "char_end": 35,
+      "spoken": "BE",
+      "start": 1.8863,
+      "end": 1.9666,
+      "confidence": 0.0209
+    },
+    {
+      "word": "properly",
+      "char_start": 36,
+      "char_end": 44,
+      "spoken": "PROPERLY",
+      "start": 2.0468,
+      "end": 2.3478,
+      "confidence": 0.0135
+    },
+    {
+      "word": "stress",
+      "char_start": 45,
+      "char_end": 51,
+      "spoken": "STRESS",
+      "start": 2.3679,
+      "end": 2.5886,
+      "confidence": 0.0157
+    },
+    {
+      "word": "analyzed",
+      "char_start": 52,
+      "char_end": 60,
+      "spoken": "ANALYZED",
+      "start": 2.7291,
+      "end": 2.9298,
+      "confidence": 0.019
+    },
+    {
+      "word": "so",
+      "char_start": 61,
+      "char_end": 63,
+      "spoken": "SO",
+      "start": 2.9498,
+      "end": 2.99,
+      "confidence": 0.0025
+    },
+    {
+      "word": "we",
+      "char_start": 64,
+      "char_end": 66,
+      "spoken": "WE",
+      "start": 3.0301,
+      "end": 3.0702,
+      "confidence": 0.0161
+    },
+    {
+      "word": "make",
+      "char_start": 67,
+      "char_end": 71,
+      "spoken": "MAKE",
+      "start": 3.1104,
+      "end": 3.1906,
+      "confidence": 0.0073
+    },
+    {
+      "word": "sure",
+      "char_start": 72,
+      "char_end": 76,
+      "spoken": "SURE",
+      "start": 3.2308,
+      "end": 3.4114,
+      "confidence": 0.0073
+    },
+    {
+      "word": "all",
+      "char_start": 77,
+      "char_end": 80,
+      "spoken": "ALL",
+      "start": 3.4515,
+      "end": 3.5719,
+      "confidence": 0.0166
+    },
+    {
+      "word": "that",
+      "char_start": 81,
+      "char_end": 85,
+      "spoken": "THAT",
+      "start": 3.6522,
+      "end": 3.7324,
+      "confidence": 0.0141
+    },
+    {
+      "word": "happens",
+      "char_start": 86,
+      "char_end": 93,
+      "spoken": "HAPPENS",
+      "start": 3.8127,
+      "end": 4.0335,
+      "confidence": 0.0087
+    }
+  ],
+  "normalized_transcript": "STRUCTURAL MOUNTS INSIDE HAVE TO BE PROPERLY STRESS ANALYZED SO WE MAKE SURE ALL THAT HAPPENS",
+  "greedy_transcript": "",
+  "transcript_similarity": 0.0,
+  "mean_confidence": 0.01206875,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-NFrJFQijFE__1",
+  "transcript": "Structural mounts inside have to be properly stress analyzed so we make sure all that happens",
+  "model": "facebook/wav2vec2-base-960h"
+}

@@ -1,0 +1,391 @@
+{
+  "duration": 20.410375,
+  "words": [
+    {
+      "word": "This",
+      "char_start": 0,
+      "char_end": 4,
+      "spoken": "THIS",
+      "start": 0.5803,
+      "end": 0.6803,
+      "confidence": 0.9981
+    },
+    {
+      "word": "is",
+      "char_start": 5,
+      "char_end": 7,
+      "spoken": "IS",
+      "start": 0.7804,
+      "end": 0.8404,
+      "confidence": 0.9984
+    },
+    {
+      "word": "Governor",
+      "char_start": 8,
+      "char_end": 16,
+      "spoken": "GOVERNOR",
+      "start": 0.9005,
+      "end": 1.2006,
+      "confidence": 0.9648
+    },
+    {
+      "word": "Steve",
+      "char_start": 17,
+      "char_end": 22,
+      "spoken": "STEVE",
+      "start": 1.2606,
+      "end": 1.5608,
+      "confidence": 0.9541
+    },
+    {
+      "word": "Beshear",
+      "char_start": 23,
+      "char_end": 30,
+      "spoken": "BESHEAR",
+      "start": 1.6008,
+      "end": 2.001,
+      "confidence": 0.6864
+    },
+    {
+      "word": "About",
+      "char_start": 35,
+      "char_end": 40,
+      "spoken": "ABOUT",
+      "start": 2.6213,
+      "end": 2.8414,
+      "confidence": 0.9999
+    },
+    {
+      "word": "Kentucky",
+      "char_start": 41,
+      "char_end": 49,
+      "spoken": "KENTUCKY",
+      "start": 2.9415,
+      "end": 3.3817,
+      "confidence": 0.998
+    },
+    {
+      "word": "Our",
+      "char_start": 50,
+      "char_end": 53,
+      "spoken": "OUR",
+      "start": 4.4623,
+      "end": 4.5423,
+      "confidence": 0.9996
+    },
+    {
+      "word": "state",
+      "char_start": 54,
+      "char_end": 59,
+      "spoken": "STATE",
+      "start": 4.6223,
+      "end": 4.9025,
+      "confidence": 0.9946
+    },
+    {
+      "word": "is",
+      "char_start": 60,
+      "char_end": 62,
+      "spoken": "IS",
+      "start": 4.9825,
+      "end": 5.0426,
+      "confidence": 0.9985
+    },
+    {
+      "word": "home",
+      "char_start": 63,
+      "char_end": 67,
+      "spoken": "HOME",
+      "start": 5.1426,
+      "end": 5.4428,
+      "confidence": 0.967
+    },
+    {
+      "word": "to",
+      "char_start": 68,
+      "char_end": 70,
+      "spoken": "TO",
+      "start": 5.5428,
+      "end": 5.6229,
+      "confidence": 0.9999
+    },
+    {
+      "word": "more",
+      "char_start": 71,
+      "char_end": 75,
+      "spoken": "MORE",
+      "start": 5.7029,
+      "end": 5.883,
+      "confidence": 0.9761
+    },
+    {
+      "word": "than",
+      "char_start": 76,
+      "char_end": 80,
+      "spoken": "THAN",
+      "start": 5.923,
+      "end": 6.0631,
+      "confidence": 0.9838
+    },
+    {
+      "word": "1",
+      "char_start": 81,
+      "char_end": 82,
+      "spoken": "ONE",
+      "start": 6.0831,
+      "end": 6.1431,
+      "confidence": 0.0
+    },
+    {
+      "word": "500",
+      "char_start": 83,
+      "char_end": 86,
+      "spoken": "FIVE|ZERO|ZERO",
+      "start": 6.2232,
+      "end": 7.1036,
+      "confidence": 0.4374
+    },
+    {
+      "word": "bioscience",
+      "char_start": 87,
+      "char_end": 97,
+      "spoken": "BIOSCIENCE",
+      "start": 7.2837,
+      "end": 8.0641,
+      "confidence": 0.8557
+    },
+    {
+      "word": "and",
+      "char_start": 98,
+      "char_end": 101,
+      "spoken": "AND",
+      "start": 8.2642,
+      "end": 8.3442,
+      "confidence": 0.9993
+    },
+    {
+      "word": "lifescience",
+      "char_start": 102,
+      "char_end": 113,
+      "spoken": "LIFESCIENCE",
+      "start": 8.4643,
+      "end": 9.0246,
+      "confidence": 0.9445
+    },
+    {
+      "word": "companies",
+      "char_start": 114,
+      "char_end": 123,
+      "spoken": "COMPANIES",
+      "start": 9.1046,
+      "end": 9.5048,
+      "confidence": 0.9991
+    },
+    {
+      "word": "and",
+      "char_start": 124,
+      "char_end": 127,
+      "spoken": "AND",
+      "start": 10.0851,
+      "end": 10.1452,
+      "confidence": 0.9996
+    },
+    {
+      "word": "more",
+      "char_start": 128,
+      "char_end": 132,
+      "spoken": "MORE",
+      "start": 10.2252,
+      "end": 10.3853,
+      "confidence": 0.9797
+    },
+    {
+      "word": "than",
+      "char_start": 133,
+      "char_end": 137,
+      "spoken": "THAN",
+      "start": 10.4053,
+      "end": 10.5254,
+      "confidence": 0.9899
+    },
+    {
+      "word": "100",
+      "char_start": 138,
+      "char_end": 141,
+      "spoken": "ONE|ZERO|ZERO",
+      "start": 10.5854,
+      "end": 10.9256,
+      "confidence": 0.0948
+    },
+    {
+      "word": "000",
+      "char_start": 142,
+      "char_end": 145,
+      "spoken": "ZERO|ZERO|ZERO",
+      "start": 10.9456,
+      "end": 11.5058,
+      "confidence": 0.1442
+    },
+    {
+      "word": "people",
+      "char_start": 146,
+      "char_end": 152,
+      "spoken": "PEOPLE",
+      "start": 11.5659,
+      "end": 11.866,
+      "confidence": 0.9758
+    },
+    {
+      "word": "who",
+      "char_start": 153,
+      "char_end": 156,
+      "spoken": "WHO",
+      "start": 12.0661,
+      "end": 12.1662,
+      "confidence": 0.9401
+    },
+    {
+      "word": "work",
+      "char_start": 157,
+      "char_end": 161,
+      "spoken": "WORK",
+      "start": 12.2662,
+      "end": 12.4063,
+      "confidence": 0.9491
+    },
+    {
+      "word": "for",
+      "char_start": 162,
+      "char_end": 165,
+      "spoken": "FOR",
+      "start": 12.4863,
+      "end": 12.5664,
+      "confidence": 0.9831
+    },
+    {
+      "word": "these",
+      "char_start": 166,
+      "char_end": 171,
+      "spoken": "THESE",
+      "start": 12.6064,
+      "end": 12.7665,
+      "confidence": 0.9942
+    },
+    {
+      "word": "firms",
+      "char_start": 172,
+      "char_end": 177,
+      "spoken": "FIRMS",
+      "start": 12.8265,
+      "end": 13.2067,
+      "confidence": 0.9603
+    },
+    {
+      "word": "in",
+      "char_start": 179,
+      "char_end": 181,
+      "spoken": "IN",
+      "start": 13.9471,
+      "end": 14.0071,
+      "confidence": 0.9259
+    },
+    {
+      "word": "areas",
+      "char_start": 182,
+      "char_end": 187,
+      "spoken": "AREAS",
+      "start": 14.1872,
+      "end": 14.5474,
+      "confidence": 0.9904
+    },
+    {
+      "word": "from",
+      "char_start": 188,
+      "char_end": 192,
+      "spoken": "FROM",
+      "start": 14.6474,
+      "end": 14.8475,
+      "confidence": 0.9707
+    },
+    {
+      "word": "nutrigenomics",
+      "char_start": 193,
+      "char_end": 206,
+      "spoken": "NUTRIGENOMICS",
+      "start": 15.1877,
+      "end": 16.1082,
+      "confidence": 0.7899
+    },
+    {
+      "word": "and",
+      "char_start": 207,
+      "char_end": 210,
+      "spoken": "AND",
+      "start": 16.2683,
+      "end": 16.3483,
+      "confidence": 0.9995
+    },
+    {
+      "word": "pharmaceuticals",
+      "char_start": 211,
+      "char_end": 226,
+      "spoken": "PHARMACEUTICALS",
+      "start": 16.4284,
+      "end": 17.2488,
+      "confidence": 0.7386
+    },
+    {
+      "word": "to",
+      "char_start": 227,
+      "char_end": 229,
+      "spoken": "TO",
+      "start": 17.649,
+      "end": 17.749,
+      "confidence": 0.7127
+    },
+    {
+      "word": "nanotechnology",
+      "char_start": 230,
+      "char_end": 244,
+      "spoken": "NANOTECHNOLOGY",
+      "start": 17.789,
+      "end": 18.7695,
+      "confidence": 0.9617
+    },
+    {
+      "word": "and",
+      "char_start": 245,
+      "char_end": 248,
+      "spoken": "AND",
+      "start": 18.8296,
+      "end": 18.9096,
+      "confidence": 0.8978
+    },
+    {
+      "word": "medical",
+      "char_start": 249,
+      "char_end": 256,
+      "spoken": "MEDICAL",
+      "start": 18.9496,
+      "end": 19.2298,
+      "confidence": 0.9432
+    },
+    {
+      "word": "devices",
+      "char_start": 257,
+      "char_end": 264,
+      "spoken": "DEVICES",
+      "start": 19.2898,
+      "end": 19.7901,
+      "confidence": 0.8891
+    }
+  ],
+  "normalized_transcript": "THIS IS GOVERNOR STEVE BESHEAR ABOUT KENTUCKY OUR STATE IS HOME TO MORE THAN ONE FIVE ZERO ZERO BIOSCIENCE AND LIFESCIENCE COMPANIES AND MORE THAN ONE ZERO ZERO ZERO ZERO ZERO PEOPLE WHO WORK FOR THESE FIRMS IN AREAS FROM NUTRIGENOMICS AND PHARMACEUTICALS TO NANOTECHNOLOGY AND MEDICAL DEVICES",
+  "greedy_transcript": "THIS IS GOVERNOR STEVE BISHR ABOUT KENTUCKY OUR STATE IS HOME TO MORE THAN FIFTEEN HUNDRED BAO SCIENCE AND LIFE SCIENCE COMPANIES AND MORE THAN A HUNDRED THOUSAND PEOPLE WHO WORK FOR THESE FIRMS IN AREAS FROM NEUTRAGENOMIKES AND PARMOSUTICLES TENANO TECHNOLOGY AND MEDICAL DEVICES",
+  "transcript_similarity": 0.5514834205933682,
+  "mean_confidence": 0.8710833333333332,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-dxfTGcXJoc__0",
+  "transcript": "This is Governor Steve Beshear ... About Kentucky Our state is home to more than 1,500 bioscience and lifescience companies and more than 100,000 people who work for these firms, in areas from nutrigenomics and pharmaceuticals to nanotechnology and medical devices.",
+  "model": "facebook/wav2vec2-base-960h"
+}

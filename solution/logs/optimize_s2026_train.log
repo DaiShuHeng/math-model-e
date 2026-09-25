@@ -1,0 +1,257 @@
+Loading weights:   0%|          | 0/39 [00:00<?, ?it/s]Loading weights: 100%|██████████| 39/39 [00:00<00:00, 22171.03it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: /home/daishuheng/math_competition/models/bert-tiny
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.decoder.bias               | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+{
+  "training_ready": true,
+  "aligned_bytes": 993842861,
+  "splits": {
+    "train": {
+      "samples": 3395,
+      "class_counts": [
+        967,
+        758,
+        1670
+      ]
+    },
+    "valid": {
+      "samples": 728,
+      "class_counts": [
+        206,
+        184,
+        338
+      ]
+    },
+    "test": {
+      "samples": 727,
+      "class_counts": [
+        207,
+        158,
+        362
+      ]
+    }
+  },
+  "bert_dir": "/home/daishuheng/math_competition/models/bert-tiny",
+  "model_parameter_bytes_fp32": 18838404,
+  "cuda_available": true,
+  "torch": "2.14.0+cu130",
+  "q1_features": 100,
+  "attachment3_aligned_count": 30,
+  "attachment4_aligned_count": 20,
+  "q3_normalizer_valid": true,
+  "optional_for_q2_training": {
+    "bert_base_present": true,
+    "unaligned_present": true
+  }
+}
+Loading weights:   0%|          | 0/39 [00:00<?, ?it/s]Loading weights: 100%|██████████| 39/39 [00:00<00:00, 22111.09it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: /home/daishuheng/math_competition/models/bert-tiny
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.decoder.bias               | UNEXPECTED |  | 
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Starting baseline_cw (TRAIN/VALID only)
+Starting sqrt_cw (TRAIN/VALID only)
+Starting paired_cw (TRAIN/VALID only)
+Starting paired_consistency_cw (TRAIN/VALID only)
+Starting finetune_cw (TRAIN/VALID only)
+[
+  {
+    "name": "finetune_cw",
+    "seed": 2026,
+    "clean": {
+      "Accuracy": 0.5604395604395604,
+      "MacroF1": 0.548979411528518,
+      "WeightedF1": 0.5658636496669451,
+      "MAE": 0.6757828593254089,
+      "Pearson": 0.5240835662543372,
+      "head_agreement": 0.6648351648351648,
+      "gate_mean": [
+        0.6804425716400146,
+        0.1669185757637024,
+        0.15263865888118744
+      ]
+    },
+    "continuous_r20": {
+      "Accuracy": 0.5631868131868132,
+      "MacroF1": 0.555013747629452,
+      "WeightedF1": 0.5680404691784982,
+      "MAE": 0.6886680722236633,
+      "Pearson": 0.4984443091367471,
+      "head_agreement": 0.6414835164835165,
+      "gate_mean": [
+        0.679223895072937,
+        0.16979451477527618,
+        0.1509818434715271
+      ]
+    },
+    "score": 0.551996579578985,
+    "checkpoint_bytes": 18866751,
+    "wall_time_sec": 91.6,
+    "delta_score_vs_baseline": 0.0062280284070134195,
+    "delta_clean_mae_vs_baseline": 0.012631773948669434
+  },
+  {
+    "name": "baseline_cw",
+    "seed": 2026,
+    "clean": {
+      "Accuracy": 0.5673076923076923,
+      "MacroF1": 0.5553409998441099,
+      "WeightedF1": 0.5719873802093052,
+      "MAE": 0.6631510853767395,
+      "Pearson": 0.5211414461292285,
+      "head_agreement": 0.657967032967033,
+      "gate_mean": [
+        0.7027906179428101,
+        0.13753920793533325,
+        0.15967068076133728
+      ]
+    },
+    "continuous_r20": {
+      "Accuracy": 0.5508241758241759,
+      "MacroF1": 0.5361961024998332,
+      "WeightedF1": 0.5541417554033746,
+      "MAE": 0.6813433170318604,
+      "Pearson": 0.49334398595576634,
+      "head_agreement": 0.6771978021978022,
+      "gate_mean": [
+        0.715919554233551,
+        0.12549223005771637,
+        0.15858857333660126
+      ]
+    },
+    "score": 0.5457685511719715,
+    "checkpoint_bytes": 18866751,
+    "wall_time_sec": 60.3,
+    "delta_score_vs_baseline": 0.0,
+    "delta_clean_mae_vs_baseline": 0.0
+  },
+  {
+    "name": "paired_cw",
+    "seed": 2026,
+    "clean": {
+      "Accuracy": 0.5728021978021978,
+      "MacroF1": 0.5459324406609257,
+      "WeightedF1": 0.5705716338110319,
+      "MAE": 0.6758366227149963,
+      "Pearson": 0.5236347266986846,
+      "head_agreement": 0.695054945054945,
+      "gate_mean": [
+        0.7095798850059509,
+        0.14053085446357727,
+        0.1498889923095703
+      ]
+    },
+    "continuous_r20": {
+      "Accuracy": 0.5590659340659341,
+      "MacroF1": 0.5325960539534235,
+      "WeightedF1": 0.5550954556061436,
+      "MAE": 0.7003970742225647,
+      "Pearson": 0.49152020662845397,
+      "head_agreement": 0.6964285714285714,
+      "gate_mean": [
+        0.7304503917694092,
+        0.129349023103714,
+        0.14020024240016937
+      ]
+    },
+    "score": 0.5392642473071746,
+    "checkpoint_bytes": 18866751,
+    "wall_time_sec": 109.0,
+    "delta_score_vs_baseline": -0.006504303864796945,
+    "delta_clean_mae_vs_baseline": 0.012685537338256836
+  },
+  {
+    "name": "paired_consistency_cw",
+    "seed": 2026,
+    "clean": {
+      "Accuracy": 0.5370879120879121,
+      "MacroF1": 0.5328132699372528,
+      "WeightedF1": 0.5451646216999607,
+      "MAE": 0.6608841419219971,
+      "Pearson": 0.5237147341276158,
+      "head_agreement": 0.6057692307692307,
+      "gate_mean": [
+        0.6936914920806885,
+        0.14630067348480225,
+        0.16000771522521973
+      ]
+    },
+    "continuous_r20": {
+      "Accuracy": 0.5480769230769231,
+      "MacroF1": 0.5417966939315294,
+      "WeightedF1": 0.5536614499860347,
+      "MAE": 0.6774795055389404,
+      "Pearson": 0.4957773320399041,
+      "head_agreement": 0.6277472527472527,
+      "gate_mean": [
+        0.7171784043312073,
+        0.1315961331129074,
+        0.15122517943382263
+      ]
+    },
+    "score": 0.5373049819343911,
+    "checkpoint_bytes": 18866751,
+    "wall_time_sec": 98.2,
+    "delta_score_vs_baseline": -0.008463569237580404,
+    "delta_clean_mae_vs_baseline": -0.0022669434547424316
+  },
+  {
+    "name": "sqrt_cw",
+    "seed": 2026,
+    "clean": {
+      "Accuracy": 0.5782967032967034,
+      "MacroF1": 0.5403920126423728,
+      "WeightedF1": 0.5667376869371072,
+      "MAE": 0.6620613932609558,
+      "Pearson": 0.5218973824552064,
+      "head_agreement": 0.8173076923076923,
+      "gate_mean": [
+        0.6816524267196655,
+        0.1649819016456604,
+        0.15336568653583527
+      ]
+    },
+    "continuous_r20": {
+      "Accuracy": 0.5659340659340659,
+      "MacroF1": 0.5112942304217435,
+      "WeightedF1": 0.5440401700971061,
+      "MAE": 0.6780093312263489,
+      "Pearson": 0.49684670231687783,
+      "head_agreement": 0.8461538461538461,
+      "gate_mean": [
+        0.7006532549858093,
+        0.14952519536018372,
+        0.14982138574123383
+      ]
+    },
+    "score": 0.5258431215320581,
+    "checkpoint_bytes": 18866751,
+    "wall_time_sec": 61.3,
+    "delta_score_vs_baseline": -0.019925429639913395,
+    "delta_clean_mae_vs_baseline": -0.0010896921157836914
+  }
+]
+Pilot results only: confirm candidates with additional seeds and full validation missingness grid. Do not tune on TEST.

@@ -1,0 +1,103 @@
+{
+  "duration": 4.9084375,
+  "words": [
+    {
+      "word": "That",
+      "char_start": 0,
+      "char_end": 4,
+      "spoken": "THAT",
+      "start": 0.6411,
+      "end": 0.7813,
+      "confidence": 0.9125
+    },
+    {
+      "word": "brings",
+      "char_start": 5,
+      "char_end": 11,
+      "spoken": "BRINGS",
+      "start": 0.8615,
+      "end": 1.0618,
+      "confidence": 0.9535
+    },
+    {
+      "word": "us",
+      "char_start": 12,
+      "char_end": 14,
+      "spoken": "US",
+      "start": 1.142,
+      "end": 1.2021,
+      "confidence": 0.99
+    },
+    {
+      "word": "to",
+      "char_start": 15,
+      "char_end": 17,
+      "spoken": "TO",
+      "start": 1.2622,
+      "end": 1.3423,
+      "confidence": 0.9976
+    },
+    {
+      "word": "tonight",
+      "char_start": 18,
+      "char_end": 25,
+      "spoken": "TONIGHT",
+      "start": 1.4625,
+      "end": 1.8031,
+      "confidence": 0.9891
+    },
+    {
+      "word": "the",
+      "char_start": 27,
+      "char_end": 30,
+      "spoken": "THE",
+      "start": 1.8432,
+      "end": 1.9233,
+      "confidence": 0.9068
+    },
+    {
+      "word": "Universal",
+      "char_start": 31,
+      "char_end": 40,
+      "spoken": "UNIVERSAL",
+      "start": 2.0435,
+      "end": 2.5043,
+      "confidence": 0.9943
+    },
+    {
+      "word": "Design",
+      "char_start": 41,
+      "char_end": 47,
+      "spoken": "DESIGN",
+      "start": 2.6045,
+      "end": 3.0452,
+      "confidence": 0.9977
+    },
+    {
+      "word": "Grand",
+      "char_start": 48,
+      "char_end": 53,
+      "spoken": "GRAND",
+      "start": 3.3858,
+      "end": 3.6863,
+      "confidence": 0.9688
+    },
+    {
+      "word": "Challenge",
+      "char_start": 54,
+      "char_end": 63,
+      "spoken": "CHALLENGE",
+      "start": 3.7865,
+      "end": 4.2673,
+      "confidence": 0.9547
+    }
+  ],
+  "normalized_transcript": "THAT BRINGS US TO TONIGHT THE UNIVERSAL DESIGN GRAND CHALLENGE",
+  "greedy_transcript": "SO THAT BRINGS US TO TO NIGHT THE UNIVERSAL DESIGN GRAND CHALLENGE",
+  "transcript_similarity": 0.96875,
+  "mean_confidence": 0.9665000000000001,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "08",
+  "transcript": "That brings us to tonight, the Universal Design Grand Challenge",
+  "model": "facebook/wav2vec2-base-960h"
+}

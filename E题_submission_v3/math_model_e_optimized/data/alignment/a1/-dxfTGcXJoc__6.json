@@ -1,0 +1,265 @@
+{
+  "duration": 12.6284375,
+  "words": [
+    {
+      "word": "Kentucky’s",
+      "char_start": 0,
+      "char_end": 10,
+      "spoken": "KENTUCKY'S",
+      "start": 0.4203,
+      "end": 0.9206,
+      "confidence": 0.9942
+    },
+    {
+      "word": "participation",
+      "char_start": 11,
+      "char_end": 24,
+      "spoken": "PARTICIPATION",
+      "start": 0.9807,
+      "end": 1.7812,
+      "confidence": 0.9941
+    },
+    {
+      "word": "at",
+      "char_start": 25,
+      "char_end": 27,
+      "spoken": "AT",
+      "start": 1.9013,
+      "end": 1.9413,
+      "confidence": 0.9989
+    },
+    {
+      "word": "the",
+      "char_start": 28,
+      "char_end": 31,
+      "spoken": "THE",
+      "start": 2.0013,
+      "end": 2.1214,
+      "confidence": 0.9248
+    },
+    {
+      "word": "annual",
+      "char_start": 32,
+      "char_end": 38,
+      "spoken": "ANNUAL",
+      "start": 2.3416,
+      "end": 2.6418,
+      "confidence": 0.9466
+    },
+    {
+      "word": "BIO",
+      "char_start": 39,
+      "char_end": 42,
+      "spoken": "BIO",
+      "start": 2.7418,
+      "end": 2.962,
+      "confidence": 0.4837
+    },
+    {
+      "word": "International",
+      "char_start": 43,
+      "char_end": 56,
+      "spoken": "INTERNATIONAL",
+      "start": 3.1621,
+      "end": 3.7225,
+      "confidence": 0.9658
+    },
+    {
+      "word": "Convention",
+      "char_start": 57,
+      "char_end": 67,
+      "spoken": "CONVENTION",
+      "start": 3.7825,
+      "end": 4.2628,
+      "confidence": 0.9583
+    },
+    {
+      "word": "is",
+      "char_start": 68,
+      "char_end": 70,
+      "spoken": "IS",
+      "start": 4.8632,
+      "end": 4.9233,
+      "confidence": 0.9975
+    },
+    {
+      "word": "the",
+      "char_start": 71,
+      "char_end": 74,
+      "spoken": "THE",
+      "start": 5.0434,
+      "end": 5.1234,
+      "confidence": 0.9997
+    },
+    {
+      "word": "primary",
+      "char_start": 75,
+      "char_end": 82,
+      "spoken": "PRIMARY",
+      "start": 5.2035,
+      "end": 5.7038,
+      "confidence": 0.9724
+    },
+    {
+      "word": "means",
+      "char_start": 83,
+      "char_end": 88,
+      "spoken": "MEANS",
+      "start": 5.8039,
+      "end": 6.1641,
+      "confidence": 0.9508
+    },
+    {
+      "word": "by",
+      "char_start": 89,
+      "char_end": 91,
+      "spoken": "BY",
+      "start": 6.2642,
+      "end": 6.3843,
+      "confidence": 1.0
+    },
+    {
+      "word": "which",
+      "char_start": 92,
+      "char_end": 97,
+      "spoken": "WHICH",
+      "start": 6.4843,
+      "end": 6.7045,
+      "confidence": 0.9945
+    },
+    {
+      "word": "our",
+      "char_start": 98,
+      "char_end": 101,
+      "spoken": "OUR",
+      "start": 7.0047,
+      "end": 7.1248,
+      "confidence": 0.9428
+    },
+    {
+      "word": "high",
+      "char_start": 102,
+      "char_end": 106,
+      "spoken": "HIGH",
+      "start": 7.2248,
+      "end": 7.4049,
+      "confidence": 0.5367
+    },
+    {
+      "word": "tech",
+      "char_start": 107,
+      "char_end": 111,
+      "spoken": "TECH",
+      "start": 7.465,
+      "end": 7.6851,
+      "confidence": 0.7217
+    },
+    {
+      "word": "companies",
+      "char_start": 112,
+      "char_end": 121,
+      "spoken": "COMPANIES",
+      "start": 7.7652,
+      "end": 8.2055,
+      "confidence": 0.9855
+    },
+    {
+      "word": "and",
+      "char_start": 122,
+      "char_end": 125,
+      "spoken": "AND",
+      "start": 8.2855,
+      "end": 8.3656,
+      "confidence": 0.9989
+    },
+    {
+      "word": "institutions",
+      "char_start": 126,
+      "char_end": 138,
+      "spoken": "INSTITUTIONS",
+      "start": 8.4256,
+      "end": 9.1461,
+      "confidence": 0.9786
+    },
+    {
+      "word": "can",
+      "char_start": 139,
+      "char_end": 142,
+      "spoken": "CAN",
+      "start": 9.3663,
+      "end": 9.5064,
+      "confidence": 0.9809
+    },
+    {
+      "word": "reach",
+      "char_start": 143,
+      "char_end": 148,
+      "spoken": "REACH",
+      "start": 9.6264,
+      "end": 9.8466,
+      "confidence": 0.9888
+    },
+    {
+      "word": "out",
+      "char_start": 149,
+      "char_end": 152,
+      "spoken": "OUT",
+      "start": 10.0067,
+      "end": 10.1268,
+      "confidence": 0.9674
+    },
+    {
+      "word": "to",
+      "char_start": 153,
+      "char_end": 155,
+      "spoken": "TO",
+      "start": 10.2669,
+      "end": 10.3469,
+      "confidence": 0.9993
+    },
+    {
+      "word": "the",
+      "char_start": 156,
+      "char_end": 159,
+      "spoken": "THE",
+      "start": 10.427,
+      "end": 10.487,
+      "confidence": 0.9993
+    },
+    {
+      "word": "global",
+      "char_start": 160,
+      "char_end": 166,
+      "spoken": "GLOBAL",
+      "start": 10.547,
+      "end": 10.9073,
+      "confidence": 0.9925
+    },
+    {
+      "word": "scientific",
+      "char_start": 167,
+      "char_end": 177,
+      "spoken": "SCIENTIFIC",
+      "start": 10.9873,
+      "end": 11.5277,
+      "confidence": 0.9469
+    },
+    {
+      "word": "community",
+      "char_start": 178,
+      "char_end": 187,
+      "spoken": "COMMUNITY",
+      "start": 11.6078,
+      "end": 12.0681,
+      "confidence": 0.9818
+    }
+  ],
+  "normalized_transcript": "KENTUCKY'S PARTICIPATION AT THE ANNUAL BIO INTERNATIONAL CONVENTION IS THE PRIMARY MEANS BY WHICH OUR HIGH TECH COMPANIES AND INSTITUTIONS CAN REACH OUT TO THE GLOBAL SCIENTIFIC COMMUNITY",
+  "greedy_transcript": "KENTUCKY'S PARTICIPATION AT THE ANNUAL BO INTERNATIONAL CONVENTION IS THE PRIMARY MEANS BY WHICH OUR HI TEC COMPANIES AND INSTITUTIONS CAN REACH OUT TO THE GLOBAL SCIENTIFIC COMMUNITY",
+  "transcript_similarity": 0.9891891891891892,
+  "mean_confidence": 0.9358000000000001,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-dxfTGcXJoc__6",
+  "transcript": "Kentucky’s participation at the annual BIO International Convention is the primary means by which our high-tech companies and institutions can reach out to the global scientific community.",
+  "model": "facebook/wav2vec2-base-960h"
+}

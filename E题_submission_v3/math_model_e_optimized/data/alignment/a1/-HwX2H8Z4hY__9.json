@@ -1,0 +1,211 @@
+{
+  "duration": 7.6363125,
+  "words": [
+    {
+      "word": "It",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "IT",
+      "start": 0.5612,
+      "end": 0.6013,
+      "confidence": 0.9851
+    },
+    {
+      "word": "is",
+      "char_start": 3,
+      "char_end": 5,
+      "spoken": "IS",
+      "start": 0.6815,
+      "end": 0.7215,
+      "confidence": 0.9877
+    },
+    {
+      "word": "a",
+      "char_start": 6,
+      "char_end": 7,
+      "spoken": "A",
+      "start": 0.8418,
+      "end": 0.8618,
+      "confidence": 0.9473
+    },
+    {
+      "word": "word",
+      "char_start": 8,
+      "char_end": 12,
+      "spoken": "WORD",
+      "start": 0.922,
+      "end": 1.1625,
+      "confidence": 0.9933
+    },
+    {
+      "word": "which",
+      "char_start": 13,
+      "char_end": 18,
+      "spoken": "WHICH",
+      "start": 1.4431,
+      "end": 1.6034,
+      "confidence": 0.9359
+    },
+    {
+      "word": "the",
+      "char_start": 19,
+      "char_end": 22,
+      "spoken": "THE",
+      "start": 1.6636,
+      "end": 1.7437,
+      "confidence": 0.9537
+    },
+    {
+      "word": "administrator",
+      "char_start": 23,
+      "char_end": 36,
+      "spoken": "ADMINISTRATOR",
+      "start": 1.8039,
+      "end": 3.9284,
+      "confidence": 0.9083
+    },
+    {
+      "word": "uses",
+      "char_start": 37,
+      "char_end": 41,
+      "spoken": "USES",
+      "start": 4.0086,
+      "end": 4.2691,
+      "confidence": 0.6405
+    },
+    {
+      "word": "when",
+      "char_start": 42,
+      "char_end": 46,
+      "spoken": "WHEN",
+      "start": 4.3092,
+      "end": 4.4094,
+      "confidence": 0.8825
+    },
+    {
+      "word": "he",
+      "char_start": 47,
+      "char_end": 49,
+      "spoken": "HE",
+      "start": 4.4695,
+      "end": 4.5096,
+      "confidence": 0.87
+    },
+    {
+      "word": "turns",
+      "char_start": 50,
+      "char_end": 55,
+      "spoken": "TURNS",
+      "start": 4.5698,
+      "end": 4.8103,
+      "confidence": 0.9894
+    },
+    {
+      "word": "around",
+      "char_start": 56,
+      "char_end": 62,
+      "spoken": "AROUND",
+      "start": 4.8904,
+      "end": 5.1109,
+      "confidence": 0.7873
+    },
+    {
+      "word": "anything",
+      "char_start": 63,
+      "char_end": 71,
+      "spoken": "ANYTHING",
+      "start": 5.1911,
+      "end": 5.4917,
+      "confidence": 0.9622
+    },
+    {
+      "word": "which",
+      "char_start": 72,
+      "char_end": 77,
+      "spoken": "WHICH",
+      "start": 5.5118,
+      "end": 5.6521,
+      "confidence": 0.8622
+    },
+    {
+      "word": "he",
+      "char_start": 78,
+      "char_end": 80,
+      "spoken": "HE",
+      "start": 5.6922,
+      "end": 5.7322,
+      "confidence": 0.326
+    },
+    {
+      "word": "doesn't",
+      "char_start": 81,
+      "char_end": 88,
+      "spoken": "DOESN'T",
+      "start": 5.7924,
+      "end": 6.0128,
+      "confidence": 0.6233
+    },
+    {
+      "word": "like",
+      "char_start": 89,
+      "char_end": 93,
+      "spoken": "LIKE",
+      "start": 6.073,
+      "end": 6.2133,
+      "confidence": 0.9948
+    },
+    {
+      "word": "that",
+      "char_start": 94,
+      "char_end": 98,
+      "spoken": "THAT",
+      "start": 6.2934,
+      "end": 6.3736,
+      "confidence": 0.2474
+    },
+    {
+      "word": "the",
+      "char_start": 99,
+      "char_end": 102,
+      "spoken": "THE",
+      "start": 6.3937,
+      "end": 6.4538,
+      "confidence": 0.043
+    },
+    {
+      "word": "teacher",
+      "char_start": 103,
+      "char_end": 110,
+      "spoken": "TEACHER",
+      "start": 6.4738,
+      "end": 6.7544,
+      "confidence": 0.7742
+    },
+    {
+      "word": "is",
+      "char_start": 111,
+      "char_end": 113,
+      "spoken": "IS",
+      "start": 6.8146,
+      "end": 6.8546,
+      "confidence": 0.6742
+    },
+    {
+      "word": "doing",
+      "char_start": 114,
+      "char_end": 119,
+      "spoken": "DOING",
+      "start": 6.8947,
+      "end": 7.1152,
+      "confidence": 0.6796
+    }
+  ],
+  "normalized_transcript": "IT IS A WORD WHICH THE ADMINISTRATOR USES WHEN HE TURNS AROUND ANYTHING WHICH HE DOESN'T LIKE THAT THE TEACHER IS DOING",
+  "greedy_transcript": "IT IS A WORD WITH WHICH THE ADMINISTRATOR YOU IN WHICH THE ADMINISTRATOR YOUSES WHEN HE TURNS ROUND ANYTHING WHICH YOU DOULDN'T LIKE TO TEACH YOU HIS DOIN HE SAYS YOU WI",
+  "transcript_similarity": 0.7222222222222222,
+  "mean_confidence": 0.7758136363636363,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-HwX2H8Z4hY__9",
+  "transcript": "It is a word which the administrator uses when he turns around anything which he doesn't like that the teacher is doing",
+  "model": "facebook/wav2vec2-base-960h"
+}

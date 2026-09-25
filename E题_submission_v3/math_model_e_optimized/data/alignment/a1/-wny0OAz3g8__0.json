@@ -1,0 +1,94 @@
+{
+  "duration": 3.274,
+  "words": [
+    {
+      "word": "trade",
+      "char_start": 0,
+      "char_end": 5,
+      "spoken": "TRADE",
+      "start": 0.3214,
+      "end": 0.5021,
+      "confidence": 0.9124
+    },
+    {
+      "word": "labor",
+      "char_start": 6,
+      "char_end": 11,
+      "spoken": "LABOR",
+      "start": 0.5423,
+      "end": 0.7231,
+      "confidence": 0.9219
+    },
+    {
+      "word": "unions",
+      "char_start": 12,
+      "char_end": 18,
+      "spoken": "UNIONS",
+      "start": 0.8235,
+      "end": 1.0646,
+      "confidence": 0.9849
+    },
+    {
+      "word": "didn’t",
+      "char_start": 19,
+      "char_end": 25,
+      "spoken": "DIDN'T",
+      "start": 1.1449,
+      "end": 1.3658,
+      "confidence": 0.9946
+    },
+    {
+      "word": "allow",
+      "char_start": 26,
+      "char_end": 31,
+      "spoken": "ALLOW",
+      "start": 1.4462,
+      "end": 1.6671,
+      "confidence": 0.9999
+    },
+    {
+      "word": "Black",
+      "char_start": 32,
+      "char_end": 37,
+      "spoken": "BLACK",
+      "start": 1.7676,
+      "end": 1.9483,
+      "confidence": 0.92
+    },
+    {
+      "word": "workers",
+      "char_start": 38,
+      "char_end": 45,
+      "spoken": "WORKERS",
+      "start": 2.0086,
+      "end": 2.3099,
+      "confidence": 0.9637
+    },
+    {
+      "word": "to",
+      "char_start": 46,
+      "char_end": 48,
+      "spoken": "TO",
+      "start": 2.35,
+      "end": 2.4304,
+      "confidence": 0.9599
+    },
+    {
+      "word": "join",
+      "char_start": 49,
+      "char_end": 53,
+      "spoken": "JOIN",
+      "start": 2.4907,
+      "end": 2.7116,
+      "confidence": 0.9963
+    }
+  ],
+  "normalized_transcript": "TRADE LABOR UNIONS DIDN'T ALLOW BLACK WORKERS TO JOIN",
+  "greedy_transcript": "TRADE LABOR UNIONS DIDN'T ALLOW BLACK WORKERS TO JOIN AND BECAUSE",
+  "transcript_similarity": 0.8983050847457628,
+  "mean_confidence": 0.9615111111111112,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-wny0OAz3g8__0",
+  "transcript": "trade labor unions didn’t allow Black workers to join",
+  "model": "facebook/wav2vec2-base-960h"
+}

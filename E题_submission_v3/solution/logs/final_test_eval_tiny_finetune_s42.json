@@ -1,0 +1,41 @@
+{
+  "protocol_version": "continuous_blocks_v3_no_special_fit",
+  "checkpoints": [
+    "weights/optimization_s2026/finetune_cw_s42/best.pt"
+  ],
+  "n_test": 727,
+  "test": {
+    "clean": {
+      "Accuracy": 0.5708390646492435,
+      "MacroF1": 0.5400459951962223,
+      "WeightedF1": 0.5770099175731467,
+      "MAE": 0.7536393404006958,
+      "Pearson": 0.5193964674799411,
+      "head_agreement": 0.7070151306740028
+    },
+    "pool": {
+      "Accuracy": 0.5612104539202201,
+      "MacroF1": 0.5312503344078755,
+      "WeightedF1": 0.5660590332030566,
+      "MAE": 0.7634263634681702,
+      "Pearson": 0.4997301879609897,
+      "head_agreement": 0.7111416781292985
+    },
+    "r20": {
+      "Accuracy": 0.5557083906464925,
+      "MacroF1": 0.5286955614666458,
+      "WeightedF1": 0.563102953624821,
+      "MAE": 0.7676315307617188,
+      "Pearson": 0.48607081011149633,
+      "head_agreement": 0.6836313617606602
+    },
+    "r40": {
+      "Accuracy": 0.547455295735901,
+      "MacroF1": 0.516209431594047,
+      "WeightedF1": 0.5532639088770716,
+      "MAE": 0.7726666331291199,
+      "Pearson": 0.46635048305457516,
+      "head_agreement": 0.6960110041265475
+    }
+  }
+}

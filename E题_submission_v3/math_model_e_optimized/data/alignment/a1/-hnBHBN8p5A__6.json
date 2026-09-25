@@ -1,0 +1,130 @@
+{
+  "duration": 6.3328125,
+  "words": [
+    {
+      "word": "Discussion",
+      "char_start": 0,
+      "char_end": 10,
+      "spoken": "DISCUSSION",
+      "start": 0.3006,
+      "end": 0.6213,
+      "confidence": 0.0996
+    },
+    {
+      "word": "how",
+      "char_start": 12,
+      "char_end": 15,
+      "spoken": "HOW",
+      "start": 0.6814,
+      "end": 0.8016,
+      "confidence": 0.3332
+    },
+    {
+      "word": "to",
+      "char_start": 16,
+      "char_end": 18,
+      "spoken": "TO",
+      "start": 0.8617,
+      "end": 0.9219,
+      "confidence": 0.0999
+    },
+    {
+      "word": "discuss",
+      "char_start": 19,
+      "char_end": 26,
+      "spoken": "DISCUSS",
+      "start": 0.9419,
+      "end": 1.2425,
+      "confidence": 0.3745
+    },
+    {
+      "word": "ideas",
+      "char_start": 27,
+      "char_end": 32,
+      "spoken": "IDEAS",
+      "start": 1.6032,
+      "end": 1.7235,
+      "confidence": 0.1885
+    },
+    {
+      "word": "and",
+      "char_start": 33,
+      "char_end": 36,
+      "spoken": "AND",
+      "start": 1.7636,
+      "end": 1.8437,
+      "confidence": 0.0141
+    },
+    {
+      "word": "opinions",
+      "char_start": 37,
+      "char_end": 45,
+      "spoken": "OPINIONS",
+      "start": 1.8638,
+      "end": 2.2045,
+      "confidence": 0.4767
+    },
+    {
+      "word": "more",
+      "char_start": 46,
+      "char_end": 50,
+      "spoken": "MORE",
+      "start": 3.8879,
+      "end": 4.0682,
+      "confidence": 0.3457
+    },
+    {
+      "word": "effectively",
+      "char_start": 51,
+      "char_end": 62,
+      "spoken": "EFFECTIVELY",
+      "start": 4.1284,
+      "end": 4.5492,
+      "confidence": 0.2414
+    },
+    {
+      "word": "than",
+      "char_start": 63,
+      "char_end": 67,
+      "spoken": "THAN",
+      "start": 4.6294,
+      "end": 4.8899,
+      "confidence": 0.2499
+    },
+    {
+      "word": "a",
+      "char_start": 68,
+      "char_end": 69,
+      "spoken": "A",
+      "start": 5.7516,
+      "end": 5.7717,
+      "confidence": 0.9754
+    },
+    {
+      "word": "native",
+      "char_start": 70,
+      "char_end": 76,
+      "spoken": "NATIVE",
+      "start": 5.8919,
+      "end": 6.0322,
+      "confidence": 0.1665
+    },
+    {
+      "word": "speaker",
+      "char_start": 77,
+      "char_end": 84,
+      "spoken": "SPEAKER",
+      "start": 6.0522,
+      "end": 6.3328,
+      "confidence": 0.1443
+    }
+  ],
+  "normalized_transcript": "DISCUSSION HOW TO DISCUSS IDEAS AND OPINIONS MORE EFFECTIVELY THAN A NATIVE SPEAKER",
+  "greedy_transcript": "TO FOLLOW JUST ONE RISION YU NEVER WONDERED HOW A SINGLE B",
+  "transcript_similarity": 0.24113475177304963,
+  "mean_confidence": 0.28536153846153844,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-hnBHBN8p5A__6",
+  "transcript": "Discussion, how to discuss ideas and opinions more effectively than a native speaker",
+  "model": "facebook/wav2vec2-base-960h"
+}

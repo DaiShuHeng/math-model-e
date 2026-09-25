@@ -1,0 +1,310 @@
+{
+  "duration": 13.6108125,
+  "words": [
+    {
+      "word": "People",
+      "char_start": 0,
+      "char_end": 6,
+      "spoken": "PEOPLE",
+      "start": 0.5204,
+      "end": 0.7206,
+      "confidence": 0.9992
+    },
+    {
+      "word": "are",
+      "char_start": 7,
+      "char_end": 10,
+      "spoken": "ARE",
+      "start": 0.7606,
+      "end": 0.8407,
+      "confidence": 0.9282
+    },
+    {
+      "word": "surprisingly",
+      "char_start": 11,
+      "char_end": 23,
+      "spoken": "SURPRISINGLY",
+      "start": 0.9608,
+      "end": 1.7014,
+      "confidence": 0.9949
+    },
+    {
+      "word": "forgiving",
+      "char_start": 24,
+      "char_end": 33,
+      "spoken": "FORGIVING",
+      "start": 1.8014,
+      "end": 2.2218,
+      "confidence": 0.9969
+    },
+    {
+      "word": "brands",
+      "char_start": 34,
+      "char_end": 40,
+      "spoken": "BRANDS",
+      "start": 2.3619,
+      "end": 2.7422,
+      "confidence": 0.9959
+    },
+    {
+      "word": "when",
+      "char_start": 41,
+      "char_end": 45,
+      "spoken": "WHEN",
+      "start": 2.8222,
+      "end": 2.9423,
+      "confidence": 0.9862
+    },
+    {
+      "word": "they",
+      "char_start": 46,
+      "char_end": 50,
+      "spoken": "THEY",
+      "start": 2.9824,
+      "end": 3.1025,
+      "confidence": 0.9814
+    },
+    {
+      "word": "own",
+      "char_start": 51,
+      "char_end": 54,
+      "spoken": "OWN",
+      "start": 3.3026,
+      "end": 3.4227,
+      "confidence": 0.9976
+    },
+    {
+      "word": "up",
+      "char_start": 55,
+      "char_end": 57,
+      "spoken": "UP",
+      "start": 3.6029,
+      "end": 3.6829,
+      "confidence": 0.8391
+    },
+    {
+      "word": "to",
+      "char_start": 58,
+      "char_end": 60,
+      "spoken": "TO",
+      "start": 3.763,
+      "end": 3.8431,
+      "confidence": 0.9988
+    },
+    {
+      "word": "mistakes",
+      "char_start": 61,
+      "char_end": 69,
+      "spoken": "MISTAKES",
+      "start": 3.9031,
+      "end": 4.4035,
+      "confidence": 0.9725
+    },
+    {
+      "word": "and",
+      "char_start": 71,
+      "char_end": 74,
+      "spoken": "AND",
+      "start": 5.2041,
+      "end": 5.2642,
+      "confidence": 0.9936
+    },
+    {
+      "word": "unfortunately",
+      "char_start": 75,
+      "char_end": 88,
+      "spoken": "UNFORTUNATELY",
+      "start": 5.3442,
+      "end": 6.0648,
+      "confidence": 0.9703
+    },
+    {
+      "word": "some",
+      "char_start": 89,
+      "char_end": 93,
+      "spoken": "SOME",
+      "start": 6.1449,
+      "end": 6.305,
+      "confidence": 0.9311
+    },
+    {
+      "word": "haters",
+      "char_start": 94,
+      "char_end": 100,
+      "spoken": "HATERS",
+      "start": 6.3851,
+      "end": 6.7454,
+      "confidence": 0.9902
+    },
+    {
+      "word": "out",
+      "char_start": 101,
+      "char_end": 104,
+      "spoken": "OUT",
+      "start": 6.8254,
+      "end": 6.9255,
+      "confidence": 0.9722
+    },
+    {
+      "word": "there",
+      "char_start": 105,
+      "char_end": 110,
+      "spoken": "THERE",
+      "start": 6.9855,
+      "end": 7.1457,
+      "confidence": 0.863
+    },
+    {
+      "word": "love",
+      "char_start": 111,
+      "char_end": 115,
+      "spoken": "LOVE",
+      "start": 7.606,
+      "end": 7.8262,
+      "confidence": 0.9929
+    },
+    {
+      "word": "to",
+      "char_start": 116,
+      "char_end": 118,
+      "spoken": "TO",
+      "start": 8.0664,
+      "end": 8.1465,
+      "confidence": 0.9998
+    },
+    {
+      "word": "point",
+      "char_start": 119,
+      "char_end": 124,
+      "spoken": "POINT",
+      "start": 8.2065,
+      "end": 8.4067,
+      "confidence": 0.9993
+    },
+    {
+      "word": "fingers",
+      "char_start": 125,
+      "char_end": 132,
+      "spoken": "FINGERS",
+      "start": 8.5068,
+      "end": 8.8871,
+      "confidence": 0.9731
+    },
+    {
+      "word": "and",
+      "char_start": 133,
+      "char_end": 136,
+      "spoken": "AND",
+      "start": 9.0072,
+      "end": 9.0872,
+      "confidence": 0.9996
+    },
+    {
+      "word": "jump",
+      "char_start": 137,
+      "char_end": 141,
+      "spoken": "JUMP",
+      "start": 9.1673,
+      "end": 9.3274,
+      "confidence": 1.0
+    },
+    {
+      "word": "all",
+      "char_start": 142,
+      "char_end": 145,
+      "spoken": "ALL",
+      "start": 9.5276,
+      "end": 9.6477,
+      "confidence": 0.9998
+    },
+    {
+      "word": "over",
+      "char_start": 146,
+      "char_end": 150,
+      "spoken": "OVER",
+      "start": 9.7477,
+      "end": 9.9079,
+      "confidence": 0.9697
+    },
+    {
+      "word": "imperfections",
+      "char_start": 151,
+      "char_end": 164,
+      "spoken": "IMPERFECTIONS",
+      "start": 9.9879,
+      "end": 10.7085,
+      "confidence": 0.9644
+    },
+    {
+      "word": "but",
+      "char_start": 166,
+      "char_end": 169,
+      "spoken": "BUT",
+      "start": 11.2089,
+      "end": 11.309,
+      "confidence": 0.9745
+    },
+    {
+      "word": "for",
+      "char_start": 170,
+      "char_end": 173,
+      "spoken": "FOR",
+      "start": 11.349,
+      "end": 11.4291,
+      "confidence": 0.9995
+    },
+    {
+      "word": "the",
+      "char_start": 174,
+      "char_end": 177,
+      "spoken": "THE",
+      "start": 11.4891,
+      "end": 11.5492,
+      "confidence": 0.9938
+    },
+    {
+      "word": "most",
+      "char_start": 178,
+      "char_end": 182,
+      "spoken": "MOST",
+      "start": 11.5892,
+      "end": 11.7693,
+      "confidence": 0.9182
+    },
+    {
+      "word": "part",
+      "char_start": 183,
+      "char_end": 187,
+      "spoken": "PART",
+      "start": 11.8294,
+      "end": 12.0095,
+      "confidence": 0.9811
+    },
+    {
+      "word": "people",
+      "char_start": 189,
+      "char_end": 195,
+      "spoken": "PEOPLE",
+      "start": 12.1096,
+      "end": 12.3498,
+      "confidence": 0.9774
+    },
+    {
+      "word": "understand",
+      "char_start": 196,
+      "char_end": 206,
+      "spoken": "UNDERSTAND",
+      "start": 12.4499,
+      "end": 13.0704,
+      "confidence": 0.6763
+    }
+  ],
+  "normalized_transcript": "PEOPLE ARE SURPRISINGLY FORGIVING BRANDS WHEN THEY OWN UP TO MISTAKES AND UNFORTUNATELY SOME HATERS OUT THERE LOVE TO POINT FINGERS AND JUMP ALL OVER IMPERFECTIONS BUT FOR THE MOST PART PEOPLE UNDERSTAND",
+  "greedy_transcript": "PEOPLE ARE SURPRISINGLY FORGIVING BRANDS WHEN THEY OWN UP TO MISTAKES AND UNFORTUNATELY SOME HATERS OUT THEIR LOVE TO POINT FINGERS AND JUMP ALL OVER IMPERFECTIONS BUT FOR THE MOST PART PEOPLE UNDERSTAND PE",
+  "transcript_similarity": 0.9828850855745721,
+  "mean_confidence": 0.9645606060606061,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "19",
+  "transcript": "People are surprisingly forgiving brands when they own up to mistakes, and unfortunately some haters out there love to point fingers and jump all over imperfections, but for the most part, people understand",
+  "model": "facebook/wav2vec2-base-960h"
+}

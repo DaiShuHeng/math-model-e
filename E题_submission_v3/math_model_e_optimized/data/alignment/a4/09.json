@@ -1,0 +1,139 @@
+{
+  "duration": 4.9643125,
+  "words": [
+    {
+      "word": "uhh",
+      "char_start": 1,
+      "char_end": 4,
+      "spoken": "UHH",
+      "start": 0.4824,
+      "end": 0.8441,
+      "confidence": 0.2755
+    },
+    {
+      "word": "I",
+      "char_start": 6,
+      "char_end": 7,
+      "spoken": "I",
+      "start": 1.1255,
+      "end": 1.1456,
+      "confidence": 0.9999
+    },
+    {
+      "word": "did",
+      "char_start": 8,
+      "char_end": 11,
+      "spoken": "DID",
+      "start": 1.226,
+      "end": 1.3265,
+      "confidence": 0.9929
+    },
+    {
+      "word": "not",
+      "char_start": 12,
+      "char_end": 15,
+      "spoken": "NOT",
+      "start": 1.3667,
+      "end": 1.4672,
+      "confidence": 0.9106
+    },
+    {
+      "word": "like",
+      "char_start": 16,
+      "char_end": 20,
+      "spoken": "LIKE",
+      "start": 1.4873,
+      "end": 1.6079,
+      "confidence": 0.9367
+    },
+    {
+      "word": "this",
+      "char_start": 21,
+      "char_end": 25,
+      "spoken": "THIS",
+      "start": 1.6481,
+      "end": 1.7486,
+      "confidence": 0.8105
+    },
+    {
+      "word": "movie",
+      "char_start": 26,
+      "char_end": 31,
+      "spoken": "MOVIE",
+      "start": 1.8893,
+      "end": 2.251,
+      "confidence": 0.8334
+    },
+    {
+      "word": "at",
+      "char_start": 32,
+      "char_end": 34,
+      "spoken": "AT",
+      "start": 2.2912,
+      "end": 2.3314,
+      "confidence": 0.9033
+    },
+    {
+      "word": "all",
+      "char_start": 35,
+      "char_end": 38,
+      "spoken": "ALL",
+      "start": 2.5324,
+      "end": 2.653,
+      "confidence": 0.9897
+    },
+    {
+      "word": "I",
+      "char_start": 40,
+      "char_end": 41,
+      "spoken": "I",
+      "start": 2.8138,
+      "end": 2.8339,
+      "confidence": 0.9979
+    },
+    {
+      "word": "would",
+      "char_start": 42,
+      "char_end": 47,
+      "spoken": "WOULD",
+      "start": 2.8942,
+      "end": 3.0349,
+      "confidence": 0.9616
+    },
+    {
+      "word": "not",
+      "char_start": 48,
+      "char_end": 51,
+      "spoken": "NOT",
+      "start": 3.055,
+      "end": 3.1555,
+      "confidence": 0.9879
+    },
+    {
+      "word": "recommend",
+      "char_start": 52,
+      "char_end": 61,
+      "spoken": "RECOMMEND",
+      "start": 3.2157,
+      "end": 3.6378,
+      "confidence": 0.9986
+    },
+    {
+      "word": "it",
+      "char_start": 62,
+      "char_end": 64,
+      "spoken": "IT",
+      "start": 4.1403,
+      "end": 4.3614,
+      "confidence": 0.3994
+    }
+  ],
+  "normalized_transcript": "UHH I DID NOT LIKE THIS MOVIE AT ALL I WOULD NOT RECOMMEND IT",
+  "greedy_transcript": "AH I DID NOT LIKE THIS MOVIE AT ALL I WOULD NOT RECOMMEND IT I ONLY WATCH",
+  "transcript_similarity": 0.8805970149253731,
+  "mean_confidence": 0.8569928571428571,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "09",
+  "transcript": "(uhh) I did not like this movie at all, I would not recommend it",
+  "model": "facebook/wav2vec2-base-960h"
+}

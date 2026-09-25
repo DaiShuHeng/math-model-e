@@ -1,0 +1,2 @@
+正式提交候选包。含：双仓库代码、Q1 特征(npz×100)与对齐JSON、修订协议 Tiny Q2 模型权重(自包含checkpoint)、附件3预测CSV、附件4 Shapley与重算互证、秒级证据表、验证/测试记录JSON。
+G1-G4 验收明细见 MANIFEST.json。预训练编码器与数据按 solution/提交说明.md 固定版本获取。

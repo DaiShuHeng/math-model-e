@@ -1,0 +1,103 @@
+{
+  "duration": 4.230875,
+  "words": [
+    {
+      "word": "I",
+      "char_start": 0,
+      "char_end": 1,
+      "spoken": "I",
+      "start": 0.0401,
+      "end": 0.0602,
+      "confidence": 0.7832
+    },
+    {
+      "word": "think",
+      "char_start": 2,
+      "char_end": 7,
+      "spoken": "THINK",
+      "start": 0.1604,
+      "end": 0.381,
+      "confidence": 0.9996
+    },
+    {
+      "word": "social",
+      "char_start": 8,
+      "char_end": 14,
+      "spoken": "SOCIAL",
+      "start": 1.2031,
+      "end": 1.4437,
+      "confidence": 0.9758
+    },
+    {
+      "word": "justice",
+      "char_start": 15,
+      "char_end": 22,
+      "spoken": "JUSTICE",
+      "start": 1.5039,
+      "end": 1.7846,
+      "confidence": 0.9786
+    },
+    {
+      "word": "is",
+      "char_start": 23,
+      "char_end": 25,
+      "spoken": "IS",
+      "start": 1.8648,
+      "end": 1.9049,
+      "confidence": 0.9995
+    },
+    {
+      "word": "extremely",
+      "char_start": 26,
+      "char_end": 35,
+      "spoken": "EXTREMELY",
+      "start": 1.9851,
+      "end": 2.3661,
+      "confidence": 0.9845
+    },
+    {
+      "word": "important",
+      "char_start": 36,
+      "char_end": 45,
+      "spoken": "IMPORTANT",
+      "start": 2.4262,
+      "end": 2.7872,
+      "confidence": 0.9999
+    },
+    {
+      "word": "for",
+      "char_start": 46,
+      "char_end": 49,
+      "spoken": "FOR",
+      "start": 2.8674,
+      "end": 2.9877,
+      "confidence": 0.9993
+    },
+    {
+      "word": "young",
+      "char_start": 50,
+      "char_end": 55,
+      "spoken": "YOUNG",
+      "start": 3.0879,
+      "end": 3.2483,
+      "confidence": 0.9993
+    },
+    {
+      "word": "people",
+      "char_start": 56,
+      "char_end": 62,
+      "spoken": "PEOPLE",
+      "start": 3.3286,
+      "end": 3.7095,
+      "confidence": 0.7121
+    }
+  ],
+  "normalized_transcript": "I THINK SOCIAL JUSTICE IS EXTREMELY IMPORTANT FOR YOUNG PEOPLE",
+  "greedy_transcript": "I THINK A SOCIAL JUSTICE IS EXTREMELY IMPORTANT FOR YOUNG PEOPLE",
+  "transcript_similarity": 0.9841269841269841,
+  "mean_confidence": 0.9431799999999999,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-THoVjtIkeU__2",
+  "transcript": "I think social justice is extremely important for young people.",
+  "model": "facebook/wav2vec2-base-960h"
+}

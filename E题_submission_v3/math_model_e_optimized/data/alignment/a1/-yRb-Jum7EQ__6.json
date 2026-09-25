@@ -1,0 +1,184 @@
+{
+  "duration": 11.2425625,
+  "words": [
+    {
+      "word": "Therefore",
+      "char_start": 0,
+      "char_end": 9,
+      "spoken": "THEREFORE",
+      "start": 0.4008,
+      "end": 0.7014,
+      "confidence": 0.28
+    },
+    {
+      "word": "the",
+      "char_start": 11,
+      "char_end": 14,
+      "spoken": "THE",
+      "start": 0.7415,
+      "end": 0.8216,
+      "confidence": 0.0127
+    },
+    {
+      "word": "world",
+      "char_start": 15,
+      "char_end": 20,
+      "spoken": "WORLD",
+      "start": 0.8818,
+      "end": 1.0221,
+      "confidence": 0.1556
+    },
+    {
+      "word": "needs",
+      "char_start": 21,
+      "char_end": 26,
+      "spoken": "NEEDS",
+      "start": 1.0421,
+      "end": 1.1623,
+      "confidence": 0.0026
+    },
+    {
+      "word": "to",
+      "char_start": 27,
+      "char_end": 29,
+      "spoken": "TO",
+      "start": 1.1824,
+      "end": 1.2826,
+      "confidence": 0.2638
+    },
+    {
+      "word": "stand",
+      "char_start": 30,
+      "char_end": 35,
+      "spoken": "STAND",
+      "start": 1.3227,
+      "end": 1.7235,
+      "confidence": 0.2956
+    },
+    {
+      "word": "with",
+      "char_start": 36,
+      "char_end": 40,
+      "spoken": "WITH",
+      "start": 1.7836,
+      "end": 2.004,
+      "confidence": 0.0051
+    },
+    {
+      "word": "Israel",
+      "char_start": 41,
+      "char_end": 47,
+      "spoken": "ISRAEL",
+      "start": 2.3046,
+      "end": 2.8257,
+      "confidence": 0.4655
+    },
+    {
+      "word": "against",
+      "char_start": 48,
+      "char_end": 55,
+      "spoken": "AGAINST",
+      "start": 3.8076,
+      "end": 4.3688,
+      "confidence": 0.3958
+    },
+    {
+      "word": "this",
+      "char_start": 56,
+      "char_end": 60,
+      "spoken": "THIS",
+      "start": 4.4088,
+      "end": 4.6894,
+      "confidence": 0.3522
+    },
+    {
+      "word": "incitement",
+      "char_start": 61,
+      "char_end": 71,
+      "spoken": "INCITEMENT",
+      "start": 5.5311,
+      "end": 6.6734,
+      "confidence": 0.1628
+    },
+    {
+      "word": "which",
+      "char_start": 73,
+      "char_end": 78,
+      "spoken": "WHICH",
+      "start": 6.7135,
+      "end": 7.0542,
+      "confidence": 0.2281
+    },
+    {
+      "word": "is",
+      "char_start": 79,
+      "char_end": 81,
+      "spoken": "IS",
+      "start": 7.1143,
+      "end": 7.1944,
+      "confidence": 0.0035
+    },
+    {
+      "word": "the",
+      "char_start": 82,
+      "char_end": 85,
+      "spoken": "THE",
+      "start": 7.5552,
+      "end": 7.7756,
+      "confidence": 0.3302
+    },
+    {
+      "word": "number",
+      "char_start": 86,
+      "char_end": 92,
+      "spoken": "NUMBER",
+      "start": 9.7596,
+      "end": 9.9399,
+      "confidence": 0.3361
+    },
+    {
+      "word": "one",
+      "char_start": 93,
+      "char_end": 96,
+      "spoken": "ONE",
+      "start": 9.96,
+      "end": 10.0401,
+      "confidence": 0.2489
+    },
+    {
+      "word": "cause",
+      "char_start": 97,
+      "char_end": 102,
+      "spoken": "CAUSE",
+      "start": 10.1604,
+      "end": 10.3207,
+      "confidence": 0.3693
+    },
+    {
+      "word": "of",
+      "char_start": 103,
+      "char_end": 105,
+      "spoken": "OF",
+      "start": 10.461,
+      "end": 10.5011,
+      "confidence": 0.0719
+    },
+    {
+      "word": "terrorism",
+      "char_start": 106,
+      "char_end": 115,
+      "spoken": "TERRORISM",
+      "start": 10.5211,
+      "end": 11.0021,
+      "confidence": 0.0205
+    }
+  ],
+  "normalized_transcript": "THEREFORE THE WORLD NEEDS TO STAND WITH ISRAEL AGAINST THIS INCITEMENT WHICH IS THE NUMBER ONE CAUSE OF TERRORISM",
+  "greedy_transcript": "TE LAQENA WILL AMTAFLITYETSE IMISOIL NEGEDA SATAZOV SHE GOEM MISPAVIRAD LOTEVO NIMO DELOCANT TE DALABA",
+  "transcript_similarity": 0.21395348837209302,
+  "mean_confidence": 0.21053684210526313,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-yRb-Jum7EQ__6",
+  "transcript": "Therefore, the world needs to stand with Israel against this incitement, which is the number one cause of terrorism.",
+  "model": "facebook/wav2vec2-base-960h"
+}

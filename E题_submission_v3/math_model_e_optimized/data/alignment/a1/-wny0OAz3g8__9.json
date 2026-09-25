@@ -1,0 +1,193 @@
+{
+  "duration": 6.0435,
+  "words": [
+    {
+      "word": "He",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "HE",
+      "start": 0.0803,
+      "end": 0.3815,
+      "confidence": 0.001
+    },
+    {
+      "word": "explores",
+      "char_start": 3,
+      "char_end": 11,
+      "spoken": "EXPLORES",
+      "start": 0.6626,
+      "end": 1.0039,
+      "confidence": 0.9722
+    },
+    {
+      "word": "why",
+      "char_start": 12,
+      "char_end": 15,
+      "spoken": "WHY",
+      "start": 1.0441,
+      "end": 1.1043,
+      "confidence": 0.9787
+    },
+    {
+      "word": "Black",
+      "char_start": 16,
+      "char_end": 21,
+      "spoken": "BLACK",
+      "start": 1.1846,
+      "end": 1.3452,
+      "confidence": 0.7946
+    },
+    {
+      "word": "and",
+      "char_start": 22,
+      "char_end": 25,
+      "spoken": "AND",
+      "start": 1.4055,
+      "end": 1.4657,
+      "confidence": 0.7021
+    },
+    {
+      "word": "White",
+      "char_start": 26,
+      "char_end": 31,
+      "spoken": "WHITE",
+      "start": 1.4858,
+      "end": 1.6263,
+      "confidence": 0.9143
+    },
+    {
+      "word": "Americans",
+      "char_start": 32,
+      "char_end": 41,
+      "spoken": "AMERICANS",
+      "start": 1.6464,
+      "end": 2.048,
+      "confidence": 0.9411
+    },
+    {
+      "word": "tend",
+      "char_start": 42,
+      "char_end": 46,
+      "spoken": "TEND",
+      "start": 2.1082,
+      "end": 2.2688,
+      "confidence": 0.9388
+    },
+    {
+      "word": "to",
+      "char_start": 47,
+      "char_end": 49,
+      "spoken": "TO",
+      "start": 2.309,
+      "end": 2.3491,
+      "confidence": 0.9698
+    },
+    {
+      "word": "have",
+      "char_start": 50,
+      "char_end": 54,
+      "spoken": "HAVE",
+      "start": 2.4094,
+      "end": 2.5298,
+      "confidence": 0.9994
+    },
+    {
+      "word": "such",
+      "char_start": 55,
+      "char_end": 59,
+      "spoken": "SUCH",
+      "start": 2.5901,
+      "end": 2.7306,
+      "confidence": 0.9989
+    },
+    {
+      "word": "different",
+      "char_start": 60,
+      "char_end": 69,
+      "spoken": "DIFFERENT",
+      "start": 2.8511,
+      "end": 3.1322,
+      "confidence": 0.9469
+    },
+    {
+      "word": "outcomes",
+      "char_start": 70,
+      "char_end": 78,
+      "spoken": "OUTCOMES",
+      "start": 3.2326,
+      "end": 3.6542,
+      "confidence": 0.9899
+    },
+    {
+      "word": "in",
+      "char_start": 79,
+      "char_end": 81,
+      "spoken": "IN",
+      "start": 3.7144,
+      "end": 3.7546,
+      "confidence": 0.9491
+    },
+    {
+      "word": "terms",
+      "char_start": 82,
+      "char_end": 87,
+      "spoken": "TERMS",
+      "start": 3.7948,
+      "end": 3.9755,
+      "confidence": 0.9945
+    },
+    {
+      "word": "of",
+      "char_start": 88,
+      "char_end": 90,
+      "spoken": "OF",
+      "start": 4.0156,
+      "end": 4.0558,
+      "confidence": 0.9966
+    },
+    {
+      "word": "income",
+      "char_start": 91,
+      "char_end": 97,
+      "spoken": "INCOME",
+      "start": 4.1762,
+      "end": 4.4975,
+      "confidence": 0.9998
+    },
+    {
+      "word": "education",
+      "char_start": 99,
+      "char_end": 108,
+      "spoken": "EDUCATION",
+      "start": 4.6581,
+      "end": 5.1199,
+      "confidence": 0.9867
+    },
+    {
+      "word": "and",
+      "char_start": 110,
+      "char_end": 113,
+      "spoken": "AND",
+      "start": 5.2203,
+      "end": 5.2805,
+      "confidence": 0.6605
+    },
+    {
+      "word": "more",
+      "char_start": 114,
+      "char_end": 118,
+      "spoken": "MORE",
+      "start": 5.3207,
+      "end": 5.8829,
+      "confidence": 0.8319
+    }
+  ],
+  "normalized_transcript": "HE EXPLORES WHY BLACK AND WHITE AMERICANS TEND TO HAVE SUCH DIFFERENT OUTCOMES IN TERMS OF INCOME EDUCATION AND MORE",
+  "greedy_transcript": "S WILSON E EXPLORES WHY BLOCK AND WHITE AMERICANS TEND TO HAVE SUCH DIFFERENT OUTCOMES IN TERMS OF INCOME EDUCATION AN  MORE AND HE AR",
+  "transcript_similarity": 0.904,
+  "mean_confidence": 0.87834,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-wny0OAz3g8__9",
+  "transcript": "He explores why Black and White Americans tend to have such different outcomes in terms of income, education, and more",
+  "model": "facebook/wav2vec2-base-960h"
+}

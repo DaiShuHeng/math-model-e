@@ -1,0 +1,157 @@
+{
+  "duration": 4.6146875,
+  "words": [
+    {
+      "word": "We",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "WE",
+      "start": 0.1003,
+      "end": 0.2207,
+      "confidence": 0.4992
+    },
+    {
+      "word": "always",
+      "char_start": 3,
+      "char_end": 9,
+      "spoken": "ALWAYS",
+      "start": 0.642,
+      "end": 0.8627,
+      "confidence": 0.9659
+    },
+    {
+      "word": "love",
+      "char_start": 10,
+      "char_end": 14,
+      "spoken": "LOVE",
+      "start": 0.9831,
+      "end": 1.1436,
+      "confidence": 0.9989
+    },
+    {
+      "word": "to",
+      "char_start": 15,
+      "char_end": 17,
+      "spoken": "TO",
+      "start": 1.2038,
+      "end": 1.244,
+      "confidence": 0.9901
+    },
+    {
+      "word": "hear",
+      "char_start": 18,
+      "char_end": 22,
+      "spoken": "HEAR",
+      "start": 1.2841,
+      "end": 1.4045,
+      "confidence": 0.9261
+    },
+    {
+      "word": "what",
+      "char_start": 23,
+      "char_end": 27,
+      "spoken": "WHAT",
+      "start": 1.4446,
+      "end": 1.5449,
+      "confidence": 0.9981
+    },
+    {
+      "word": "you",
+      "char_start": 28,
+      "char_end": 31,
+      "spoken": "YOU",
+      "start": 1.565,
+      "end": 1.6452,
+      "confidence": 0.9271
+    },
+    {
+      "word": "say",
+      "char_start": 32,
+      "char_end": 35,
+      "spoken": "SAY",
+      "start": 1.9061,
+      "end": 2.1268,
+      "confidence": 0.9985
+    },
+    {
+      "word": "and",
+      "char_start": 37,
+      "char_end": 40,
+      "spoken": "AND",
+      "start": 2.5882,
+      "end": 2.6685,
+      "confidence": 0.9852
+    },
+    {
+      "word": "like",
+      "char_start": 41,
+      "char_end": 45,
+      "spoken": "LIKE",
+      "start": 2.7487,
+      "end": 2.9093,
+      "confidence": 0.8399
+    },
+    {
+      "word": "and",
+      "char_start": 46,
+      "char_end": 49,
+      "spoken": "AND",
+      "start": 2.9494,
+      "end": 3.0096,
+      "confidence": 0.372
+    },
+    {
+      "word": "share",
+      "char_start": 50,
+      "char_end": 55,
+      "spoken": "SHARE",
+      "start": 3.0296,
+      "end": 3.2704,
+      "confidence": 0.1665
+    },
+    {
+      "word": "this",
+      "char_start": 56,
+      "char_end": 60,
+      "spoken": "THIS",
+      "start": 3.3306,
+      "end": 3.4109,
+      "confidence": 0.3118
+    },
+    {
+      "word": "video",
+      "char_start": 61,
+      "char_end": 66,
+      "spoken": "VIDEO",
+      "start": 3.451,
+      "end": 3.5714,
+      "confidence": 0.0152
+    },
+    {
+      "word": "as",
+      "char_start": 67,
+      "char_end": 69,
+      "spoken": "AS",
+      "start": 3.6115,
+      "end": 3.6917,
+      "confidence": 0.8107
+    },
+    {
+      "word": "well",
+      "char_start": 70,
+      "char_end": 74,
+      "spoken": "WELL",
+      "start": 3.7921,
+      "end": 4.0128,
+      "confidence": 0.9428
+    }
+  ],
+  "normalized_transcript": "WE ALWAYS LOVE TO HEAR WHAT YOU SAY AND LIKE AND SHARE THIS VIDEO AS WELL",
+  "greedy_transcript": "WITH US WE ALWAYS LOVE TO HEAR WHAT YOU E SAY AND LIKENTRS THAT YOU AS WELL AND",
+  "transcript_similarity": 0.7763157894736842,
+  "mean_confidence": 0.7342500000000001,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "-qDkUB0GgYY__6",
+  "transcript": "We always love to hear what you say, and like and share this video as well.",
+  "model": "facebook/wav2vec2-base-960h"
+}

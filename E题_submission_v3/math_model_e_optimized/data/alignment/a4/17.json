@@ -1,0 +1,211 @@
+{
+  "duration": 9.563375,
+  "words": [
+    {
+      "word": "Applying",
+      "char_start": 0,
+      "char_end": 8,
+      "spoken": "APPLYING",
+      "start": 0.6215,
+      "end": 1.0025,
+      "confidence": 0.6754
+    },
+    {
+      "word": "these",
+      "char_start": 9,
+      "char_end": 14,
+      "spoken": "THESE",
+      "start": 1.0826,
+      "end": 1.3032,
+      "confidence": 0.9976
+    },
+    {
+      "word": "four",
+      "char_start": 15,
+      "char_end": 19,
+      "spoken": "FOUR",
+      "start": 1.4435,
+      "end": 1.6841,
+      "confidence": 0.9765
+    },
+    {
+      "word": "design",
+      "char_start": 20,
+      "char_end": 26,
+      "spoken": "DESIGN",
+      "start": 1.7643,
+      "end": 2.1252,
+      "confidence": 0.9888
+    },
+    {
+      "word": "concepts",
+      "char_start": 27,
+      "char_end": 35,
+      "spoken": "CONCEPTS",
+      "start": 2.2254,
+      "end": 2.7467,
+      "confidence": 0.9805
+    },
+    {
+      "word": "to",
+      "char_start": 36,
+      "char_end": 38,
+      "spoken": "TO",
+      "start": 2.8269,
+      "end": 2.9071,
+      "confidence": 0.9999
+    },
+    {
+      "word": "your",
+      "char_start": 39,
+      "char_end": 43,
+      "spoken": "YOUR",
+      "start": 2.9673,
+      "end": 3.0875,
+      "confidence": 0.9914
+    },
+    {
+      "word": "presentations",
+      "char_start": 44,
+      "char_end": 57,
+      "spoken": "PRESENTATIONS",
+      "start": 3.1276,
+      "end": 3.8294,
+      "confidence": 0.9882
+    },
+    {
+      "word": "is",
+      "char_start": 58,
+      "char_end": 60,
+      "spoken": "IS",
+      "start": 4.3707,
+      "end": 4.4509,
+      "confidence": 0.8856
+    },
+    {
+      "word": "simple",
+      "char_start": 61,
+      "char_end": 67,
+      "spoken": "SIMPLE",
+      "start": 4.8118,
+      "end": 5.1125,
+      "confidence": 0.9884
+    },
+    {
+      "word": "easy",
+      "char_start": 69,
+      "char_end": 73,
+      "spoken": "EASY",
+      "start": 5.6538,
+      "end": 5.8744,
+      "confidence": 0.9236
+    },
+    {
+      "word": "and",
+      "char_start": 74,
+      "char_end": 77,
+      "spoken": "AND",
+      "start": 6.4357,
+      "end": 6.556,
+      "confidence": 0.9992
+    },
+    {
+      "word": "will",
+      "char_start": 78,
+      "char_end": 82,
+      "spoken": "WILL",
+      "start": 6.8167,
+      "end": 6.957,
+      "confidence": 0.999
+    },
+    {
+      "word": "make",
+      "char_start": 83,
+      "char_end": 87,
+      "spoken": "MAKE",
+      "start": 6.9971,
+      "end": 7.1174,
+      "confidence": 0.9999
+    },
+    {
+      "word": "people",
+      "char_start": 88,
+      "char_end": 94,
+      "spoken": "PEOPLE",
+      "start": 7.1575,
+      "end": 7.378,
+      "confidence": 0.9979
+    },
+    {
+      "word": "think",
+      "char_start": 95,
+      "char_end": 100,
+      "spoken": "THINK",
+      "start": 7.4582,
+      "end": 7.6186,
+      "confidence": 0.9999
+    },
+    {
+      "word": "you",
+      "char_start": 101,
+      "char_end": 104,
+      "spoken": "YOU",
+      "start": 7.7189,
+      "end": 7.7991,
+      "confidence": 0.9951
+    },
+    {
+      "word": "turned",
+      "char_start": 105,
+      "char_end": 111,
+      "spoken": "TURNED",
+      "start": 7.8592,
+      "end": 8.0597,
+      "confidence": 0.9182
+    },
+    {
+      "word": "into",
+      "char_start": 112,
+      "char_end": 116,
+      "spoken": "INTO",
+      "start": 8.0998,
+      "end": 8.2201,
+      "confidence": 0.9768
+    },
+    {
+      "word": "a",
+      "char_start": 117,
+      "char_end": 118,
+      "spoken": "A",
+      "start": 8.2602,
+      "end": 8.2802,
+      "confidence": 0.9939
+    },
+    {
+      "word": "design",
+      "char_start": 119,
+      "char_end": 125,
+      "spoken": "DESIGN",
+      "start": 8.3203,
+      "end": 8.6612,
+      "confidence": 0.9287
+    },
+    {
+      "word": "guru",
+      "char_start": 126,
+      "char_end": 130,
+      "spoken": "GURU",
+      "start": 8.7614,
+      "end": 9.0421,
+      "confidence": 0.6668
+    }
+  ],
+  "normalized_transcript": "APPLYING THESE FOUR DESIGN CONCEPTS TO YOUR PRESENTATIONS IS SIMPLE EASY AND WILL MAKE PEOPLE THINK YOU TURNED INTO A DESIGN GURU",
+  "greedy_transcript": "TY APPLY THESE FOUR DESIGN CONCEPTS TO YOUR PRESENTATIONS IS SIMPLE EASY AND WILL MAKE PEOPLE THINK YOU TURNED INTO A DESIGN GOROEW",
+  "transcript_similarity": 0.9538461538461539,
+  "mean_confidence": 0.9486954545454545,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "17",
+  "transcript": "Applying these four design concepts to your presentations is simple, easy and will make people think you turned into a design guru.",
+  "model": "facebook/wav2vec2-base-960h"
+}
