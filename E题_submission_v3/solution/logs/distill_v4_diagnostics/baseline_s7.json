@@ -1,0 +1,235 @@
+{
+  "scope": "VALID only; raw-token UNK before encoder; continuous A/V zero blocks",
+  "checkpoint": "weights/distill_v4/runs/baseline_s7/best.pt",
+  "train_args": {
+    "seed": 7,
+    "epochs": 30,
+    "batch_size": 64,
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "lambda_cls": 1.0,
+    "p_file": 0.7,
+    "freeze_text": 0,
+    "ft_lr": 1e-05,
+    "patience": 8,
+    "no_aug": false,
+    "cls_weight": 1,
+    "num_workers": 0,
+    "bert_dir": "/home/daishuheng/math_competition/models/bert-tiny",
+    "out": "/home/daishuheng/math_competition/solution/weights/distill_v4/runs/baseline_s7",
+    "paired_clean": false,
+    "consistency_weight": 0.0,
+    "consistency_warmup": 5,
+    "cls_weight_power": 1.0,
+    "teacher_cache": "/home/daishuheng/math_competition/solution/weights/distill_v4/teacher/teacher_train.npz",
+    "distill_weight": 0.0,
+    "distill_temperature": 2.0,
+    "threads": 4,
+    "teacher_cache_sha256": "6ae9e3c6a5a4d403c20ecf3bd2b6513e4791e5a9c9956aad27a0fae561f70a12"
+  },
+  "conditions": [
+    {
+      "condition": "clean",
+      "Accuracy": 0.5576923076923077,
+      "MacroF1": 0.5402489908430216,
+      "WeightedF1": 0.559722454872292,
+      "MAE": 0.6816896200180054,
+      "Pearson": 0.5165434663287781
+    },
+    {
+      "condition": "t_r0.1_any",
+      "Accuracy": 0.5535714285714286,
+      "MacroF1": 0.54194938423415,
+      "WeightedF1": 0.5566089878816087,
+      "MAE": 0.6860060095787048,
+      "Pearson": 0.5123407200200389
+    },
+    {
+      "condition": "t_r0.3_any",
+      "Accuracy": 0.5302197802197802,
+      "MacroF1": 0.5204615239824987,
+      "WeightedF1": 0.5337356021569958,
+      "MAE": 0.704464852809906,
+      "Pearson": 0.4843281131996488
+    },
+    {
+      "condition": "t_r0.5_any",
+      "Accuracy": 0.48214285714285715,
+      "MacroF1": 0.47540465127688464,
+      "WeightedF1": 0.48175664153711634,
+      "MAE": 0.7263610363006592,
+      "Pearson": 0.4607582580871996
+    },
+    {
+      "condition": "a_r0.1_any",
+      "Accuracy": 0.5590659340659341,
+      "MacroF1": 0.5411554833461527,
+      "WeightedF1": 0.5607850727019085,
+      "MAE": 0.6816187500953674,
+      "Pearson": 0.5171993857958175
+    },
+    {
+      "condition": "a_r0.3_any",
+      "Accuracy": 0.5563186813186813,
+      "MacroF1": 0.5376465174852272,
+      "WeightedF1": 0.5577099720244881,
+      "MAE": 0.6811023950576782,
+      "Pearson": 0.5185323365731541
+    },
+    {
+      "condition": "a_r0.5_any",
+      "Accuracy": 0.554945054945055,
+      "MacroF1": 0.5348502750496106,
+      "WeightedF1": 0.5562428035612658,
+      "MAE": 0.6815533638000488,
+      "Pearson": 0.5210141872271129
+    },
+    {
+      "condition": "v_r0.1_any",
+      "Accuracy": 0.5576923076923077,
+      "MacroF1": 0.5402799838516898,
+      "WeightedF1": 0.5595387920127399,
+      "MAE": 0.681507408618927,
+      "Pearson": 0.5162885451003089
+    },
+    {
+      "condition": "v_r0.3_any",
+      "Accuracy": 0.5618131868131868,
+      "MacroF1": 0.5440325963718821,
+      "WeightedF1": 0.5634715813523211,
+      "MAE": 0.6823537349700928,
+      "Pearson": 0.5141398153100445
+    },
+    {
+      "condition": "v_r0.5_any",
+      "Accuracy": 0.5590659340659341,
+      "MacroF1": 0.5408974294900628,
+      "WeightedF1": 0.5605841862919928,
+      "MAE": 0.6825546622276306,
+      "Pearson": 0.5126629616231225
+    },
+    {
+      "condition": "ta_r0.1_any",
+      "Accuracy": 0.5535714285714286,
+      "MacroF1": 0.5417781142651266,
+      "WeightedF1": 0.556362683814531,
+      "MAE": 0.686606764793396,
+      "Pearson": 0.5128001725413927
+    },
+    {
+      "condition": "ta_r0.3_any",
+      "Accuracy": 0.5288461538461539,
+      "MacroF1": 0.5176093209991515,
+      "WeightedF1": 0.5316449676851986,
+      "MAE": 0.7049232721328735,
+      "Pearson": 0.4852768815194032
+    },
+    {
+      "condition": "ta_r0.5_any",
+      "Accuracy": 0.47802197802197804,
+      "MacroF1": 0.46986137618710183,
+      "WeightedF1": 0.47766497377811346,
+      "MAE": 0.7235907316207886,
+      "Pearson": 0.46471871550802835
+    },
+    {
+      "condition": "tv_r0.1_any",
+      "Accuracy": 0.5480769230769231,
+      "MacroF1": 0.5367158199195879,
+      "WeightedF1": 0.5511012478106246,
+      "MAE": 0.6855087876319885,
+      "Pearson": 0.5121846304553601
+    },
+    {
+      "condition": "tv_r0.3_any",
+      "Accuracy": 0.5247252747252747,
+      "MacroF1": 0.5153723047034695,
+      "WeightedF1": 0.5281573814297588,
+      "MAE": 0.7052111625671387,
+      "Pearson": 0.48112556573973425
+    },
+    {
+      "condition": "tv_r0.5_any",
+      "Accuracy": 0.4793956043956044,
+      "MacroF1": 0.47292629832456806,
+      "WeightedF1": 0.47870152196527915,
+      "MAE": 0.7234712243080139,
+      "Pearson": 0.4560450534434656
+    },
+    {
+      "condition": "av_r0.1_any",
+      "Accuracy": 0.5590659340659341,
+      "MacroF1": 0.5413096081030103,
+      "WeightedF1": 0.5605277340035403,
+      "MAE": 0.681454598903656,
+      "Pearson": 0.5169380903368699
+    },
+    {
+      "condition": "av_r0.3_any",
+      "Accuracy": 0.5618131868131868,
+      "MacroF1": 0.5416245130530845,
+      "WeightedF1": 0.5620679773740997,
+      "MAE": 0.6817889213562012,
+      "Pearson": 0.5160355054111586
+    },
+    {
+      "condition": "av_r0.5_any",
+      "Accuracy": 0.5631868131868132,
+      "MacroF1": 0.5432446613694335,
+      "WeightedF1": 0.5639749455250103,
+      "MAE": 0.682327389717102,
+      "Pearson": 0.5167377125151354
+    },
+    {
+      "condition": "tav_r0.1_any",
+      "Accuracy": 0.5535714285714286,
+      "MacroF1": 0.5420892409194209,
+      "WeightedF1": 0.5562443736375211,
+      "MAE": 0.6860318183898926,
+      "Pearson": 0.5126394603050122
+    },
+    {
+      "condition": "tav_r0.3_any",
+      "Accuracy": 0.5274725274725275,
+      "MacroF1": 0.5172808918357777,
+      "WeightedF1": 0.5304504927350444,
+      "MAE": 0.70555180311203,
+      "Pearson": 0.48192659202910604
+    },
+    {
+      "condition": "tav_r0.5_any",
+      "Accuracy": 0.47802197802197804,
+      "MacroF1": 0.4701684021854198,
+      "WeightedF1": 0.47762965852853495,
+      "MAE": 0.721610426902771,
+      "Pearson": 0.45940826097027
+    },
+    {
+      "condition": "tav_r0.3_head",
+      "Accuracy": 0.5151098901098901,
+      "MacroF1": 0.5075986342456017,
+      "WeightedF1": 0.5190085556532652,
+      "MAE": 0.7197584509849548,
+      "Pearson": 0.47261854556752586
+    },
+    {
+      "condition": "tav_r0.3_mid",
+      "Accuracy": 0.5357142857142857,
+      "MacroF1": 0.5235369586770214,
+      "WeightedF1": 0.5394441818741702,
+      "MAE": 0.704027533531189,
+      "Pearson": 0.47805507455311974
+    },
+    {
+      "condition": "tav_r0.3_tail",
+      "Accuracy": 0.5425824175824175,
+      "MacroF1": 0.5272806430546709,
+      "WeightedF1": 0.544555179971158,
+      "MAE": 0.6989241242408752,
+      "Pearson": 0.48908754759279127
+    }
+  ],
+  "grid_mean_F1": 0.5231742093787292,
+  "grid_worst_F1": 0.46986137618710183,
+  "grid_mean_MAE": 0.6950285292807079
+}

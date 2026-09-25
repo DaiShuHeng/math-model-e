@@ -40,6 +40,7 @@ def selected_files(root):
              'solution/results/att3_predictions_tiny_s42.csv',
              'solution/results/附件4_shapley.csv',
              'solution/results/附件4_shapley_重算.csv',
+             'solution/results/附件4_shapley_p2对照.csv',
              'math_model_e_optimized/results/evidence_time_mapping.csv',
              # 修订协议验证与测试记录（可复核）：第一轮优化对照 + 第二轮教师蒸馏
              'solution/logs/optimization_s2026_comparison.json',
@@ -50,8 +51,11 @@ def selected_files(root):
              'solution/logs/distill_v4_plan.json',
              'solution/logs/distill_v4_teacher_audit.json',
              'solution/logs/distill_v4_diagnostics_kd10_s42.json',
+             'solution/logs/distill_v4_diagnostics_grid.json',
              'solution/logs/distill_v4_q3_p2_report.json',
              'solution/logs/distill_v4_q3_p3_report.json']
+    exact += [f'solution/logs/distill_v4_diagnostics/{v}_s{s}.json'
+              for v in ('baseline', 'kd03', 'kd10') for s in (2026, 7, 42)]
     exact += [f'math_model_e_optimized/models/p3_{s}/model.pt' for s in (2026, 2027, 2028)]
     result = []
     for name in trees:
@@ -202,8 +206,11 @@ def main():
             dst.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(p, dst)
         g3 = gate_standalone_att4_reproduction(stage, ROOT / 'solution/results/附件4_shapley_重算.csv')  # G3
-        # 重跑产物不留在包内（它等于已入包的冻结 CSV）
+        # 重跑产物不留在包内（它等于已入包的冻结 CSV）；重跑中解释器生成的缓存一并清除，
+        # 避免清单收录克隆里不存在的 .pyc（.gitignore 不跟踪它们）
         (stage / 'solution/results/附件4_shapley_重算.csv').unlink()
+        for pyc in stage.rglob('__pycache__'):
+            shutil.rmtree(pyc)
         _export_stage(out, stage, files, ck_files, checks={'G3_standalone_att4': g3})
 
 
@@ -237,7 +244,8 @@ def _export_stage(out, stage, files, ck_files, checks):
 
 def _manifest(stage, status, extra):
     manifest = []
-    for p in sorted(x for x in stage.rglob('*') if x.is_file()):
+    for p in sorted(x for x in stage.rglob('*') if x.is_file()
+                     and '__pycache__' not in x.parts and x.suffix != '.pyc'):
         manifest.append({'path': p.relative_to(stage).as_posix(), 'bytes': p.stat().st_size,
                          'sha256': hashlib.sha256(p.read_bytes()).hexdigest()})
     (stage / 'MANIFEST.json').write_text(json.dumps(

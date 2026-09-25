@@ -1,0 +1,167 @@
+{
+ "note": "每变体三种子均值的逐条件 Macro-F1；来源 logs/distill_v4_diagnostics/*.json（9 份全量）",
+ "conditions": {
+  "a_r0.1_any": {
+   "baseline": 0.5467,
+   "kd03": 0.5537,
+   "kd10": 0.5523,
+   "kd10_minus_baseline": 0.0056
+  },
+  "a_r0.3_any": {
+   "baseline": 0.5489,
+   "kd03": 0.554,
+   "kd10": 0.5555,
+   "kd10_minus_baseline": 0.0066
+  },
+  "a_r0.5_any": {
+   "baseline": 0.5457,
+   "kd03": 0.5547,
+   "kd10": 0.5526,
+   "kd10_minus_baseline": 0.0069
+  },
+  "av_r0.1_any": {
+   "baseline": 0.5469,
+   "kd03": 0.5544,
+   "kd10": 0.5544,
+   "kd10_minus_baseline": 0.0075
+  },
+  "av_r0.3_any": {
+   "baseline": 0.55,
+   "kd03": 0.5533,
+   "kd10": 0.5569,
+   "kd10_minus_baseline": 0.0069
+  },
+  "av_r0.5_any": {
+   "baseline": 0.5511,
+   "kd03": 0.5494,
+   "kd10": 0.554,
+   "kd10_minus_baseline": 0.0029
+  },
+  "clean": {
+   "baseline": 0.5446,
+   "kd03": 0.5549,
+   "kd10": 0.55,
+   "kd10_minus_baseline": 0.0054
+  },
+  "t_r0.1_any": {
+   "baseline": 0.5418,
+   "kd03": 0.5475,
+   "kd10": 0.5455,
+   "kd10_minus_baseline": 0.0037
+  },
+  "t_r0.3_any": {
+   "baseline": 0.5236,
+   "kd03": 0.5296,
+   "kd10": 0.5301,
+   "kd10_minus_baseline": 0.0065
+  },
+  "t_r0.5_any": {
+   "baseline": 0.4997,
+   "kd03": 0.5143,
+   "kd10": 0.5126,
+   "kd10_minus_baseline": 0.0129
+  },
+  "ta_r0.1_any": {
+   "baseline": 0.5416,
+   "kd03": 0.5456,
+   "kd10": 0.5433,
+   "kd10_minus_baseline": 0.0017
+  },
+  "ta_r0.3_any": {
+   "baseline": 0.5251,
+   "kd03": 0.5336,
+   "kd10": 0.5364,
+   "kd10_minus_baseline": 0.0112
+  },
+  "ta_r0.5_any": {
+   "baseline": 0.5056,
+   "kd03": 0.5234,
+   "kd10": 0.5217,
+   "kd10_minus_baseline": 0.0162
+  },
+  "tav_r0.1_any": {
+   "baseline": 0.5431,
+   "kd03": 0.5472,
+   "kd10": 0.5463,
+   "kd10_minus_baseline": 0.0032
+  },
+  "tav_r0.3_any": {
+   "baseline": 0.5236,
+   "kd03": 0.5337,
+   "kd10": 0.5397,
+   "kd10_minus_baseline": 0.0161
+  },
+  "tav_r0.3_head": {
+   "baseline": 0.5231,
+   "kd03": 0.5147,
+   "kd10": 0.5222,
+   "kd10_minus_baseline": -0.0008
+  },
+  "tav_r0.3_mid": {
+   "baseline": 0.5229,
+   "kd03": 0.5306,
+   "kd10": 0.5283,
+   "kd10_minus_baseline": 0.0054
+  },
+  "tav_r0.3_tail": {
+   "baseline": 0.5267,
+   "kd03": 0.5262,
+   "kd10": 0.5298,
+   "kd10_minus_baseline": 0.0031
+  },
+  "tav_r0.5_any": {
+   "baseline": 0.5105,
+   "kd03": 0.527,
+   "kd10": 0.5269,
+   "kd10_minus_baseline": 0.0164
+  },
+  "tv_r0.1_any": {
+   "baseline": 0.5413,
+   "kd03": 0.5461,
+   "kd10": 0.5466,
+   "kd10_minus_baseline": 0.0053
+  },
+  "tv_r0.3_any": {
+   "baseline": 0.5255,
+   "kd03": 0.5295,
+   "kd10": 0.5349,
+   "kd10_minus_baseline": 0.0094
+  },
+  "tv_r0.5_any": {
+   "baseline": 0.506,
+   "kd03": 0.5179,
+   "kd10": 0.5211,
+   "kd10_minus_baseline": 0.0151
+  },
+  "v_r0.1_any": {
+   "baseline": 0.5471,
+   "kd03": 0.5528,
+   "kd10": 0.5531,
+   "kd10_minus_baseline": 0.006
+  },
+  "v_r0.3_any": {
+   "baseline": 0.5472,
+   "kd03": 0.5542,
+   "kd10": 0.5573,
+   "kd10_minus_baseline": 0.0101
+  },
+  "v_r0.5_any": {
+   "baseline": 0.5494,
+   "kd03": 0.5511,
+   "kd10": 0.5546,
+   "kd10_minus_baseline": 0.0052
+  }
+ },
+ "summary": {
+  "baseline": {
+   "grid_mean_F1_three_seed_avg": 0.5343
+  },
+  "kd03": {
+   "grid_mean_F1_three_seed_avg": 0.5416
+  },
+  "kd10": {
+   "grid_mean_F1_three_seed_avg": 0.5427
+  },
+  "kd10_beats_baseline_conditions": "24/25"
+ }
+}

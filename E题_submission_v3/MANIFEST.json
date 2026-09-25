@@ -17,31 +17,6 @@
  ],
  "files": [
   {
-   "path": "math_model_e_optimized/code/__pycache__/config.cpython-311.pyc",
-   "bytes": 5884,
-   "sha256": "9af4ef49302cf78403c297c620d375ab586010c8a62110f8de5a457156d14188"
-  },
-  {
-   "path": "math_model_e_optimized/code/__pycache__/inference.cpython-311.pyc",
-   "bytes": 4981,
-   "sha256": "e8bc5986418205cf4fd14c1841281bb9f0e7711b36e67d56ddfe9628cfb90c60"
-  },
-  {
-   "path": "math_model_e_optimized/code/__pycache__/io_utils.cpython-311.pyc",
-   "bytes": 28017,
-   "sha256": "c6915136b7ca978a45ff3175175a8a3fee10d698bf627a23c29762d88a6d6873"
-  },
-  {
-   "path": "math_model_e_optimized/code/__pycache__/models.cpython-311.pyc",
-   "bytes": 18852,
-   "sha256": "b34d627454df85b27a678c0c0f12561d956ece54830203141db057eee581a83d"
-  },
-  {
-   "path": "math_model_e_optimized/code/__pycache__/trainer.cpython-311.pyc",
-   "bytes": 21129,
-   "sha256": "d56ccfb26cc5f717903ffec5d5c9b367978454522366cde362d423eb7cc3ada1"
-  },
-  {
    "path": "math_model_e_optimized/code/align_media.py",
    "bytes": 5296,
    "sha256": "652790b3ed764d066b14568ed52c9185dffdd52ea6ac8af578b62f4c16414d8e"
@@ -1282,6 +1257,56 @@
    "sha256": "516fb7a0124ed6786c69446fd4f79a73e00c0868ce0a331b477697f16ac073c7"
   },
   {
+   "path": "solution/logs/distill_v4_diagnostics/baseline_s2026.json",
+   "bytes": 6907,
+   "sha256": "24e3d6554cd671dc1435ad9b4c8575bef9be14d17334c11d3b59855aac137726"
+  },
+  {
+   "path": "solution/logs/distill_v4_diagnostics/baseline_s42.json",
+   "bytes": 6899,
+   "sha256": "e54359effaaaa5ea6108154036ff7976317f0a86d412c700bf6f8c2540816ecd"
+  },
+  {
+   "path": "solution/logs/distill_v4_diagnostics/baseline_s7.json",
+   "bytes": 6908,
+   "sha256": "5a3d2bb27303be4d7899671aa5aefdda7129e52663f51fcccc0d688a3724620c"
+  },
+  {
+   "path": "solution/logs/distill_v4_diagnostics/kd03_s2026.json",
+   "bytes": 6894,
+   "sha256": "917e8f1bb15b4334aef4bbd4254cf656aecf6c32b6dad1ef0e145c51a1903426"
+  },
+  {
+   "path": "solution/logs/distill_v4_diagnostics/kd03_s42.json",
+   "bytes": 6899,
+   "sha256": "a5914d3eff09fc59c8955bf7f82d5c1c216504a1ad80e8c2fe61d4c4f83f20bf"
+  },
+  {
+   "path": "solution/logs/distill_v4_diagnostics/kd03_s7.json",
+   "bytes": 6893,
+   "sha256": "68b6da15125b64716c73ed1688420b459d4e1cbb883b3c6adbdb04577787e9f7"
+  },
+  {
+   "path": "solution/logs/distill_v4_diagnostics/kd10_s2026.json",
+   "bytes": 6898,
+   "sha256": "d5b51acaf706fe6067a80215407bddd954e240b6ea3b20c6de080cbbae855330"
+  },
+  {
+   "path": "solution/logs/distill_v4_diagnostics/kd10_s42.json",
+   "bytes": 6895,
+   "sha256": "16a118ffd6e7f8f3185304ce6a9757bd1f47314ce07d10f19fb20fe6060e8ec2"
+  },
+  {
+   "path": "solution/logs/distill_v4_diagnostics/kd10_s7.json",
+   "bytes": 6899,
+   "sha256": "f1c78a2614e7387baeaf0c1e4f864b0f29397abdabc58d6e09c611f62cc9e291"
+  },
+  {
+   "path": "solution/logs/distill_v4_diagnostics_grid.json",
+   "bytes": 3316,
+   "sha256": "d1c38806b2edab6522e18121656fdae89564a9e1943bc1d3d9abfc1be81cc24c"
+  },
+  {
    "path": "solution/logs/distill_v4_diagnostics_kd10_s42.json",
    "bytes": 6895,
    "sha256": "16a118ffd6e7f8f3185304ce6a9757bd1f47314ce07d10f19fb20fe6060e8ec2"
@@ -1343,8 +1368,8 @@
   },
   {
    "path": "solution/paper/论文.md",
-   "bytes": 20456,
-   "sha256": "72db2fd3b115e1563ab765a9f7680719082e3d5b488aefd5eaeede9565974d14"
+   "bytes": 22010,
+   "sha256": "fb39168ed0d657e4b0043016ca037b0dfe95280e51cd36d38340db25d11a99ae"
   },
   {
    "path": "solution/results/att3_predictions_kd10_s42.csv",
@@ -1362,19 +1387,14 @@
    "sha256": "77b4923c90cadcbfdfca6c6a85d51b7e9bd11a75c4f6a2b108edd769d9eedca8"
   },
   {
+   "path": "solution/results/附件4_shapley_p2对照.csv",
+   "bytes": 5616,
+   "sha256": "15ba97eb013da95ed9b7370464f3d484333b0ad0394cfaee69ca85f3bb9c1547"
+  },
+  {
    "path": "solution/src/__init__.py",
    "bytes": 0,
    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-  },
-  {
-   "path": "solution/src/__pycache__/__init__.cpython-311.pyc",
-   "bytes": 196,
-   "sha256": "2f5fba3624e54b79e277bb53bf0584bb3c35e50e292bf428d71f4c3e35f463dd"
-  },
-  {
-   "path": "solution/src/__pycache__/q3_shapley.cpython-311.pyc",
-   "bytes": 15762,
-   "sha256": "f97d34a3718bcf2caf3610d1296ff872766fc4786c83bb9d9e66d953177f396e"
   },
   {
    "path": "solution/src/augment.py",
@@ -1383,8 +1403,8 @@
   },
   {
    "path": "solution/src/build_submission.py",
-   "bytes": 12851,
-   "sha256": "aefb4463bb8cdada998a0e6f558cdc56267eee9650288f455a73a56bc2869f6a"
+   "bytes": 13413,
+   "sha256": "a999c628fc043481ecc577dc28428317bd2bd91fc5bcd2247c292cc5a60d486e"
   },
   {
    "path": "solution/src/checkpoints.py",
@@ -1483,8 +1503,8 @@
   },
   {
    "path": "solution/src/q3_shapley.py",
-   "bytes": 7687,
-   "sha256": "aad3d803f52e01feb25c1cbeef185affba53501915c23298089d353b6d109ce2"
+   "bytes": 7933,
+   "sha256": "365a8e868479b28fab6e84197511e1fdb68806f84afb619414f5d6afd5813bbb"
   },
   {
    "path": "solution/src/train_q2.py",

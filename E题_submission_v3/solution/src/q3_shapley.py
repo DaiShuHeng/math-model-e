@@ -83,9 +83,12 @@ def key(c):
 
 def main():
     global P3_BIAS
-    P3_BIAS = np.asarray(json.loads((TM / "models/decision_calibration.json").read_text())["p3"])
+    # Q3_MODEL_TAG 切换被解释的模型（默认 p3，与冻结交付一致）；Q3_OUT 覆盖输出路径。
+    # p2 对照运行不改动 p3 冻结产物。
+    tag = os.environ.get("Q3_MODEL_TAG", "p3")
+    P3_BIAS = np.asarray(json.loads((TM / "models/decision_calibration.json").read_text())[tag])
     samples = U.load_a4()
-    net = TI.load_model("p3")
+    net = TI.load_model(tag)
 
     # coalition values per sample: v[coalition_key] = arrays over samples
     probs, regs, alphas = {}, {}, {}
@@ -148,7 +151,7 @@ def main():
               f"φ_cls T {φ_cls['text']:+.3f} A {φ_cls['audio']:+.3f} V {φ_cls['vision']:+.3f} "
               f"| Σφ {sum_cls:+.4f} vs eff {eff_cls:+.4f}", flush=True)
 
-    out = SOL / "results" / "附件4_shapley_重算.csv"
+    out = Path(os.environ.get("Q3_OUT", str(SOL / "results" / "附件4_shapley_重算.csv")))
     out.parent.mkdir(parents=True, exist_ok=True)
     with open(out, "w", newline="", encoding="utf-8-sig") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
