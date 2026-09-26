@@ -1,0 +1,202 @@
+{
+  "duration": 8.986125,
+  "words": [
+    {
+      "word": "Replacing",
+      "char_start": 0,
+      "char_end": 9,
+      "spoken": "REPLACING",
+      "start": 0.5003,
+      "end": 0.9406,
+      "confidence": 0.9779
+    },
+    {
+      "word": "these",
+      "char_start": 10,
+      "char_end": 15,
+      "spoken": "THESE",
+      "start": 1.0007,
+      "end": 1.1408,
+      "confidence": 0.9597
+    },
+    {
+      "word": "wear",
+      "char_start": 16,
+      "char_end": 20,
+      "spoken": "WEAR",
+      "start": 1.2208,
+      "end": 1.401,
+      "confidence": 0.7427
+    },
+    {
+      "word": "components",
+      "char_start": 21,
+      "char_end": 31,
+      "spoken": "COMPONENTS",
+      "start": 1.481,
+      "end": 1.9613,
+      "confidence": 0.9868
+    },
+    {
+      "word": "when",
+      "char_start": 32,
+      "char_end": 36,
+      "spoken": "WHEN",
+      "start": 1.9814,
+      "end": 2.1014,
+      "confidence": 0.9722
+    },
+    {
+      "word": "replacing",
+      "char_start": 37,
+      "char_end": 46,
+      "spoken": "REPLACING",
+      "start": 2.1615,
+      "end": 2.5818,
+      "confidence": 0.9969
+    },
+    {
+      "word": "the",
+      "char_start": 47,
+      "char_end": 50,
+      "spoken": "THE",
+      "start": 2.6218,
+      "end": 2.6818,
+      "confidence": 0.916
+    },
+    {
+      "word": "timing",
+      "char_start": 51,
+      "char_end": 57,
+      "spoken": "TIMING",
+      "start": 2.7219,
+      "end": 3.002,
+      "confidence": 0.5459
+    },
+    {
+      "word": "belt",
+      "char_start": 58,
+      "char_end": 62,
+      "spoken": "BELT",
+      "start": 3.0421,
+      "end": 3.2222,
+      "confidence": 0.9996
+    },
+    {
+      "word": "is",
+      "char_start": 63,
+      "char_end": 65,
+      "spoken": "IS",
+      "start": 3.6025,
+      "end": 3.6825,
+      "confidence": 0.9411
+    },
+    {
+      "word": "essential",
+      "char_start": 66,
+      "char_end": 75,
+      "spoken": "ESSENTIAL",
+      "start": 3.7826,
+      "end": 4.2629,
+      "confidence": 0.9996
+    },
+    {
+      "word": "to",
+      "char_start": 76,
+      "char_end": 78,
+      "spoken": "TO",
+      "start": 4.443,
+      "end": 4.5231,
+      "confidence": 0.9999
+    },
+    {
+      "word": "ensuring",
+      "char_start": 79,
+      "char_end": 87,
+      "spoken": "ENSURING",
+      "start": 4.6432,
+      "end": 5.0234,
+      "confidence": 0.9153
+    },
+    {
+      "word": "the",
+      "char_start": 88,
+      "char_end": 91,
+      "spoken": "THE",
+      "start": 5.1035,
+      "end": 5.1835,
+      "confidence": 0.9851
+    },
+    {
+      "word": "new",
+      "char_start": 92,
+      "char_end": 95,
+      "spoken": "NEW",
+      "start": 5.2436,
+      "end": 5.3637,
+      "confidence": 0.9994
+    },
+    {
+      "word": "belt",
+      "char_start": 96,
+      "char_end": 100,
+      "spoken": "BELT",
+      "start": 5.4837,
+      "end": 5.7039,
+      "confidence": 0.9983
+    },
+    {
+      "word": "performs",
+      "char_start": 101,
+      "char_end": 109,
+      "spoken": "PERFORMS",
+      "start": 6.1642,
+      "end": 6.7046,
+      "confidence": 0.9602
+    },
+    {
+      "word": "to",
+      "char_start": 110,
+      "char_end": 112,
+      "spoken": "TO",
+      "start": 6.8447,
+      "end": 6.9247,
+      "confidence": 0.9999
+    },
+    {
+      "word": "its",
+      "char_start": 113,
+      "char_end": 116,
+      "spoken": "ITS",
+      "start": 7.0448,
+      "end": 7.1449,
+      "confidence": 0.984
+    },
+    {
+      "word": "mileage",
+      "char_start": 117,
+      "char_end": 124,
+      "spoken": "MILEAGE",
+      "start": 7.2449,
+      "end": 7.6252,
+      "confidence": 0.6614
+    },
+    {
+      "word": "requirements",
+      "char_start": 125,
+      "char_end": 137,
+      "spoken": "REQUIREMENTS",
+      "start": 7.6852,
+      "end": 8.2656,
+      "confidence": 0.9638
+    }
+  ],
+  "normalized_transcript": "REPLACING THESE WEAR COMPONENTS WHEN REPLACING THE TIMING BELT IS ESSENTIAL TO ENSURING THE NEW BELT PERFORMS TO ITS MILEAGE REQUIREMENTS",
+  "greedy_transcript": "REPLACING THESE WARE COMPONENTS WHEN REPLACING THE TYMY BELT IS ESSENTIAL TO INSURING THE NEW BELT PERFORMS TO ITS MILAGE REQUIREMENTS",
+  "transcript_similarity": 0.959409594095941,
+  "mean_confidence": 0.928842857142857,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "01",
+  "transcript": "Replacing these wear components when replacing the timing belt is essential to ensuring the new belt performs to its mileage requirements",
+  "model": "facebook/wav2vec2-base-960h"
+}

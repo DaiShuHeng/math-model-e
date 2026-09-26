@@ -1,0 +1,60 @@
+{
+  "status": "VERIFIED",
+  "gates": [
+    {
+      "name": "V1 p2 test metrics reproduce",
+      "passed": true,
+      "detail": "{\"accuracy\": 0.675378, \"macro_f1\": 0.648524, \"mae\": 0.614467, \"pearson\": 0.691233}"
+    },
+    {
+      "name": "V2 附件3 deliverable",
+      "passed": true,
+      "detail": "rows=30 cols=9 class={'Neutral': 17, 'Positive': 9, 'Negative': 4}"
+    },
+    {
+      "name": "V3 附件4 deliverable",
+      "passed": true,
+      "detail": "rows=20 cols=58 missing=[]"
+    },
+    {
+      "name": "V4 Shapley efficiency identity",
+      "passed": true,
+      "detail": "max err cls=0.00e+00 reg=0.00e+00"
+    },
+    {
+      "name": "V5 occlusion covers every observed position",
+      "passed": true,
+      "detail": "total=1662 by_modality={'text': 564, 'audio': 564, 'vision': 534}"
+    },
+    {
+      "name": "V6 text evidence has words and CTC seconds",
+      "passed": true,
+      "detail": "rows=100 with_word=100 with_seconds=93"
+    },
+    {
+      "name": "V7 audio/vision evidence has slot times and keyframes",
+      "passed": true,
+      "detail": "{'audio': 'rows=100 time=100 frame=100', 'vision': 'rows=95 time=95 frame=95'}"
+    },
+    {
+      "name": "V8 occlusion ranks evidence, attention is control only",
+      "passed": true,
+      "detail": "top5_identical={'text': 0, 'audio': 0, 'vision': 0} | set_drop occlusion/attention: text +0.1528/+0.0771, audio +0.0075/-0.0048, vision -0.0025/-0.0070"
+    },
+    {
+      "name": "V9 Q1 vision features are credible",
+      "passed": true,
+      "detail": "vision_valid total=4306 zeros=4 | independent check: 1/4 of the zero-vision clips do contain faces"
+    },
+    {
+      "name": "V10 paper format fixes hold",
+      "passed": true,
+      "detail": "header=False TableGrid=12 bold_abstract=0 leftover_10^=0"
+    },
+    {
+      "name": "V11 no identity information",
+      "passed": true,
+      "detail": "clean"
+    }
+  ]
+}

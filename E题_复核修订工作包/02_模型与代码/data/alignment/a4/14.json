@@ -1,0 +1,238 @@
+{
+  "duration": 10.226375,
+  "words": [
+    {
+      "word": "He",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "HE",
+      "start": 0.5003,
+      "end": 0.5603,
+      "confidence": 0.9386
+    },
+    {
+      "word": "is",
+      "char_start": 3,
+      "char_end": 5,
+      "spoken": "IS",
+      "start": 0.6004,
+      "end": 0.6404,
+      "confidence": 0.6152
+    },
+    {
+      "word": "the",
+      "char_start": 6,
+      "char_end": 9,
+      "spoken": "THE",
+      "start": 0.6804,
+      "end": 0.7405,
+      "confidence": 0.2542
+    },
+    {
+      "word": "co",
+      "char_start": 10,
+      "char_end": 12,
+      "spoken": "CO",
+      "start": 0.7805,
+      "end": 0.8805,
+      "confidence": 0.9997
+    },
+    {
+      "word": "founder",
+      "char_start": 13,
+      "char_end": 20,
+      "spoken": "FOUNDER",
+      "start": 1.0206,
+      "end": 1.3208,
+      "confidence": 0.9385
+    },
+    {
+      "word": "of",
+      "char_start": 21,
+      "char_end": 23,
+      "spoken": "OF",
+      "start": 1.4009,
+      "end": 1.4409,
+      "confidence": 0.9997
+    },
+    {
+      "word": "Rossen",
+      "char_start": 24,
+      "char_end": 30,
+      "spoken": "ROSSEN",
+      "start": 1.581,
+      "end": 1.9612,
+      "confidence": 0.6751
+    },
+    {
+      "word": "and",
+      "char_start": 31,
+      "char_end": 34,
+      "spoken": "AND",
+      "start": 2.0413,
+      "end": 2.1013,
+      "confidence": 0.9938
+    },
+    {
+      "word": "Vettese",
+      "char_start": 35,
+      "char_end": 42,
+      "spoken": "VETTESE",
+      "start": 2.1413,
+      "end": 2.4615,
+      "confidence": 0.6351
+    },
+    {
+      "word": "Limited",
+      "char_start": 43,
+      "char_end": 50,
+      "spoken": "LIMITED",
+      "start": 2.5416,
+      "end": 2.8418,
+      "confidence": 0.9657
+    },
+    {
+      "word": "and",
+      "char_start": 51,
+      "char_end": 54,
+      "spoken": "AND",
+      "start": 3.202,
+      "end": 3.262,
+      "confidence": 0.9539
+    },
+    {
+      "word": "the",
+      "char_start": 55,
+      "char_end": 58,
+      "spoken": "THE",
+      "start": 3.3221,
+      "end": 3.3821,
+      "confidence": 0.9849
+    },
+    {
+      "word": "former",
+      "char_start": 59,
+      "char_end": 65,
+      "spoken": "FORMER",
+      "start": 3.4622,
+      "end": 3.7623,
+      "confidence": 0.9758
+    },
+    {
+      "word": "Executive",
+      "char_start": 66,
+      "char_end": 75,
+      "spoken": "EXECUTIVE",
+      "start": 3.8224,
+      "end": 4.2426,
+      "confidence": 0.9722
+    },
+    {
+      "word": "Director",
+      "char_start": 76,
+      "char_end": 84,
+      "spoken": "DIRECTOR",
+      "start": 4.2827,
+      "end": 4.6429,
+      "confidence": 0.978
+    },
+    {
+      "word": "of",
+      "char_start": 85,
+      "char_end": 87,
+      "spoken": "OF",
+      "start": 4.843,
+      "end": 4.883,
+      "confidence": 0.9996
+    },
+    {
+      "word": "Uniform",
+      "char_start": 88,
+      "char_end": 95,
+      "spoken": "UNIFORM",
+      "start": 5.0632,
+      "end": 5.4834,
+      "confidence": 0.9681
+    },
+    {
+      "word": "Final",
+      "char_start": 96,
+      "char_end": 101,
+      "spoken": "FINAL",
+      "start": 5.6435,
+      "end": 5.8837,
+      "confidence": 0.9991
+    },
+    {
+      "word": "Examination",
+      "char_start": 102,
+      "char_end": 113,
+      "spoken": "EXAMINATION",
+      "start": 5.9437,
+      "end": 6.5241,
+      "confidence": 0.9503
+    },
+    {
+      "word": "UFE",
+      "char_start": 115,
+      "char_end": 118,
+      "spoken": "UFE",
+      "start": 6.6441,
+      "end": 6.8443,
+      "confidence": 0.4995
+    },
+    {
+      "word": "courses",
+      "char_start": 120,
+      "char_end": 127,
+      "spoken": "COURSES",
+      "start": 6.9643,
+      "end": 7.8649,
+      "confidence": 0.1431
+    },
+    {
+      "word": "at",
+      "char_start": 128,
+      "char_end": 130,
+      "spoken": "AT",
+      "start": 8.2852,
+      "end": 8.3252,
+      "confidence": 0.9957
+    },
+    {
+      "word": "Toronto's",
+      "char_start": 131,
+      "char_end": 140,
+      "spoken": "TORONTO'S",
+      "start": 8.3852,
+      "end": 8.7655,
+      "confidence": 0.7832
+    },
+    {
+      "word": "York",
+      "char_start": 141,
+      "char_end": 145,
+      "spoken": "YORK",
+      "start": 8.8055,
+      "end": 8.9656,
+      "confidence": 0.9515
+    },
+    {
+      "word": "University",
+      "char_start": 146,
+      "char_end": 156,
+      "spoken": "UNIVERSITY",
+      "start": 9.0657,
+      "end": 9.606,
+      "confidence": 0.9745
+    }
+  ],
+  "normalized_transcript": "HE IS THE CO FOUNDER OF ROSSEN AND VETTESE LIMITED AND THE FORMER EXECUTIVE DIRECTOR OF UNIFORM FINAL EXAMINATION UFE COURSES AT TORONTO'S YORK UNIVERSITY",
+  "greedy_transcript": "HE'S A COFOUNDER OF RAWSEN AND VITESTE LIMITED AND THE FORMER EXECUTIVE DIRECTOR OF UNIFORM FINAL EXAMINATION COURSES U F AT TORONO'S YORK UNIVERSITY",
+  "transcript_similarity": 0.9174917491749175,
+  "mean_confidence": 0.8458,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "14",
+  "transcript": "He is the co-founder of Rossen and Vettese Limited and the former Executive Director of Uniform Final Examination (UFE) courses at Toronto's York University.",
+  "model": "facebook/wav2vec2-base-960h"
+}

@@ -1,0 +1,238 @@
+{
+  "duration": 9.5835,
+  "words": [
+    {
+      "word": "There's",
+      "char_start": 0,
+      "char_end": 7,
+      "spoken": "THERE'S",
+      "start": 0.5012,
+      "end": 0.7218,
+      "confidence": 0.927
+    },
+    {
+      "word": "one",
+      "char_start": 8,
+      "char_end": 11,
+      "spoken": "ONE",
+      "start": 0.8822,
+      "end": 0.9824,
+      "confidence": 0.9362
+    },
+    {
+      "word": "lender",
+      "char_start": 12,
+      "char_end": 18,
+      "spoken": "LENDER",
+      "start": 1.0426,
+      "end": 1.4034,
+      "confidence": 0.8509
+    },
+    {
+      "word": "at",
+      "char_start": 19,
+      "char_end": 21,
+      "spoken": "AT",
+      "start": 1.5638,
+      "end": 1.6039,
+      "confidence": 0.9961
+    },
+    {
+      "word": "the",
+      "char_start": 22,
+      "char_end": 25,
+      "spoken": "THE",
+      "start": 1.644,
+      "end": 1.7242,
+      "confidence": 0.9671
+    },
+    {
+      "word": "moment",
+      "char_start": 26,
+      "char_end": 32,
+      "spoken": "MOMENT",
+      "start": 1.7844,
+      "end": 2.0851,
+      "confidence": 0.934
+    },
+    {
+      "word": "which",
+      "char_start": 33,
+      "char_end": 38,
+      "spoken": "WHICH",
+      "start": 2.1653,
+      "end": 2.2856,
+      "confidence": 0.9999
+    },
+    {
+      "word": "I",
+      "char_start": 39,
+      "char_end": 40,
+      "spoken": "I",
+      "start": 2.3458,
+      "end": 2.3658,
+      "confidence": 0.9988
+    },
+    {
+      "word": "think",
+      "char_start": 41,
+      "char_end": 46,
+      "spoken": "THINK",
+      "start": 2.4059,
+      "end": 2.5462,
+      "confidence": 0.9459
+    },
+    {
+      "word": "is",
+      "char_start": 47,
+      "char_end": 49,
+      "spoken": "IS",
+      "start": 2.6064,
+      "end": 2.7066,
+      "confidence": 0.7194
+    },
+    {
+      "word": "just",
+      "char_start": 50,
+      "char_end": 54,
+      "spoken": "JUST",
+      "start": 2.7267,
+      "end": 2.8871,
+      "confidence": 0.9347
+    },
+    {
+      "word": "Bankwest",
+      "char_start": 55,
+      "char_end": 63,
+      "spoken": "BANKWEST",
+      "start": 3.0074,
+      "end": 3.689,
+      "confidence": 0.9914
+    },
+    {
+      "word": "who",
+      "char_start": 64,
+      "char_end": 67,
+      "spoken": "WHO",
+      "start": 4.1101,
+      "end": 4.2504,
+      "confidence": 0.9945
+    },
+    {
+      "word": "don't",
+      "char_start": 68,
+      "char_end": 73,
+      "spoken": "DON'T",
+      "start": 4.5311,
+      "end": 4.7517,
+      "confidence": 0.9817
+    },
+    {
+      "word": "take",
+      "char_start": 74,
+      "char_end": 78,
+      "spoken": "TAKE",
+      "start": 4.8118,
+      "end": 4.9922,
+      "confidence": 0.9966
+    },
+    {
+      "word": "rental",
+      "char_start": 79,
+      "char_end": 85,
+      "spoken": "RENTAL",
+      "start": 5.1526,
+      "end": 5.3932,
+      "confidence": 0.8309
+    },
+    {
+      "word": "income",
+      "char_start": 86,
+      "char_end": 92,
+      "spoken": "INCOME",
+      "start": 5.4935,
+      "end": 5.7942,
+      "confidence": 0.9381
+    },
+    {
+      "word": "into",
+      "char_start": 93,
+      "char_end": 97,
+      "spoken": "INTO",
+      "start": 5.9145,
+      "end": 6.135,
+      "confidence": 0.9711
+    },
+    {
+      "word": "account",
+      "char_start": 98,
+      "char_end": 105,
+      "spoken": "ACCOUNT",
+      "start": 6.2353,
+      "end": 6.536,
+      "confidence": 0.9509
+    },
+    {
+      "word": "they",
+      "char_start": 107,
+      "char_end": 111,
+      "spoken": "THEY",
+      "start": 6.8368,
+      "end": 6.9771,
+      "confidence": 0.924
+    },
+    {
+      "word": "take",
+      "char_start": 112,
+      "char_end": 116,
+      "spoken": "TAKE",
+      "start": 7.0573,
+      "end": 7.2377,
+      "confidence": 0.9185
+    },
+    {
+      "word": "rental",
+      "char_start": 117,
+      "char_end": 123,
+      "spoken": "RENTAL",
+      "start": 7.5184,
+      "end": 7.8192,
+      "confidence": 0.8819
+    },
+    {
+      "word": "yield",
+      "char_start": 124,
+      "char_end": 129,
+      "spoken": "YIELD",
+      "start": 7.9996,
+      "end": 8.3605,
+      "confidence": 0.9542
+    },
+    {
+      "word": "into",
+      "char_start": 130,
+      "char_end": 134,
+      "spoken": "INTO",
+      "start": 8.4808,
+      "end": 8.6412,
+      "confidence": 0.9992
+    },
+    {
+      "word": "account",
+      "char_start": 135,
+      "char_end": 142,
+      "spoken": "ACCOUNT",
+      "start": 8.7214,
+      "end": 9.0221,
+      "confidence": 0.968
+    }
+  ],
+  "normalized_transcript": "THERE'S ONE LENDER AT THE MOMENT WHICH I THINK IS JUST BANKWEST WHO DON'T TAKE RENTAL INCOME INTO ACCOUNT THEY TAKE RENTAL YIELD INTO ACCOUNT",
+  "greedy_transcript": "OUNT THERE'S ONE LENDAR AT THE MOMENT WHICH I THINK ITS JUST BANK WEST WHO DON'T TAKE RENTEL INCOME INTO ACCOUNT THEY TAKE RENTEL YIELD INTO ACCOUNT SO THAT",
+  "transcript_similarity": 0.9292929292929293,
+  "mean_confidence": 0.9404399999999999,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "03",
+  "transcript": "There's one lender at the moment which I think is just Bankwest who don't take rental income into account, they take rental yield into account.",
+  "model": "facebook/wav2vec2-base-960h"
+}

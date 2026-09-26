@@ -1,0 +1,166 @@
+{
+  "duration": 7.3143125,
+  "words": [
+    {
+      "word": "However",
+      "char_start": 0,
+      "char_end": 7,
+      "spoken": "HOWEVER",
+      "start": 0.0802,
+      "end": 0.5811,
+      "confidence": 0.4753
+    },
+    {
+      "word": "despite",
+      "char_start": 9,
+      "char_end": 16,
+      "spoken": "DESPITE",
+      "start": 0.7815,
+      "end": 1.2024,
+      "confidence": 0.562
+    },
+    {
+      "word": "their",
+      "char_start": 17,
+      "char_end": 22,
+      "spoken": "THEIR",
+      "start": 1.3426,
+      "end": 1.5831,
+      "confidence": 0.2
+    },
+    {
+      "word": "poverty",
+      "char_start": 23,
+      "char_end": 30,
+      "spoken": "POVERTY",
+      "start": 1.6232,
+      "end": 1.7635,
+      "confidence": 0.1428
+    },
+    {
+      "word": "the",
+      "char_start": 32,
+      "char_end": 35,
+      "spoken": "THE",
+      "start": 1.7835,
+      "end": 1.8636,
+      "confidence": 0.6497
+    },
+    {
+      "word": "family",
+      "char_start": 36,
+      "char_end": 42,
+      "spoken": "FAMILY",
+      "start": 2.064,
+      "end": 2.3646,
+      "confidence": 0.5237
+    },
+    {
+      "word": "prioritize",
+      "char_start": 43,
+      "char_end": 53,
+      "spoken": "PRIORITIZE",
+      "start": 2.5049,
+      "end": 2.9458,
+      "confidence": 0.0031
+    },
+    {
+      "word": "education",
+      "char_start": 54,
+      "char_end": 63,
+      "spoken": "EDUCATION",
+      "start": 3.0059,
+      "end": 3.5469,
+      "confidence": 0.3338
+    },
+    {
+      "word": "because",
+      "char_start": 64,
+      "char_end": 71,
+      "spoken": "BECAUSE",
+      "start": 3.6271,
+      "end": 4.0078,
+      "confidence": 0.2224
+    },
+    {
+      "word": "they",
+      "char_start": 72,
+      "char_end": 76,
+      "spoken": "THEY",
+      "start": 4.2483,
+      "end": 4.5289,
+      "confidence": 0.3822
+    },
+    {
+      "word": "believed",
+      "char_start": 77,
+      "char_end": 85,
+      "spoken": "BELIEVED",
+      "start": 4.5689,
+      "end": 4.8695,
+      "confidence": 0.125
+    },
+    {
+      "word": "in",
+      "char_start": 86,
+      "char_end": 88,
+      "spoken": "IN",
+      "start": 4.9497,
+      "end": 5.0499,
+      "confidence": 0.5
+    },
+    {
+      "word": "its",
+      "char_start": 89,
+      "char_end": 92,
+      "spoken": "ITS",
+      "start": 5.3304,
+      "end": 5.4507,
+      "confidence": 0.6666
+    },
+    {
+      "word": "power",
+      "char_start": 93,
+      "char_end": 98,
+      "spoken": "POWER",
+      "start": 6.0318,
+      "end": 6.3524,
+      "confidence": 0.806
+    },
+    {
+      "word": "to",
+      "char_start": 99,
+      "char_end": 101,
+      "spoken": "TO",
+      "start": 6.4326,
+      "end": 6.5127,
+      "confidence": 0.0
+    },
+    {
+      "word": "transform",
+      "char_start": 102,
+      "char_end": 111,
+      "spoken": "TRANSFORM",
+      "start": 6.7532,
+      "end": 6.9937,
+      "confidence": 0.2915
+    },
+    {
+      "word": "lives",
+      "char_start": 112,
+      "char_end": 117,
+      "spoken": "LIVES",
+      "start": 7.0338,
+      "end": 7.2943,
+      "confidence": 0.5651
+    }
+  ],
+  "normalized_transcript": "HOWEVER DESPITE THEIR POVERTY THE FAMILY PRIORITIZE EDUCATION BECAUSE THEY BELIEVED IN ITS POWER TO TRANSFORM LIVES",
+  "greedy_transcript": "HER FATHER THE BREAD WINTER DIED WHEN SHE WAS BARELY A YEAR OLD PUTTING THE FAMILY IN A DIRE FINANCIAL POSITION HOWEVER DESPITE THEIR POVER",
+  "transcript_similarity": 0.2125984251968504,
+  "mean_confidence": 0.37936470588235294,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "15",
+  "transcript": "However, despite their poverty, the family prioritize education because they believed in its power to transform lives",
+  "model": "facebook/wav2vec2-base-960h"
+}

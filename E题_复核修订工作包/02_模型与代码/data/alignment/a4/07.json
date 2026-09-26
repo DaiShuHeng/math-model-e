@@ -1,0 +1,472 @@
+{
+  "duration": 21.2655625,
+  "words": [
+    {
+      "word": "As",
+      "char_start": 0,
+      "char_end": 2,
+      "spoken": "AS",
+      "start": 0.5802,
+      "end": 0.6602,
+      "confidence": 0.9934
+    },
+    {
+      "word": "Linn’s",
+      "char_start": 3,
+      "char_end": 9,
+      "spoken": "LINN'S",
+      "start": 0.7602,
+      "end": 0.9603,
+      "confidence": 0.5614
+    },
+    {
+      "word": "associate",
+      "char_start": 10,
+      "char_end": 19,
+      "spoken": "ASSOCIATE",
+      "start": 1.0003,
+      "end": 1.4004,
+      "confidence": 0.9191
+    },
+    {
+      "word": "editor",
+      "char_start": 20,
+      "char_end": 26,
+      "spoken": "EDITOR",
+      "start": 1.4604,
+      "end": 1.7004,
+      "confidence": 0.7279
+    },
+    {
+      "word": "Michael",
+      "char_start": 27,
+      "char_end": 34,
+      "spoken": "MICHAEL",
+      "start": 1.7405,
+      "end": 1.9605,
+      "confidence": 0.7895
+    },
+    {
+      "word": "Baadke",
+      "char_start": 35,
+      "char_end": 41,
+      "spoken": "BAADKE",
+      "start": 2.0005,
+      "end": 2.3406,
+      "confidence": 0.4302
+    },
+    {
+      "word": "reports",
+      "char_start": 42,
+      "char_end": 49,
+      "spoken": "REPORTS",
+      "start": 2.4206,
+      "end": 2.8007,
+      "confidence": 0.9673
+    },
+    {
+      "word": "in",
+      "char_start": 50,
+      "char_end": 52,
+      "spoken": "IN",
+      "start": 2.8808,
+      "end": 2.9208,
+      "confidence": 0.9988
+    },
+    {
+      "word": "our",
+      "char_start": 53,
+      "char_end": 56,
+      "spoken": "OUR",
+      "start": 3.0008,
+      "end": 3.0808,
+      "confidence": 0.9974
+    },
+    {
+      "word": "November",
+      "char_start": 57,
+      "char_end": 65,
+      "spoken": "NOVEMBER",
+      "start": 3.1608,
+      "end": 3.4609,
+      "confidence": 0.9804
+    },
+    {
+      "word": "28",
+      "char_start": 66,
+      "char_end": 68,
+      "spoken": "TWO|EIGHT",
+      "start": 3.5409,
+      "end": 3.941,
+      "confidence": 0.8016
+    },
+    {
+      "word": "issue",
+      "char_start": 69,
+      "char_end": 74,
+      "spoken": "ISSUE",
+      "start": 4.0411,
+      "end": 4.3011,
+      "confidence": 0.9822
+    },
+    {
+      "word": "attendees",
+      "char_start": 76,
+      "char_end": 85,
+      "spoken": "ATTENDEES",
+      "start": 5.0013,
+      "end": 5.5615,
+      "confidence": 0.7293
+    },
+    {
+      "word": "enthusiastically",
+      "char_start": 87,
+      "char_end": 103,
+      "spoken": "ENTHUSIASTICALLY",
+      "start": 6.0016,
+      "end": 7.0218,
+      "confidence": 0.958
+    },
+    {
+      "word": "discussed",
+      "char_start": 104,
+      "char_end": 113,
+      "spoken": "DISCUSSED",
+      "start": 7.1019,
+      "end": 7.562,
+      "confidence": 0.8335
+    },
+    {
+      "word": "the",
+      "char_start": 114,
+      "char_end": 117,
+      "spoken": "THE",
+      "start": 7.602,
+      "end": 7.662,
+      "confidence": 0.9986
+    },
+    {
+      "word": "topics",
+      "char_start": 118,
+      "char_end": 124,
+      "spoken": "TOPICS",
+      "start": 7.702,
+      "end": 8.1421,
+      "confidence": 0.9773
+    },
+    {
+      "word": "of",
+      "char_start": 125,
+      "char_end": 127,
+      "spoken": "OF",
+      "start": 8.6623,
+      "end": 8.7023,
+      "confidence": 0.9998
+    },
+    {
+      "word": "growing",
+      "char_start": 128,
+      "char_end": 135,
+      "spoken": "GROWING",
+      "start": 8.8223,
+      "end": 9.1224,
+      "confidence": 0.9799
+    },
+    {
+      "word": "the",
+      "char_start": 136,
+      "char_end": 139,
+      "spoken": "THE",
+      "start": 9.1624,
+      "end": 9.2424,
+      "confidence": 0.8988
+    },
+    {
+      "word": "hobby",
+      "char_start": 140,
+      "char_end": 145,
+      "spoken": "HOBBY",
+      "start": 9.2824,
+      "end": 9.5625,
+      "confidence": 0.8628
+    },
+    {
+      "word": "the",
+      "char_start": 147,
+      "char_end": 150,
+      "spoken": "THE",
+      "start": 9.9026,
+      "end": 9.9826,
+      "confidence": 0.9855
+    },
+    {
+      "word": "future",
+      "char_start": 151,
+      "char_end": 157,
+      "spoken": "FUTURE",
+      "start": 10.0226,
+      "end": 10.3627,
+      "confidence": 0.9748
+    },
+    {
+      "word": "of",
+      "char_start": 158,
+      "char_end": 160,
+      "spoken": "OF",
+      "start": 10.4227,
+      "end": 10.4627,
+      "confidence": 0.7563
+    },
+    {
+      "word": "stamp",
+      "char_start": 161,
+      "char_end": 166,
+      "spoken": "STAMP",
+      "start": 10.5228,
+      "end": 10.7828,
+      "confidence": 0.8618
+    },
+    {
+      "word": "shows",
+      "char_start": 167,
+      "char_end": 172,
+      "spoken": "SHOWS",
+      "start": 10.8428,
+      "end": 11.1829,
+      "confidence": 0.9705
+    },
+    {
+      "word": "and",
+      "char_start": 174,
+      "char_end": 177,
+      "spoken": "AND",
+      "start": 11.583,
+      "end": 11.6831,
+      "confidence": 0.9918
+    },
+    {
+      "word": "dealers",
+      "char_start": 178,
+      "char_end": 185,
+      "spoken": "DEALERS",
+      "start": 11.7631,
+      "end": 12.1432,
+      "confidence": 0.8955
+    },
+    {
+      "word": "and",
+      "char_start": 186,
+      "char_end": 189,
+      "spoken": "AND",
+      "start": 12.2232,
+      "end": 12.3032,
+      "confidence": 0.7925
+    },
+    {
+      "word": "philatelic",
+      "char_start": 190,
+      "char_end": 200,
+      "spoken": "PHILATELIC",
+      "start": 12.3832,
+      "end": 12.8234,
+      "confidence": 0.8118
+    },
+    {
+      "word": "partnerships",
+      "char_start": 201,
+      "char_end": 213,
+      "spoken": "PARTNERSHIPS",
+      "start": 12.9034,
+      "end": 13.4835,
+      "confidence": 0.9207
+    },
+    {
+      "word": "along",
+      "char_start": 215,
+      "char_end": 220,
+      "spoken": "ALONG",
+      "start": 13.9637,
+      "end": 14.2637,
+      "confidence": 0.9964
+    },
+    {
+      "word": "with",
+      "char_start": 221,
+      "char_end": 225,
+      "spoken": "WITH",
+      "start": 14.3237,
+      "end": 14.4438,
+      "confidence": 0.9906
+    },
+    {
+      "word": "ways",
+      "char_start": 226,
+      "char_end": 230,
+      "spoken": "WAYS",
+      "start": 14.5038,
+      "end": 14.8639,
+      "confidence": 0.9974
+    },
+    {
+      "word": "the",
+      "char_start": 231,
+      "char_end": 234,
+      "spoken": "THE",
+      "start": 15.0039,
+      "end": 15.0639,
+      "confidence": 0.9991
+    },
+    {
+      "word": "leading",
+      "char_start": 235,
+      "char_end": 242,
+      "spoken": "LEADING",
+      "start": 15.124,
+      "end": 15.364,
+      "confidence": 0.9961
+    },
+    {
+      "word": "organizations",
+      "char_start": 243,
+      "char_end": 256,
+      "spoken": "ORGANIZATIONS",
+      "start": 15.424,
+      "end": 16.1042,
+      "confidence": 0.9811
+    },
+    {
+      "word": "involved",
+      "char_start": 257,
+      "char_end": 265,
+      "spoken": "INVOLVED",
+      "start": 16.1842,
+      "end": 16.6043,
+      "confidence": 0.9529
+    },
+    {
+      "word": "in",
+      "char_start": 266,
+      "char_end": 268,
+      "spoken": "IN",
+      "start": 16.6444,
+      "end": 16.6844,
+      "confidence": 0.9888
+    },
+    {
+      "word": "the",
+      "char_start": 269,
+      "char_end": 272,
+      "spoken": "THE",
+      "start": 16.7444,
+      "end": 16.8044,
+      "confidence": 0.8668
+    },
+    {
+      "word": "stamp",
+      "char_start": 273,
+      "char_end": 278,
+      "spoken": "STAMP",
+      "start": 16.8644,
+      "end": 17.0845,
+      "confidence": 0.6687
+    },
+    {
+      "word": "hobby",
+      "char_start": 279,
+      "char_end": 284,
+      "spoken": "HOBBY",
+      "start": 17.1245,
+      "end": 17.4046,
+      "confidence": 0.8884
+    },
+    {
+      "word": "can",
+      "char_start": 285,
+      "char_end": 288,
+      "spoken": "CAN",
+      "start": 18.0047,
+      "end": 18.1047,
+      "confidence": 0.8745
+    },
+    {
+      "word": "work",
+      "char_start": 289,
+      "char_end": 293,
+      "spoken": "WORK",
+      "start": 18.2048,
+      "end": 18.3448,
+      "confidence": 0.9989
+    },
+    {
+      "word": "together",
+      "char_start": 294,
+      "char_end": 302,
+      "spoken": "TOGETHER",
+      "start": 18.4648,
+      "end": 18.8849,
+      "confidence": 0.9365
+    },
+    {
+      "word": "to",
+      "char_start": 303,
+      "char_end": 305,
+      "spoken": "TO",
+      "start": 19.4051,
+      "end": 19.4851,
+      "confidence": 0.9994
+    },
+    {
+      "word": "make",
+      "char_start": 306,
+      "char_end": 310,
+      "spoken": "MAKE",
+      "start": 19.5451,
+      "end": 19.7252,
+      "confidence": 0.9129
+    },
+    {
+      "word": "it",
+      "char_start": 311,
+      "char_end": 313,
+      "spoken": "IT",
+      "start": 19.7852,
+      "end": 19.8252,
+      "confidence": 0.9251
+    },
+    {
+      "word": "succeed",
+      "char_start": 314,
+      "char_end": 321,
+      "spoken": "SUCCEED",
+      "start": 19.9652,
+      "end": 20.4453,
+      "confidence": 0.9983
+    },
+    {
+      "word": "and",
+      "char_start": 322,
+      "char_end": 325,
+      "spoken": "AND",
+      "start": 20.6254,
+      "end": 20.7054,
+      "confidence": 0.9158
+    },
+    {
+      "word": "grow",
+      "char_start": 326,
+      "char_end": 330,
+      "spoken": "GROW",
+      "start": 20.7854,
+      "end": 21.0455,
+      "confidence": 0.9985
+    }
+  ],
+  "normalized_transcript": "AS LINN'S ASSOCIATE EDITOR MICHAEL BAADKE REPORTS IN OUR NOVEMBER TWO EIGHT ISSUE ATTENDEES ENTHUSIASTICALLY DISCUSSED THE TOPICS OF GROWING THE HOBBY THE FUTURE OF STAMP SHOWS AND DEALERS AND PHILATELIC PARTNERSHIPS ALONG WITH WAYS THE LEADING ORGANIZATIONS INVOLVED IN THE STAMP HOBBY CAN WORK TOGETHER TO MAKE IT SUCCEED AND GROW",
+  "greedy_transcript": "AS LANDES ASSOCIATED INOR MICHAEBAKI REPORTS IN OUR NOVEMBER TWENTY EIGHTH ISSUE ATTEND DAYS ENTHUSIASTICALLY DISCUSS THE TOPICS OF GROWING THE HOBBY THE FUTURE OF STAMSHOWS AND DEALERS AND PHILOTILIC PARKNERSHIPS ALONG WITH WAYS THE LEADING ORGANIZATIONS INVOLVED IN THE STANHOBBY CAN WORK TOGETHER TO MAKE IT SUCCEED AND GROW",
+  "transcript_similarity": 0.4977238239757208,
+  "mean_confidence": 0.9065607843137254,
+  "time_source": "CTC forced alignment; automatic estimates, not human verified",
+  "sample_id": "07",
+  "transcript": "As Linn’s associate editor Michael Baadke reports in our November 28 issue, attendees “enthusiastically discussed the topics of growing the hobby, the future of stamp shows, and dealers and philatelic partnerships, along with ways the leading organizations involved in the stamp hobby can work together to make it succeed and grow",
+  "model": "facebook/wav2vec2-base-960h"
+}
