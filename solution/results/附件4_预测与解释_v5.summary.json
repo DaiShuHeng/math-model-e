@@ -1,0 +1,27 @@
+{
+  "rows": 20,
+  "checkpoints": [
+    "weights/v5_deploy/c0_s2026.pt",
+    "weights/v5_deploy/c2_s2026.pt",
+    "weights/v5_deploy/c2_s42.pt",
+    "weights/v5_deploy/c3_s2026.pt"
+  ],
+  "valid_ensemble": {
+    "Accuracy": 0.646978021978022,
+    "MacroF1": 0.6356464007812641,
+    "WeightedF1": 0.651830963095748,
+    "MAE": 0.6234790086746216,
+    "Pearson": 0.6601619763757332
+  },
+  "max_efficiency_error": 0.0,
+  "main_modality_counts": {
+    "T": 18,
+    "A": 1,
+    "V": 1
+  },
+  "class_counts": {
+    "Negative": 8,
+    "Neutral": 5,
+    "Positive": 7
+  }
+}
