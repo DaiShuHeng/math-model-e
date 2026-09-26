@@ -1,0 +1,296 @@
+﻿sample_id,modality,rank,position,probability_drop,word,char_start,char_end,start_s,end_s,alignment_confidence,mapping_status,slot_start_s,slot_end_s,keyframe_index
+01,text,1,4,0.015438,components,21,31,1.481,1.9613,0.9868,,,,
+01,text,2,3,0.011174,wear,16,20,1.2208,1.401,0.7427,,,,
+01,text,3,22,0.010693,requirements,125,137,7.6852,8.2656,0.9638,,,,
+01,text,4,17,0.008767,performs,101,109,6.1642,6.7046,0.9602,,,,
+01,text,5,9,0.008259,belt,58,62,3.0421,3.2222,0.9996,,,,
+01,audio,1,19,0.00148,,,,,,,equal-length aligned slot over audio duration,3.4147,3.5944,34
+01,audio,2,22,0.001434,,,,,,,equal-length aligned slot over audio duration,3.9539,4.1336,40
+01,audio,3,18,0.001323,,,,,,,equal-length aligned slot over audio duration,3.235,3.4147,32
+01,audio,4,11,0.001281,,,,,,,equal-length aligned slot over audio duration,1.9769,2.1567,20
+01,audio,5,15,0.00125,,,,,,,equal-length aligned slot over audio duration,2.6958,2.8756,27
+01,vision,1,4,0.001926,,,,,,,equal-length aligned slot over audio duration,0.7189,0.8986,7
+01,vision,2,3,0.00152,,,,,,,equal-length aligned slot over audio duration,0.5392,0.7189,5
+01,vision,3,1,0.001441,,,,,,,equal-length aligned slot over audio duration,0.1797,0.3594,2
+01,vision,4,2,0.001012,,,,,,,equal-length aligned slot over audio duration,0.3594,0.5392,4
+01,vision,5,13,0.00089,,,,,,,equal-length aligned slot over audio duration,2.3364,2.5161,23
+02,text,1,10,0.048385,happiness,32,41,1.4436,1.8045,0.9469,,,,
+02,text,2,11,0.047269,-,42,43,,,,text_fragment_without_speech_timestamp,,,
+02,text,3,5,0.027623,by,16,18,0.9825,1.0426,0.9989,,,,
+02,text,4,12,0.020231,not,44,47,1.8246,1.9248,0.9884,,,,
+02,text,5,3,0.019294,to,8,10,0.7419,0.782,0.9953,,,,
+02,audio,1,1,0.000933,,,,,,,equal-length aligned slot over audio duration,0.0666,0.1331,1
+02,audio,2,13,-0.001124,,,,,,,equal-length aligned slot over audio duration,0.8654,0.9319,9
+02,audio,3,8,-0.001334,,,,,,,equal-length aligned slot over audio duration,0.5325,0.5991,5
+02,audio,4,9,-0.001456,,,,,,,equal-length aligned slot over audio duration,0.5991,0.6657,6
+02,audio,5,7,-0.001475,,,,,,,equal-length aligned slot over audio duration,0.466,0.5325,5
+02,vision,1,3,-0.001053,,,,,,,equal-length aligned slot over audio duration,0.1997,0.2663,2
+02,vision,2,2,-0.001254,,,,,,,equal-length aligned slot over audio duration,0.1331,0.1997,1
+02,vision,3,10,-0.0014,,,,,,,equal-length aligned slot over audio duration,0.6657,0.7322,7
+02,vision,4,4,-0.001404,,,,,,,equal-length aligned slot over audio duration,0.2663,0.3328,3
+02,vision,5,9,-0.00145,,,,,,,equal-length aligned slot over audio duration,0.5991,0.6657,6
+03,text,1,15,0.02707,bankwest,55,63,3.0074,3.689,0.9914,,,,
+03,text,2,16,0.026198,bankwest,55,63,3.0074,3.689,0.9914,,,,
+03,text,3,13,0.023948,is,47,49,2.6064,2.7066,0.7194,,,,
+03,text,4,6,0.016755,lender,12,18,1.0426,1.4034,0.8509,,,,
+03,text,5,7,0.016563,at,19,21,1.5638,1.6039,0.9961,,,,
+03,audio,1,21,0.007591,,,,,,,equal-length aligned slot over audio duration,4.0251,4.2167,40
+03,audio,2,24,0.0073,,,,,,,equal-length aligned slot over audio duration,4.6001,4.7918,46
+03,audio,3,22,0.005974,,,,,,,equal-length aligned slot over audio duration,4.2167,4.4084,42
+03,audio,4,23,0.005551,,,,,,,equal-length aligned slot over audio duration,4.4084,4.6001,44
+03,audio,5,29,0.001033,,,,,,,equal-length aligned slot over audio duration,5.5584,5.7501,56
+03,vision,1,13,0.00098,,,,,,,equal-length aligned slot over audio duration,2.4917,2.6834,25
+03,vision,2,14,0.000712,,,,,,,equal-length aligned slot over audio duration,2.6834,2.875,27
+03,vision,3,24,0.000592,,,,,,,equal-length aligned slot over audio duration,4.6001,4.7918,46
+03,vision,4,23,0.000273,,,,,,,equal-length aligned slot over audio duration,4.4084,4.6001,44
+03,vision,5,17,0.000204,,,,,,,equal-length aligned slot over audio duration,3.2584,3.4501,33
+04,text,1,25,0.141045,not,103,106,6.0266,6.2468,0.9902,,,,
+04,text,2,21,0.088907,goodbye,82,89,4.4849,4.9654,0.8691,,,,
+04,text,3,4,0.030108,it,10,12,1.0211,1.0612,0.5412,,,,
+04,text,4,3,0.029699,blow,5,9,0.7408,0.9611,0.8691,,,,
+04,text,5,2,0.0241,i,3,4,0.6207,0.6407,0.9997,,,,
+04,audio,1,7,0.001494,,,,,,,equal-length aligned slot over audio duration,0.9587,1.0956,10
+04,audio,2,10,0.000307,,,,,,,equal-length aligned slot over audio duration,1.3695,1.5065,14
+04,audio,3,6,-0.000149,,,,,,,equal-length aligned slot over audio duration,0.8217,0.9587,8
+04,audio,4,8,-0.000302,,,,,,,equal-length aligned slot over audio duration,1.0956,1.2326,11
+04,audio,5,9,-0.000326,,,,,,,equal-length aligned slot over audio duration,1.2326,1.3695,12
+04,vision,1,3,-0.001518,,,,,,,equal-length aligned slot over audio duration,0.4109,0.5478,4
+04,vision,2,4,-0.002759,,,,,,,equal-length aligned slot over audio duration,0.5478,0.6848,5
+04,vision,3,2,-0.004262,,,,,,,equal-length aligned slot over audio duration,0.2739,0.4109,3
+04,vision,4,17,-0.007298,,,,,,,equal-length aligned slot over audio duration,2.3282,2.4651,23
+04,vision,5,1,-0.007301,,,,,,,equal-length aligned slot over audio duration,0.137,0.2739,1
+05,text,1,13,0.051205,wagon,45,50,4.6508,4.9315,0.6735,,,,
+05,text,2,14,0.047528,marketing,51,60,4.9916,5.4527,0.8341,,,,
+05,text,3,11,0.026053,for,37,40,4.1697,4.2699,0.9994,,,,
+05,text,4,6,0.019893,chloe,15,20,2.4457,2.7664,0.8668,,,,
+05,text,5,7,0.014943,",",20,21,,,,text_fragment_without_speech_timestamp,,,
+05,audio,1,11,0.003561,,,,,,,equal-length aligned slot over audio duration,1.3231,1.4434,13
+05,audio,2,9,0.002293,,,,,,,equal-length aligned slot over audio duration,1.0825,1.2028,11
+05,audio,3,10,0.002264,,,,,,,equal-length aligned slot over audio duration,1.2028,1.3231,12
+05,audio,4,3,0.001821,,,,,,,equal-length aligned slot over audio duration,0.3608,0.4811,4
+05,audio,5,2,0.001658,,,,,,,equal-length aligned slot over audio duration,0.2406,0.3608,2
+05,vision,1,14,0.009806,,,,,,,equal-length aligned slot over audio duration,1.6839,1.8042,17
+05,vision,2,15,0.009726,,,,,,,equal-length aligned slot over audio duration,1.8042,1.9245,18
+05,vision,3,13,0.002148,,,,,,,equal-length aligned slot over audio duration,1.5636,1.6839,16
+05,vision,4,11,-0.006657,,,,,,,equal-length aligned slot over audio duration,1.3231,1.4434,13
+05,vision,5,10,-0.008135,,,,,,,equal-length aligned slot over audio duration,1.2028,1.3231,12
+06,text,1,21,0.037466,impressive,79,89,3.9688,4.4098,0.9337,,,,
+06,text,2,11,0.030107,sense,35,40,1.8441,2.0846,0.9341,,,,
+06,text,3,24,0.02623,then,102,106,5.5924,5.6926,0.5046,,,,
+06,text,4,13,0.020898,just,42,46,2.1447,2.3051,0.9847,,,,
+06,text,5,14,0.019068,like,47,51,2.3452,2.4655,0.9982,,,,
+06,audio,1,24,0.004153,,,,,,,equal-length aligned slot over audio duration,3.9159,4.079,39
+06,audio,2,1,0.001415,,,,,,,equal-length aligned slot over audio duration,0.1632,0.3263,2
+06,audio,3,22,0.000862,,,,,,,equal-length aligned slot over audio duration,3.5895,3.7527,36
+06,audio,4,23,-0.000101,,,,,,,equal-length aligned slot over audio duration,3.7527,3.9159,38
+06,audio,5,7,-0.000217,,,,,,,equal-length aligned slot over audio duration,1.1421,1.3053,11
+06,vision,1,26,-0.000769,,,,,,,equal-length aligned slot over audio duration,4.2422,4.4054,42
+06,vision,2,28,-0.001022,,,,,,,equal-length aligned slot over audio duration,4.5685,4.7317,46
+06,vision,3,30,-0.001047,,,,,,,equal-length aligned slot over audio duration,4.8948,5.058,49
+06,vision,4,27,-0.001085,,,,,,,equal-length aligned slot over audio duration,4.4054,4.5685,44
+06,vision,5,29,-0.001091,,,,,,,equal-length aligned slot over audio duration,4.7317,4.8948,47
+07,text,1,21,0.077903,enthusiastically,87,103,6.0016,7.0218,0.958,,,,
+07,text,2,1,0.014534,as,0,2,0.5802,0.6602,0.9934,,,,
+07,text,3,26,0.012316,growing,128,135,8.8223,9.1224,0.9799,,,,
+07,text,4,20,0.010281,“,86,87,,,,text_fragment_without_speech_timestamp,,,
+07,text,5,46,0.010109,ways,226,230,14.5038,14.8639,0.9974,,,,
+07,audio,1,16,0.001211,,,,,,,equal-length aligned slot over audio duration,6.805,7.2303,68
+07,audio,2,22,0.001088,,,,,,,equal-length aligned slot over audio duration,9.3568,9.7822,94
+07,audio,3,11,0.001014,,,,,,,equal-length aligned slot over audio duration,4.6784,5.1037,47
+07,audio,4,10,0.001013,,,,,,,equal-length aligned slot over audio duration,4.2531,4.6784,43
+07,audio,5,9,0.000987,,,,,,,equal-length aligned slot over audio duration,3.8278,4.2531,38
+07,vision,1,17,0.001008,,,,,,,equal-length aligned slot over audio duration,7.2303,7.6556,72
+07,vision,2,18,0.000983,,,,,,,equal-length aligned slot over audio duration,7.6556,8.0809,77
+07,vision,3,41,0.000722,,,,,,,equal-length aligned slot over audio duration,17.4378,17.8631,174
+07,vision,4,39,0.000711,,,,,,,equal-length aligned slot over audio duration,16.5871,17.0125,166
+07,vision,5,40,0.000706,,,,,,,equal-length aligned slot over audio duration,17.0125,17.4378,170
+08,text,1,10,0.062367,grand,48,53,3.3858,3.6863,0.9688,,,,
+08,text,2,8,0.05393,universal,31,40,2.0435,2.5043,0.9943,,,,
+08,text,3,1,0.043455,that,0,4,0.6411,0.7813,0.9125,,,,
+08,text,4,2,0.033145,brings,5,11,0.8615,1.0618,0.9535,,,,
+08,text,5,5,0.020125,tonight,18,25,1.4625,1.8031,0.9891,,,,
+08,audio,1,1,0.004959,,,,,,,equal-length aligned slot over audio duration,0.0982,0.1963,1
+08,audio,2,10,-0.004743,,,,,,,equal-length aligned slot over audio duration,0.9817,1.0799,10
+08,audio,3,2,-0.004927,,,,,,,equal-length aligned slot over audio duration,0.1963,0.2945,2
+08,audio,4,11,-0.005277,,,,,,,equal-length aligned slot over audio duration,1.0799,1.178,11
+08,audio,5,4,-0.006087,,,,,,,equal-length aligned slot over audio duration,0.3927,0.4908,4
+08,vision,1,10,-0.005696,,,,,,,equal-length aligned slot over audio duration,0.9817,1.0799,10
+08,vision,2,11,-0.00573,,,,,,,equal-length aligned slot over audio duration,1.0799,1.178,11
+08,vision,3,9,-0.006147,,,,,,,equal-length aligned slot over audio duration,0.8835,0.9817,9
+08,vision,4,4,-0.006577,,,,,,,equal-length aligned slot over audio duration,0.3927,0.4908,4
+08,vision,5,8,-0.007119,,,,,,,equal-length aligned slot over audio duration,0.7853,0.8835,8
+09,text,1,18,0.004136,it,62,64,4.1403,4.3614,0.3994,,,,
+09,text,2,9,0.003364,this,21,25,1.6481,1.7486,0.8105,,,,
+09,text,3,14,0.001992,i,40,41,2.8138,2.8339,0.9979,,,,
+09,text,4,6,0.001972,did,8,11,1.226,1.3265,0.9929,,,,
+09,text,5,7,0.001789,not,12,15,1.3667,1.4672,0.9106,,,,
+09,audio,1,18,0.000107,,,,,,,equal-length aligned slot over audio duration,1.7872,1.8864,18
+09,audio,2,17,8.9e-05,,,,,,,equal-length aligned slot over audio duration,1.6879,1.7872,17
+09,audio,3,14,7.5e-05,,,,,,,equal-length aligned slot over audio duration,1.39,1.4893,14
+09,audio,4,16,7.2e-05,,,,,,,equal-length aligned slot over audio duration,1.5886,1.6879,16
+09,audio,5,7,4.7e-05,,,,,,,equal-length aligned slot over audio duration,0.695,0.7943,7
+09,vision,1,15,5.9e-05,,,,,,,equal-length aligned slot over audio duration,1.4893,1.5886,15
+09,vision,2,16,5.4e-05,,,,,,,equal-length aligned slot over audio duration,1.5886,1.6879,16
+09,vision,3,11,3.4e-05,,,,,,,equal-length aligned slot over audio duration,1.0921,1.1914,11
+09,vision,4,12,3.3e-05,,,,,,,equal-length aligned slot over audio duration,1.1914,1.2907,12
+09,vision,5,13,3.3e-05,,,,,,,equal-length aligned slot over audio duration,1.2907,1.39,13
+10,text,1,30,0.061113,terrible,121,129,8.6938,9.2147,0.7076,,,,
+10,text,2,29,0.037132,pretty,114,120,8.3934,8.6137,0.9993,,,,
+10,text,3,28,0.022532,was,110,113,7.512,7.6722,0.9958,,,,
+10,text,4,26,0.016754,this,101,105,6.9511,7.1113,0.9979,,,,
+10,text,5,27,0.011718,one,106,109,7.3116,7.4318,0.916,,,,
+10,audio,1,16,-9.2e-05,,,,,,,equal-length aligned slot over audio duration,3.1282,3.3237,31
+10,audio,2,15,-9.7e-05,,,,,,,equal-length aligned slot over audio duration,2.9327,3.1282,29
+10,audio,3,8,-0.000144,,,,,,,equal-length aligned slot over audio duration,1.5641,1.7596,16
+10,audio,4,13,-0.000164,,,,,,,equal-length aligned slot over audio duration,2.5416,2.7372,25
+10,audio,5,18,-0.000406,,,,,,,equal-length aligned slot over audio duration,3.5192,3.7147,35
+10,vision,1,6,0.000502,,,,,,,equal-length aligned slot over audio duration,1.1731,1.3686,12
+10,vision,2,5,0.000462,,,,,,,equal-length aligned slot over audio duration,0.9776,1.1731,10
+10,vision,3,7,-0.000298,,,,,,,equal-length aligned slot over audio duration,1.3686,1.5641,14
+10,vision,4,4,-0.00046,,,,,,,equal-length aligned slot over audio duration,0.782,0.9776,8
+10,vision,5,8,-0.001071,,,,,,,equal-length aligned slot over audio duration,1.5641,1.7596,16
+11,text,1,3,0.08784,be,8,10,0.7826,0.8628,0.9991,,,,
+11,text,2,14,0.024063,director,53,61,4.836,5.2774,0.6962,,,,
+11,text,3,4,0.01853,ashamed,11,18,0.923,1.3444,0.969,,,,
+11,text,4,2,0.009348,would,2,7,0.6221,0.7424,0.2549,,,,
+11,text,5,6,0.005177,have,22,26,3.3511,3.4715,0.9819,,,,
+11,audio,1,12,0.001594,,,,,,,equal-length aligned slot over audio duration,1.3822,1.4973,14
+11,audio,2,2,0.001484,,,,,,,equal-length aligned slot over audio duration,0.2304,0.3455,2
+11,audio,3,9,0.001071,,,,,,,equal-length aligned slot over audio duration,1.0366,1.1518,10
+11,audio,4,10,0.001039,,,,,,,equal-length aligned slot over audio duration,1.1518,1.267,12
+11,audio,5,11,0.000899,,,,,,,equal-length aligned slot over audio duration,1.267,1.3822,13
+11,vision,1,2,0.0004,,,,,,,equal-length aligned slot over audio duration,0.2304,0.3455,2
+11,vision,2,5,0.00037,,,,,,,equal-length aligned slot over audio duration,0.5759,0.6911,6
+11,vision,3,1,0.000313,,,,,,,equal-length aligned slot over audio duration,0.1152,0.2304,1
+11,vision,4,4,0.000304,,,,,,,equal-length aligned slot over audio duration,0.4607,0.5759,5
+11,vision,5,14,0.000177,,,,,,,equal-length aligned slot over audio duration,1.6125,1.7277,16
+12,text,1,41,0.013069,low,182,185,12.0336,12.2739,0.9916,,,,
+12,text,2,40,0.007848,very,177,181,11.7533,11.9535,0.8893,,,,
+12,text,3,34,0.005075,sag,151,154,9.9513,10.3117,0.7713,,,,
+12,text,4,21,0.004165,perhaps,93,100,7.108,7.4885,0.9439,,,,
+12,text,5,33,0.003414,sag,151,154,9.9513,10.3117,0.7713,,,,
+12,audio,1,6,0.000611,,,,,,,equal-length aligned slot over audio duration,1.5449,1.8024,15
+12,audio,2,38,0.000402,,,,,,,equal-length aligned slot over audio duration,9.7847,10.0422,98
+12,audio,3,7,0.000311,,,,,,,equal-length aligned slot over audio duration,1.8024,2.0599,18
+12,audio,4,40,0.000234,,,,,,,equal-length aligned slot over audio duration,10.2996,10.5571,103
+12,audio,5,15,6.2e-05,,,,,,,equal-length aligned slot over audio duration,3.8624,4.1199,39
+12,vision,1,18,6.3e-05,,,,,,,equal-length aligned slot over audio duration,4.6348,4.8923,46
+12,vision,2,19,6.1e-05,,,,,,,equal-length aligned slot over audio duration,4.8923,5.1498,49
+12,vision,3,20,5.7e-05,,,,,,,equal-length aligned slot over audio duration,5.1498,5.4073,51
+12,vision,4,35,5.5e-05,,,,,,,equal-length aligned slot over audio duration,9.0122,9.2697,90
+12,vision,5,34,5.4e-05,,,,,,,equal-length aligned slot over audio duration,8.7547,9.0122,88
+13,text,1,18,0.013175,find,66,70,4.8736,5.014,0.4418,,,,
+13,text,2,20,0.010686,relationship,73,85,5.1143,5.6758,0.9503,,,,
+13,text,3,6,0.010403,take,21,25,1.1031,1.2435,0.9764,,,,
+13,text,4,19,0.009841,a,71,72,5.0541,5.0742,0.0088,,,,
+13,text,5,23,0.009049,two,98,101,6.5583,6.6786,0.9985,,,,
+13,audio,1,13,0.006897,,,,,,,equal-length aligned slot over audio duration,2.2579,2.4316,23
+13,audio,2,16,0.003682,,,,,,,equal-length aligned slot over audio duration,2.779,2.9526,28
+13,audio,3,14,0.002209,,,,,,,equal-length aligned slot over audio duration,2.4316,2.6053,24
+13,audio,4,15,0.002141,,,,,,,equal-length aligned slot over audio duration,2.6053,2.779,26
+13,audio,5,17,0.00205,,,,,,,equal-length aligned slot over audio duration,2.9526,3.1263,30
+14,text,1,4,0.020179,co,10,12,0.7805,0.8805,0.9997,,,,
+14,text,2,2,0.018512,is,3,5,0.6004,0.6404,0.6152,,,,
+14,text,3,12,0.017353,vettese,35,42,2.1413,2.4615,0.6351,,,,
+14,text,4,19,0.016796,director,76,84,4.2827,4.6429,0.978,,,,
+14,text,5,8,0.01402,rossen,24,30,1.581,1.9612,0.6751,,,,
+14,audio,1,29,0.001915,,,,,,,equal-length aligned slot over audio duration,5.9313,6.1358,59
+14,audio,2,15,0.001714,,,,,,,equal-length aligned slot over audio duration,3.0679,3.2724,31
+14,audio,3,35,0.001559,,,,,,,equal-length aligned slot over audio duration,7.1585,7.363,72
+14,audio,4,34,0.001542,,,,,,,equal-length aligned slot over audio duration,6.9539,7.1585,70
+14,audio,5,32,0.001271,,,,,,,equal-length aligned slot over audio duration,6.5449,6.7494,65
+14,vision,1,4,-0.004302,,,,,,,equal-length aligned slot over audio duration,0.8181,1.0226,8
+14,vision,2,5,-0.004304,,,,,,,equal-length aligned slot over audio duration,1.0226,1.2272,10
+14,vision,3,6,-0.004312,,,,,,,equal-length aligned slot over audio duration,1.2272,1.4317,12
+14,vision,4,3,-0.004406,,,,,,,equal-length aligned slot over audio duration,0.6136,0.8181,6
+14,vision,5,11,-0.005166,,,,,,,equal-length aligned slot over audio duration,2.2498,2.4543,22
+15,text,1,5,0.032011,poverty,23,30,1.6232,1.7635,0.1428,,,,
+15,text,2,20,0.028209,transform,102,111,6.7532,6.9937,0.2915,,,,
+15,text,3,10,0.015969,prioritize,43,53,2.5049,2.9458,0.0031,,,,
+15,text,4,13,0.01438,because,64,71,3.6271,4.0078,0.2224,,,,
+15,text,5,21,0.013491,lives,112,117,7.0338,7.2943,0.5651,,,,
+15,audio,1,14,0.006464,,,,,,,equal-length aligned slot over audio duration,2.048,2.1943,20
+15,audio,2,1,0.006382,,,,,,,equal-length aligned slot over audio duration,0.1463,0.2926,1
+15,audio,3,2,0.006245,,,,,,,equal-length aligned slot over audio duration,0.2926,0.4389,3
+15,audio,4,19,0.004673,,,,,,,equal-length aligned slot over audio duration,2.7794,2.9257,28
+15,audio,5,13,0.004306,,,,,,,equal-length aligned slot over audio duration,1.9017,2.048,19
+15,vision,1,21,0.004193,,,,,,,equal-length aligned slot over audio duration,3.072,3.2183,31
+15,vision,2,20,0.000252,,,,,,,equal-length aligned slot over audio duration,2.9257,3.072,29
+15,vision,3,17,-0.00051,,,,,,,equal-length aligned slot over audio duration,2.4869,2.6332,25
+15,vision,4,18,-0.001883,,,,,,,equal-length aligned slot over audio duration,2.6332,2.7794,26
+15,vision,5,19,-0.003609,,,,,,,equal-length aligned slot over audio duration,2.7794,2.9257,28
+16,text,1,10,0.002669,terrible,27,35,1.8343,2.1769,0.9941,,,,
+16,text,2,5,0.001542,terrible,7,15,0.8063,1.1893,0.9686,,,,
+16,text,3,1,0.000277,it,0,2,0.4838,0.6249,0.5473,,,,
+16,text,4,6,0.00013,",",15,16,,,,text_fragment_without_speech_timestamp,,,
+16,text,5,8,2.3e-05,is,22,24,1.6125,1.673,0.6981,,,,
+16,audio,1,1,9.5e-05,,,,,,,equal-length aligned slot over audio duration,0.0609,0.1217,1
+16,audio,2,2,9.3e-05,,,,,,,equal-length aligned slot over audio duration,0.1217,0.1826,1
+16,audio,3,3,9.2e-05,,,,,,,equal-length aligned slot over audio duration,0.1826,0.2435,2
+16,audio,4,9,3.3e-05,,,,,,,equal-length aligned slot over audio duration,0.5479,0.6087,5
+16,audio,5,4,1.3e-05,,,,,,,equal-length aligned slot over audio duration,0.2435,0.3044,2
+16,vision,1,8,3.7e-05,,,,,,,equal-length aligned slot over audio duration,0.487,0.5479,5
+16,vision,2,11,3.2e-05,,,,,,,equal-length aligned slot over audio duration,0.6696,0.7305,7
+16,vision,3,9,3e-05,,,,,,,equal-length aligned slot over audio duration,0.5479,0.6087,5
+16,vision,4,2,2e-05,,,,,,,equal-length aligned slot over audio duration,0.1217,0.1826,1
+16,vision,5,1,1.9e-05,,,,,,,equal-length aligned slot over audio duration,0.0609,0.1217,1
+17,text,1,10,0.003965,simple,61,67,4.8118,5.1125,0.9884,,,,
+17,text,2,13,0.002826,and,74,77,6.4357,6.556,0.9992,,,,
+17,text,3,14,0.002527,will,78,82,6.8167,6.957,0.999,,,,
+17,text,4,11,0.002206,",",67,68,,,,text_fragment_without_speech_timestamp,,,
+17,text,5,22,0.001766,design,119,125,8.3203,8.6612,0.9287,,,,
+17,audio,1,4,0.000221,,,,,,,equal-length aligned slot over audio duration,0.7651,0.9563,8
+17,audio,2,17,0.000151,,,,,,,equal-length aligned slot over audio duration,3.2515,3.4428,33
+17,audio,3,3,0.000147,,,,,,,equal-length aligned slot over audio duration,0.5738,0.7651,6
+17,audio,4,2,3.1e-05,,,,,,,equal-length aligned slot over audio duration,0.3825,0.5738,4
+17,audio,5,1,7e-06,,,,,,,equal-length aligned slot over audio duration,0.1913,0.3825,2
+17,vision,1,17,-0.000157,,,,,,,equal-length aligned slot over audio duration,3.2515,3.4428,33
+17,vision,2,18,-0.000171,,,,,,,equal-length aligned slot over audio duration,3.4428,3.6341,34
+17,vision,3,7,-0.000234,,,,,,,equal-length aligned slot over audio duration,1.3389,1.5301,13
+17,vision,4,8,-0.000252,,,,,,,equal-length aligned slot over audio duration,1.5301,1.7214,15
+17,vision,5,6,-0.000261,,,,,,,equal-length aligned slot over audio duration,1.1476,1.3389,11
+18,text,1,9,0.015959,cod,35,38,2.4622,2.7224,0.9544,,,,
+18,text,2,16,0.011675,-,72,73,,,,text_fragment_without_speech_timestamp,,,
+18,text,3,48,0.011653,mackerel,219,227,14.8132,15.2135,0.6919,,,,
+18,text,4,4,0.010827,denmark,8,15,0.8207,1.2011,0.8485,,,,
+18,text,5,5,0.009996,-,16,17,,,,text_fragment_without_speech_timestamp,,,
+18,audio,1,42,0.001395,,,,,,,equal-length aligned slot over audio duration,15.6547,16.0274,157
+18,audio,2,41,0.001368,,,,,,,equal-length aligned slot over audio duration,15.282,15.6547,153
+18,audio,3,4,0.001228,,,,,,,equal-length aligned slot over audio duration,1.4909,1.8637,15
+18,audio,4,40,0.001015,,,,,,,equal-length aligned slot over audio duration,14.9093,15.282,149
+18,audio,5,38,0.000735,,,,,,,equal-length aligned slot over audio duration,14.1638,14.5365,142
+18,vision,1,46,0.00092,,,,,,,equal-length aligned slot over audio duration,17.1456,17.5184,171
+18,vision,2,47,0.000907,,,,,,,equal-length aligned slot over audio duration,17.5184,17.8911,175
+18,vision,3,48,0.0009,,,,,,,equal-length aligned slot over audio duration,17.8911,18.2638,179
+18,vision,4,5,0.00083,,,,,,,equal-length aligned slot over audio duration,1.8637,2.2364,19
+18,vision,5,4,0.000823,,,,,,,equal-length aligned slot over audio duration,1.4909,1.8637,15
+19,text,1,3,0.136715,surprisingly,11,23,0.9608,1.7014,0.9949,,,,
+19,text,2,35,0.044765,most,178,182,11.5892,11.7693,0.9182,,,,
+19,text,3,2,0.028166,are,7,10,0.7606,0.8407,0.9282,,,,
+19,text,4,33,0.014384,for,170,173,11.349,11.4291,0.9995,,,,
+19,text,5,38,0.013834,people,189,195,12.1096,12.3498,0.9774,,,,
+19,audio,1,12,0.002922,,,,,,,equal-length aligned slot over audio duration,3.2666,3.5388,33
+19,audio,2,13,0.0029,,,,,,,equal-length aligned slot over audio duration,3.5388,3.811,35
+19,audio,3,14,0.002195,,,,,,,equal-length aligned slot over audio duration,3.811,4.0832,38
+19,audio,4,21,0.002151,,,,,,,equal-length aligned slot over audio duration,5.7165,5.9888,57
+19,audio,5,1,0.002036,,,,,,,equal-length aligned slot over audio duration,0.2722,0.5444,3
+19,vision,1,22,0.002042,,,,,,,equal-length aligned slot over audio duration,5.9888,6.261,60
+19,vision,2,21,0.001729,,,,,,,equal-length aligned slot over audio duration,5.7165,5.9888,57
+19,vision,3,23,0.001632,,,,,,,equal-length aligned slot over audio duration,6.261,6.5332,63
+19,vision,4,24,0.001529,,,,,,,equal-length aligned slot over audio duration,6.5332,6.8054,65
+19,vision,5,33,0.00149,,,,,,,equal-length aligned slot over audio duration,8.9831,9.2554,90
+20,text,1,18,0.009571,and,76,79,4.5642,4.6442,0.9458,,,,
+20,text,2,13,0.008289,this,55,59,2.7625,2.8826,0.842,,,,
+20,text,3,3,0.008163,course,7,13,0.8207,1.041,0.9492,,,,
+20,text,4,23,0.003875,more,91,95,5.2248,5.465,0.9327,,,,
+20,text,5,2,0.003782,of,4,6,0.7006,0.7407,0.9987,,,,
+20,audio,1,30,0.001076,,,,,,,equal-length aligned slot over audio duration,6.4859,6.7021,65
+20,audio,2,37,0.000746,,,,,,,equal-length aligned slot over audio duration,7.9993,8.2155,80
+20,audio,3,40,0.00059,,,,,,,equal-length aligned slot over audio duration,8.6479,8.8641,86
+20,audio,4,12,0.000587,,,,,,,equal-length aligned slot over audio duration,2.5944,2.8106,26
+20,audio,5,6,0.000508,,,,,,,equal-length aligned slot over audio duration,1.2972,1.5134,13
+20,vision,1,13,0.002369,,,,,,,equal-length aligned slot over audio duration,2.8106,3.0268,28
+20,vision,2,20,0.002337,,,,,,,equal-length aligned slot over audio duration,4.3239,4.5401,43
+20,vision,3,21,0.002337,,,,,,,equal-length aligned slot over audio duration,4.5401,4.7563,45
+20,vision,4,19,0.002335,,,,,,,equal-length aligned slot over audio duration,4.1078,4.3239,41
+20,vision,5,15,0.002202,,,,,,,equal-length aligned slot over audio duration,3.243,3.4592,32

@@ -1,0 +1,62 @@
+{
+  "deployment_model": "p2 three-seed ensemble",
+  "valid_fitted_bias": [
+    -0.2,
+    0.0,
+    0.0
+  ],
+  "test_reference": {
+    "accuracy": 0.6753782668500687,
+    "macro_f1": 0.6485242985549113,
+    "mae": 0.6144672632217407,
+    "pearson": 0.6912329605433559,
+    "n": 727
+  },
+  "attachment3": {
+    "n": 30,
+    "class_counts": {
+      "Negative": 4,
+      "Neutral": 17,
+      "Positive": 9
+    },
+    "direction_conflicts": 1
+  },
+  "attachment4": {
+    "n": 20,
+    "columns": 58,
+    "class_counts": {
+      "Negative": 6,
+      "Neutral": 6,
+      "Positive": 8
+    },
+    "main_modality_counts": {
+      "text": 16,
+      "audio": 2,
+      "vision": 2
+    },
+    "max_efficiency_error_cls": 0.0,
+    "max_efficiency_error_reg": 0.0,
+    "positions_scanned_total": 1662,
+    "positions_scanned_by_modality": {
+      "text": 564,
+      "audio": 564,
+      "vision": 534
+    },
+    "modality_set_drop_mean": {
+      "text": 0.1528,
+      "audio": 0.0075,
+      "vision": -0.0025
+    },
+    "modality_set_drop_nonpositive": {
+      "text": 0,
+      "audio": 3,
+      "vision": 8
+    },
+    "samples_with_evidence_per_modality": {
+      "text": 20,
+      "audio": 20,
+      "vision": 19
+    }
+  },
+  "evidence_rows": 295
+}
